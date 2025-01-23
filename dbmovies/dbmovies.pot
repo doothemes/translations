@@ -1,0 +1,7628 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Dbmovies - Movie and TV Show Streaming Platform\n"
+"POT-Creation-Date: 2025-01-08 03:54-0500\n"
+"PO-Revision-Date: 2023-08-07 19:57-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: dbmovies.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2;__dbmovies;_dbmovies\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/classes/app_collections.php:40
+#: includes/classes/app_doothemes_client.php:146
+#: includes/classes/app_sources_links.php:185 includes/classes/app_tool.php:41
+msgid "Error: You do not have permissions to continue."
+msgstr ""
+
+#: includes/classes/app_collections.php:43
+#: includes/classes/app_doothemes_client.php:153
+#: includes/classes/app_sources_links.php:191 includes/classes/app_tool.php:45
+#: includes/codestar/core/classes/shortcode-options.class.php:247
+#: includes/codestar/core/functions/actions.php:16
+#: includes/codestar/core/functions/actions.php:68
+#: includes/codestar/core/functions/actions.php:106
+#: includes/codestar/core/functions/actions.php:141
+#: includes/codestar/core/functions/actions.php:170
+msgid "Error: Invalid nonce verification."
+msgstr ""
+
+#: includes/classes/app_collections.php:54
+#: includes/classes/app_doothemes_client.php:182
+#: includes/classes/app_lists.php:80 includes/classes/app_sources_links.php:211
+#: includes/classes/app_tool.php:56 includes/classes/app_tool.php:135
+msgid "Unknown action."
+msgstr ""
+
+#: includes/classes/app_collections.php:448 includes/classes/wp_enqueue.php:65
+msgid "movie"
+msgstr ""
+
+#: includes/classes/app_collections.php:450 includes/classes/wp_enqueue.php:66
+msgid "tvshow"
+msgstr ""
+
+#: includes/classes/app_collections.php:452 includes/functions/sources.php:79
+#: includes/functions/sources.php:96 includes/functions/sources.php:272
+#: includes/vars/source_languages.php:53
+msgid "Unknown"
+msgstr ""
+
+#: includes/classes/app_contextual.php:23
+#: includes/classes/app_contextual.php:24
+msgid "Introduction"
+msgstr ""
+
+#: includes/classes/app_contextual.php:25
+msgid ""
+"On this page you will find a set of tools designed to make managing content "
+"on your website easier. These tools will allow you to search, discover and "
+"import content with little effort, saving you time and simplifying the "
+"process."
+msgstr ""
+
+#: includes/classes/app_contextual.php:26
+msgid ""
+"Additionally, you can filter content by genre, ensuring that you only get "
+"the most relevant results for your needs. With these features, you can "
+"efficiently customize and enrich your website, tailoring content to your "
+"audience and improving user experience."
+msgstr ""
+
+#: includes/classes/app_contextual.php:30
+#: includes/classes/app_contextual.php:31
+#: includes/templates/importer_tool.php:34
+msgid "Seeker"
+msgstr ""
+
+#: includes/classes/app_contextual.php:32
+msgid ""
+"This tool allows you to search for movies or TV series precisely using the "
+"exact name of the title you want to find. In addition, you can use related "
+"keywords to facilitate the search and get the right title to import to your "
+"website."
+msgstr ""
+
+#: includes/classes/app_contextual.php:33
+msgid ""
+"Thanks to its flexibility, the search engine adapts to both specific "
+"searches and those in which you do not remember the exact name, thus "
+"optimizing the process of discovery and selection of content."
+msgstr ""
+
+#: includes/classes/app_contextual.php:37
+#: includes/classes/app_contextual.php:38
+#: includes/templates/importer_tool.php:54
+msgid "Discoverer"
+msgstr ""
+
+#: includes/classes/app_contextual.php:39
+msgid ""
+"The Discoverer consists of three key fields that will allow you to filter "
+"content effectively. You can filter by release year, popularity level, and "
+"genre, allowing you to fine-tune your search to suit your needs."
+msgstr ""
+
+#: includes/classes/app_contextual.php:40
+msgid ""
+"This functionality makes it easy for you to select a large volume of "
+"relevant content, which you can then import directly into your database. "
+"Whether you're looking for the newest releases, the most popular titles, or "
+"genre-specific content, the Discoverer will help you curate and manage "
+"content accurately and efficiently."
+msgstr ""
+
+#: includes/classes/app_contextual.php:44
+#: includes/classes/app_contextual.php:45
+#: includes/templates/importer_tool.php:28
+msgid "Bulk import"
+msgstr ""
+
+#: includes/classes/app_contextual.php:46
+msgid ""
+"The “Bulk Import” button will allow you to quickly add all of the available "
+"on-screen content to be imported into the database."
+msgstr ""
+
+#: includes/classes/app_contextual.php:47
+msgid ""
+"With a single click, you can select and transfer a large volume of titles, "
+"simplifying the content addition process and saving time. This feature is "
+"ideal for when you need to update your database with multiple items "
+"efficiently and effortlessly."
+msgstr ""
+
+#: includes/classes/app_contextual.php:51
+#: includes/codestar/settings/options/all.php:13
+#: includes/codestar/settings/options/email.php:21
+#: includes/templates/importer_tool.php:13
+msgid "Settings"
+msgstr ""
+
+#: includes/classes/app_contextual.php:56
+#: includes/templates/importer_tool.php:121
+msgid "Process log"
+msgstr ""
+
+#: includes/classes/app_contextual.php:61
+#: includes/classes/app_doothemes_client.php:269
+msgid "Documentation"
+msgstr ""
+
+#: includes/classes/app_contextual.php:62
+msgid "For more information, please visit the full documentation."
+msgstr ""
+
+#: includes/classes/app_contextual.php:63
+msgid "Click here"
+msgstr ""
+
+#: includes/classes/app_demo_mode.php:81 includes/classes/app_demo_mode.php:87
+#: includes/classes/app_demo_mode.php:100
+#: includes/classes/app_demo_mode.php:119
+#: includes/classes/app_demo_mode.php:122
+msgid "This is a demo version, access is restricted."
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:230
+#, php-format
+msgid "%s license"
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:248
+#: includes/classes/app_doothemes_client.php:249
+msgid "License overview"
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:250
+msgid ""
+"All Doothemes products require a license to function properly, which "
+"provides access to services and regular updates."
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:251
+msgid ""
+"It is crucial to keep this product updated to ensure its proper functioning. "
+"Check your license status and see active websites with your license on our "
+"platform for verified customers."
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:252
+msgid ""
+"If you have questions or suggestions, please contact us, we will gladly help "
+"you resolve any problem."
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:256
+#: includes/classes/app_doothemes_client.php:257
+msgid "License processes"
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:258
+msgid ""
+"Learn the correct processes to maintain an active and functional license on "
+"this website."
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:259
+msgid "Activation"
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:259
+msgid ""
+"This process installs and activates the license for this website, generating "
+"a unique and non-transferable activation key."
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:260
+msgid "Deactivation"
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:260
+msgid "This process deactivates the license without uninstalling it."
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:261
+msgid "Uninstallation"
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:261
+msgid ""
+"This process deactivates and deletes any registration that has been "
+"generated with the license."
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:262
+msgid "Summary"
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:262
+msgid ""
+"This summary shows specific details that you should know about the license."
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:266
+#: includes/classes/app_doothemes_client.php:267
+msgid "Help & Support"
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:268
+msgid ""
+"We are fanatical about support, and want you to get the best out of your "
+"website. If you run into any difficulties, there are several places you can "
+"find help:"
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:269
+msgid ""
+"Our extensive documentation contains references and guides for most "
+"situations you may encounter."
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:270
+msgid "Discussions"
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:270
+msgid ""
+"We promote a friendly community where you can find help and an effective "
+"resolution to any problem you may have."
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:271
+msgid "Help Desk"
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:271
+msgid ""
+"The support professionals on our Help Desk will assist with your more in "
+"depth, technical challenges."
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:272
+msgid "WhatsApp Channel"
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:272
+msgid ""
+"Follow us on WhatsApp and find out in real time about all the news we have "
+"for you."
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:276
+msgid "For more information:"
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:277
+msgid "Support Forums"
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:294
+#: includes/classes/wp_enqueue.php:51
+msgid "Deactivate"
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:294
+#: includes/classes/wp_enqueue.php:50
+msgid "Activate"
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:362
+#: includes/templates/doothemes_license.php:40
+msgid "Activate a valid license"
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:408
+msgid "There is no license activated on this site."
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:422
+msgid "Unknown error, please try again."
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:450
+#: includes/classes/app_doothemes_client.php:485
+msgid "Invalid license."
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:467
+#: includes/classes/app_doothemes_client.php:498
+#: includes/classes/app_doothemes_client.php:558
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:478
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:482
+#: includes/classes/app_doothemes_client.php:704
+msgid "License key is disabled."
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:489
+#: includes/classes/app_doothemes_client.php:708
+msgid "Site is inactive."
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:492
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:495
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:637
+#: includes/classes/app_doothemes_client.php:644
+#: includes/classes/app_doothemes_client.php:712
+msgid "License status is unknown."
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:658
+msgid "renew now"
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:668
+msgid "unlimited"
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:673
+msgid "License key is active."
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:675
+#, php-format
+msgid "Expires %s."
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:678
+msgid "Lifetime License."
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:681
+#, php-format
+msgid "You have %1$s / %2$s sites activated."
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:686
+#, php-format
+msgid "License key expired %s."
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:688
+msgid "License key has expired."
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:696
+msgid "License keys do not match."
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:700
+msgid "License is inactive."
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:869
+#, php-format
+msgid "Enter a valid license to activate %s"
+msgstr ""
+
+#: includes/classes/app_doothemes_client.php:890
+#, php-format
+msgid "Renew your license, %s off today."
+msgstr ""
+
+#: includes/classes/app_doothemes_updater.php:82
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+
+#: includes/classes/app_doothemes_updater.php:86
+msgid "Update available"
+msgstr ""
+
+#: includes/classes/app_featured.php:41
+msgid "This content has not yet been published"
+msgstr ""
+
+#: includes/classes/app_featured.php:48
+msgid "Invalid post section"
+msgstr ""
+
+#: includes/classes/app_featured.php:55
+#: includes/classes/app_importer_get_episodes.php:202
+#: includes/classes/app_importer_get_movies.php:298
+#: includes/classes/app_importer_get_tvshows.php:329
+msgid "You do not have permission to update this content"
+msgstr ""
+
+#: includes/classes/app_featured.php:70
+msgid "Failed to update post meta"
+msgstr ""
+
+#: includes/classes/app_importer.php:33
+#: includes/codestar/settings/options/finance.php:13
+#: includes/codestar/settings/options/premium.php:21
+#: includes/templates/app_finance.php:5
+msgid "Finance"
+msgstr ""
+
+#: includes/classes/app_importer.php:34 includes/classes/wp_tables.php:93
+#: includes/classes/wp_tables.php:207
+#: includes/codestar/settings/metabox/resources.php:146
+#: includes/codestar/settings/metabox/resources.php:152
+#: includes/codestar/settings/options/sources.php:18
+msgid "Links"
+msgstr ""
+
+#: includes/classes/app_importer.php:35
+#: includes/codestar/settings/options/premium.php:13
+#: includes/templates/app_finance.php:9
+msgid "Subscriptions"
+msgstr ""
+
+#: includes/classes/app_importer.php:36
+#: includes/codestar/settings/options/premium.php:165
+#: includes/templates/app_finance.php:12
+msgid "Payments"
+msgstr ""
+
+#: includes/classes/app_importer.php:37
+msgid "Tools"
+msgstr ""
+
+#: includes/classes/app_importer.php:38
+msgid "Updates"
+msgstr ""
+
+#: includes/classes/app_importer.php:40
+msgid "Add-Ons"
+msgstr ""
+
+#: includes/classes/app_importer.php:75
+msgid "This tool has never been used"
+msgstr ""
+
+#: includes/classes/app_importer.php:78
+msgid "None of the actions of this tool were ever executed"
+msgstr ""
+
+#: includes/classes/app_importer.php:146 includes/classes/app_importer.php:200
+#: includes/classes/app_importer.php:233
+msgid "Unknown request"
+msgstr ""
+
+#: includes/classes/app_importer.php:258 includes/classes/app_importer.php:321
+#: includes/classes/app_importer.php:381
+msgid "Invalid nonce verification"
+msgstr ""
+
+#: includes/classes/app_importer.php:389
+msgid "Important data not defined"
+msgstr ""
+
+#: includes/classes/app_importer_get_episodes.php:99
+msgid "There are missing parameters to continue."
+msgstr ""
+
+#: includes/classes/app_importer_get_episodes.php:110
+#: includes/classes/app_importer_get_movies.php:176
+#: includes/classes/app_importer_get_tvshows.php:203
+msgid "Database existing content"
+msgstr ""
+
+#: includes/classes/app_importer_get_episodes.php:122
+#: includes/classes/app_importer_get_episodes.php:223
+#: includes/classes/app_importer_get_movies.php:189
+#: includes/classes/app_importer_get_movies.php:312
+#: includes/classes/app_importer_get_tvshows.php:216
+#: includes/classes/app_importer_get_tvshows.php:343
+msgid "The content you are trying to import is not available."
+msgstr ""
+
+#: includes/classes/app_importer_get_episodes.php:133
+#: includes/classes/app_importer_get_movies.php:200
+#: includes/classes/app_importer_get_tvshows.php:227
+msgid "WordPress error: The content could not be inserted previously."
+msgstr ""
+
+#: includes/classes/app_importer_get_episodes.php:168
+#: includes/classes/app_importer_get_movies.php:248
+#: includes/classes/app_importer_get_tvshows.php:278
+msgid "WordPress error: The publication has not been completed correctly."
+msgstr ""
+
+#: includes/classes/app_importer_get_episodes.php:268
+#: includes/classes/app_importer_get_movies.php:373
+#: includes/classes/app_importer_get_tvshows.php:406
+msgid "Error WordPress"
+msgstr ""
+
+#: includes/classes/app_importer_get_movies.php:153
+#: includes/classes/app_importer_get_tvshows.php:181
+msgid "TMDb ID is not defined"
+msgstr ""
+
+#: includes/classes/app_importer_get_movies.php:163
+#: includes/classes/app_importer_get_tvshows.php:192
+#: includes/classes/wp_enqueue.php:96
+msgid "The link or text string you are trying to use is not allowed."
+msgstr ""
+
+#: includes/classes/app_importer_helper.php:286
+msgid "Publication not found"
+msgstr ""
+
+#: includes/classes/app_importer_helper.php:316
+msgid "No date"
+msgstr ""
+
+#: includes/classes/app_lists.php:101
+msgid "Post no longer exists in the database."
+msgstr ""
+
+#: includes/classes/app_lists.php:105
+msgid "This post is already on your list."
+msgstr ""
+
+#: includes/classes/app_lists.php:114
+msgid "The content has been added to your list successfully."
+msgstr ""
+
+#: includes/classes/app_lists.php:119
+msgid "Unknown error."
+msgstr ""
+
+#: includes/classes/app_lists.php:139
+msgid "Your list has been successfully updated."
+msgstr ""
+
+#: includes/classes/app_lists.php:146
+msgid "We have not found any item."
+msgstr ""
+
+#: includes/classes/app_ratings.php:103
+msgid "Missing data, you cannot continue"
+msgstr ""
+
+#: includes/classes/app_ratings.php:110
+msgid "The score value can only be less than or equal to 10"
+msgstr ""
+
+#: includes/classes/app_ratings.php:126
+msgid "You must be logged in to vote"
+msgstr ""
+
+#: includes/classes/app_ratings.php:159
+msgid "WordPress Error: Please try again"
+msgstr ""
+
+#: includes/classes/app_sources_links.php:155
+msgid "Error: Unable to retrieve source data."
+msgstr ""
+
+#: includes/classes/app_sources_links.php:159
+msgid "Error: Invalid nonce."
+msgstr ""
+
+#: includes/classes/app_sources_links.php:257
+msgid "The content has not been defined."
+msgstr ""
+
+#: includes/classes/app_sources_links.php:265
+msgid "Add a link, do not leave the text field empty"
+msgstr ""
+
+#: includes/classes/app_sources_links.php:320
+msgid "Add at least one valid link."
+msgstr ""
+
+#: includes/classes/app_sources_links.php:349
+#: includes/classes/wp_enqueue.php:79
+msgid "The source is not valid or the field is empty"
+msgstr ""
+
+#: includes/classes/app_sources_links.php:358
+msgid "This link already exists in the database"
+msgstr ""
+
+#: includes/classes/app_sources_links.php:386
+msgid "WordPress Error, try again"
+msgstr ""
+
+#: includes/classes/app_sources_links.php:419
+msgid "Error: Unable to delete source."
+msgstr ""
+
+#: includes/classes/app_tool.php:74
+msgid "The old or new domain is empty."
+msgstr ""
+
+#: includes/classes/app_tool.php:77
+msgid "You can only exchange valid domain names or URLs."
+msgstr ""
+
+#: includes/classes/app_tool.php:87
+msgid "Error updating links."
+msgstr ""
+
+#: includes/classes/app_tool.php:90
+msgid "No matches were found, no rows were altered."
+msgstr ""
+
+#: includes/classes/app_tool.php:94
+#, php-format
+msgid "%d rows were updated in the database, %s ago."
+msgstr ""
+
+#: includes/classes/app_tool.php:117
+msgid "Invalid password, these actions require administrator authentication."
+msgstr ""
+
+#: includes/classes/app_tool.php:150 includes/classes/app_tool.php:185
+#: includes/classes/app_tool.php:188 includes/classes/app_tool.php:191
+#: includes/classes/app_tool.php:218 includes/classes/app_tool.php:247
+#, php-format
+msgid "Postmeta \"%s\" has not been completely removed, please try again."
+msgstr ""
+
+#: includes/classes/app_tool.php:154
+#, php-format
+msgid "The view counter has been reset, %s ago."
+msgstr ""
+
+#: includes/classes/app_tool.php:173 includes/classes/app_tool.php:177
+#: includes/classes/app_tool.php:181 includes/classes/app_tool.php:214
+#: includes/classes/app_tool.php:243 includes/classes/app_tool.php:271
+#: includes/classes/app_tool.php:295
+#, php-format
+msgid ""
+"The process could not be completed, database table \"%s\" was not completely "
+"emptied."
+msgstr ""
+
+#: includes/classes/app_tool.php:195
+#, php-format
+msgid "User rating has been restored, %s ago."
+msgstr ""
+
+#: includes/classes/app_tool.php:222
+#, php-format
+msgid "The source module links have been restored, %s ago."
+msgstr ""
+
+#: includes/classes/app_tool.php:251
+#, php-format
+msgid "The source module reports have been restored, %s ago."
+msgstr ""
+
+#: includes/classes/app_tool.php:275
+#, php-format
+msgid "The subscriptions module has been restored, %s ago."
+msgstr ""
+
+#: includes/classes/app_tool.php:299
+#, php-format
+msgid "The payments has been restored, %s ago."
+msgstr ""
+
+#: includes/classes/app_tool.php:321
+#, php-format
+msgid ""
+"The required tables have been checked and created in the database, %s ago."
+msgstr ""
+
+#: includes/classes/app_tool.php:341
+msgid "Browser"
+msgstr ""
+
+#: includes/classes/app_tool.php:346
+msgid "Authentication"
+msgstr ""
+
+#: includes/classes/app_tool.php:351
+msgid "Account"
+msgstr ""
+
+#: includes/classes/app_tool.php:356
+msgid "Contact"
+msgstr ""
+
+#: includes/classes/app_tool.php:389
+#, php-format
+msgid "Failed to create page \"%s\", try again"
+msgstr ""
+
+#: includes/classes/app_tool.php:395
+#, php-format
+msgid "The required pages have been checked and created, %s ago."
+msgstr ""
+
+#: includes/classes/app_user_account.php:53
+#: includes/classes/app_user_auth.php:65
+msgid "Unknown action"
+msgstr ""
+
+#: includes/classes/app_user_auth.php:109
+#: includes/classes/app_user_auth.php:176
+#: includes/classes/app_user_auth.php:266
+#: includes/classes/app_user_auth.php:281
+#: includes/classes/app_user_auth.php:419
+msgid "Complete the required fields."
+msgstr ""
+
+#: includes/classes/app_user_auth.php:115
+msgid "Security hash required, try again."
+msgstr ""
+
+#: includes/classes/app_user_auth.php:122
+#: includes/classes/app_user_auth.php:161
+#: includes/classes/app_user_auth.php:246
+#: includes/classes/app_user_auth.php:356
+#: includes/classes/app_user_auth.php:411
+#: includes/classes/app_user_auth.php:474
+msgid "Google reCAPTCHA invalid token, try again please."
+msgstr ""
+
+#: includes/classes/app_user_auth.php:132
+msgid "Invalid or expired verification code."
+msgstr ""
+
+#: includes/classes/app_user_auth.php:138
+msgid "Validation completed successfully."
+msgstr ""
+
+#: includes/classes/app_user_auth.php:168
+msgid "To continue you must accept our terms and conditions of use."
+msgstr ""
+
+#: includes/classes/app_user_auth.php:183
+#: includes/classes/app_user_auth.php:426
+msgid "Add a valid email address."
+msgstr ""
+
+#: includes/classes/app_user_auth.php:191
+msgid "Your email domain is not allowed on this website."
+msgstr ""
+
+#: includes/classes/app_user_auth.php:198
+msgid "Your IP address has been blocked, you will not be able to continue."
+msgstr ""
+
+#: includes/classes/app_user_auth.php:206
+msgid "The email already exists in our database."
+msgstr ""
+
+#: includes/classes/app_user_auth.php:222
+#: includes/classes/app_user_auth.php:452
+msgid "Check your email to continue."
+msgstr ""
+
+#: includes/classes/app_user_auth.php:256
+#: includes/classes/app_user_auth.php:497
+msgid "Invalid or expired token key."
+msgstr ""
+
+#: includes/classes/app_user_auth.php:273
+#: includes/classes/app_user_auth.php:487
+msgid "The password must be at least 6 characters."
+msgstr ""
+
+#: includes/classes/app_user_auth.php:288
+msgid "Username is already in use."
+msgstr ""
+
+#: includes/classes/app_user_auth.php:304
+msgid "WordPress Error, try again please."
+msgstr ""
+
+#: includes/classes/app_user_auth.php:323
+#: includes/classes/app_user_auth.php:329
+msgid "Your account has been successfully registered."
+msgstr ""
+
+#: includes/classes/app_user_auth.php:365
+#: includes/classes/app_user_auth.php:433
+msgid "The email address does not exist in our database."
+msgstr ""
+
+#: includes/classes/app_user_auth.php:377
+msgid "Username does not exist."
+msgstr ""
+
+#: includes/classes/app_user_auth.php:385
+msgid "The password is not valid, try again."
+msgstr ""
+
+#: includes/classes/app_user_auth.php:391
+msgid "Successfully logged in."
+msgstr ""
+
+#: includes/classes/app_user_auth.php:481
+msgid "Passwords do not match."
+msgstr ""
+
+#: includes/classes/app_user_auth.php:526
+#: includes/classes/app_user_auth.php:532
+msgid "Password updated successfully"
+msgstr ""
+
+#: includes/classes/wp_apirest.php:95
+msgid "A keyword is required to start the search."
+msgstr ""
+
+#: includes/classes/wp_apirest.php:101
+msgid "The term you are trying to search for is too short."
+msgstr ""
+
+#: includes/classes/wp_apirest.php:128
+msgid "No results"
+msgstr ""
+
+#: includes/classes/wp_apirest.php:181
+msgid "No sources"
+msgstr ""
+
+#: includes/classes/wp_delete.php:30
+msgid "Invalid post ID provided for delete_post."
+msgstr ""
+
+#: includes/classes/wp_delete.php:50
+msgid "Invalid user ID provided for delete_user."
+msgstr ""
+
+#: includes/classes/wp_delete.php:74
+msgid "Invalid parameters provided for delete_query."
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:48
+msgid "Update metadata"
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:49
+msgid "TMDb ID/Season/Episode. Example: 1412/5/1"
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:52 includes/classes/wp_tables.php:140
+#: includes/codestar/core/fields/backup/backup.php:26
+msgid "Import"
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:53 includes/classes/wp_tables.php:110
+#: includes/classes/wp_tables.php:173 includes/classes/wp_tables.php:220
+msgid "Update"
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:54
+msgid "Imported {num}"
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:55
+msgid "Importing.."
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:56
+msgid "Imported"
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:57
+#: includes/templates/collections_metabox.php:35
+#: includes/templates/sources_metabox.php:91
+msgid "Loading.."
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:58
+msgid "Updating.."
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:59
+msgid "Processing.."
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:60
+#: includes/templates/doothemes_license.php:4
+msgid "Uninstalling.."
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:61
+msgid "Exchanging.."
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:62
+msgid "Edit"
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:63 includes/classes/wp_tables.php:82
+#: includes/classes/wp_tables.php:144
+#: includes/codestar/core/fields/media/media.php:26
+#: includes/codestar/core/fields/upload/upload.php:25
+#: includes/codestar/fields/upload.php:25
+msgid "Remove"
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:64 includes/classes/wp_tables.php:82
+#: includes/classes/wp_tables.php:144
+msgid "Add"
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:67
+msgid "Adding.."
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:68
+msgid "move top"
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:69
+msgid "no episodes"
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:70
+msgid "{num} episode"
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:71
+msgid "{num} episodes"
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:72
+msgid "Content generated in {num} seconds"
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:73
+msgid "Episode Manager"
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:74 includes/functions.php:696
+msgid "just now"
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:75
+msgid ""
+"You cannot yet generate episodes for this content, please complete all "
+"required fields."
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:76
+msgid "There is no content to display"
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:77
+msgid "New resource added to the database"
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:78
+msgid "Source already exists in database, source updated."
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:80
+msgid "Are you sure you want to permanently delete this link?"
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:81
+#: includes/templates/collections_metabox.php:10
+msgid "Search content"
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:82
+msgid "Saving.."
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:83
+msgid "Saved settings."
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:84
+msgid "There are {nun} resources found"
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:85
+#: includes/codestar/settings/options/sources.php:11
+msgid "Change key"
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:86
+msgid ""
+"You are about to change your sync secret key, remember that you must update "
+"this key in all your external broadcast sources."
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:88 includes/templates/importer_tool.php:127
+msgid "Service has started successfully"
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:89
+msgid "Inaccessible database"
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:90
+msgid "Access denied"
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:91
+msgid "Without Internet connection"
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:92
+msgid "Internet connection restored"
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:93
+msgid "You have no credits to continue"
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:94
+msgid "Content found"
+msgstr ""
+
+#: includes/classes/wp_enqueue.php:95
+msgid "Log cleaned"
+msgstr ""
+
+#: includes/classes/wp_filters.php:38
+msgid "Browse Content"
+msgstr ""
+
+#: includes/classes/wp_filters.php:42
+msgid "User Authentication"
+msgstr ""
+
+#: includes/classes/wp_filters.php:46
+msgid "User Dashboard"
+msgstr ""
+
+#: includes/classes/wp_filters.php:50
+msgid "Contact Form"
+msgstr ""
+
+#: includes/classes/wp_filters.php:54
+#: includes/codestar/settings/options/main.php:113
+msgid "Terms of Use page"
+msgstr ""
+
+#: includes/classes/wp_filters.php:71
+msgctxt "verb"
+msgid "Settings"
+msgstr ""
+
+#: includes/classes/wp_filters.php:72
+msgctxt "verb"
+msgid "Documentation"
+msgstr ""
+
+#: includes/classes/wp_filters.php:73
+msgctxt "verb"
+msgid "GitHub"
+msgstr ""
+
+#: includes/classes/wp_metabox.php:12
+msgid "Related content"
+msgstr ""
+
+#: includes/classes/wp_metabox.php:13 includes/classes/wp_tables.php:285
+#: includes/classes/wp_tables.php:322
+msgid "Sources"
+msgstr ""
+
+#: includes/classes/wp_permalink.php:29
+msgid "Dbmovies: Post Type"
+msgstr ""
+
+#: includes/classes/wp_permalink.php:37
+msgid "Dbmovies: Taxonomies"
+msgstr ""
+
+#: includes/classes/wp_permalink.php:160
+msgid "Type: Movies"
+msgstr ""
+
+#: includes/classes/wp_permalink.php:161
+msgid "Type: TVShows"
+msgstr ""
+
+#: includes/classes/wp_permalink.php:162
+msgid "Type: Episodes"
+msgstr ""
+
+#: includes/classes/wp_permalink.php:163
+msgid "Type: Collections"
+msgstr ""
+
+#: includes/classes/wp_permalink.php:167
+msgid "Taxonomy: Genres"
+msgstr ""
+
+#: includes/classes/wp_permalink.php:168
+msgid "Taxonomy: Releases"
+msgstr ""
+
+#: includes/classes/wp_permalink.php:169
+msgid "Taxonomy: Countries"
+msgstr ""
+
+#: includes/classes/wp_permalink.php:170
+msgid "Taxonomy: Persons"
+msgstr ""
+
+#: includes/classes/wp_tables.php:98 includes/classes/wp_tables.php:154
+#: includes/classes/wp_tables.php:260
+msgid "votes"
+msgstr ""
+
+#: includes/classes/wp_tables.php:103 includes/classes/wp_tables.php:159
+#: includes/classes/wp_tables.php:212 includes/classes/wp_tables.php:255
+#: includes/templates/sources_editor.php:18
+#: includes/templates/sources_metabox.php:81
+msgid "Requests"
+msgstr ""
+
+#: includes/classes/wp_tables.php:140
+#, php-format
+msgid "Imported %s"
+msgstr ""
+
+#: includes/classes/wp_tables.php:266
+msgid "Related"
+msgstr ""
+
+#: includes/classes/wp_tables.php:283 includes/classes/wp_tables.php:302
+#: includes/classes/wp_tables.php:337
+#: includes/codestar/settings/metabox/movies.php:189
+#: includes/codestar/settings/metabox/tvshows.php:245
+msgid "Ratings"
+msgstr ""
+
+#: includes/classes/wp_tables.php:284 includes/classes/wp_tables.php:303
+#: includes/classes/wp_tables.php:321 includes/classes/wp_tables.php:338
+msgid "View count"
+msgstr ""
+
+#: includes/classes/wp_tables.php:286 includes/classes/wp_tables.php:305
+#: includes/classes/wp_tables.php:324
+#: includes/codestar/settings/options/importer.php:488
+#: includes/codestar/settings/options/importer.php:492
+msgid "Meta Updater"
+msgstr ""
+
+#: includes/classes/wp_tables.php:287 includes/classes/wp_tables.php:306
+#: includes/codestar/settings/metabox/advanced.php:37
+msgid "Featured Content"
+msgstr ""
+
+#: includes/classes/wp_tables.php:304
+#: includes/codestar/settings/metabox/tvshows.php:429
+msgid "Seasons"
+msgstr ""
+
+#: includes/classes/wp_tables.php:323
+msgid "Episode Name"
+msgstr ""
+
+#: includes/classes/wp_tables.php:339
+msgid "Related count"
+msgstr ""
+
+#: includes/classes/wp_taxonomies.php:30
+#: includes/codestar/settings/options/importer.php:154
+msgid "Genres"
+msgstr ""
+
+#: includes/classes/wp_taxonomies.php:32
+msgid "Search Genre"
+msgstr ""
+
+#: includes/classes/wp_taxonomies.php:33
+msgid "Add New Genre"
+msgstr ""
+
+#: includes/classes/wp_taxonomies.php:34
+msgid "New Genre Name"
+msgstr ""
+
+#: includes/classes/wp_taxonomies.php:52
+msgid "Releases"
+msgstr ""
+
+#: includes/classes/wp_taxonomies.php:54
+msgid "Search Year"
+msgstr ""
+
+#: includes/classes/wp_taxonomies.php:55
+msgid "Add New Year"
+msgstr ""
+
+#: includes/classes/wp_taxonomies.php:56
+msgid "New Year"
+msgstr ""
+
+#: includes/classes/wp_taxonomies.php:74
+#: includes/codestar/settings/options/importer.php:156
+msgid "Countries"
+msgstr ""
+
+#: includes/classes/wp_taxonomies.php:76
+msgid "Search Country"
+msgstr ""
+
+#: includes/classes/wp_taxonomies.php:77
+msgid "Add New Country"
+msgstr ""
+
+#: includes/classes/wp_taxonomies.php:78
+msgid "New Country Name"
+msgstr ""
+
+#: includes/classes/wp_taxonomies.php:99 includes/classes/wp_taxonomies.php:100
+#: includes/classes/wp_taxonomies.php:101
+#: includes/codestar/settings/metabox/movies.php:234
+#: includes/codestar/settings/metabox/movies.php:239
+#: includes/codestar/settings/metabox/tvshows.php:290
+#: includes/codestar/settings/metabox/tvshows.php:295
+#: includes/codestar/settings/options/importer.php:157
+msgid "Persons"
+msgstr ""
+
+#: includes/classes/wp_taxonomies.php:102
+msgid "Short description"
+msgstr ""
+
+#: includes/classes/wp_taxonomies.php:103
+msgid "Add New Person"
+msgstr ""
+
+#: includes/classes/wp_taxonomies.php:104
+msgid "New Person Name"
+msgstr ""
+
+#: includes/classes/wp_taxonomies.php:105
+msgid "Search Person"
+msgstr ""
+
+#: includes/classes/wp_types.php:34 includes/classes/wp_types.php:36
+#: includes/classes/wp_types.php:37 includes/classes/wp_types.php:38
+#: includes/classes/wp_types.php:46
+#: includes/codestar/settings/options/importer.php:97
+#: includes/codestar/settings/options/importer.php:167
+#: includes/codestar/settings/options/importer.php:334
+#: includes/codestar/settings/options/importer.php:377
+#: includes/codestar/settings/options/importer.php:430
+#: includes/codestar/settings/options/importer.php:501
+#: includes/templates/importer_tool.php:25
+msgid "Movies"
+msgstr ""
+
+#: includes/classes/wp_types.php:35
+msgid "Movie"
+msgstr ""
+
+#: includes/classes/wp_types.php:47
+msgid "Movies manage"
+msgstr ""
+
+#: includes/classes/wp_types.php:78 includes/classes/wp_types.php:79
+#: includes/classes/wp_types.php:80 includes/classes/wp_types.php:81
+#: includes/classes/wp_types.php:82 includes/classes/wp_types.php:90
+#: includes/codestar/settings/options/importer.php:345
+#: includes/codestar/settings/options/importer.php:393
+#: includes/codestar/settings/options/importer.php:447
+#: includes/templates/importer_tool.php:26
+msgid "TV Shows"
+msgstr ""
+
+#: includes/classes/wp_types.php:91
+msgid "TV Shows manage"
+msgstr ""
+
+#: includes/classes/wp_types.php:122
+msgid "TV Episodes"
+msgstr ""
+
+#: includes/classes/wp_types.php:123 includes/classes/wp_types.php:124
+#: includes/classes/wp_types.php:125 includes/classes/wp_types.php:126
+#: includes/classes/wp_types.php:134
+#: includes/codestar/settings/options/importer.php:121
+#: includes/codestar/settings/options/importer.php:169
+#: includes/codestar/settings/options/importer.php:356
+#: includes/codestar/settings/options/importer.php:407
+#: includes/codestar/settings/options/importer.php:463
+#: includes/codestar/settings/options/importer.php:503
+msgid "Episodes"
+msgstr ""
+
+#: includes/classes/wp_types.php:135
+msgid "Episodes manage"
+msgstr ""
+
+#: includes/classes/wp_types.php:166 includes/classes/wp_types.php:167
+#: includes/classes/wp_types.php:168 includes/classes/wp_types.php:169
+#: includes/classes/wp_types.php:170 includes/classes/wp_types.php:178
+#: includes/codestar/settings/metabox/advanced.php:85
+msgid "Collections"
+msgstr ""
+
+#: includes/classes/wp_types.php:179
+msgid "Collections manage"
+msgstr ""
+
+#: includes/codestar/core/classes/admin-options.class.php:169
+msgid "Error while saving the changes."
+msgstr ""
+
+#: includes/codestar/core/classes/admin-options.class.php:229
+msgid "Settings successfully imported."
+msgstr ""
+
+#: includes/codestar/core/classes/admin-options.class.php:241
+#: includes/codestar/core/classes/admin-options.class.php:257
+msgid "Default settings restored."
+msgstr ""
+
+#: includes/codestar/core/classes/admin-options.class.php:328
+msgid "Settings saved."
+msgstr ""
+
+#: includes/codestar/core/classes/admin-options.class.php:509
+msgid "You have unsaved changes, save your changes!"
+msgstr ""
+
+#: includes/codestar/core/classes/admin-options.class.php:511
+msgid "show all settings"
+msgstr ""
+
+#: includes/codestar/core/classes/admin-options.class.php:513
+#: includes/codestar/core/fields/icon/icon.php:57
+#: includes/codestar/core/fields/map/map.php:23
+msgid "Search..."
+msgstr ""
+
+#: includes/codestar/core/classes/admin-options.class.php:516
+#: includes/codestar/core/classes/admin-options.class.php:639
+#: includes/templates/sources_editor.php:81
+msgid "Save"
+msgstr ""
+
+#: includes/codestar/core/classes/admin-options.class.php:516
+#: includes/codestar/core/classes/admin-options.class.php:639
+msgid "Saving..."
+msgstr ""
+
+#: includes/codestar/core/classes/admin-options.class.php:517
+#: includes/codestar/core/classes/admin-options.class.php:640
+msgid "Reset Section"
+msgstr ""
+
+#: includes/codestar/core/classes/admin-options.class.php:517
+#: includes/codestar/core/classes/admin-options.class.php:640
+msgid "Are you sure to reset this section options?"
+msgstr ""
+
+#: includes/codestar/core/classes/admin-options.class.php:518
+#: includes/codestar/core/classes/admin-options.class.php:641
+msgid "Reset All"
+msgstr ""
+
+#: includes/codestar/core/classes/admin-options.class.php:518
+#: includes/codestar/core/classes/admin-options.class.php:641
+#: includes/codestar/core/classes/comment-options.class.php:201
+#: includes/codestar/core/classes/metabox-options.class.php:278
+#: includes/codestar/core/fields/backup/backup.php:31
+msgid "Reset"
+msgstr ""
+
+#: includes/codestar/core/classes/admin-options.class.php:518
+#: includes/codestar/core/classes/admin-options.class.php:641
+msgid "Are you sure you want to reset all settings to default values?"
+msgstr ""
+
+#: includes/codestar/core/classes/admin-options.class.php:616
+#: includes/codestar/core/classes/comment-options.class.php:184
+#: includes/codestar/core/classes/metabox-options.class.php:261
+#: includes/codestar/core/fields/button_set/button_set.php:56
+#: includes/codestar/core/fields/checkbox/checkbox.php:82
+#: includes/codestar/core/fields/radio/radio.php:75
+#: includes/codestar/core/fields/select/select.php:113
+#: includes/codestar/core/functions/actions.php:41
+msgid "No data available."
+msgstr ""
+
+#: includes/codestar/core/classes/comment-options.class.php:202
+#: includes/codestar/core/classes/metabox-options.class.php:279
+msgid "update post"
+msgstr ""
+
+#: includes/codestar/core/classes/comment-options.class.php:202
+#: includes/codestar/core/classes/metabox-options.class.php:279
+msgid "Cancel"
+msgstr ""
+
+#: includes/codestar/core/classes/setup.class.php:606
+msgid "Are you sure?"
+msgstr ""
+
+#: includes/codestar/core/classes/setup.class.php:607
+#, php-format
+msgid "Please enter %s or more characters"
+msgstr ""
+
+#: includes/codestar/core/classes/setup.class.php:608
+msgid "Searching..."
+msgstr ""
+
+#: includes/codestar/core/classes/setup.class.php:609
+msgid "No results found."
+msgstr ""
+
+#: includes/codestar/core/classes/setup.class.php:710
+msgid "Oops! Not allowed."
+msgstr ""
+
+#: includes/codestar/core/classes/setup.class.php:778
+#: includes/codestar/core/classes/setup.class.php:782
+msgid "Field not found!"
+msgstr ""
+
+#: includes/codestar/core/classes/shortcode-options.class.php:210
+#: includes/codestar/core/fields/group/group.php:23
+msgid "Add New"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:36
+#: includes/codestar/core/fields/media/media.php:59
+msgid "Not selected"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:72
+#: includes/codestar/core/fields/date/date.php:31
+#: includes/codestar/core/fields/datetime/datetime.php:36
+msgid "From"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:90
+#: includes/codestar/core/fields/date/date.php:32
+#: includes/codestar/core/fields/datetime/datetime.php:37
+msgid "To"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:108
+msgid "Direction"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:114
+msgid "Gradient Direction"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:115
+msgid "&#8659; top to bottom"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:116
+msgid "&#8658; left to right"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:117
+msgid "&#8664; corner top to right"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:118
+msgid "&#8665; corner top to left"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:161
+msgid "Background Position"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:162
+msgid "Left Top"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:163
+msgid "Left Center"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:164
+msgid "Left Bottom"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:165
+msgid "Center Top"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:166
+msgid "Center Center"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:167
+msgid "Center Bottom"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:168
+msgid "Right Top"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:169
+msgid "Right Center"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:170
+msgid "Right Bottom"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:184
+msgid "Background Repeat"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:185
+msgid "Repeat"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:186
+msgid "No Repeat"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:187
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:188
+msgid "Repeat Vertically"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:202
+msgid "Background Attachment"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:203
+msgid "Scroll"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:204
+msgid "Fixed"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:218
+msgid "Background Size"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:219
+msgid "Cover"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:220
+msgid "Contain"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:221
+msgid "Auto"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:235
+msgid "Background Origin"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:236
+#: includes/codestar/core/fields/background/background.php:254
+msgid "Padding Box"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:237
+#: includes/codestar/core/fields/background/background.php:253
+msgid "Border Box"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:238
+#: includes/codestar/core/fields/background/background.php:255
+msgid "Content Box"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:252
+msgid "Background Clip"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:269
+msgid "Background Blend Mode"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:270
+#: includes/codestar/core/fields/link_color/link_color.php:36
+#: includes/codestar/core/fields/typography/typography.php:186
+msgid "Normal"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:271
+msgid "Multiply"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:272
+msgid "Screen"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:273
+msgid "Overlay"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:274
+msgid "Darken"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:275
+msgid "Lighten"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:276
+msgid "Color Dodge"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:277
+msgid "Saturation"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:278
+msgid "Color"
+msgstr ""
+
+#: includes/codestar/core/fields/background/background.php:279
+msgid "Luminosity"
+msgstr ""
+
+#: includes/codestar/core/fields/backup/backup.php:29
+msgid "Export & Download"
+msgstr ""
+
+#: includes/codestar/core/fields/border/border.php:25
+#: includes/codestar/core/fields/spacing/spacing.php:25
+msgid "top"
+msgstr ""
+
+#: includes/codestar/core/fields/border/border.php:26
+#: includes/codestar/core/fields/spacing/spacing.php:26
+msgid "right"
+msgstr ""
+
+#: includes/codestar/core/fields/border/border.php:27
+#: includes/codestar/core/fields/spacing/spacing.php:27
+msgid "bottom"
+msgstr ""
+
+#: includes/codestar/core/fields/border/border.php:28
+#: includes/codestar/core/fields/spacing/spacing.php:28
+msgid "left"
+msgstr ""
+
+#: includes/codestar/core/fields/border/border.php:29
+#: includes/codestar/core/fields/spacing/spacing.php:29
+msgid "all"
+msgstr ""
+
+#: includes/codestar/core/fields/border/border.php:51
+#: includes/codestar/core/fields/typography/typography.php:214
+msgid "Solid"
+msgstr ""
+
+#: includes/codestar/core/fields/border/border.php:52
+#: includes/codestar/core/fields/typography/typography.php:217
+msgid "Dashed"
+msgstr ""
+
+#: includes/codestar/core/fields/border/border.php:53
+#: includes/codestar/core/fields/typography/typography.php:216
+msgid "Dotted"
+msgstr ""
+
+#: includes/codestar/core/fields/border/border.php:54
+#: includes/codestar/core/fields/typography/typography.php:215
+msgid "Double"
+msgstr ""
+
+#: includes/codestar/core/fields/border/border.php:55
+msgid "Inset"
+msgstr ""
+
+#: includes/codestar/core/fields/border/border.php:56
+msgid "Outset"
+msgstr ""
+
+#: includes/codestar/core/fields/border/border.php:57
+msgid "Groove"
+msgstr ""
+
+#: includes/codestar/core/fields/border/border.php:58
+msgid "ridge"
+msgstr ""
+
+#: includes/codestar/core/fields/border/border.php:59
+#: includes/codestar/core/fields/typography/typography.php:199
+#: includes/codestar/core/fields/typography/typography.php:213
+#: includes/codestar/settings/metabox/advanced.php:24
+#: includes/codestar/settings/metabox/episodes.php:82
+#: includes/codestar/settings/metabox/movies.php:177
+msgid "None"
+msgstr ""
+
+#: includes/codestar/core/fields/checkbox/checkbox.php:23
+msgid "Check/Uncheck All"
+msgstr ""
+
+#: includes/codestar/core/fields/dimensions/dimensions.php:22
+msgid "width"
+msgstr ""
+
+#: includes/codestar/core/fields/dimensions/dimensions.php:23
+msgid "height"
+msgstr ""
+
+#: includes/codestar/core/fields/gallery/gallery.php:20
+msgid "Add Gallery"
+msgstr ""
+
+#: includes/codestar/core/fields/gallery/gallery.php:21
+msgid "Edit Gallery"
+msgstr ""
+
+#: includes/codestar/core/fields/gallery/gallery.php:22
+#: includes/templates/importer_tool.php:121
+msgid "Clear"
+msgstr ""
+
+#: includes/codestar/core/fields/group/group.php:41
+#: includes/codestar/core/fields/repeater/repeater.php:27
+msgid "Error: Field ID conflict."
+msgstr ""
+
+#: includes/codestar/core/fields/group/group.php:52
+#: includes/codestar/core/fields/group/group.php:107
+#: includes/codestar/core/fields/repeater/repeater.php:48
+#: includes/codestar/core/fields/repeater/repeater.php:76
+msgid "Are you sure to delete this item?"
+msgstr ""
+
+#: includes/codestar/core/fields/group/group.php:141
+#: includes/codestar/core/fields/repeater/repeater.php:89
+msgid "You cannot add more."
+msgstr ""
+
+#: includes/codestar/core/fields/group/group.php:142
+#: includes/codestar/core/fields/repeater/repeater.php:90
+msgid "You cannot remove more."
+msgstr ""
+
+#: includes/codestar/core/fields/icon/icon.php:20
+#: includes/codestar/core/fields/icon/icon.php:53
+msgid "Add Icon"
+msgstr ""
+
+#: includes/codestar/core/fields/icon/icon.php:21
+msgid "Remove Icon"
+msgstr ""
+
+#: includes/codestar/core/fields/link/link.php:20
+msgid "Add Link"
+msgstr ""
+
+#: includes/codestar/core/fields/link/link.php:21
+msgid "Edit Link"
+msgstr ""
+
+#: includes/codestar/core/fields/link/link.php:22
+msgid "Remove Link"
+msgstr ""
+
+#: includes/codestar/core/fields/link_color/link_color.php:37
+msgid "Hover"
+msgstr ""
+
+#: includes/codestar/core/fields/link_color/link_color.php:38
+#: includes/codestar/settings/options/main.php:26
+msgid "Active"
+msgstr ""
+
+#: includes/codestar/core/fields/link_color/link_color.php:39
+msgid "Visited"
+msgstr ""
+
+#: includes/codestar/core/fields/link_color/link_color.php:40
+msgid "Focus"
+msgstr ""
+
+#: includes/codestar/core/fields/map/map.php:24
+msgid "Latitude"
+msgstr ""
+
+#: includes/codestar/core/fields/map/map.php:25
+msgid "Longitude"
+msgstr ""
+
+#: includes/codestar/core/fields/media/media.php:25
+#: includes/codestar/core/fields/upload/upload.php:24
+#: includes/codestar/fields/upload.php:24
+msgid "Upload"
+msgstr ""
+
+#: includes/codestar/core/fields/sorter/sorter.php:21
+msgid "Enabled"
+msgstr ""
+
+#: includes/codestar/core/fields/sorter/sorter.php:22
+#: includes/codestar/settings/options/main.php:27
+msgid "Disabled"
+msgstr ""
+
+#: includes/codestar/core/fields/switcher/switcher.php:20
+msgid "On"
+msgstr ""
+
+#: includes/codestar/core/fields/switcher/switcher.php:21
+msgid "Off"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:96
+msgid "Font Family"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:97
+msgid "Select a font"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:105
+msgid "Backup Font Family"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:119
+#: includes/codestar/core/fields/typography/typography.php:132
+#: includes/codestar/core/fields/typography/typography.php:145
+#: includes/codestar/core/fields/typography/typography.php:160
+#: includes/codestar/core/fields/typography/typography.php:176
+#: includes/codestar/core/fields/typography/typography.php:189
+#: includes/codestar/core/fields/typography/typography.php:203
+#: includes/codestar/core/fields/typography/typography.php:221
+msgid "Default"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:130
+msgid "Font Style"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:144
+#: includes/codestar/core/fields/typography/typography.php:145
+msgid "Load Extra Styles"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:158
+msgid "Subset"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:168
+msgid "Text Align"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:170
+msgid "Inherit"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:171
+msgid "Left"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:172
+msgid "Center"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:173
+msgid "Right"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:174
+msgid "Justify"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:175
+msgid "Initial"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:184
+msgid "Font Variant"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:187
+msgid "Small Caps"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:188
+msgid "All Small Caps"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:197
+msgid "Text Transform"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:200
+msgid "Capitalize"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:201
+msgid "Uppercase"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:202
+msgid "Lowercase"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:211
+msgid "Text Decoration"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:218
+msgid "Wavy"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:219
+msgid "Overline"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:220
+msgid "Line-through"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:233
+msgid "Font Size"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:245
+msgid "Line Height"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:257
+msgid "Letter Spacing"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:269
+msgid "Word Spacing"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:284
+msgid "Font Color"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:295
+msgid "Custom Style"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:362
+msgid "Custom Web Fonts"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:368
+msgid "Safe Web Fonts"
+msgstr ""
+
+#: includes/codestar/core/fields/typography/typography.php:388
+msgid "Google Web Fonts"
+msgstr ""
+
+#: includes/codestar/core/functions/actions.php:72
+#: includes/codestar/core/functions/actions.php:110
+msgid "Error: Invalid key."
+msgstr ""
+
+#: includes/codestar/core/functions/actions.php:114
+msgid "Error: The response is not a valid JSON response."
+msgstr ""
+
+#: includes/codestar/core/functions/actions.php:174
+msgid "Error: Invalid term ID."
+msgstr ""
+
+#: includes/codestar/core/functions/actions.php:180
+msgid "Error: You do not have permission to do that."
+msgstr ""
+
+#: includes/codestar/core/functions/validate.php:14
+#: includes/codestar/core/functions/validate.php:86
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: includes/codestar/core/functions/validate.php:32
+#: includes/codestar/core/functions/validate.php:106
+msgid "Please enter a valid number."
+msgstr ""
+
+#: includes/codestar/core/functions/validate.php:50
+#: includes/codestar/core/functions/validate.php:126
+msgid "This field is required."
+msgstr ""
+
+#: includes/codestar/core/functions/validate.php:68
+#: includes/codestar/core/functions/validate.php:146
+msgid "Please enter a valid URL."
+msgstr ""
+
+#: includes/codestar/settings/metabox/advanced.php:5
+#: includes/codestar/settings/options/importer.php:554
+msgid "Advanced"
+msgstr ""
+
+#: includes/codestar/settings/metabox/advanced.php:15
+msgid "Controls"
+msgstr ""
+
+#: includes/codestar/settings/metabox/advanced.php:21
+#: includes/codestar/settings/metabox/episodes.php:79
+msgid "Quality Badge"
+msgstr ""
+
+#: includes/codestar/settings/metabox/advanced.php:22
+#: includes/codestar/settings/metabox/episodes.php:80
+msgid ""
+"Select the main quality you want to display as a badge, we suggest always "
+"selecting the highest quality."
+msgstr ""
+
+#: includes/codestar/settings/metabox/advanced.php:25
+#: includes/codestar/settings/metabox/episodes.php:83 includes/globals.php:272
+msgid "4K"
+msgstr ""
+
+#: includes/codestar/settings/metabox/advanced.php:26
+#: includes/codestar/settings/metabox/episodes.php:84 includes/globals.php:273
+msgid "2K"
+msgstr ""
+
+#: includes/codestar/settings/metabox/advanced.php:27
+#: includes/codestar/settings/metabox/episodes.php:85 includes/globals.php:274
+msgid "HD"
+msgstr ""
+
+#: includes/codestar/settings/metabox/advanced.php:28
+#: includes/codestar/settings/metabox/episodes.php:86 includes/globals.php:275
+msgid "SD"
+msgstr ""
+
+#: includes/codestar/settings/metabox/advanced.php:29
+#: includes/codestar/settings/metabox/episodes.php:87 includes/globals.php:276
+msgid "CAM"
+msgstr ""
+
+#: includes/codestar/settings/metabox/advanced.php:38
+msgid "Do you want to highlight this content?"
+msgstr ""
+
+#: includes/codestar/settings/metabox/advanced.php:39
+#: includes/codestar/settings/metabox/advanced.php:47
+#: includes/codestar/settings/metabox/advanced.php:55
+#: includes/codestar/settings/metabox/advanced.php:63
+#: includes/codestar/settings/metabox/advanced.php:71
+#: includes/codestar/settings/metabox/resources.php:136
+msgid "Yes"
+msgstr ""
+
+#: includes/codestar/settings/metabox/advanced.php:40
+#: includes/codestar/settings/metabox/advanced.php:48
+#: includes/codestar/settings/metabox/advanced.php:56
+#: includes/codestar/settings/metabox/advanced.php:64
+#: includes/codestar/settings/metabox/advanced.php:72
+#: includes/codestar/settings/metabox/resources.php:137
+msgid "No"
+msgstr ""
+
+#: includes/codestar/settings/metabox/advanced.php:45
+msgid "Released Content"
+msgstr ""
+
+#: includes/codestar/settings/metabox/advanced.php:46
+msgid "Has this content already been released?"
+msgstr ""
+
+#: includes/codestar/settings/metabox/advanced.php:53
+msgid "Exclusively in Theaters Now"
+msgstr ""
+
+#: includes/codestar/settings/metabox/advanced.php:54
+msgid ""
+"Check this option if the content is currently only available in theaters."
+msgstr ""
+
+#: includes/codestar/settings/metabox/advanced.php:61
+msgid "(NSFW) Adult Content"
+msgstr ""
+
+#: includes/codestar/settings/metabox/advanced.php:62
+msgid "Notify that this content is for adults."
+msgstr ""
+
+#: includes/codestar/settings/metabox/advanced.php:69
+#: includes/codestar/settings/options/sources.php:100
+msgid "Auto-Embed"
+msgstr ""
+
+#: includes/codestar/settings/metabox/advanced.php:70
+msgid "Exclude Auto-Embed for this content."
+msgstr ""
+
+#: includes/codestar/settings/metabox/advanced.php:79
+msgid "Relateds"
+msgstr ""
+
+#: includes/codestar/settings/metabox/advanced.php:86
+msgid ""
+"Relate this title with the existing collections in the database, it can be "
+"related to all the collections that are required."
+msgstr ""
+
+#: includes/codestar/settings/metabox/advanced.php:87
+msgid "Add collection"
+msgstr ""
+
+#: includes/codestar/settings/metabox/advanced.php:102
+msgid "Platforms"
+msgstr ""
+
+#: includes/codestar/settings/metabox/advanced.php:103
+msgid "Add the links on the platforms where this title is available."
+msgstr ""
+
+#: includes/codestar/settings/metabox/advanced.php:104
+msgid "Add service"
+msgstr ""
+
+#: includes/codestar/settings/metabox/advanced.php:105
+msgid "Domain:"
+msgstr ""
+
+#: includes/codestar/settings/metabox/advanced.php:110
+msgid "Select platform"
+msgstr ""
+
+#: includes/codestar/settings/metabox/advanced.php:116
+msgid "Direct link"
+msgstr ""
+
+#: includes/codestar/settings/metabox/episodes.php:18
+#: includes/codestar/settings/metabox/movies.php:19
+#: includes/codestar/settings/metabox/tvshows.php:18
+msgid "Metadata"
+msgstr ""
+
+#: includes/codestar/settings/metabox/episodes.php:33
+#: includes/codestar/settings/metabox/episodes.php:74
+#: includes/codestar/settings/metabox/movies.php:34
+#: includes/codestar/settings/metabox/movies.php:39
+#: includes/codestar/settings/metabox/tvshows.php:33
+#: includes/codestar/settings/metabox/tvshows.php:38
+msgid "Main data"
+msgstr ""
+
+#: includes/codestar/settings/metabox/episodes.php:38
+msgid "Identification details"
+msgstr ""
+
+#: includes/codestar/settings/metabox/episodes.php:45
+msgid "TV Show"
+msgstr ""
+
+#: includes/codestar/settings/metabox/episodes.php:46
+msgid "Select which series this episode belongs to."
+msgstr ""
+
+#: includes/codestar/settings/metabox/episodes.php:54
+msgid "TMDb ID"
+msgstr ""
+
+#: includes/codestar/settings/metabox/episodes.php:55
+msgid "Unique ID on Themoviedb.org"
+msgstr ""
+
+#: includes/codestar/settings/metabox/episodes.php:61
+#: includes/codestar/settings/metabox/tvshows.php:463
+msgid "Season Number"
+msgstr ""
+
+#: includes/codestar/settings/metabox/episodes.php:62
+#: includes/codestar/settings/metabox/episodes.php:69
+msgid ""
+"This information is important to be able to identify and order this content."
+msgstr ""
+
+#: includes/codestar/settings/metabox/episodes.php:68
+msgid "Episode Number"
+msgstr ""
+
+#: includes/codestar/settings/metabox/episodes.php:95
+msgid "Episode name"
+msgstr ""
+
+#: includes/codestar/settings/metabox/episodes.php:96
+msgid ""
+"Define the name of the episode, remember that this may vary from the "
+"original name depending on the language."
+msgstr ""
+
+#: includes/codestar/settings/metabox/episodes.php:102
+msgid "Air date"
+msgstr ""
+
+#: includes/codestar/settings/metabox/episodes.php:103
+#: includes/codestar/settings/metabox/movies.php:66
+#: includes/codestar/settings/metabox/tvshows.php:87
+#: includes/codestar/settings/metabox/tvshows.php:95
+msgid "This date may vary in some countries"
+msgstr ""
+
+#: includes/codestar/settings/metabox/episodes.php:118
+#: includes/codestar/settings/metabox/movies.php:297
+#: includes/codestar/settings/metabox/movies.php:302
+#: includes/codestar/settings/metabox/tvshows.php:352
+#: includes/codestar/settings/metabox/tvshows.php:357
+msgid "Images"
+msgstr ""
+
+#: includes/codestar/settings/metabox/episodes.php:124
+#: includes/codestar/settings/metabox/movies.php:320
+#: includes/codestar/settings/metabox/tvshows.php:375
+#: includes/codestar/settings/options/importer.php:186
+msgid "Main Backdrop"
+msgstr ""
+
+#: includes/codestar/settings/metabox/episodes.php:125
+#: includes/codestar/settings/metabox/movies.php:308
+#: includes/codestar/settings/metabox/movies.php:321
+#: includes/codestar/settings/metabox/tvshows.php:363
+#: includes/codestar/settings/metabox/tvshows.php:376
+msgid ""
+"Use images with a transparent background that can be used with dark styles."
+msgstr ""
+
+#: includes/codestar/settings/metabox/episodes.php:126
+#: includes/codestar/settings/metabox/episodes.php:141
+#: includes/codestar/settings/metabox/movies.php:309
+#: includes/codestar/settings/metabox/movies.php:322
+#: includes/codestar/settings/metabox/movies.php:337
+#: includes/codestar/settings/metabox/movies.php:354
+#: includes/codestar/settings/metabox/tvshows.php:364
+#: includes/codestar/settings/metabox/tvshows.php:377
+#: includes/codestar/settings/metabox/tvshows.php:392
+#: includes/codestar/settings/metabox/tvshows.php:409
+msgid "You can upload an image to your server or just put the URL image."
+msgstr ""
+
+#: includes/codestar/settings/metabox/episodes.php:127
+#: includes/codestar/settings/metabox/episodes.php:142
+#: includes/codestar/settings/metabox/movies.php:311
+#: includes/codestar/settings/metabox/movies.php:323
+#: includes/codestar/settings/metabox/movies.php:338
+#: includes/codestar/settings/metabox/movies.php:355
+#: includes/codestar/settings/metabox/tvshows.php:366
+#: includes/codestar/settings/metabox/tvshows.php:378
+#: includes/codestar/settings/metabox/tvshows.php:393
+#: includes/codestar/settings/metabox/tvshows.php:410
+msgid "X"
+msgstr ""
+
+#: includes/codestar/settings/metabox/episodes.php:136
+#: includes/codestar/settings/metabox/movies.php:349
+#: includes/codestar/settings/metabox/tvshows.php:404
+msgid "More Backdrops"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:44
+msgid "Original title"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:45
+msgid "Original title of the cinematographic work"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:51
+#: includes/codestar/settings/metabox/tvshows.php:72
+msgid "Tagline"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:52
+msgid "Short description of the movie"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:58
+#: includes/codestar/settings/metabox/tvshows.php:79
+#: includes/codestar/settings/metabox/tvshows.php:450
+msgid "Poster Path"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:59
+#: includes/codestar/settings/metabox/tvshows.php:80
+msgid ""
+"This data will be used if it is decided not to upload the poster to the "
+"server as a featured image"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:65
+#: includes/templates/collections_metabox.php:27
+msgid "Release date"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:73
+#: includes/codestar/settings/metabox/tvshows.php:102
+msgid "Runtime"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:74
+msgid "Duration time in minutes"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:88
+#: includes/codestar/settings/metabox/tvshows.php:131
+msgid "Identifiers"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:93
+#: includes/codestar/settings/metabox/tvshows.php:136
+msgid "Main Identifiers"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:98
+#: includes/codestar/settings/metabox/tvshows.php:141
+#: includes/codestar/settings/taxonomies/people.php:77
+msgid "Themoviedb ID"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:99
+#: includes/codestar/settings/metabox/tvshows.php:142
+msgid ""
+"This information is important to be able to keep the data of this title "
+"updated."
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:100
+#: includes/codestar/settings/metabox/movies.php:108
+#: includes/codestar/settings/metabox/movies.php:116
+#: includes/codestar/settings/metabox/tvshows.php:143
+#: includes/codestar/settings/metabox/tvshows.php:151
+#: includes/codestar/settings/metabox/tvshows.php:159
+msgid "Example"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:106
+#: includes/codestar/settings/metabox/tvshows.php:149
+msgid "Imdb ID"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:107
+#: includes/codestar/settings/metabox/tvshows.php:150
+msgid "This information is necessary to obtain qualifications."
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:114
+#: includes/codestar/settings/metabox/tvshows.php:157
+msgid "YouTube video ID"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:115
+#: includes/codestar/settings/metabox/tvshows.php:158
+msgid "Information required to show the Trailer."
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:130
+#: includes/codestar/settings/metabox/tvshows.php:173
+msgid "External Metric"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:135
+msgid "Classification system MPAA"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:139
+msgid ""
+"This article is about the group that represents Hollywood studios and "
+"assigns ratings for movies. For their guidelines and a list of their "
+"ratings, see Motion Picture Association film rating system."
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:144
+msgid ""
+"<b>General Audiences</b>, Nothing that would offend parents for viewing by "
+"children"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:150
+msgid ""
+"<b>Parental Guidance Suggested</b>, Parents urged to give 'parental "
+"guidance.' May contain some material parents might not like for their young "
+"children."
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:156
+msgid ""
+"<b>Parents Strongly Cautioned</b>, Parents are urged to be cautious. Some "
+"material may be inappropriate for pre-teenagers."
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:162
+msgid ""
+"<b>Restricted</b>, Contains some adult material. Parents are urged to learn "
+"more about the film before taking their young children with them."
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:168
+msgid "<b>Adults Only</b>, Clearly adult. Children are not admitted."
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:174
+#: includes/codestar/settings/metabox/tvshows.php:230
+msgid "Rated"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:175
+msgid "MPAA Ratings"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:178
+msgid "G"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:179
+msgid "PG"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:180
+msgid "PG-13"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:181
+msgid "R"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:182
+msgid "NC-17"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:193
+#: includes/codestar/settings/metabox/tvshows.php:249
+msgid ""
+"These data must be periodically updated for greater reliability, remember "
+"that you can use the Meta-Updater to schedule this task."
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:198
+#: includes/codestar/settings/metabox/tvshows.php:254
+msgid "Themoviedb Rating"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:199
+#: includes/codestar/settings/metabox/tvshows.php:255
+msgid "Average user rating"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:205
+#: includes/codestar/settings/metabox/tvshows.php:261
+msgid "Themoviedb Votes"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:206
+#: includes/codestar/settings/metabox/movies.php:220
+#: includes/codestar/settings/metabox/tvshows.php:262
+#: includes/codestar/settings/metabox/tvshows.php:276
+msgid "Total vote count."
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:212
+#: includes/codestar/settings/metabox/tvshows.php:268
+msgid "IMDb Rating"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:213
+#: includes/codestar/settings/metabox/tvshows.php:269
+msgid "Average user rating."
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:219
+#: includes/codestar/settings/metabox/tvshows.php:275
+msgid "IMDb Votes"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:244
+#: includes/codestar/settings/options/importer.php:266
+msgid "Directors"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:245
+msgid "List of main directors who developed this film."
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:246
+msgid "New director"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:252
+#: includes/codestar/settings/metabox/movies.php:271
+#: includes/codestar/settings/metabox/tvshows.php:307
+#: includes/codestar/settings/metabox/tvshows.php:326
+msgid "Name"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:253
+#: includes/codestar/settings/metabox/movies.php:272
+#: includes/codestar/settings/metabox/tvshows.php:308
+#: includes/codestar/settings/metabox/tvshows.php:327
+msgid "Select a person"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:264
+msgid "Casting"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:265
+msgid "List of the main characters who participated in this film."
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:266
+#: includes/codestar/settings/metabox/tvshows.php:321
+msgid "New character"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:281
+#: includes/codestar/settings/metabox/movies.php:282
+#: includes/codestar/settings/metabox/tvshows.php:336
+#: includes/codestar/settings/metabox/tvshows.php:337
+msgid "Character"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:307
+#: includes/codestar/settings/metabox/tvshows.php:362
+#: includes/codestar/settings/options/importer.php:187
+msgid "Main Logo"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:310
+#: includes/codestar/settings/metabox/tvshows.php:365
+msgid "Upload Logo PNG"
+msgstr ""
+
+#: includes/codestar/settings/metabox/movies.php:332
+#: includes/codestar/settings/metabox/tvshows.php:387
+msgid "More Logos"
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:19
+msgid "Resources"
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:29
+msgid "Videos"
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:35
+msgid "Video Sources"
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:36
+msgid ""
+"You can add multiple video sources, we suggest completing all the fields."
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:37
+msgid "Add video"
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:44
+#: includes/codestar/settings/metabox/resources.php:162
+msgid "Type Source"
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:46
+msgid "Embed"
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:47
+msgid "File"
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:48
+#: includes/codestar/settings/metabox/resources.php:100
+msgid "Shortcode"
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:54
+msgid "Embed URL"
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:56
+msgid ""
+"If you have an embed code, make sure to only add the <b>\"SRC\"</b> value."
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:63
+msgid "Direct file URL"
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:65
+msgid ""
+"Remember that the video must be in MP4 format, it can be uploaded directly "
+"to your server or add the URL of a remote MP4 file."
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:71
+msgid "Captions"
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:72
+msgid "Add caption"
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:79
+msgid "Caption File"
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:85
+msgid "Label"
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:91
+msgid "Language code"
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:107
+#: includes/codestar/settings/metabox/resources.php:188
+msgid "Audio language"
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:115
+#: includes/codestar/settings/metabox/resources.php:196
+#: includes/codestar/settings/options/sources.php:148
+#: includes/codestar/settings/options/sources.php:185
+#: includes/codestar/settings/options/sources.php:224
+#: includes/templates/sources_editor.php:58
+#: includes/templates/sources_metabox.php:31
+#: includes/templates/sources_metabox.php:80
+msgid "Quality"
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:123
+#: includes/codestar/settings/metabox/resources.php:204
+msgid "Requests counter"
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:133
+msgid "Auto Embed"
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:134
+msgid ""
+"By default this field is checked, if you want to exclude the content of the "
+"\"Auto-Embed\" module just uncheck this box to continue."
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:135
+msgid "Include \"auto-embed\" elements in the resource list?"
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:153
+msgid "You can add multiple links, we suggest completing all the fields."
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:154
+msgid "Add link"
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:164
+msgid "Dowload"
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:165
+msgid "Watch online"
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:166
+msgid "Magnet"
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:172
+msgid "Link URL"
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:180
+msgid "Link Magnet"
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:217
+msgid "Permissions"
+msgstr ""
+
+#: includes/codestar/settings/metabox/resources.php:222
+msgid "At the moment this function is not yet available."
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:43
+#: includes/templates/app_finance.php:40
+msgid "Status"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:44
+msgid "Current status of this series."
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:46
+msgid "Returning Series"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:47
+msgid "Planned"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:48
+msgid "In Production"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:49
+msgid "Ended"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:50
+msgid "Canceled"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:51
+msgid "Pilot"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:52
+msgid "Unknown status"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:58
+msgid "Serie name"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:59
+msgid "Name of the series in the import language."
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:65
+msgid "Original name"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:66
+msgid "Original name of TV Show"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:73
+msgid "Short description of the series"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:86
+msgid "First air date"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:94
+msgid "Last air date"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:103
+msgid "Average duration of the episodes in minutes"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:109
+msgid "Seasons number"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:110
+msgid "Number of seasons published or in production"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:116
+msgid "Episodes number"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:117
+msgid "Number of episodes published or in production"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:178
+#: includes/codestar/settings/metabox/tvshows.php:231
+msgid "TV Parental Guidelines"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:183
+msgid ""
+"With an increasing number of TV channels and programs, it can be hard for "
+"parents to monitor what their children are watching. The TV Parental "
+"Guidelines give parents more information about the content and age-"
+"appropriateness of TV programs."
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:188
+msgid "Pre-child public: children under 6 years old"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:194
+msgid "Children's audience: from 7 years old"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:200
+msgid "Children with fictitious violence: from 7 years old"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:206
+msgid "General public: without family supervision"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:212
+msgid "Parental Guide: Parental Supervision"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:218
+msgid "Over 14 years old"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:224
+msgid "Over 17 years old"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:233
+msgid "TV-Y"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:234
+msgid "TV-Y7"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:235
+msgid "TV-Y7-FV"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:236
+msgid "TV-G"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:237
+msgid "TV-PG"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:238
+msgid "TV-14"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:239
+msgid "TV-MA"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:300
+#: includes/codestar/settings/options/importer.php:277
+msgid "Creators"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:301
+msgid "List of main creators who developed this series."
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:302
+msgid "New creator"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:319
+msgid "Series Cast"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:320
+msgid "List of the main characters who participated in this series."
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:434
+msgid "All Seasons"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:439
+msgid "New season"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:444
+msgid "Season Name"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:445
+msgid "Add a title to identify this season."
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:451
+msgid "You can also use the URL of an image for this field."
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:456
+msgid "Overview"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:457
+msgid "Short summary of the season."
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:464
+msgid "Defines the number of the season, this data is important."
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:470
+msgid "Episodes count"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:471
+msgid "Number of episodes published for this season."
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:477
+msgid "Air Date"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:478
+msgid "Defines the start date of this season."
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:486
+msgid "Episodes generator"
+msgstr ""
+
+#: includes/codestar/settings/metabox/tvshows.php:487
+msgid "Import or update episodes by season for this series."
+msgstr ""
+
+#: includes/codestar/settings/options/all.php:27
+#, php-format
+msgid "%s Thank you for creating with %s"
+msgstr ""
+
+#: includes/codestar/settings/options/backup.php:13
+msgid "Backup"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:13
+msgid "Email"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:25
+msgid "Basic Settings"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:30
+msgid "Logo"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:31
+msgid "This logo will be located in the header of emails sent with Dbmovies."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:38
+msgid "Outgoing email address"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:39
+msgid ""
+"Emails sent from your site to members will appear as being sent from this "
+"address."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:44
+msgid "Incoming email address"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:45
+msgid ""
+"This is provided to users on error screens and for certain notifications if "
+"enabled."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:50
+msgid "Mail Template"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:51
+msgid "Select a template for emails."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:54
+msgid "Gray Template"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:55
+msgid "Simple Template"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:61
+msgid "Mail footer text"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:62
+msgid ""
+"This field supports simple HTML code, use only the tags available in the "
+"editor."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:63
+msgid "(c) {year} <strong>{sitename}</strong>, All rights reserved"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:64
+msgid ""
+"This text appears in the footer of email messages, and these are the dynamic "
+"labels that can be used."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:66
+msgid "Shows the current year."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:67
+#: includes/codestar/settings/options/email.php:197
+#: includes/codestar/settings/options/email.php:233
+#: includes/codestar/settings/options/email.php:266
+#: includes/codestar/settings/options/email.php:302
+#: includes/codestar/settings/options/email.php:410
+msgid "It allows us to obtain the URL of the website."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:68
+#: includes/codestar/settings/options/email.php:195
+#: includes/codestar/settings/options/email.php:231
+#: includes/codestar/settings/options/email.php:264
+#: includes/codestar/settings/options/email.php:300
+#: includes/codestar/settings/options/email.php:408
+msgid "With this label we obtain the user's IP address."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:69
+#: includes/codestar/settings/options/email.php:196
+#: includes/codestar/settings/options/email.php:232
+#: includes/codestar/settings/options/email.php:265
+#: includes/codestar/settings/options/email.php:301
+#: includes/codestar/settings/options/email.php:409
+msgid "Provides details of the browser the user used."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:70
+#: includes/codestar/settings/options/email.php:198
+#: includes/codestar/settings/options/email.php:234
+#: includes/codestar/settings/options/email.php:267
+#: includes/codestar/settings/options/email.php:303
+#: includes/codestar/settings/options/email.php:411
+msgid "Shows the name of the website."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:77
+msgid "Advanced Settings"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:82
+msgid "Mail delivery method"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:83
+msgid ""
+"We suggest sending messages securely with SMTP, complete all required "
+"settings."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:85
+msgid "PHP"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:86
+msgid "SMTP"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:92
+msgid "Should I really use SMTP as an email sending method?"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:93
+msgid ""
+"Configuring SMTP for sending emails with PHP and <code>wp_mail()</code> is a "
+"best practice to improve the reliability, deliverability and security of "
+"your emails. It helps prevent your emails from being marked as spam and "
+"provides greater control over your sending settings. This is especially "
+"important if you are sending emails from a WordPress website or web "
+"application."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:99
+msgid "SMTP Server"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:100
+msgid "A server is required to send email messages with SMTP."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:107
+msgid "SMTP Port"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:108
+msgid "Sets the port required for this function."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:116
+msgid "SMTP Protocol"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:117
+msgid "Select the protocol required by your SMTP server."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:119
+msgid "TSL"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:120
+msgid "SSL"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:128
+msgid "From Name"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:134
+msgid "From Email"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:139
+msgid "SMTP Authentication"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:145
+msgid "Username"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:146
+msgid ""
+"For security, we recommend using an exclusive user to send emails with SMTP."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:152
+msgid "Password"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:153
+msgid "If required, complete this field."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:165
+msgid "Auth messages"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:169
+msgid "Verify your email"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:174
+#: includes/codestar/settings/options/email.php:207
+#: includes/codestar/settings/options/email.php:243
+#: includes/codestar/settings/options/email.php:276
+msgid "Mail Subject"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:175
+#: includes/codestar/settings/options/email.php:208
+#: includes/codestar/settings/options/email.php:244
+#: includes/codestar/settings/options/email.php:277
+msgid "Use simple, unformatted text."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:176
+#: includes/codestar/settings/options/email.php:245
+msgid "Your verification code: {otp}"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:181
+#: includes/codestar/settings/options/email.php:214
+#: includes/codestar/settings/options/email.php:250
+#: includes/codestar/settings/options/email.php:283
+#: includes/codestar/settings/options/email.php:397
+msgid "Mail Message"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:182
+#: includes/codestar/settings/options/email.php:215
+#: includes/codestar/settings/options/email.php:251
+#: includes/codestar/settings/options/email.php:284
+#: includes/codestar/settings/options/importer.php:431
+#: includes/codestar/settings/options/importer.php:448
+#: includes/codestar/settings/options/importer.php:464
+msgid "In this field you can use text and simple formatting in HTML."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:189
+#: includes/codestar/settings/options/email.php:222
+#: includes/codestar/settings/options/email.php:258
+#: includes/codestar/settings/options/email.php:291
+msgid "Wearable markers"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:190
+#: includes/codestar/settings/options/email.php:223
+#: includes/codestar/settings/options/email.php:259
+#: includes/codestar/settings/options/email.php:292
+msgid "Bookmarks can be used in the subject and message."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:191
+#: includes/codestar/settings/options/email.php:224
+#: includes/codestar/settings/options/email.php:260
+#: includes/codestar/settings/options/email.php:293
+msgid "You can use these markers to include dynamic elements in the message."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:193
+msgid "Shows the unverified email address used by the user."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:194
+#: includes/codestar/settings/options/email.php:263
+msgid "This tag obtains the OTP key for email address verification."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:202
+msgid "Welcome, registration completed"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:209
+msgid "Welcome {firstname}, registration completed"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:226
+#: includes/codestar/settings/options/email.php:295
+#: includes/codestar/settings/options/email.php:403
+msgid "Displays the first name provided by the user."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:227
+#: includes/codestar/settings/options/email.php:296
+#: includes/codestar/settings/options/email.php:404
+msgid "Displays the last name provided by the user."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:228
+#: includes/codestar/settings/options/email.php:297
+#: includes/codestar/settings/options/email.php:405
+msgid "Gets the username set for the login."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:229
+#: includes/codestar/settings/options/email.php:298
+#: includes/codestar/settings/options/email.php:406
+msgid "Shows the password that the user sets for login."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:230
+#: includes/codestar/settings/options/email.php:299
+#: includes/codestar/settings/options/email.php:407
+msgid "Gets the user's email address."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:238
+msgid "Reset your password"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:262
+msgid "Shows the email address of the user registered in the database."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:271
+msgid "Password reset confirmation"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:278
+msgid "Hi {firstname}, your password has been reset successfully"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:313
+msgid "System messages"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:322
+msgid "Subscriptions messages"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:326
+msgid "Subscription completed"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:330
+msgid "Subscription Expiration"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:334
+msgid "Subscription canceled"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:338
+msgid "Subscription ended"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:342
+msgid "Subscription revoked"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:352
+msgid "Contact system"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:356
+msgid "Email addresses"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:361
+msgid "Primary email address"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:362
+msgid "Assign a primary email address to receive contact messages."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:367
+msgid "Departaments"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:368
+msgid "Add departments within your organization to route messages."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:369
+msgid "Add department"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:374
+msgid "Department name"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:379
+msgid "Email address"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:385
+msgid "Confirmation message"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:390
+msgid "Enable message"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:391
+msgid ""
+"Enable this feature to send a personalized confirmation message to the user."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:392
+msgid "Enable confirmation message"
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:398
+msgid "Customize the confirmation message."
+msgstr ""
+
+#: includes/codestar/settings/options/email.php:401
+#: includes/codestar/settings/options/importer.php:337
+#: includes/codestar/settings/options/importer.php:348
+#: includes/codestar/settings/options/importer.php:359
+#: includes/codestar/settings/options/importer.php:382
+#: includes/codestar/settings/options/importer.php:397
+#: includes/codestar/settings/options/importer.php:411
+#: includes/codestar/settings/options/importer.php:436
+#: includes/codestar/settings/options/importer.php:453
+#: includes/codestar/settings/options/importer.php:469
+#: includes/codestar/settings/options/importer.php:580
+#: includes/codestar/settings/options/sources.php:134
+#: includes/codestar/settings/options/sources.php:171
+#: includes/codestar/settings/options/sources.php:208
+msgid "You can use the following labels in this text field."
+msgstr ""
+
+#: includes/codestar/settings/options/finance.php:21
+msgid "Payment"
+msgstr ""
+
+#: includes/codestar/settings/options/finance.php:25
+#: includes/codestar/settings/options/premium.php:315
+msgid "Company Info"
+msgstr ""
+
+#: includes/codestar/settings/options/finance.php:30
+msgid "Commercial Addresses"
+msgstr ""
+
+#: includes/codestar/settings/options/finance.php:31
+msgid "Add at least one business address."
+msgstr ""
+
+#: includes/codestar/settings/options/finance.php:32
+msgid "Add Address"
+msgstr ""
+
+#: includes/codestar/settings/options/finance.php:39
+#: includes/codestar/settings/options/premium.php:346
+#: includes/templates/app_finance.php:43
+msgid "Country"
+msgstr ""
+
+#: includes/codestar/settings/options/finance.php:44
+#: includes/codestar/settings/options/premium.php:352
+msgid "City"
+msgstr ""
+
+#: includes/codestar/settings/options/finance.php:49
+#: includes/codestar/settings/options/premium.php:336
+msgid "Address Line 1"
+msgstr ""
+
+#: includes/codestar/settings/options/finance.php:54
+#: includes/codestar/settings/options/premium.php:341
+msgid "Address Line 2"
+msgstr ""
+
+#: includes/codestar/settings/options/finance.php:59
+#: includes/codestar/settings/options/premium.php:358
+msgid "Postal Code"
+msgstr ""
+
+#: includes/codestar/settings/options/finance.php:66
+msgid "Legal contacts"
+msgstr ""
+
+#: includes/codestar/settings/options/finance.php:67
+msgid "Register legal representatives of your company."
+msgstr ""
+
+#: includes/codestar/settings/options/finance.php:68
+msgid "Add Contact"
+msgstr ""
+
+#: includes/codestar/settings/options/finance.php:75
+msgid "Ful Name"
+msgstr ""
+
+#: includes/codestar/settings/options/finance.php:80
+msgid "Position"
+msgstr ""
+
+#: includes/codestar/settings/options/finance.php:85
+msgid "Phone number"
+msgstr ""
+
+#: includes/codestar/settings/options/finance.php:90
+msgid "Email Address"
+msgstr ""
+
+#: includes/codestar/settings/options/finance.php:102
+msgid "Tax"
+msgstr ""
+
+#: includes/codestar/settings/options/finance.php:111
+#: includes/templates/app_finance.php:15
+msgid "Plans"
+msgstr ""
+
+#: includes/codestar/settings/options/finance.php:120
+#: includes/templates/app_finance.php:21
+msgid "Discounts"
+msgstr ""
+
+#: includes/codestar/settings/options/firewall.php:13
+#: includes/codestar/settings/options/firewall.php:17
+msgid "Firewall"
+msgstr ""
+
+#: includes/codestar/settings/options/firewall.php:21
+msgid "This firewall protects only forms offered to the public on dbmovies."
+msgstr ""
+
+#: includes/codestar/settings/options/firewall.php:22
+msgid "Authentication forms."
+msgstr ""
+
+#: includes/codestar/settings/options/firewall.php:23
+msgid "User account setup forms."
+msgstr ""
+
+#: includes/codestar/settings/options/firewall.php:24
+msgid "Content reports."
+msgstr ""
+
+#: includes/codestar/settings/options/firewall.php:25
+msgid "Contact forms."
+msgstr ""
+
+#: includes/codestar/settings/options/firewall.php:26
+msgid ""
+"More advanced functions are required, we suggest adding the plugin for this "
+"task of your choice."
+msgstr ""
+
+#: includes/codestar/settings/options/firewall.php:31
+msgid "Enable firewall"
+msgstr ""
+
+#: includes/codestar/settings/options/firewall.php:32
+msgid ""
+"We recommend enabling this function as it protects specific forms required "
+"for the operation of Dbmovies."
+msgstr ""
+
+#: includes/codestar/settings/options/firewall.php:33
+msgid "Enable and protect public forms in Dbmovies."
+msgstr ""
+
+#: includes/codestar/settings/options/firewall.php:39
+msgid "Limit contact messages"
+msgstr ""
+
+#: includes/codestar/settings/options/firewall.php:40
+msgid "Limit the number of contact messages per IP address every 24 hours."
+msgstr ""
+
+#: includes/codestar/settings/options/firewall.php:41
+msgid "messages"
+msgstr ""
+
+#: includes/codestar/settings/options/firewall.php:50
+msgid "Limit user Registration"
+msgstr ""
+
+#: includes/codestar/settings/options/firewall.php:51
+msgid "limit the number of user registrations per IP address every 24 hours."
+msgstr ""
+
+#: includes/codestar/settings/options/firewall.php:52
+msgid "registrations"
+msgstr ""
+
+#: includes/codestar/settings/options/firewall.php:61
+msgid "Failed logins"
+msgstr ""
+
+#: includes/codestar/settings/options/firewall.php:62
+msgid "Limit the number of login attempts per IP address every 24 hours."
+msgstr ""
+
+#: includes/codestar/settings/options/firewall.php:63
+msgid "attempts"
+msgstr ""
+
+#: includes/codestar/settings/options/firewall.php:72
+msgid "IP Address Blacklist"
+msgstr ""
+
+#: includes/codestar/settings/options/firewall.php:73
+msgid ""
+"Register a list of IP addresses that will not be able to send contact "
+"messages."
+msgstr ""
+
+#: includes/codestar/settings/options/firewall.php:74
+msgid "Add IP addresses inside square brackets without leaving spaces,"
+msgstr ""
+
+#: includes/codestar/settings/options/firewall.php:81
+msgid "Domains Blacklist"
+msgstr ""
+
+#: includes/codestar/settings/options/firewall.php:82
+msgid "Register email domains that cannot be used in your forms."
+msgstr ""
+
+#: includes/codestar/settings/options/firewall.php:83
+msgid "Add domains inside square brackets without leaving spaces,"
+msgstr ""
+
+#: includes/codestar/settings/options/help.php:13
+msgid "Help Center"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:14
+msgid "Data Importer"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:25
+msgid "Initial settings"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:30
+msgid "Authorize Application"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:34
+msgid ""
+"For this application to work correctly, add the required API credentials, "
+"these must be accurate to ensure smooth data access to this website."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:39
+msgid "Dbmvs.com API Key"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:40
+msgid "Your API key will give you access to all our services."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:47
+msgid "Click here for a Dbmvs API key"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:54
+msgid "Themoviedb.org API Key"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:55
+msgid "Add your API key to be able to generate data with our importers."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:62
+msgid "Click here for a TMDb API key"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:68
+msgid "Proxy Server"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:73
+msgid "TMDb API Proxy server"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:74
+msgid ""
+"If your server for some reason does not get responses from Themovide API, "
+"enable this function that will give you access to these services from our "
+"proxy server."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:75
+msgid "Enable proxy server for api.themoviedb.org"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:82
+msgid "Is it safe to use a Proxy server for this function?"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:83
+msgid ""
+"It is completely safe, but you should consider using it only if strictly "
+"necessary, as this feature will add extra time to each request made to the "
+"Themoviedb server."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:88
+msgid "Importers Post Status"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:92
+msgid "Define Post Status after using the importers."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:98
+#: includes/codestar/settings/options/importer.php:110
+#: includes/codestar/settings/options/importer.php:122
+msgid "Select default post status"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:100
+#: includes/codestar/settings/options/importer.php:112
+#: includes/codestar/settings/options/importer.php:124
+msgid "Publish"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:101
+#: includes/codestar/settings/options/importer.php:113
+#: includes/codestar/settings/options/importer.php:125
+#: includes/functions/sources.php:38
+msgid "Pending"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:102
+#: includes/codestar/settings/options/importer.php:114
+#: includes/codestar/settings/options/importer.php:126
+msgid "Draft"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:109
+#: includes/codestar/settings/options/importer.php:168
+#: includes/codestar/settings/options/importer.php:502
+msgid "TVShows"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:133
+msgid "Priority settings"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:137
+msgid "Set the settings of your preference for data import"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:142
+#: includes/codestar/settings/options/sources.php:142
+#: includes/codestar/settings/options/sources.php:179
+#: includes/codestar/settings/options/sources.php:218
+#: includes/templates/sources_editor.php:51
+#: includes/templates/sources_metabox.php:25
+#: includes/templates/sources_metabox.php:79
+msgid "Language"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:143
+msgid "Set the language to import content"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:150
+msgid "Taxonomies"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:151
+msgid "Check all the taxonomies that need to be imported with our tools."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:153
+#: includes/codestar/settings/options/importer.php:244
+msgid "Tags"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:155
+msgid "Release years"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:164
+msgid "Publish with release date"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:165
+msgid ""
+"These settings will have irreversible effects on the import and update of "
+"your content"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:176
+#: includes/codestar/settings/options/importer.php:181
+msgid "Upload images"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:182
+msgid ""
+"Check the images you want to be uploaded to the server, those that are not "
+"checked will only be indexed."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:184
+msgid "Poster in Featured Image"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:185
+msgid "Profile Image Persons"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:194
+msgid "WebP converter"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:195
+msgid "Activate this function to enable image conversion to WebP format."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:197
+msgid "Yes, convert all imported images to WebP format."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:198
+msgid "Not, import images with the original format and quality."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:205
+msgid "WebP Quality"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:206
+msgid "Set the quality percentage in images converted to WebP."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:225
+msgid "Import Limits"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:229
+msgid "Limit taxonomies"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:233
+msgid ""
+"Remember that the greater the number of imported elements, the longer the "
+"import time will take."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:238
+msgid "Tag Taxonomy"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:239
+msgid "Define the number of keywords that are imported with the content."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:249
+msgid "Casting Taxonomy"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:250
+#: includes/codestar/settings/options/importer.php:291
+#: includes/codestar/settings/options/importer.php:302
+msgid ""
+"Defines the maximum number of elements to import, we recommend the default "
+"<b>5</b> elements for this field."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:255
+msgid "Cast"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:260
+msgid "Directors Taxonomy"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:261
+#: includes/codestar/settings/options/importer.php:272
+msgid ""
+"Defines the maximum number of elements to import, we recommend the default "
+"<b>1</b> elements for this field."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:271
+msgid "Creators Taxonomy"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:281
+msgid "Limit image indexor"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:285
+msgid ""
+"These images will not be uploaded to the server, they will only be indexed "
+"to the content."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:290
+#: includes/codestar/settings/options/importer.php:296
+msgid "Backdrops"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:301
+#: includes/codestar/settings/options/importer.php:307
+msgid "Logos"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:320
+msgid "Titles / Content"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:325
+msgid "Customize Titles"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:329
+msgid "Configure the titles that are generated in importers."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:335
+#: includes/codestar/settings/options/importer.php:346
+#: includes/codestar/settings/options/importer.php:357
+msgid "Use simple text."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:339
+msgid "Gets the title of the movie in the set import language."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:340
+msgid "Gets the year of release of the film."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:350
+msgid "Gets the title of the series in the set import language."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:351
+msgid "Gets the year of release of the series."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:361
+#: includes/codestar/settings/options/importer.php:413
+#: includes/codestar/settings/options/importer.php:473
+msgid "Gets the series title."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:362
+msgid "Gets the season number of the episode."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:363
+msgid "Gets the episode number."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:368
+msgid "Customize Permalink"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:372
+msgid ""
+"Custom the structure of the permalinks for the titles that will be imported "
+"into the database."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:378
+#: includes/codestar/settings/options/importer.php:394
+#: includes/codestar/settings/options/importer.php:408
+msgid ""
+"Use simple text without special characters, do not leave spaces or complete "
+"them with simple hyphens \"-\"."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:384
+#: includes/codestar/settings/options/importer.php:439
+msgid "Title of the movie in the set import language."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:385
+#: includes/codestar/settings/options/importer.php:441
+msgid "Year of release of the film."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:386
+#: includes/codestar/settings/options/importer.php:401
+#: includes/codestar/settings/options/importer.php:416
+msgid "ID of the post in the database."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:387
+msgid "ID of the content on <i>imdb.com</i>."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:388
+#: includes/codestar/settings/options/importer.php:402
+#: includes/codestar/settings/options/importer.php:417
+msgid "ID of the content on <i>themoviedb.org</i>."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:399
+#: includes/codestar/settings/options/importer.php:456
+msgid "Title of the series in the set import language."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:400
+#: includes/codestar/settings/options/importer.php:458
+msgid "Year of release of the series."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:414
+#: includes/codestar/settings/options/importer.php:474
+msgid "Season number of the episode."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:415
+#: includes/codestar/settings/options/importer.php:475
+msgid "Episode number."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:421
+msgid "Customize Content"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:425
+msgid "Customize how content for movies and tvshows will be imported."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:438
+msgid "Synopsis of the film."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:440
+msgid "Original title of the film."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:455
+msgid "Synopsis of the series."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:457
+msgid "Original title of the series."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:471
+msgid "Extended episode summary."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:472
+msgid "Gets the episode name."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:497
+msgid "Post Types"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:498
+msgid "Select the types of content that are allowed to use the meta updater."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:509
+msgid "Structural Capabilities"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:510
+msgid ""
+"Select the structural capabilities of your content that can be updated with "
+"metadata."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:512
+msgid "Update Custom Titles"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:513
+msgid "Update Custom Permalinks"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:514
+msgid "Update Custom Content"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:520
+msgid "Automatize"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:521
+msgid "Automate process of updating metadata."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:522
+msgid "Enable automatic metadata update."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:527
+msgid ""
+"This function operates autonomously, allowing the metadata of your content "
+"to be kept up to date, this will help improve the metric perspective of your "
+"content, providing better results in searches, they are also details that "
+"the \"trends\" system will consider."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:532
+msgid "Scheduler"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:533
+msgid ""
+"Select the time period to run this function automatically on each title."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:537
+msgid "15 days"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:537
+msgid "(Recommended)"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:538
+msgid "30 days"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:539
+msgid "60 days"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:540
+msgid "90 days"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:558
+msgid "OpenAI"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:563
+msgid "API Key"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:564
+msgid "Add an OpenAI Secret API Key"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:569
+msgid "Role"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:570
+msgid "Describe the role that this model will assume."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:571
+msgid ""
+"You are an expert in film and TV series who creates attractive and very "
+"creative synopses."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:576
+msgid "Prompt"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:577
+msgid "Custom instructions."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:578
+msgid ""
+"Improve and expand the synopsis of the following \"{type}\" titled "
+"\"{title}\" published in the year \"{year}\", I only need the synopsis, do "
+"not add any headings."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:582
+msgid "Define in the prompt what type of content will be examined."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:583
+msgid "Title of the movie or tv show in the set import language."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:584
+msgid "Display the year of release to improve content accuracy."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:589
+msgid "Max tokens"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:590
+msgid "Limit response length."
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:597
+msgid "Temperature"
+msgstr ""
+
+#: includes/codestar/settings/options/importer.php:598
+msgid "Adjusting the creativity of the response."
+msgstr ""
+
+#: includes/codestar/settings/options/integrations.php:13
+msgid "Integrations"
+msgstr ""
+
+#: includes/codestar/settings/options/integrations.php:17
+msgid "Google reCAPTCHA v3"
+msgstr ""
+
+#: includes/codestar/settings/options/integrations.php:21
+msgid ""
+"Take advantage of <b>Google reCAPTCHA</b> technology to protect critical "
+"forms on your website."
+msgstr ""
+
+#: includes/codestar/settings/options/integrations.php:22
+msgid "Get keys"
+msgstr ""
+
+#: includes/codestar/settings/options/integrations.php:27
+msgid "Site Key"
+msgstr ""
+
+#: includes/codestar/settings/options/integrations.php:32
+msgid "Secret Key"
+msgstr ""
+
+#: includes/codestar/settings/options/integrations.php:36
+msgid "IPinfo"
+msgstr ""
+
+#: includes/codestar/settings/options/integrations.php:40
+msgid ""
+"<b>IPinfo</b> provides public details about users' Internet connection, this "
+"information is collected for informational purposes to notify possible "
+"unauthorized logins."
+msgstr ""
+
+#: includes/codestar/settings/options/integrations.php:41
+msgid "Get token"
+msgstr ""
+
+#: includes/codestar/settings/options/integrations.php:46
+msgid "Access Token"
+msgstr ""
+
+#: includes/codestar/settings/options/integrations.php:50
+msgid "Cloudflare"
+msgstr ""
+
+#: includes/codestar/settings/options/integrations.php:55
+msgid "Email Account"
+msgstr ""
+
+#: includes/codestar/settings/options/integrations.php:60
+msgid "Global API Key"
+msgstr ""
+
+#: includes/codestar/settings/options/integrations.php:65
+msgid "Zone ID"
+msgstr ""
+
+#: includes/codestar/settings/options/main.php:13
+#: includes/codestar/settings/options/main.php:17
+msgid "Main settings"
+msgstr ""
+
+#: includes/codestar/settings/options/main.php:22
+msgid "Site status"
+msgstr ""
+
+#: includes/codestar/settings/options/main.php:23
+msgid "Select the current status of the website."
+msgstr ""
+
+#: includes/codestar/settings/options/main.php:32
+msgid "Listing Limits"
+msgstr ""
+
+#: includes/codestar/settings/options/main.php:37
+msgid "Live search"
+msgstr ""
+
+#: includes/codestar/settings/options/main.php:38
+msgid "Limit the number of results for the live search box."
+msgstr ""
+
+#: includes/codestar/settings/options/main.php:43
+#: includes/codestar/settings/options/main.php:54
+#: includes/codestar/settings/options/main.php:65
+#: includes/codestar/settings/options/main.php:76
+#: includes/templates/collections_metabox.php:16
+#: includes/templates/sources_metabox.php:67
+msgid "items"
+msgstr ""
+
+#: includes/codestar/settings/options/main.php:48
+msgid "Episodes list"
+msgstr ""
+
+#: includes/codestar/settings/options/main.php:49
+msgid ""
+"Limit the number of episodes that are loaded into the season list before "
+"paginating."
+msgstr ""
+
+#: includes/codestar/settings/options/main.php:59
+msgid "Sources list"
+msgstr ""
+
+#: includes/codestar/settings/options/main.php:60
+msgid ""
+"Limit the number of links that are loaded in the resource list before "
+"paginating."
+msgstr ""
+
+#: includes/codestar/settings/options/main.php:70
+msgid "Collections list"
+msgstr ""
+
+#: includes/codestar/settings/options/main.php:71
+msgid ""
+"Limit the number of articles that are loaded into the collections list "
+"before paginating."
+msgstr ""
+
+#: includes/codestar/settings/options/main.php:80
+msgid "Required pages"
+msgstr ""
+
+#: includes/codestar/settings/options/main.php:85
+msgid "Browser page"
+msgstr ""
+
+#: includes/codestar/settings/options/main.php:86
+msgid "The content blocks are shown on this page."
+msgstr ""
+
+#: includes/codestar/settings/options/main.php:92
+msgid "Authentication page"
+msgstr ""
+
+#: includes/codestar/settings/options/main.php:93
+msgid ""
+"On this page you manage the registration, login and password recovery forms."
+msgstr ""
+
+#: includes/codestar/settings/options/main.php:99
+msgid "Account page"
+msgstr ""
+
+#: includes/codestar/settings/options/main.php:100
+msgid ""
+"This page shows all the functions that allow you to manage a user account."
+msgstr ""
+
+#: includes/codestar/settings/options/main.php:106
+msgid "Contact page"
+msgstr ""
+
+#: includes/codestar/settings/options/main.php:107
+msgid ""
+"This page displays contact information and a secure form to facilitate "
+"communication."
+msgstr ""
+
+#: includes/codestar/settings/options/main.php:114
+msgid "This page displays the terms and conditions of use."
+msgstr ""
+
+#: includes/codestar/settings/options/main.php:120
+msgid "Privacy policies page"
+msgstr ""
+
+#: includes/codestar/settings/options/main.php:121
+msgid "This page shows the privacy policies."
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:25
+msgid "Premium Subscription"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:30
+msgid "Subscription Title"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:31
+msgid "Add a title that describes the premium access plan."
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:32
+msgid "Premium Access"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:37
+msgid "Subscription Details"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:38
+msgid "Add a brief description about the premium subscription."
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:39
+msgid "Access exclusive content and remove all advertising from our website."
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:44
+msgid "Monthly subscription price"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:45
+msgid "Set the monthly subscription price."
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:49
+msgid "1 month"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:54
+msgid "Quarterly subscription price"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:55
+msgid "Set the quarterly subscription price."
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:59
+msgid "3 months"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:64
+msgid "Biannual subscription price"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:65
+msgid "Set the biannual subscription price."
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:69
+msgid "6 months"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:74
+msgid "Annual subscription price"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:75
+msgid "Set the annual subscription price."
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:79
+msgid "1 year"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:83
+msgid "Currency options"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:88
+msgid "Currency name"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:89
+msgid ""
+"Choose your currency. Note that some payment gateways have currency "
+"restrictions."
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:97
+msgid "Currency decimals"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:98
+msgid "Set the number of decimal places for currency settings."
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:106
+msgid "Currency symbol"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:107
+msgid "Set the currency symbol to be displayed."
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:114
+msgid "Currency Position"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:115
+msgid "Choose the location of the currency sign."
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:118
+msgid "$10 — Before"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:119
+msgid "10$ — After"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:124
+#: includes/templates/app_finance.php:18
+msgid "Taxes"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:129
+msgid "Tax percentage"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:130
+msgid "Define the percentage value of the tax."
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:139
+msgid "Tax code"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:140
+msgid ""
+"Defines the code of the tax that will be applied to all payments in the "
+"system."
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:148
+msgid "Tax type"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:149
+msgid "Define what type of tax will be applied to payments in the system."
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:153
+msgid "Inclusive, Prices include taxes"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:154
+msgid "Exclusive, Prices do not include taxes"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:169
+msgid "PayPal"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:174
+msgid "Enable PayPal"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:175
+msgid "Enable payments with PayPal."
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:180
+msgid ""
+"<strong>Sandbox Mode Active</strong>, All payments processed by PayPal will "
+"be test only."
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:186
+msgid ""
+"<strong>Live Mode Active</strong>, All PayPal payments will be processed "
+"correctly."
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:192
+#: includes/codestar/settings/options/premium.php:243
+msgid "Mode"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:195
+#: includes/codestar/settings/options/premium.php:246
+msgid "Sandbox"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:196
+#: includes/codestar/settings/options/premium.php:247
+msgid "Live"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:203
+msgid "Client ID"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:209
+msgid "Secret"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:215
+msgid "Webhook ID"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:220
+msgid "Stripe"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:225
+msgid "Enable Stripe"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:226
+msgid "Enable payments with Stripe."
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:231
+msgid ""
+"<strong>Sandbox Mode Active</strong>, All payments processed by Stripe will "
+"be test only."
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:237
+msgid ""
+"<strong>Live Mode Active</strong>, All Stripe payments will be processed "
+"correctly."
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:254
+msgid "Publishable key"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:260
+msgid "Secret key"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:266
+msgid "Signing secret"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:271
+#: includes/codestar/settings/options/premium.php:288
+msgid "Cryptocurrency"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:276
+msgid "Enable Cryptocurrencies"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:277
+msgid "Enable payments with Cryptocurrencies."
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:282
+msgid "Wallet Address"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:295
+msgid "Bank transfer"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:300
+msgid "Enable Bank transfer"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:301
+msgid "Enable payments with Bank transfer."
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:311
+msgid "Company"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:320
+msgid "Company Name"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:321
+msgid "Establish the name of your formally registered company."
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:326
+msgid "Registry number"
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:327
+msgid "Tax registration number of your company."
+msgstr ""
+
+#: includes/codestar/settings/options/premium.php:331
+msgid "Company Address"
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:11
+msgid "Get a key"
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:26
+msgid "Sync list"
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:31
+msgid "Register servers"
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:36
+msgid "Server name"
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:42
+msgid "Sync List"
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:47
+msgid "Receive links"
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:48
+msgid ""
+"Enable this feature to allow publishing links to your database from external "
+"sources."
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:49
+msgid "Allow posting of links from external sources."
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:53
+#: includes/codestar/settings/options/sources.php:87
+msgid "Sync secret key"
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:54
+msgid "Use this key to allow access to external source links."
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:58
+msgid ""
+"Please refrain from sharing this synchronization key with anyone "
+"unnecessary. If you have concerns about the security of your website, we "
+"advise changing the key immediately. Note that this key grants access to "
+"posting links in your database."
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:64
+msgid "Send links"
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:65
+msgid "Enable the sharing function for links published on this website."
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:66
+msgid "Share Links."
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:71
+msgid "Websites"
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:72
+msgid "Create a safe list of websites with which you will share your links"
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:73
+msgid "Add website"
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:74
+msgid "Sync test"
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:80
+msgid "Site URL"
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:81
+msgid "Add the full URL of your WordPress installation."
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:88
+msgid "This field is required to ensure synchronization."
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:104
+msgid "Auto-Embed support"
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:109
+msgid "Enable resources"
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:110
+msgid "Allow posting of playback videos with auto-embed feature for Dbmovies."
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:114
+msgid ""
+"Always consider using these options at your own risk, use reliable video "
+"sources or that of your own convenience."
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:119
+msgid "Movie Sources"
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:120
+#: includes/codestar/settings/options/sources.php:194
+msgid "Individual video sources will be added independent of the link system."
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:121
+#: includes/codestar/settings/options/sources.php:158
+#: includes/codestar/settings/options/sources.php:195
+msgid "Add source"
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:127
+#: includes/codestar/settings/options/sources.php:164
+#: includes/codestar/settings/options/sources.php:201
+msgid "Source name"
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:132
+#: includes/codestar/settings/options/sources.php:169
+#: includes/codestar/settings/options/sources.php:206
+msgid "Source URL"
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:136
+#: includes/codestar/settings/options/sources.php:173
+#: includes/codestar/settings/options/sources.php:210
+msgid "With this tag you get the IMDb ID."
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:137
+#: includes/codestar/settings/options/sources.php:174
+#: includes/codestar/settings/options/sources.php:211
+msgid "With this tag you get the TMDb ID."
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:156
+msgid "TVShows Sources"
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:157
+msgid ""
+"If you have a source that shows the complete list of videos for all "
+"episodes, add it here."
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:193
+msgid "Episode Sources"
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:212
+msgid "With this tag you get the season number."
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:213
+msgid "With this tag you get the episode number."
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:237
+msgid "MP4 Player"
+msgstr ""
+
+#: includes/codestar/settings/options/sources.php:241
+msgid "PM4 Player"
+msgstr ""
+
+#: includes/codestar/settings/options/theme.php:13
+msgid "Theme Options"
+msgstr ""
+
+#: includes/codestar/settings/options/users.php:12
+msgid "Users"
+msgstr ""
+
+#: includes/codestar/settings/taxonomies/genres.php:16
+msgid "Customize"
+msgstr ""
+
+#: includes/codestar/settings/taxonomies/genres.php:21
+msgid "Primary Color"
+msgstr ""
+
+#: includes/codestar/settings/taxonomies/genres.php:22
+msgid "Add a custom color for this genre."
+msgstr ""
+
+#: includes/codestar/settings/taxonomies/genres.php:27
+msgid "Featured"
+msgstr ""
+
+#: includes/codestar/settings/taxonomies/genres.php:28
+msgid "We recommend highlighting popular genres in your content."
+msgstr ""
+
+#: includes/codestar/settings/taxonomies/genres.php:29
+msgid "Mark as Featured Genre"
+msgstr ""
+
+#: includes/codestar/settings/taxonomies/genres.php:34
+msgid "Meta Title"
+msgstr ""
+
+#: includes/codestar/settings/taxonomies/genres.php:39
+msgid "Meta Description"
+msgstr ""
+
+#: includes/codestar/settings/taxonomies/people.php:17
+msgid "Complete Profile"
+msgstr ""
+
+#: includes/codestar/settings/taxonomies/people.php:22
+msgid "Profile picture"
+msgstr ""
+
+#: includes/codestar/settings/taxonomies/people.php:30
+msgid "Biography"
+msgstr ""
+
+#: includes/codestar/settings/taxonomies/people.php:35
+msgid "Website"
+msgstr ""
+
+#: includes/codestar/settings/taxonomies/people.php:41
+msgid "Gender"
+msgstr ""
+
+#: includes/codestar/settings/taxonomies/people.php:43
+msgid "Not set / not specified"
+msgstr ""
+
+#: includes/codestar/settings/taxonomies/people.php:44
+msgid "Female"
+msgstr ""
+
+#: includes/codestar/settings/taxonomies/people.php:45
+msgid "Male"
+msgstr ""
+
+#: includes/codestar/settings/taxonomies/people.php:46
+msgid "Non-binary"
+msgstr ""
+
+#: includes/codestar/settings/taxonomies/people.php:52
+msgid "Birth Place"
+msgstr ""
+
+#: includes/codestar/settings/taxonomies/people.php:57
+msgid "Birthday"
+msgstr ""
+
+#: includes/codestar/settings/taxonomies/people.php:65
+msgid "Death Date"
+msgstr ""
+
+#: includes/codestar/settings/taxonomies/people.php:72
+msgid "Primary IDs"
+msgstr ""
+
+#: includes/codestar/settings/taxonomies/people.php:85
+msgid "IMDb ID"
+msgstr ""
+
+#: includes/codestar/settings/taxonomies/people.php:92
+msgid "Social IDs"
+msgstr ""
+
+#: includes/codestar/settings/taxonomies/people.php:97
+msgid "Instagram"
+msgstr ""
+
+#: includes/codestar/settings/taxonomies/people.php:102
+msgid "Facebook"
+msgstr ""
+
+#: includes/codestar/settings/taxonomies/people.php:107
+msgid "Twitter"
+msgstr ""
+
+#: includes/codestar/settings/taxonomies/people.php:112
+msgid "TikTok"
+msgstr ""
+
+#: includes/codestar/settings/taxonomies/people.php:117
+msgid "YouTube"
+msgstr ""
+
+#: includes/functions.php:371
+msgid "Netflix"
+msgstr ""
+
+#: includes/functions.php:372
+msgid "Amazon Prime Video"
+msgstr ""
+
+#: includes/functions.php:373
+msgid "Disney+"
+msgstr ""
+
+#: includes/functions.php:374
+msgid "Star+"
+msgstr ""
+
+#: includes/functions.php:375
+msgid "Funimation"
+msgstr ""
+
+#: includes/functions.php:376
+msgid "Hulu"
+msgstr ""
+
+#: includes/functions.php:377
+msgid "MAX"
+msgstr ""
+
+#: includes/functions.php:378
+msgid "Peacock"
+msgstr ""
+
+#: includes/functions.php:379
+msgid "Crunchyroll"
+msgstr ""
+
+#: includes/functions.php:380
+msgid "Paramount+"
+msgstr ""
+
+#: includes/functions.php:381
+msgid "Apple TV+"
+msgstr ""
+
+#: includes/functions.php:382
+msgid "Pluto TV"
+msgstr ""
+
+#: includes/functions.php:676
+msgid "year"
+msgstr ""
+
+#: includes/functions.php:676
+msgid "years"
+msgstr ""
+
+#: includes/functions.php:677
+msgid "month"
+msgstr ""
+
+#: includes/functions.php:677
+msgid "months"
+msgstr ""
+
+#: includes/functions.php:678
+msgid "week"
+msgstr ""
+
+#: includes/functions.php:678
+msgid "weeks"
+msgstr ""
+
+#: includes/functions.php:679
+msgid "day"
+msgstr ""
+
+#: includes/functions.php:679
+msgid "days"
+msgstr ""
+
+#: includes/functions.php:680
+msgid "hour"
+msgstr ""
+
+#: includes/functions.php:680
+msgid "hours"
+msgstr ""
+
+#: includes/functions.php:681
+msgid "minute"
+msgstr ""
+
+#: includes/functions.php:681
+msgid "minutes"
+msgstr ""
+
+#: includes/functions.php:682
+msgid "second"
+msgstr ""
+
+#: includes/functions.php:682
+msgid "seconds"
+msgstr ""
+
+#: includes/functions.php:692
+#, php-format
+msgid "%d %s"
+msgid_plural "%d %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/functions.php:806
+msgid "Invalid date format"
+msgstr ""
+
+#: includes/functions.php:885
+msgid "File path or extension is missing."
+msgstr ""
+
+#: includes/functions.php:902
+msgid "Unsupported image format."
+msgstr ""
+
+#: includes/functions.php:906
+msgid "Failed to create image resource."
+msgstr ""
+
+#: includes/functions.php:916
+msgid "Failed to convert image to WebP format."
+msgstr ""
+
+#: includes/functions/importers.php:580 includes/functions/importers.php:611
+#: includes/vars/tmdb_movie_genres.php:10 includes/vars/tmdb_tv_genres.php:10
+msgid "All genres"
+msgstr ""
+
+#: includes/functions/importers.php:581 includes/vars/tmdb_movie_genres.php:11
+msgid "Action"
+msgstr ""
+
+#: includes/functions/importers.php:582 includes/vars/tmdb_movie_genres.php:12
+msgid "Adventure"
+msgstr ""
+
+#: includes/functions/importers.php:583 includes/functions/importers.php:613
+#: includes/vars/tmdb_movie_genres.php:13 includes/vars/tmdb_tv_genres.php:12
+msgid "Animation"
+msgstr ""
+
+#: includes/functions/importers.php:584 includes/functions/importers.php:614
+#: includes/vars/tmdb_movie_genres.php:14 includes/vars/tmdb_tv_genres.php:13
+msgid "Comedy"
+msgstr ""
+
+#: includes/functions/importers.php:585 includes/functions/importers.php:615
+#: includes/vars/tmdb_movie_genres.php:15 includes/vars/tmdb_tv_genres.php:14
+msgid "Crime"
+msgstr ""
+
+#: includes/functions/importers.php:586 includes/functions/importers.php:616
+#: includes/vars/tmdb_movie_genres.php:16 includes/vars/tmdb_tv_genres.php:15
+msgid "Documentary"
+msgstr ""
+
+#: includes/functions/importers.php:587 includes/functions/importers.php:617
+#: includes/vars/tmdb_movie_genres.php:17 includes/vars/tmdb_tv_genres.php:16
+msgid "Drama"
+msgstr ""
+
+#: includes/functions/importers.php:588 includes/functions/importers.php:618
+#: includes/vars/tmdb_movie_genres.php:18 includes/vars/tmdb_tv_genres.php:17
+msgid "Family"
+msgstr ""
+
+#: includes/functions/importers.php:589 includes/vars/tmdb_movie_genres.php:19
+msgid "Fantasy"
+msgstr ""
+
+#: includes/functions/importers.php:590 includes/vars/tmdb_movie_genres.php:20
+msgid "History"
+msgstr ""
+
+#: includes/functions/importers.php:591 includes/vars/tmdb_movie_genres.php:21
+msgid "Horror"
+msgstr ""
+
+#: includes/functions/importers.php:592 includes/vars/tmdb_movie_genres.php:22
+msgid "Music"
+msgstr ""
+
+#: includes/functions/importers.php:593 includes/functions/importers.php:620
+#: includes/vars/tmdb_movie_genres.php:23 includes/vars/tmdb_tv_genres.php:19
+msgid "Mystery"
+msgstr ""
+
+#: includes/functions/importers.php:594 includes/vars/tmdb_movie_genres.php:24
+msgid "Romance"
+msgstr ""
+
+#: includes/functions/importers.php:595 includes/vars/tmdb_movie_genres.php:25
+msgid "Science Fiction"
+msgstr ""
+
+#: includes/functions/importers.php:596 includes/vars/tmdb_movie_genres.php:26
+msgid "TV Movie"
+msgstr ""
+
+#: includes/functions/importers.php:597 includes/vars/tmdb_movie_genres.php:27
+msgid "Thriller"
+msgstr ""
+
+#: includes/functions/importers.php:598 includes/vars/tmdb_movie_genres.php:28
+msgid "War"
+msgstr ""
+
+#: includes/functions/importers.php:599 includes/functions/importers.php:627
+#: includes/vars/tmdb_movie_genres.php:29 includes/vars/tmdb_tv_genres.php:26
+msgid "Western"
+msgstr ""
+
+#: includes/functions/importers.php:612 includes/vars/tmdb_tv_genres.php:11
+msgid "Action & Adventure"
+msgstr ""
+
+#: includes/functions/importers.php:619 includes/vars/tmdb_tv_genres.php:18
+msgid "Kids"
+msgstr ""
+
+#: includes/functions/importers.php:621 includes/vars/tmdb_tv_genres.php:20
+msgid "News"
+msgstr ""
+
+#: includes/functions/importers.php:622 includes/vars/tmdb_tv_genres.php:21
+msgid "Reality"
+msgstr ""
+
+#: includes/functions/importers.php:623 includes/vars/tmdb_tv_genres.php:22
+msgid "Sci-Fi & Fantasy"
+msgstr ""
+
+#: includes/functions/importers.php:624 includes/vars/tmdb_tv_genres.php:23
+msgid "Soap"
+msgstr ""
+
+#: includes/functions/importers.php:625 includes/vars/tmdb_tv_genres.php:24
+msgid "Talk"
+msgstr ""
+
+#: includes/functions/importers.php:626 includes/vars/tmdb_tv_genres.php:25
+msgid "War & Politics"
+msgstr ""
+
+#: includes/functions/sources.php:22
+msgid "Embed Link"
+msgstr ""
+
+#: includes/functions/sources.php:23
+msgid "Download"
+msgstr ""
+
+#: includes/functions/sources.php:24
+msgid "MP4 Link"
+msgstr ""
+
+#: includes/functions/sources.php:37
+msgid "Published"
+msgstr ""
+
+#: includes/functions/sources.php:39
+msgid "Processing"
+msgstr ""
+
+#: includes/functions/sources.php:40
+msgid "Refused"
+msgstr ""
+
+#: includes/functions/sources.php:41
+msgid "Revoked"
+msgstr ""
+
+#: includes/functions/sources.php:54
+msgid "8K 4320p"
+msgstr ""
+
+#: includes/functions/sources.php:55
+msgid "4K 2160p"
+msgstr ""
+
+#: includes/functions/sources.php:56
+msgid "2K 1440p"
+msgstr ""
+
+#: includes/functions/sources.php:57
+msgid "HD 1080p"
+msgstr ""
+
+#: includes/functions/sources.php:58
+msgid "HD 720p"
+msgstr ""
+
+#: includes/functions/sources.php:59
+msgid "SD 480p"
+msgstr ""
+
+#: includes/functions/sources.php:60
+msgid "SD 360p"
+msgstr ""
+
+#: includes/functions/sources.php:61
+msgid "SD 240p"
+msgstr ""
+
+#: includes/globals.php:17 includes/vars/countries.php:18
+msgid "Andorra"
+msgstr ""
+
+#: includes/globals.php:18 includes/vars/countries.php:247
+msgid "United Arab Emirates"
+msgstr ""
+
+#: includes/globals.php:19 includes/vars/countries.php:13
+msgid "Afghanistan"
+msgstr ""
+
+#: includes/globals.php:20 includes/vars/countries.php:22
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: includes/globals.php:21 includes/vars/countries.php:20
+msgid "Anguilla"
+msgstr ""
+
+#: includes/globals.php:22 includes/vars/countries.php:15
+msgid "Albania"
+msgstr ""
+
+#: includes/globals.php:23 includes/vars/countries.php:24
+msgid "Armenia"
+msgstr ""
+
+#: includes/globals.php:24 includes/vars/countries.php:168
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: includes/globals.php:25 includes/vars/countries.php:19
+msgid "Angola"
+msgstr ""
+
+#: includes/globals.php:26 includes/vars/countries.php:21
+msgid "Antarctica"
+msgstr ""
+
+#: includes/globals.php:27 includes/vars/countries.php:23
+msgid "Argentina"
+msgstr ""
+
+#: includes/globals.php:28 includes/vars/countries.php:17
+msgid "American Samoa"
+msgstr ""
+
+#: includes/globals.php:29 includes/vars/countries.php:27
+msgid "Austria"
+msgstr ""
+
+#: includes/globals.php:30 includes/vars/countries.php:26
+msgid "Australia"
+msgstr ""
+
+#: includes/globals.php:31 includes/vars/countries.php:25
+msgid "Aruba"
+msgstr ""
+
+#: includes/globals.php:32 includes/vars/countries.php:28
+msgid "Azerbaijan"
+msgstr ""
+
+#: includes/globals.php:33 includes/vars/countries.php:41
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: includes/globals.php:34 includes/vars/countries.php:32
+msgid "Barbados"
+msgstr ""
+
+#: includes/globals.php:35 includes/vars/countries.php:31
+msgid "Bangladesh"
+msgstr ""
+
+#: includes/globals.php:36 includes/vars/countries.php:34
+msgid "Belgium"
+msgstr ""
+
+#: includes/globals.php:37 includes/vars/countries.php:48
+msgid "Burkina Faso"
+msgstr ""
+
+#: includes/globals.php:38 includes/vars/countries.php:47
+msgid "Bulgaria"
+msgstr ""
+
+#: includes/globals.php:39 includes/vars/countries.php:30
+msgid "Bahrain"
+msgstr ""
+
+#: includes/globals.php:40 includes/vars/countries.php:49
+msgid "Burundi"
+msgstr ""
+
+#: includes/globals.php:41 includes/vars/countries.php:36
+msgid "Benin"
+msgstr ""
+
+#: includes/globals.php:42 includes/vars/countries.php:37
+msgid "Bermuda"
+msgstr ""
+
+#: includes/globals.php:43
+msgid "Brunei Darussalam"
+msgstr ""
+
+#: includes/globals.php:44 includes/vars/countries.php:39
+msgid "Bolivia"
+msgstr ""
+
+#: includes/globals.php:45 includes/vars/countries.php:44
+msgid "Brazil"
+msgstr ""
+
+#: includes/globals.php:46 includes/vars/countries.php:29
+msgid "Bahamas"
+msgstr ""
+
+#: includes/globals.php:47 includes/vars/countries.php:38
+msgid "Bhutan"
+msgstr ""
+
+#: includes/globals.php:48
+msgid "Burma"
+msgstr ""
+
+#: includes/globals.php:49 includes/vars/countries.php:43
+msgid "Bouvet Island"
+msgstr ""
+
+#: includes/globals.php:50 includes/vars/countries.php:42
+msgid "Botswana"
+msgstr ""
+
+#: includes/globals.php:51 includes/vars/countries.php:33
+msgid "Belarus"
+msgstr ""
+
+#: includes/globals.php:52 includes/vars/countries.php:35
+msgid "Belize"
+msgstr ""
+
+#: includes/globals.php:53 includes/vars/countries.php:11
+msgid "Canada"
+msgstr ""
+
+#: includes/globals.php:54 includes/vars/countries.php:59
+msgid "Cocos Islands"
+msgstr ""
+
+#: includes/globals.php:55 includes/globals.php:57
+msgid "Congo"
+msgstr ""
+
+#: includes/globals.php:56 includes/vars/countries.php:54
+msgid "Central African Republic"
+msgstr ""
+
+#: includes/globals.php:58 includes/vars/countries.php:229
+msgid "Switzerland"
+msgstr ""
+
+#: includes/globals.php:59
+msgid "Cote D'Ivoire"
+msgstr ""
+
+#: includes/globals.php:60 includes/vars/countries.php:64
+msgid "Cook Islands"
+msgstr ""
+
+#: includes/globals.php:61 includes/vars/countries.php:56
+msgid "Chile"
+msgstr ""
+
+#: includes/globals.php:62 includes/vars/countries.php:51
+msgid "Cameroon"
+msgstr ""
+
+#: includes/globals.php:63 includes/vars/countries.php:57
+msgid "China"
+msgstr ""
+
+#: includes/globals.php:64 includes/vars/countries.php:60
+msgid "Colombia"
+msgstr ""
+
+#: includes/globals.php:65 includes/vars/countries.php:65
+msgid "Costa Rica"
+msgstr ""
+
+#: includes/globals.php:66
+msgid "Serbia and Montenegro"
+msgstr ""
+
+#: includes/globals.php:67 includes/vars/countries.php:68
+msgid "Cuba"
+msgstr ""
+
+#: includes/globals.php:68 includes/vars/countries.php:52
+msgid "Cape Verde"
+msgstr ""
+
+#: includes/globals.php:69 includes/vars/countries.php:58
+msgid "Christmas Island"
+msgstr ""
+
+#: includes/globals.php:70 includes/vars/countries.php:70
+msgid "Cyprus"
+msgstr ""
+
+#: includes/globals.php:71
+msgid "Czech Republic"
+msgstr ""
+
+#: includes/globals.php:72 includes/vars/countries.php:95
+msgid "Germany"
+msgstr ""
+
+#: includes/globals.php:73 includes/vars/countries.php:73
+msgid "Djibouti"
+msgstr ""
+
+#: includes/globals.php:74 includes/vars/countries.php:72
+msgid "Denmark"
+msgstr ""
+
+#: includes/globals.php:75 includes/vars/countries.php:74
+msgid "Dominica"
+msgstr ""
+
+#: includes/globals.php:76 includes/vars/countries.php:75
+msgid "Dominican Republic"
+msgstr ""
+
+#: includes/globals.php:77 includes/vars/countries.php:16
+msgid "Algeria"
+msgstr ""
+
+#: includes/globals.php:78 includes/vars/countries.php:77
+msgid "Ecuador"
+msgstr ""
+
+#: includes/globals.php:79 includes/vars/countries.php:82
+msgid "Estonia"
+msgstr ""
+
+#: includes/globals.php:80 includes/vars/countries.php:78
+msgid "Egypt"
+msgstr ""
+
+#: includes/globals.php:81 includes/vars/countries.php:257
+msgid "Western Sahara"
+msgstr ""
+
+#: includes/globals.php:82 includes/vars/countries.php:81
+msgid "Eritrea"
+msgstr ""
+
+#: includes/globals.php:83 includes/vars/countries.php:222
+msgid "Spain"
+msgstr ""
+
+#: includes/globals.php:84 includes/vars/countries.php:83
+msgid "Ethiopia"
+msgstr ""
+
+#: includes/globals.php:85 includes/vars/countries.php:87
+msgid "Finland"
+msgstr ""
+
+#: includes/globals.php:86 includes/vars/countries.php:86
+msgid "Fiji"
+msgstr ""
+
+#: includes/globals.php:87 includes/vars/countries.php:84
+msgid "Falkland Islands"
+msgstr ""
+
+#: includes/globals.php:88 includes/vars/countries.php:155
+msgid "Micronesia"
+msgstr ""
+
+#: includes/globals.php:89
+msgid "Faeroe Islands"
+msgstr ""
+
+#: includes/globals.php:90 includes/vars/countries.php:88
+msgid "France"
+msgstr ""
+
+#: includes/globals.php:91 includes/vars/countries.php:92
+msgid "Gabon"
+msgstr ""
+
+#: includes/globals.php:92 includes/vars/countries.php:12
+msgid "United Kingdom"
+msgstr ""
+
+#: includes/globals.php:93 includes/vars/countries.php:100
+msgid "Grenada"
+msgstr ""
+
+#: includes/globals.php:94 includes/vars/countries.php:94
+msgid "Georgia"
+msgstr ""
+
+#: includes/globals.php:95 includes/vars/countries.php:89
+msgid "French Guiana"
+msgstr ""
+
+#: includes/globals.php:96 includes/vars/countries.php:97
+msgid "Ghana"
+msgstr ""
+
+#: includes/globals.php:97 includes/vars/countries.php:98
+msgid "Gibraltar"
+msgstr ""
+
+#: includes/globals.php:98 includes/vars/countries.php:99
+msgid "Greenland"
+msgstr ""
+
+#: includes/globals.php:99 includes/vars/countries.php:93
+msgid "Gambia"
+msgstr ""
+
+#: includes/globals.php:100 includes/vars/countries.php:105
+msgid "Guinea"
+msgstr ""
+
+#: includes/globals.php:101
+msgid "Guadaloupe"
+msgstr ""
+
+#: includes/globals.php:102 includes/vars/countries.php:79
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: includes/globals.php:103 includes/vars/countries.php:96
+msgid "Greece"
+msgstr ""
+
+#: includes/globals.php:104
+msgid "South Georgia and the South Sandwich Islands"
+msgstr ""
+
+#: includes/globals.php:105 includes/vars/countries.php:103
+msgid "Guatemala"
+msgstr ""
+
+#: includes/globals.php:106 includes/vars/countries.php:102
+msgid "Guam"
+msgstr ""
+
+#: includes/globals.php:107 includes/vars/countries.php:106
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: includes/globals.php:108 includes/vars/countries.php:107
+msgid "Guyana"
+msgstr ""
+
+#: includes/globals.php:109 includes/vars/countries.php:112
+msgid "Hong Kong"
+msgstr ""
+
+#: includes/globals.php:110 includes/vars/countries.php:109
+msgid "Heard and McDonald Islands"
+msgstr ""
+
+#: includes/globals.php:111 includes/vars/countries.php:111
+msgid "Honduras"
+msgstr ""
+
+#: includes/globals.php:112
+msgid "Croatia"
+msgstr ""
+
+#: includes/globals.php:113 includes/vars/countries.php:108
+msgid "Haiti"
+msgstr ""
+
+#: includes/globals.php:114 includes/vars/countries.php:113
+msgid "Hungary"
+msgstr ""
+
+#: includes/globals.php:115 includes/vars/countries.php:116
+msgid "Indonesia"
+msgstr ""
+
+#: includes/globals.php:116 includes/vars/countries.php:119
+msgid "Ireland"
+msgstr ""
+
+#: includes/globals.php:117 includes/vars/countries.php:121
+msgid "Israel"
+msgstr ""
+
+#: includes/globals.php:118 includes/vars/countries.php:115
+msgid "India"
+msgstr ""
+
+#: includes/globals.php:119 includes/vars/countries.php:45
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: includes/globals.php:120 includes/vars/countries.php:118
+msgid "Iraq"
+msgstr ""
+
+#: includes/globals.php:121 includes/vars/countries.php:117
+msgid "Iran"
+msgstr ""
+
+#: includes/globals.php:122 includes/vars/countries.php:114
+msgid "Iceland"
+msgstr ""
+
+#: includes/globals.php:123 includes/vars/countries.php:122
+msgid "Italy"
+msgstr ""
+
+#: includes/globals.php:124 includes/vars/countries.php:123
+msgid "Jamaica"
+msgstr ""
+
+#: includes/globals.php:125 includes/vars/countries.php:126
+msgid "Jordan"
+msgstr ""
+
+#: includes/globals.php:126 includes/vars/countries.php:124
+msgid "Japan"
+msgstr ""
+
+#: includes/globals.php:127 includes/vars/countries.php:128
+msgid "Kenya"
+msgstr ""
+
+#: includes/globals.php:128
+msgid "Kyrgyz Republic"
+msgstr ""
+
+#: includes/globals.php:129 includes/vars/countries.php:50
+msgid "Cambodia"
+msgstr ""
+
+#: includes/globals.php:130 includes/vars/countries.php:129
+msgid "Kiribati"
+msgstr ""
+
+#: includes/globals.php:131 includes/vars/countries.php:61
+msgid "Comoros"
+msgstr ""
+
+#: includes/globals.php:132
+msgid "St. Kitts and Nevis"
+msgstr ""
+
+#: includes/globals.php:133 includes/vars/countries.php:176
+msgid "North Korea"
+msgstr ""
+
+#: includes/globals.php:134 includes/vars/countries.php:220
+msgid "South Korea"
+msgstr ""
+
+#: includes/globals.php:135 includes/vars/countries.php:130
+msgid "Kuwait"
+msgstr ""
+
+#: includes/globals.php:136 includes/vars/countries.php:53
+msgid "Cayman Islands"
+msgstr ""
+
+#: includes/globals.php:137 includes/vars/countries.php:127
+msgid "Kazakhstan"
+msgstr ""
+
+#: includes/globals.php:138 includes/vars/countries.php:132
+msgid "Lao People's Democratic Republic"
+msgstr ""
+
+#: includes/globals.php:139 includes/vars/countries.php:134
+msgid "Lebanon"
+msgstr ""
+
+#: includes/globals.php:140
+msgid "St. Lucia"
+msgstr ""
+
+#: includes/globals.php:141 includes/vars/countries.php:138
+msgid "Liechtenstein"
+msgstr ""
+
+#: includes/globals.php:142 includes/vars/countries.php:223
+msgid "Sri Lanka"
+msgstr ""
+
+#: includes/globals.php:143 includes/vars/countries.php:136
+msgid "Liberia"
+msgstr ""
+
+#: includes/globals.php:144 includes/vars/countries.php:135
+msgid "Lesotho"
+msgstr ""
+
+#: includes/globals.php:145 includes/vars/countries.php:139
+msgid "Lithuania"
+msgstr ""
+
+#: includes/globals.php:146 includes/vars/countries.php:140
+msgid "Luxembourg"
+msgstr ""
+
+#: includes/globals.php:147 includes/vars/countries.php:133
+msgid "Latvia"
+msgstr ""
+
+#: includes/globals.php:148 includes/vars/countries.php:137
+msgid "Libyan Arab Jamahiriya"
+msgstr ""
+
+#: includes/globals.php:149 includes/vars/countries.php:161
+msgid "Morocco"
+msgstr ""
+
+#: includes/globals.php:150 includes/vars/countries.php:157
+msgid "Monaco"
+msgstr ""
+
+#: includes/globals.php:151
+msgid "Moldova"
+msgstr ""
+
+#: includes/globals.php:152 includes/vars/countries.php:159
+msgid "Montenegro"
+msgstr ""
+
+#: includes/globals.php:153 includes/vars/countries.php:143
+msgid "Madagascar"
+msgstr ""
+
+#: includes/globals.php:154 includes/vars/countries.php:149
+msgid "Marshall Islands"
+msgstr ""
+
+#: includes/globals.php:155 includes/vars/countries.php:142
+msgid "Macedonia"
+msgstr ""
+
+#: includes/globals.php:156 includes/vars/countries.php:147
+msgid "Mali"
+msgstr ""
+
+#: includes/globals.php:157 includes/vars/countries.php:163
+msgid "Myanmar"
+msgstr ""
+
+#: includes/globals.php:158 includes/vars/countries.php:158
+msgid "Mongolia"
+msgstr ""
+
+#: includes/globals.php:159
+msgid "Macao"
+msgstr ""
+
+#: includes/globals.php:160 includes/vars/countries.php:177
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: includes/globals.php:161 includes/vars/countries.php:150
+msgid "Martinique"
+msgstr ""
+
+#: includes/globals.php:162 includes/vars/countries.php:151
+msgid "Mauritania"
+msgstr ""
+
+#: includes/globals.php:163 includes/vars/countries.php:160
+msgid "Montserrat"
+msgstr ""
+
+#: includes/globals.php:164 includes/vars/countries.php:148
+msgid "Malta"
+msgstr ""
+
+#: includes/globals.php:165 includes/vars/countries.php:152
+msgid "Mauritius"
+msgstr ""
+
+#: includes/globals.php:166 includes/vars/countries.php:146
+msgid "Maldives"
+msgstr ""
+
+#: includes/globals.php:167 includes/vars/countries.php:144
+msgid "Malawi"
+msgstr ""
+
+#: includes/globals.php:168 includes/vars/countries.php:154
+msgid "Mexico"
+msgstr ""
+
+#: includes/globals.php:169 includes/vars/countries.php:145
+msgid "Malaysia"
+msgstr ""
+
+#: includes/globals.php:170 includes/vars/countries.php:162
+msgid "Mozambique"
+msgstr ""
+
+#: includes/globals.php:171 includes/vars/countries.php:164
+msgid "Namibia"
+msgstr ""
+
+#: includes/globals.php:172 includes/vars/countries.php:169
+msgid "New Caledonia"
+msgstr ""
+
+#: includes/globals.php:173 includes/vars/countries.php:172
+msgid "Niger"
+msgstr ""
+
+#: includes/globals.php:174 includes/vars/countries.php:175
+msgid "Norfolk Island"
+msgstr ""
+
+#: includes/globals.php:175 includes/vars/countries.php:173
+msgid "Nigeria"
+msgstr ""
+
+#: includes/globals.php:176 includes/vars/countries.php:171
+msgid "Nicaragua"
+msgstr ""
+
+#: includes/globals.php:177 includes/vars/countries.php:167
+msgid "Netherlands"
+msgstr ""
+
+#: includes/globals.php:178 includes/vars/countries.php:178
+msgid "Norway"
+msgstr ""
+
+#: includes/globals.php:179 includes/vars/countries.php:166
+msgid "Nepal"
+msgstr ""
+
+#: includes/globals.php:180 includes/vars/countries.php:165
+msgid "Nauru"
+msgstr ""
+
+#: includes/globals.php:181 includes/vars/countries.php:174
+msgid "Niue"
+msgstr ""
+
+#: includes/globals.php:182 includes/vars/countries.php:170
+msgid "New Zealand"
+msgstr ""
+
+#: includes/globals.php:183 includes/vars/countries.php:179
+msgid "Oman"
+msgstr ""
+
+#: includes/globals.php:184 includes/vars/countries.php:183
+msgid "Panama"
+msgstr ""
+
+#: includes/globals.php:185 includes/vars/countries.php:186
+msgid "Peru"
+msgstr ""
+
+#: includes/globals.php:186 includes/vars/countries.php:90
+msgid "French Polynesia"
+msgstr ""
+
+#: includes/globals.php:187 includes/vars/countries.php:184
+msgid "Papua New Guinea"
+msgstr ""
+
+#: includes/globals.php:188 includes/vars/countries.php:187
+msgid "Philippines"
+msgstr ""
+
+#: includes/globals.php:189 includes/vars/countries.php:180
+msgid "Pakistan"
+msgstr ""
+
+#: includes/globals.php:190 includes/vars/countries.php:189
+msgid "Poland"
+msgstr ""
+
+#: includes/globals.php:191
+msgid "St. Pierre and Miquelon"
+msgstr ""
+
+#: includes/globals.php:192 includes/vars/countries.php:188
+msgid "Pitcairn Island"
+msgstr ""
+
+#: includes/globals.php:193 includes/vars/countries.php:191
+msgid "Puerto Rico"
+msgstr ""
+
+#: includes/globals.php:194
+msgid "Palestinian Territory"
+msgstr ""
+
+#: includes/globals.php:195 includes/vars/countries.php:190
+msgid "Portugal"
+msgstr ""
+
+#: includes/globals.php:196 includes/vars/countries.php:181
+msgid "Palau"
+msgstr ""
+
+#: includes/globals.php:197 includes/vars/countries.php:185
+msgid "Paraguay"
+msgstr ""
+
+#: includes/globals.php:198 includes/vars/countries.php:192
+msgid "Qatar"
+msgstr ""
+
+#: includes/globals.php:199
+msgid "Reunion"
+msgstr ""
+
+#: includes/globals.php:200 includes/vars/countries.php:195
+msgid "Romania"
+msgstr ""
+
+#: includes/globals.php:201 includes/vars/countries.php:210
+msgid "Serbia"
+msgstr ""
+
+#: includes/globals.php:202
+msgid "Russia"
+msgstr ""
+
+#: includes/globals.php:203 includes/vars/countries.php:197
+msgid "Rwanda"
+msgstr ""
+
+#: includes/globals.php:204 includes/vars/countries.php:208
+msgid "Saudi Arabia"
+msgstr ""
+
+#: includes/globals.php:205 includes/vars/countries.php:216
+msgid "Solomon Islands"
+msgstr ""
+
+#: includes/globals.php:206 includes/vars/countries.php:211
+msgid "Seychelles"
+msgstr ""
+
+#: includes/globals.php:207 includes/vars/countries.php:224
+msgid "Sudan"
+msgstr ""
+
+#: includes/globals.php:208 includes/vars/countries.php:228
+msgid "Sweden"
+msgstr ""
+
+#: includes/globals.php:209 includes/vars/countries.php:213
+msgid "Singapore"
+msgstr ""
+
+#: includes/globals.php:210
+msgid "St. Helena"
+msgstr ""
+
+#: includes/globals.php:211 includes/vars/countries.php:215
+msgid "Slovenia"
+msgstr ""
+
+#: includes/globals.php:212
+msgid "Svalbard & Jan Mayen Islands"
+msgstr ""
+
+#: includes/globals.php:213
+msgid "Slovakia"
+msgstr ""
+
+#: includes/globals.php:214 includes/vars/countries.php:212
+msgid "Sierra Leone"
+msgstr ""
+
+#: includes/globals.php:215 includes/vars/countries.php:206
+msgid "San Marino"
+msgstr ""
+
+#: includes/globals.php:216 includes/vars/countries.php:209
+msgid "Senegal"
+msgstr ""
+
+#: includes/globals.php:217 includes/vars/countries.php:217
+msgid "Somalia"
+msgstr ""
+
+#: includes/globals.php:218 includes/vars/countries.php:225
+msgid "Suriname"
+msgstr ""
+
+#: includes/globals.php:219 includes/vars/countries.php:221
+msgid "South Sudan"
+msgstr ""
+
+#: includes/globals.php:220
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: includes/globals.php:221
+msgid "Soviet Union"
+msgstr ""
+
+#: includes/globals.php:222 includes/vars/countries.php:80
+msgid "El Salvador"
+msgstr ""
+
+#: includes/globals.php:223 includes/vars/countries.php:230
+msgid "Syrian Arab Republic"
+msgstr ""
+
+#: includes/globals.php:224 includes/vars/countries.php:227
+msgid "Swaziland"
+msgstr ""
+
+#: includes/globals.php:225 includes/vars/countries.php:243
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: includes/globals.php:226 includes/vars/countries.php:55
+msgid "Chad"
+msgstr ""
+
+#: includes/globals.php:227 includes/vars/countries.php:91
+msgid "French Southern Territories"
+msgstr ""
+
+#: includes/globals.php:228 includes/vars/countries.php:236
+msgid "Togo"
+msgstr ""
+
+#: includes/globals.php:229 includes/vars/countries.php:234
+msgid "Thailand"
+msgstr ""
+
+#: includes/globals.php:230 includes/vars/countries.php:232
+msgid "Tajikistan"
+msgstr ""
+
+#: includes/globals.php:231 includes/vars/countries.php:237
+msgid "Tokelau"
+msgstr ""
+
+#: includes/globals.php:232 includes/vars/countries.php:235
+msgid "Timor-Leste"
+msgstr ""
+
+#: includes/globals.php:233 includes/vars/countries.php:242
+msgid "Turkmenistan"
+msgstr ""
+
+#: includes/globals.php:234 includes/vars/countries.php:240
+msgid "Tunisia"
+msgstr ""
+
+#: includes/globals.php:235 includes/vars/countries.php:238
+msgid "Tonga"
+msgstr ""
+
+#: includes/globals.php:236 includes/vars/countries.php:76
+msgid "East Timor"
+msgstr ""
+
+#: includes/globals.php:237 includes/vars/countries.php:241
+msgid "Turkey"
+msgstr ""
+
+#: includes/globals.php:238 includes/vars/countries.php:239
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: includes/globals.php:239 includes/vars/countries.php:244
+msgid "Tuvalu"
+msgstr ""
+
+#: includes/globals.php:240 includes/vars/countries.php:231
+msgid "Taiwan"
+msgstr ""
+
+#: includes/globals.php:241 includes/vars/countries.php:233
+msgid "Tanzania"
+msgstr ""
+
+#: includes/globals.php:242 includes/vars/countries.php:246
+msgid "Ukraine"
+msgstr ""
+
+#: includes/globals.php:243 includes/vars/countries.php:245
+msgid "Uganda"
+msgstr ""
+
+#: includes/globals.php:244
+msgid "United States Minor Outlying Islands"
+msgstr ""
+
+#: includes/globals.php:245 includes/vars/countries.php:10
+msgid "United States"
+msgstr ""
+
+#: includes/globals.php:246 includes/vars/countries.php:248
+msgid "Uruguay"
+msgstr ""
+
+#: includes/globals.php:247 includes/vars/countries.php:250
+msgid "Uzbekistan"
+msgstr ""
+
+#: includes/globals.php:248
+msgid "Holy See"
+msgstr ""
+
+#: includes/globals.php:249
+msgid "St. Vincent and the Grenadines"
+msgstr ""
+
+#: includes/globals.php:250 includes/vars/countries.php:252
+msgid "Venezuela"
+msgstr ""
+
+#: includes/globals.php:251
+msgid "British Virgin Islands"
+msgstr ""
+
+#: includes/globals.php:252
+msgid "US Virgin Islands"
+msgstr ""
+
+#: includes/globals.php:253 includes/vars/countries.php:253
+msgid "Vietnam"
+msgstr ""
+
+#: includes/globals.php:254 includes/vars/countries.php:251
+msgid "Vanuatu"
+msgstr ""
+
+#: includes/globals.php:255 includes/vars/countries.php:256
+msgid "Wallis and Futuna Islands"
+msgstr ""
+
+#: includes/globals.php:256
+msgid "Samoa"
+msgstr ""
+
+#: includes/globals.php:257
+msgid "Czechoslovakia"
+msgstr ""
+
+#: includes/globals.php:258
+msgid "East Germany"
+msgstr ""
+
+#: includes/globals.php:259
+msgid "Northern Ireland"
+msgstr ""
+
+#: includes/globals.php:260
+msgid "Kosovo"
+msgstr ""
+
+#: includes/globals.php:261 includes/vars/countries.php:259
+msgid "Yemen"
+msgstr ""
+
+#: includes/globals.php:262 includes/vars/countries.php:153
+msgid "Mayotte"
+msgstr ""
+
+#: includes/globals.php:263
+msgid "Yugoslavia"
+msgstr ""
+
+#: includes/globals.php:264 includes/vars/countries.php:218
+msgid "South Africa"
+msgstr ""
+
+#: includes/globals.php:265 includes/vars/countries.php:260
+msgid "Zambia"
+msgstr ""
+
+#: includes/globals.php:266
+msgid "Zaire"
+msgstr ""
+
+#: includes/globals.php:267 includes/vars/countries.php:261
+msgid "Zimbabwe"
+msgstr ""
+
+#: includes/globals.php:281 includes/vars/source_languages.php:10
+#: includes/vars/tmdb_languages.php:10
+msgid "Arabic"
+msgstr ""
+
+#: includes/globals.php:282 includes/vars/source_languages.php:11
+#: includes/vars/tmdb_languages.php:11
+msgid "Bosnian"
+msgstr ""
+
+#: includes/globals.php:283 includes/vars/source_languages.php:12
+#: includes/vars/tmdb_languages.php:12
+msgid "Bulgarian"
+msgstr ""
+
+#: includes/globals.php:284 includes/vars/source_languages.php:13
+#: includes/vars/tmdb_languages.php:13
+msgid "Croatian"
+msgstr ""
+
+#: includes/globals.php:285 includes/vars/source_languages.php:14
+#: includes/vars/tmdb_languages.php:14
+msgid "Czech"
+msgstr ""
+
+#: includes/globals.php:286 includes/vars/source_languages.php:15
+#: includes/vars/tmdb_languages.php:15
+msgid "Danish"
+msgstr ""
+
+#: includes/globals.php:287 includes/vars/source_languages.php:16
+#: includes/vars/tmdb_languages.php:16
+msgid "Dutch"
+msgstr ""
+
+#: includes/globals.php:288 includes/vars/tmdb_languages.php:17
+msgid "English"
+msgstr ""
+
+#: includes/globals.php:289 includes/vars/source_languages.php:20
+#: includes/vars/tmdb_languages.php:18
+msgid "Finnish"
+msgstr ""
+
+#: includes/globals.php:290 includes/vars/source_languages.php:21
+#: includes/vars/tmdb_languages.php:19
+msgid "French"
+msgstr ""
+
+#: includes/globals.php:291 includes/vars/source_languages.php:22
+#: includes/vars/tmdb_languages.php:20
+msgid "German"
+msgstr ""
+
+#: includes/globals.php:292 includes/vars/source_languages.php:23
+#: includes/vars/tmdb_languages.php:21
+msgid "Greek"
+msgstr ""
+
+#: includes/globals.php:293 includes/vars/source_languages.php:24
+#: includes/vars/tmdb_languages.php:22
+msgid "Hebrew"
+msgstr ""
+
+#: includes/globals.php:294 includes/vars/source_languages.php:25
+#: includes/vars/tmdb_languages.php:23
+msgid "Hungarian"
+msgstr ""
+
+#: includes/globals.php:295 includes/vars/source_languages.php:26
+#: includes/vars/tmdb_languages.php:24
+msgid "Icelandic"
+msgstr ""
+
+#: includes/globals.php:296 includes/vars/source_languages.php:27
+#: includes/vars/tmdb_languages.php:25
+msgid "Indonesian"
+msgstr ""
+
+#: includes/globals.php:297 includes/vars/source_languages.php:28
+#: includes/vars/tmdb_languages.php:26
+msgid "Italian"
+msgstr ""
+
+#: includes/globals.php:298 includes/vars/source_languages.php:30
+#: includes/vars/tmdb_languages.php:27
+msgid "Korean"
+msgstr ""
+
+#: includes/globals.php:299 includes/vars/tmdb_languages.php:28
+msgid "Letzeburgesch"
+msgstr ""
+
+#: includes/globals.php:300 includes/vars/source_languages.php:32
+#: includes/vars/tmdb_languages.php:29
+msgid "Lithuanian"
+msgstr ""
+
+#: includes/globals.php:301 includes/vars/source_languages.php:33
+#: includes/vars/tmdb_languages.php:30
+msgid "Mandarin"
+msgstr ""
+
+#: includes/globals.php:302 includes/vars/source_languages.php:34
+#: includes/vars/tmdb_languages.php:31
+msgid "Persian"
+msgstr ""
+
+#: includes/globals.php:303 includes/vars/source_languages.php:35
+#: includes/vars/tmdb_languages.php:32
+msgid "Polish"
+msgstr ""
+
+#: includes/globals.php:304 includes/vars/source_languages.php:36
+#: includes/vars/tmdb_languages.php:33
+msgid "Portuguese"
+msgstr ""
+
+#: includes/globals.php:305 includes/vars/tmdb_languages.php:34
+msgid "Brazilian Portuguese"
+msgstr ""
+
+#: includes/globals.php:306 includes/vars/source_languages.php:38
+#: includes/vars/tmdb_languages.php:35
+msgid "Romanian"
+msgstr ""
+
+#: includes/globals.php:307 includes/vars/source_languages.php:39
+#: includes/vars/tmdb_languages.php:36
+msgid "Russian"
+msgstr ""
+
+#: includes/globals.php:308 includes/vars/source_languages.php:40
+#: includes/vars/tmdb_languages.php:37
+msgid "Slovak"
+msgstr ""
+
+#: includes/globals.php:309 includes/vars/tmdb_languages.php:38
+msgid "Spain Spanish"
+msgstr ""
+
+#: includes/globals.php:310 includes/vars/tmdb_languages.php:39
+msgid "Latin Spanish"
+msgstr ""
+
+#: includes/globals.php:311 includes/vars/source_languages.php:47
+#: includes/vars/tmdb_languages.php:40
+msgid "Swedish"
+msgstr ""
+
+#: includes/globals.php:312 includes/vars/source_languages.php:48
+#: includes/vars/tmdb_languages.php:41
+msgid "Thai"
+msgstr ""
+
+#: includes/globals.php:313 includes/vars/source_languages.php:49
+#: includes/vars/tmdb_languages.php:42
+msgid "Turkish"
+msgstr ""
+
+#: includes/globals.php:314 includes/vars/source_languages.php:50
+#: includes/vars/tmdb_languages.php:43
+msgid "Twi"
+msgstr ""
+
+#: includes/globals.php:315 includes/vars/source_languages.php:51
+#: includes/vars/tmdb_languages.php:44
+msgid "Ukrainian"
+msgstr ""
+
+#: includes/globals.php:316 includes/vars/source_languages.php:52
+#: includes/vars/tmdb_languages.php:45
+msgid "Vietnamese"
+msgstr ""
+
+#: includes/globals.php:321
+msgid "United Arab Emirates dirham"
+msgstr ""
+
+#: includes/globals.php:322
+msgid "Afghan afghani"
+msgstr ""
+
+#: includes/globals.php:323
+msgid "Albanian lek"
+msgstr ""
+
+#: includes/globals.php:324
+msgid "Armenian dram"
+msgstr ""
+
+#: includes/globals.php:325
+msgid "Netherlands Antillean guilder"
+msgstr ""
+
+#: includes/globals.php:326
+msgid "Angolan kwanza"
+msgstr ""
+
+#: includes/globals.php:327
+msgid "Argentine peso"
+msgstr ""
+
+#: includes/globals.php:328
+msgid "Australian dollar"
+msgstr ""
+
+#: includes/globals.php:329
+msgid "Aruban florin"
+msgstr ""
+
+#: includes/globals.php:330
+msgid "Azerbaijani manat"
+msgstr ""
+
+#: includes/globals.php:331
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr ""
+
+#: includes/globals.php:332
+msgid "Barbadian dollar"
+msgstr ""
+
+#: includes/globals.php:333
+msgid "Bangladeshi taka"
+msgstr ""
+
+#: includes/globals.php:334
+msgid "Bulgarian lev"
+msgstr ""
+
+#: includes/globals.php:335
+msgid "Bahraini dinar"
+msgstr ""
+
+#: includes/globals.php:336
+msgid "Burundian franc"
+msgstr ""
+
+#: includes/globals.php:337
+msgid "Bermudian dollar"
+msgstr ""
+
+#: includes/globals.php:338
+msgid "Brunei dollar"
+msgstr ""
+
+#: includes/globals.php:339
+msgid "Bolivian boliviano"
+msgstr ""
+
+#: includes/globals.php:340
+msgid "Brazilian real"
+msgstr ""
+
+#: includes/globals.php:341
+msgid "Bahamian dollar"
+msgstr ""
+
+#: includes/globals.php:342
+msgid "Bitcoin"
+msgstr ""
+
+#: includes/globals.php:343
+msgid "Bhutanese ngultrum"
+msgstr ""
+
+#: includes/globals.php:344
+msgid "Botswana pula"
+msgstr ""
+
+#: includes/globals.php:345
+msgid "Belarusian ruble (old)"
+msgstr ""
+
+#: includes/globals.php:346
+msgid "Belarusian ruble"
+msgstr ""
+
+#: includes/globals.php:347
+msgid "Belize dollar"
+msgstr ""
+
+#: includes/globals.php:348
+msgid "Canadian dollar"
+msgstr ""
+
+#: includes/globals.php:349
+msgid "Congolese franc"
+msgstr ""
+
+#: includes/globals.php:350
+msgid "Swiss franc"
+msgstr ""
+
+#: includes/globals.php:351
+msgid "Chilean peso"
+msgstr ""
+
+#: includes/globals.php:352
+msgid "Chinese yuan"
+msgstr ""
+
+#: includes/globals.php:353
+msgid "Colombian peso"
+msgstr ""
+
+#: includes/globals.php:354
+msgid "Costa Rican col&oacute;n"
+msgstr ""
+
+#: includes/globals.php:355
+msgid "Cuban convertible peso"
+msgstr ""
+
+#: includes/globals.php:356
+msgid "Cuban peso"
+msgstr ""
+
+#: includes/globals.php:357
+msgid "Cape Verdean escudo"
+msgstr ""
+
+#: includes/globals.php:358
+msgid "Czech koruna"
+msgstr ""
+
+#: includes/globals.php:359
+msgid "Djiboutian franc"
+msgstr ""
+
+#: includes/globals.php:360
+msgid "Danish krone"
+msgstr ""
+
+#: includes/globals.php:361
+msgid "Dominican peso"
+msgstr ""
+
+#: includes/globals.php:362
+msgid "Algerian dinar"
+msgstr ""
+
+#: includes/globals.php:363
+msgid "Egyptian pound"
+msgstr ""
+
+#: includes/globals.php:364
+msgid "Eritrean nakfa"
+msgstr ""
+
+#: includes/globals.php:365
+msgid "Ethiopian birr"
+msgstr ""
+
+#: includes/globals.php:366
+msgid "Euro"
+msgstr ""
+
+#: includes/globals.php:367
+msgid "Fijian dollar"
+msgstr ""
+
+#: includes/globals.php:368
+msgid "Falkland Islands pound"
+msgstr ""
+
+#: includes/globals.php:369
+msgid "Pound sterling"
+msgstr ""
+
+#: includes/globals.php:370
+msgid "Georgian lari"
+msgstr ""
+
+#: includes/globals.php:371
+msgid "Guernsey pound"
+msgstr ""
+
+#: includes/globals.php:372
+msgid "Ghana cedi"
+msgstr ""
+
+#: includes/globals.php:373
+msgid "Gibraltar pound"
+msgstr ""
+
+#: includes/globals.php:374
+msgid "Gambian dalasi"
+msgstr ""
+
+#: includes/globals.php:375
+msgid "Guinean franc"
+msgstr ""
+
+#: includes/globals.php:376
+msgid "Guatemalan quetzal"
+msgstr ""
+
+#: includes/globals.php:377
+msgid "Guyanese dollar"
+msgstr ""
+
+#: includes/globals.php:378
+msgid "Hong Kong dollar"
+msgstr ""
+
+#: includes/globals.php:379
+msgid "Honduran lempira"
+msgstr ""
+
+#: includes/globals.php:380
+msgid "Croatian kuna"
+msgstr ""
+
+#: includes/globals.php:381
+msgid "Haitian gourde"
+msgstr ""
+
+#: includes/globals.php:382
+msgid "Hungarian forint"
+msgstr ""
+
+#: includes/globals.php:383
+msgid "Indonesian rupiah"
+msgstr ""
+
+#: includes/globals.php:384
+msgid "Israeli new shekel"
+msgstr ""
+
+#: includes/globals.php:385
+msgid "Manx pound"
+msgstr ""
+
+#: includes/globals.php:386
+msgid "Indian rupee"
+msgstr ""
+
+#: includes/globals.php:387
+msgid "Iraqi dinar"
+msgstr ""
+
+#: includes/globals.php:388
+msgid "Iranian rial"
+msgstr ""
+
+#: includes/globals.php:389
+msgid "Iranian toman"
+msgstr ""
+
+#: includes/globals.php:390
+msgid "Icelandic kr&oacute;na"
+msgstr ""
+
+#: includes/globals.php:391
+msgid "Jersey pound"
+msgstr ""
+
+#: includes/globals.php:392
+msgid "Jamaican dollar"
+msgstr ""
+
+#: includes/globals.php:393
+msgid "Jordanian dinar"
+msgstr ""
+
+#: includes/globals.php:394
+msgid "Japanese yen"
+msgstr ""
+
+#: includes/globals.php:395
+msgid "Kenyan shilling"
+msgstr ""
+
+#: includes/globals.php:396
+msgid "Kyrgyzstani som"
+msgstr ""
+
+#: includes/globals.php:397
+msgid "Cambodian riel"
+msgstr ""
+
+#: includes/globals.php:398
+msgid "Comorian franc"
+msgstr ""
+
+#: includes/globals.php:399
+msgid "North Korean won"
+msgstr ""
+
+#: includes/globals.php:400
+msgid "South Korean won"
+msgstr ""
+
+#: includes/globals.php:401
+msgid "Kuwaiti dinar"
+msgstr ""
+
+#: includes/globals.php:402
+msgid "Cayman Islands dollar"
+msgstr ""
+
+#: includes/globals.php:403
+msgid "Kazakhstani tenge"
+msgstr ""
+
+#: includes/globals.php:404
+msgid "Lao kip"
+msgstr ""
+
+#: includes/globals.php:405
+msgid "Lebanese pound"
+msgstr ""
+
+#: includes/globals.php:406
+msgid "Sri Lankan rupee"
+msgstr ""
+
+#: includes/globals.php:407
+msgid "Liberian dollar"
+msgstr ""
+
+#: includes/globals.php:408
+msgid "Lesotho loti"
+msgstr ""
+
+#: includes/globals.php:409
+msgid "Libyan dinar"
+msgstr ""
+
+#: includes/globals.php:410
+msgid "Moroccan dirham"
+msgstr ""
+
+#: includes/globals.php:411
+msgid "Moldovan leu"
+msgstr ""
+
+#: includes/globals.php:412
+msgid "Malagasy ariary"
+msgstr ""
+
+#: includes/templates/admin_forms.php:6
+msgid "Bulk Import"
+msgstr ""
+
+#: includes/templates/admin_forms.php:7
+#: includes/templates/sources_editor.php:82
+#: includes/templates/sources_metabox.php:54
+msgid "Close"
+msgstr ""
+
+#: includes/templates/admin_soon.php:8
+msgid "Module under construction"
+msgstr ""
+
+#: includes/templates/admin_soon.php:11
+msgid ""
+"The view for this module is currently under development. We recommend you "
+"stay tuned for our updates so you can access this section in the future. We "
+"appreciate your patience and understanding as we work to provide you with a "
+"better experience."
+msgstr ""
+
+#: includes/templates/admin_soon.php:12
+#, php-format
+msgid ""
+"If you want to contribute with suggestions or comments, do not hesitate to "
+"write to us at %s. We value your opinion and we will be happy to receive "
+"your input!"
+msgstr ""
+
+#: includes/templates/app_finance.php:29
+msgid "Earnings this month"
+msgstr ""
+
+#: includes/templates/app_finance.php:41
+#: includes/templates/sources_metabox.php:85
+msgid "User"
+msgstr ""
+
+#: includes/templates/app_finance.php:42
+msgid "Plan"
+msgstr ""
+
+#: includes/templates/app_finance.php:44
+msgid "Currency"
+msgstr ""
+
+#: includes/templates/app_finance.php:45
+msgid "Price"
+msgstr ""
+
+#: includes/templates/app_finance.php:46
+#: includes/templates/collections_metabox.php:29
+#: includes/templates/sources_metabox.php:84
+msgid "Updated"
+msgstr ""
+
+#: includes/templates/app_finance.php:47
+#: includes/templates/sources_editor.php:10
+msgid "Created"
+msgstr ""
+
+#: includes/templates/app_tools.php:2
+msgid "Management tools"
+msgstr ""
+
+#: includes/templates/app_tools.php:3
+msgid "Caution, any process run on these tools will have irreversible effects."
+msgstr ""
+
+#: includes/templates/app_tools.php:4
+msgid ""
+"Before proceeding with any action you wish to execute from these tools, we "
+"recommend that you make a backup of your database, all reset processes are "
+"irreversible."
+msgstr ""
+
+#: includes/templates/app_tools.php:10
+msgid "Sources domain exchanger"
+msgstr ""
+
+#: includes/templates/app_tools.php:11
+msgid ""
+"If the domain of some links has changed in your sources, you can replace the "
+"old domain with the new one. Consider the following before continuing with "
+"this process:"
+msgstr ""
+
+#: includes/templates/app_tools.php:14
+msgid "Moderate risk, please proceed with extreme caution."
+msgstr ""
+
+#: includes/templates/app_tools.php:15
+msgid ""
+"We recommend using as many matching characters as possible to improve "
+"accuracy."
+msgstr ""
+
+#: includes/templates/app_tools.php:16
+#, no-php-format
+msgid ""
+"If the process was not 100% complete, you can repeat it without further "
+"consequences."
+msgstr ""
+
+#: includes/templates/app_tools.php:24
+msgid "Old domain"
+msgstr ""
+
+#: includes/templates/app_tools.php:26
+msgid "New domain"
+msgstr ""
+
+#: includes/templates/app_tools.php:29
+msgid "Exchange"
+msgstr ""
+
+#: includes/templates/app_tools.php:47
+msgid "Restorer"
+msgstr ""
+
+#: includes/templates/app_tools.php:48
+msgid ""
+"You are in a danger zone, the actions of this tool are irreversible, "
+"consider using them only if necessary, consider the following before "
+"starting:"
+msgstr ""
+
+#: includes/templates/app_tools.php:51
+msgid "The actions of this tool are irreversible."
+msgstr ""
+
+#: includes/templates/app_tools.php:52
+msgid "Remember to have an updated backup of the database."
+msgstr ""
+
+#: includes/templates/app_tools.php:53
+msgid "Use the actions in this tool only if strictly necessary."
+msgstr ""
+
+#: includes/templates/app_tools.php:54
+msgid "Your password is required to complete any of these actions."
+msgstr ""
+
+#: includes/templates/app_tools.php:64
+msgid "Removal actions"
+msgstr ""
+
+#: includes/templates/app_tools.php:65
+msgid "Reset view counter"
+msgstr ""
+
+#: includes/templates/app_tools.php:66
+msgid "Reset user ratings"
+msgstr ""
+
+#: includes/templates/app_tools.php:67
+msgid "Reset the links of sources module"
+msgstr ""
+
+#: includes/templates/app_tools.php:68
+msgid "Reset the reports of sources module"
+msgstr ""
+
+#: includes/templates/app_tools.php:69
+msgid "Reset the subscriptions module"
+msgstr ""
+
+#: includes/templates/app_tools.php:70
+msgid "Reset payments"
+msgstr ""
+
+#: includes/templates/app_tools.php:72
+msgid "Creation actions"
+msgstr ""
+
+#: includes/templates/app_tools.php:73
+msgid "Create required tables on database"
+msgstr ""
+
+#: includes/templates/app_tools.php:74
+msgid "Create and sort required pages"
+msgstr ""
+
+#: includes/templates/app_tools.php:82
+msgid "Your password"
+msgstr ""
+
+#: includes/templates/app_tools.php:87
+msgid "Restore"
+msgstr ""
+
+#: includes/templates/collections_metabox.php:25
+msgid "Post title"
+msgstr ""
+
+#: includes/templates/collections_metabox.php:26
+msgid "Post type"
+msgstr ""
+
+#: includes/templates/collections_metabox.php:28
+#: includes/templates/sources_metabox.php:83
+msgid "Added"
+msgstr ""
+
+#: includes/templates/collections_metabox.php:30
+#: includes/templates/doothemes_license.php:83
+#: includes/templates/sources_metabox.php:86
+msgid "Manage"
+msgstr ""
+
+#: includes/templates/collections_metabox.php:40
+#: includes/templates/importer_tool.php:160
+#: includes/templates/sources_metabox.php:97
+msgid "Load more"
+msgstr ""
+
+#: includes/templates/doothemes_license.php:12
+#, php-format
+msgid "Manage %s license"
+msgstr ""
+
+#: includes/templates/doothemes_license.php:19
+#, php-format
+msgid "Ex. %s"
+msgstr ""
+
+#: includes/templates/doothemes_license.php:20
+msgid "renew"
+msgstr ""
+
+#: includes/templates/doothemes_license.php:36
+msgid "License Summary"
+msgstr ""
+
+#: includes/templates/doothemes_license.php:37
+msgid "Update info"
+msgstr ""
+
+#: includes/templates/doothemes_license.php:46
+msgid "Customer name"
+msgstr ""
+
+#: includes/templates/doothemes_license.php:50
+msgid "Customer email"
+msgstr ""
+
+#: includes/templates/doothemes_license.php:54
+msgid "Payment ID"
+msgstr ""
+
+#: includes/templates/doothemes_license.php:58
+msgid "Expiration date"
+msgstr ""
+
+#: includes/templates/doothemes_license.php:62
+msgid "Activations limit"
+msgstr ""
+
+#: includes/templates/doothemes_license.php:66
+msgid "Activations count"
+msgstr ""
+
+#: includes/templates/doothemes_license.php:70
+msgid "Activations left"
+msgstr ""
+
+#: includes/templates/doothemes_license.php:79
+#, php-format
+msgid "With love from Peru, %s"
+msgstr ""
+
+#: includes/templates/doothemes_license.php:85
+msgid "Do you really want to continue?"
+msgstr ""
+
+#: includes/templates/doothemes_license.php:85
+msgid "Uninstall license"
+msgstr ""
+
+#: includes/templates/importer_tool.php:8
+msgid "Dbmovies"
+msgstr ""
+
+#: includes/templates/importer_tool.php:16
+msgid "Go back"
+msgstr ""
+
+#: includes/templates/importer_tool.php:39
+msgid "Search.."
+msgstr ""
+
+#: includes/templates/importer_tool.php:40
+msgid "Search"
+msgstr ""
+
+#: includes/templates/importer_tool.php:57
+msgid "Year"
+msgstr ""
+
+#: includes/templates/importer_tool.php:58
+msgid "Page"
+msgstr ""
+
+#: includes/templates/importer_tool.php:63
+msgid "Popularity desc"
+msgstr ""
+
+#: includes/templates/importer_tool.php:64
+msgid "Popularity asc"
+msgstr ""
+
+#: includes/templates/importer_tool.php:65
+msgid "Rating Descending"
+msgstr ""
+
+#: includes/templates/importer_tool.php:66
+msgid "Rating Ascending"
+msgstr ""
+
+#: includes/templates/importer_tool.php:67
+msgid "Release Date Descending"
+msgstr ""
+
+#: includes/templates/importer_tool.php:68
+msgid "Release Date Ascending"
+msgstr ""
+
+#: includes/templates/importer_tool.php:69
+msgid "Title (A-Z)"
+msgstr ""
+
+#: includes/templates/importer_tool.php:70
+msgid "Title (Z-A)"
+msgstr ""
+
+#: includes/templates/importer_tool.php:84
+msgid "Discover"
+msgstr ""
+
+#: includes/templates/importer_tool.php:97
+msgid "Number of results in autoload."
+msgstr ""
+
+#: includes/templates/importer_tool.php:105
+msgid "Time interval between each import"
+msgstr ""
+
+#: includes/templates/importer_tool.php:111
+msgid "Save Settings"
+msgstr ""
+
+#: includes/templates/importer_tool.php:141
+#, php-format
+msgid "About %s results (%s seconds)"
+msgstr ""
+
+#: includes/templates/importer_tool.php:145
+#, php-format
+msgid "Loaded pages %s"
+msgstr ""
+
+#: includes/templates/sources_editor.php:6
+msgid "Unique ID"
+msgstr ""
+
+#: includes/templates/sources_editor.php:14
+msgid "Last update"
+msgstr ""
+
+#: includes/templates/sources_editor.php:22
+#: includes/templates/sources_metabox.php:82
+msgid "Reports"
+msgstr ""
+
+#: includes/templates/sources_editor.php:31
+msgid "Source Link"
+msgstr ""
+
+#: includes/templates/sources_editor.php:34
+msgid "Preview"
+msgstr ""
+
+#: includes/templates/sources_editor.php:43
+#: includes/templates/sources_metabox.php:19
+msgid "Type"
+msgstr ""
+
+#: includes/templates/sources_editor.php:64
+#: includes/templates/sources_metabox.php:38
+msgid "File size"
+msgstr ""
+
+#: includes/templates/sources_editor.php:65
+#: includes/templates/sources_metabox.php:39
+msgid "0.0 GB"
+msgstr ""
+
+#: includes/templates/sources_editor.php:71
+#: includes/templates/sources_metabox.php:45
+msgid "Available only for premium users"
+msgstr ""
+
+#: includes/templates/sources_editor.php:80
+msgid "Save and close"
+msgstr ""
+
+#: includes/templates/sources_editor.php:83
+msgid "Delete source"
+msgstr ""
+
+#: includes/templates/sources_metabox.php:10
+msgid "Sources link"
+msgstr ""
+
+#: includes/templates/sources_metabox.php:13
+msgid ""
+"You can also add multiple links, you just have to place one link on each "
+"line. Invalid items or empty lines will be ignored."
+msgstr ""
+
+#: includes/templates/sources_metabox.php:52
+#: includes/templates/sources_metabox.php:58
+msgid "Add Link(s)"
+msgstr ""
+
+#: includes/templates/sources_metabox.php:60
+msgid "Send links to sync list"
+msgstr ""
+
+#: includes/templates/sources_metabox.php:77
+msgid "ID Status"
+msgstr ""
+
+#: includes/templates/sources_metabox.php:78
+msgid "Server"
+msgstr ""
+
+#: includes/vars/countries.php:14
+msgid "&#197;land Islands"
+msgstr ""
+
+#: includes/vars/countries.php:40
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr ""
+
+#: includes/vars/countries.php:46
+msgid "Brunei Darrussalam"
+msgstr ""
+
+#: includes/vars/countries.php:62
+msgid "Congo, Democratic People's Republic"
+msgstr ""
+
+#: includes/vars/countries.php:63
+msgid "Congo, Republic of"
+msgstr ""
+
+#: includes/vars/countries.php:66
+msgid "Cote d'Ivoire"
+msgstr ""
+
+#: includes/vars/countries.php:67
+msgid "Croatia/Hrvatska"
+msgstr ""
+
+#: includes/vars/countries.php:69
+msgid "Cura&Ccedil;ao"
+msgstr ""
+
+#: includes/vars/countries.php:71
+msgid "Czechia"
+msgstr ""
+
+#: includes/vars/countries.php:85
+msgid "Faroe Islands"
+msgstr ""
+
+#: includes/vars/countries.php:101
+msgid "Guadeloupe"
+msgstr ""
+
+#: includes/vars/countries.php:104
+msgid "Guernsey"
+msgstr ""
+
+#: includes/vars/countries.php:110
+msgid "Holy See (City Vatican State)"
+msgstr ""
+
+#: includes/vars/countries.php:120
+msgid "Isle of Man"
+msgstr ""
+
+#: includes/vars/countries.php:125
+msgid "Jersey"
+msgstr ""
+
+#: includes/vars/countries.php:131
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: includes/vars/countries.php:141
+msgid "Macau"
+msgstr ""
+
+#: includes/vars/countries.php:156
+msgid "Moldova, Republic of"
+msgstr ""
+
+#: includes/vars/countries.php:182
+msgid "Palestinian Territories"
+msgstr ""
+
+#: includes/vars/countries.php:193
+msgid "Republic of Kosovo"
+msgstr ""
+
+#: includes/vars/countries.php:194
+msgid "Reunion Island"
+msgstr ""
+
+#: includes/vars/countries.php:196
+msgid "Russian Federation"
+msgstr ""
+
+#: includes/vars/countries.php:198
+msgid "Saint Barth&eacute;lemy"
+msgstr ""
+
+#: includes/vars/countries.php:199
+msgid "Saint Helena"
+msgstr ""
+
+#: includes/vars/countries.php:200
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: includes/vars/countries.php:201
+msgid "Saint Lucia"
+msgstr ""
+
+#: includes/vars/countries.php:202
+msgid "Saint Martin (French)"
+msgstr ""
+
+#: includes/vars/countries.php:203
+msgid "Saint Martin (Dutch)"
+msgstr ""
+
+#: includes/vars/countries.php:204
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: includes/vars/countries.php:205
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: includes/vars/countries.php:207
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr ""
+
+#: includes/vars/countries.php:214
+msgid "Slovak Republic"
+msgstr ""
+
+#: includes/vars/countries.php:219
+msgid "South Georgia"
+msgstr ""
+
+#: includes/vars/countries.php:226
+msgid "Svalbard and Jan Mayen Islands"
+msgstr ""
+
+#: includes/vars/countries.php:249
+msgid "US Minor Outlying Islands"
+msgstr ""
+
+#: includes/vars/countries.php:254
+msgid "Virgin Islands (British)"
+msgstr ""
+
+#: includes/vars/countries.php:255
+msgid "Virgin Islands (USA)"
+msgstr ""
+
+#: includes/vars/countries.php:258
+msgid "Western Samoa"
+msgstr ""
+
+#: includes/vars/cryptocurrencies.php:10
+msgid "BTC - Bitcoin"
+msgstr ""
+
+#: includes/vars/cryptocurrencies.php:11
+msgid "ETH - Ethereum"
+msgstr ""
+
+#: includes/vars/cryptocurrencies.php:12
+msgid "USDT - TetherUS"
+msgstr ""
+
+#: includes/vars/cryptocurrencies.php:13
+msgid "SOL - Solana"
+msgstr ""
+
+#: includes/vars/cryptocurrencies.php:14
+msgid "BNB"
+msgstr ""
+
+#: includes/vars/cryptocurrencies.php:15
+msgid "BUSD"
+msgstr ""
+
+#: includes/vars/currencies.php:10
+msgid "US Dollars"
+msgstr ""
+
+#: includes/vars/currencies.php:11
+msgid "Euros"
+msgstr ""
+
+#: includes/vars/currencies.php:12
+msgid "Pound Sterling"
+msgstr ""
+
+#: includes/vars/currencies.php:13
+msgid "Australian Dollars"
+msgstr ""
+
+#: includes/vars/currencies.php:14
+msgid "Brazilian Real"
+msgstr ""
+
+#: includes/vars/currencies.php:15
+msgid "Canadian Dollars"
+msgstr ""
+
+#: includes/vars/currencies.php:16
+msgid "Czech Koruna"
+msgstr ""
+
+#: includes/vars/currencies.php:17
+msgid "Danish Krone"
+msgstr ""
+
+#: includes/vars/currencies.php:18
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: includes/vars/currencies.php:19
+msgid "Hungarian Forint"
+msgstr ""
+
+#: includes/vars/currencies.php:20
+msgid "Israeli Shekel"
+msgstr ""
+
+#: includes/vars/currencies.php:21
+msgid "Japanese Yen"
+msgstr ""
+
+#: includes/vars/currencies.php:22
+msgid "Malaysian Ringgits"
+msgstr ""
+
+#: includes/vars/currencies.php:23
+msgid "Mexican Peso"
+msgstr ""
+
+#: includes/vars/currencies.php:24
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: includes/vars/currencies.php:25
+msgid "Norwegian Krone"
+msgstr ""
+
+#: includes/vars/currencies.php:26
+msgid "Peruvian Sol"
+msgstr ""
+
+#: includes/vars/currencies.php:27
+msgid "Philippine Pesos"
+msgstr ""
+
+#: includes/vars/currencies.php:28
+msgid "Polish Zloty"
+msgstr ""
+
+#: includes/vars/currencies.php:29
+msgid "Singapore Dollar"
+msgstr ""
+
+#: includes/vars/currencies.php:30
+msgid "Swedish Krona"
+msgstr ""
+
+#: includes/vars/currencies.php:31
+msgid "Swiss Franc"
+msgstr ""
+
+#: includes/vars/currencies.php:32
+msgid "Taiwan New Dollars"
+msgstr ""
+
+#: includes/vars/currencies.php:33
+msgid "Thai Baht"
+msgstr ""
+
+#: includes/vars/currencies.php:34
+msgid "Indian Rupee"
+msgstr ""
+
+#: includes/vars/currencies.php:35
+msgid "Turkish Lira"
+msgstr ""
+
+#: includes/vars/currencies.php:36
+msgid "Iranian Rial"
+msgstr ""
+
+#: includes/vars/currencies.php:37
+msgid "Russian Rubles"
+msgstr ""
+
+#: includes/vars/currencies.php:38
+msgid "Angolan Kwanza"
+msgstr ""
+
+#: includes/vars/source_languages.php:17
+msgid "English US"
+msgstr ""
+
+#: includes/vars/source_languages.php:18
+msgid "English UK"
+msgstr ""
+
+#: includes/vars/source_languages.php:19
+msgid "English AU"
+msgstr ""
+
+#: includes/vars/source_languages.php:29
+msgid "Japanese"
+msgstr ""
+
+#: includes/vars/source_languages.php:31
+msgid "Luxembourgish"
+msgstr ""
+
+#: includes/vars/source_languages.php:37
+msgid "Portuguese BR"
+msgstr ""
+
+#: includes/vars/source_languages.php:41
+msgid "Spanish ES"
+msgstr ""
+
+#: includes/vars/source_languages.php:42
+msgid "Spanish MX"
+msgstr ""
+
+#: includes/vars/source_languages.php:43
+msgid "Spanish PE"
+msgstr ""
+
+#: includes/vars/source_languages.php:44
+msgid "Spanish CO"
+msgstr ""
+
+#: includes/vars/source_languages.php:45
+msgid "Spanish AR"
+msgstr ""
+
+#: includes/vars/source_languages.php:46
+msgid "Spanish CL"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Dbmovies by Doothemes"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://doothemes.com/dbmovies/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Dbmovies is the ideal platform for movie and series websites. It offers "
+"powerful content and user management tools and is connected to widely "
+"recognized information sources in the market, ensuring that content is "
+"always up-to-date and of high quality. Additionally, it has the full support "
+"of the Doothemes team, providing reliable and constant technical support, as "
+"well as regular updates to keep the platform current with the latest market "
+"trends and needs."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Doothemes - Dbmovies Team"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://doothemes.com/"
+msgstr ""
