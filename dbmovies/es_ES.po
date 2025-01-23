@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Dbmovies - Movie and TV Show Streaming Platform\n"
-"POT-Creation-Date: 2025-01-08 05:50-0500\n"
-"PO-Revision-Date: 2025-01-08 05:50-0500\n"
+"Project-Id-Version: Dbmovies en Español de España\n"
+"POT-Creation-Date: 2025-01-23 06:07-0500\n"
+"PO-Revision-Date: 2025-01-23 06:08-0500\n"
 "Last-Translator: Erick Meza <emeza@ews.pe>\n"
-"Language-Team: \n"
+"Language-Team: Erick Meza <emeza@ews.pe>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -60,11 +60,35 @@ msgstr " Actualizaciones"
 msgid "Add-Ons"
 msgstr "Complementos"
 
-#: includes/application.php:75
+#: includes/application.php:50 includes/classes/app_doothemes_client.php:294
+#: includes/classes/wp_enqueue.php:50
+msgid "Activate"
+msgstr "Activar"
+
+#: includes/application.php:51
+#, fuzzy
+#| msgid "Activate a valid license to unlock all features and updates."
+msgid "Please activate a valid license to enable all Dbmovies features."
+msgstr ""
+"Active una licencia válida para desbloquear todas las funciones y "
+"actualizaciones."
+
+#: includes/application.php:61 includes/classes/app_doothemes_client.php:294
+#: includes/classes/wp_enqueue.php:51
+msgid "Deactivate"
+msgstr "Desactivar"
+
+#: includes/application.php:62 includes/updater.php:257
+#, fuzzy
+#| msgid "There is no license activated on this site."
+msgid "License installed and activated on this website."
+msgstr "No hay ninguna licencia activada en este sitio."
+
+#: includes/application.php:100
 msgid "This tool has never been used"
 msgstr "Esta herramienta nunca ha sido utilizada"
 
-#: includes/application.php:78
+#: includes/application.php:103
 msgid "None of the actions of this tool were ever executed"
 msgstr "Ninguna de las acciones de esta herramienta se ejecutó jamás"
 
@@ -412,17 +436,6 @@ msgstr "Para más información:"
 msgid "Support Forums"
 msgstr "Foros de Soporte"
 
-#: includes/classes/app_doothemes_client.php:294
-#: includes/classes/wp_enqueue.php:51
-msgid "Deactivate"
-msgstr "Desactivar"
-
-#: includes/classes/app_doothemes_client.php:294
-#: includes/classes/wp_enqueue.php:50
-#: includes/templates/dbmovies_license.php:26
-msgid "Activate"
-msgstr "Activar"
-
 #: includes/classes/app_doothemes_client.php:362
 #: includes/templates/doothemes_license.php:40
 msgid "Activate a valid license"
@@ -561,17 +574,18 @@ msgstr "No tienes permiso para actualizar este contenido"
 msgid "Failed to update post meta"
 msgstr "No se pudo actualizar el post meta"
 
-#: includes/classes/app_importer.php:47 includes/classes/app_importer.php:101
-#: includes/classes/app_importer.php:134
+#: includes/classes/app_importer.php:36 includes/classes/app_importer.php:57
+#: includes/classes/app_importer.php:76 includes/classes/app_importer.php:119
+#: includes/classes/app_importer.php:138 includes/classes/app_importer.php:160
 msgid "Unknown request"
 msgstr "Solicitud desconocida"
 
-#: includes/classes/app_importer.php:159 includes/classes/app_importer.php:222
-#: includes/classes/app_importer.php:282
+#: includes/classes/app_importer.php:185 includes/classes/app_importer.php:248
+#: includes/classes/app_importer.php:308
 msgid "Invalid nonce verification"
 msgstr "Verificación nonce no válida"
 
-#: includes/classes/app_importer.php:290
+#: includes/classes/app_importer.php:316
 msgid "Important data not defined"
 msgstr "Datos importantes no definidos"
 
@@ -1055,7 +1069,7 @@ msgstr "Contenido generado en {num} segundos"
 msgid "Episode Manager"
 msgstr "Administrar de Episodios"
 
-#: includes/classes/wp_enqueue.php:74 includes/functions.php:696
+#: includes/classes/wp_enqueue.php:74 includes/functions.php:647
 msgid "just now"
 msgstr "justo ahora"
 
@@ -1237,7 +1251,6 @@ msgstr "votos"
 
 #: includes/classes/wp_tables.php:103 includes/classes/wp_tables.php:159
 #: includes/classes/wp_tables.php:212 includes/classes/wp_tables.php:255
-#: includes/templates/dbmovies_license.php:49
 #: includes/templates/sources_editor.php:18
 #: includes/templates/sources_metabox.php:81
 msgid "Requests"
@@ -1266,8 +1279,8 @@ msgstr "Conteo de vistas"
 
 #: includes/classes/wp_tables.php:286 includes/classes/wp_tables.php:305
 #: includes/classes/wp_tables.php:324
-#: includes/codestar/settings/options/importer.php:488
-#: includes/codestar/settings/options/importer.php:492
+#: includes/codestar/settings/options/importer.php:474
+#: includes/codestar/settings/options/importer.php:478
 msgid "Meta Updater"
 msgstr "Meta Actualizador"
 
@@ -1290,7 +1303,7 @@ msgid "Related count"
 msgstr "Conteo de relacionados"
 
 #: includes/classes/wp_taxonomies.php:30
-#: includes/codestar/settings/options/importer.php:154
+#: includes/codestar/settings/options/importer.php:140
 msgid "Genres"
 msgstr "Géneros"
 
@@ -1323,7 +1336,7 @@ msgid "New Year"
 msgstr "Nuevo Año"
 
 #: includes/classes/wp_taxonomies.php:74
-#: includes/codestar/settings/options/importer.php:156
+#: includes/codestar/settings/options/importer.php:142
 msgid "Countries"
 msgstr "Países"
 
@@ -1345,7 +1358,7 @@ msgstr "Nuevo nombre de País"
 #: includes/codestar/settings/metabox/movies.php:239
 #: includes/codestar/settings/metabox/tvshows.php:290
 #: includes/codestar/settings/metabox/tvshows.php:295
-#: includes/codestar/settings/options/importer.php:157
+#: includes/codestar/settings/options/importer.php:143
 msgid "Persons"
 msgstr "Personas"
 
@@ -1368,12 +1381,12 @@ msgstr "Buscar Persona"
 #: includes/classes/wp_types.php:34 includes/classes/wp_types.php:36
 #: includes/classes/wp_types.php:37 includes/classes/wp_types.php:38
 #: includes/classes/wp_types.php:46
-#: includes/codestar/settings/options/importer.php:97
-#: includes/codestar/settings/options/importer.php:167
-#: includes/codestar/settings/options/importer.php:334
-#: includes/codestar/settings/options/importer.php:377
-#: includes/codestar/settings/options/importer.php:430
-#: includes/codestar/settings/options/importer.php:501
+#: includes/codestar/settings/options/importer.php:83
+#: includes/codestar/settings/options/importer.php:153
+#: includes/codestar/settings/options/importer.php:320
+#: includes/codestar/settings/options/importer.php:363
+#: includes/codestar/settings/options/importer.php:416
+#: includes/codestar/settings/options/importer.php:486
 #: includes/templates/importer_tool.php:25
 msgid "Movies"
 msgstr "Películas"
@@ -1389,9 +1402,9 @@ msgstr "Administrar películas"
 #: includes/classes/wp_types.php:78 includes/classes/wp_types.php:79
 #: includes/classes/wp_types.php:80 includes/classes/wp_types.php:81
 #: includes/classes/wp_types.php:82 includes/classes/wp_types.php:90
-#: includes/codestar/settings/options/importer.php:345
-#: includes/codestar/settings/options/importer.php:393
-#: includes/codestar/settings/options/importer.php:447
+#: includes/codestar/settings/options/importer.php:331
+#: includes/codestar/settings/options/importer.php:379
+#: includes/codestar/settings/options/importer.php:433
 #: includes/templates/importer_tool.php:26
 msgid "TV Shows"
 msgstr "Series"
@@ -1407,12 +1420,12 @@ msgstr "Episodios"
 #: includes/classes/wp_types.php:123 includes/classes/wp_types.php:124
 #: includes/classes/wp_types.php:125 includes/classes/wp_types.php:126
 #: includes/classes/wp_types.php:134
-#: includes/codestar/settings/options/importer.php:121
-#: includes/codestar/settings/options/importer.php:169
-#: includes/codestar/settings/options/importer.php:356
-#: includes/codestar/settings/options/importer.php:407
-#: includes/codestar/settings/options/importer.php:463
-#: includes/codestar/settings/options/importer.php:503
+#: includes/codestar/settings/options/importer.php:107
+#: includes/codestar/settings/options/importer.php:155
+#: includes/codestar/settings/options/importer.php:342
+#: includes/codestar/settings/options/importer.php:393
+#: includes/codestar/settings/options/importer.php:449
+#: includes/codestar/settings/options/importer.php:488
 msgid "Episodes"
 msgstr "Episodios"
 
@@ -1435,75 +1448,75 @@ msgstr "Administrar colecciones"
 msgid "Error while saving the changes."
 msgstr "Error mientras se guardaban los cambios."
 
-#: includes/codestar/core/classes/admin-options.class.php:229
+#: includes/codestar/core/classes/admin-options.class.php:234
 msgid "Settings successfully imported."
 msgstr "Ajustes importados con éxito."
 
-#: includes/codestar/core/classes/admin-options.class.php:241
-#: includes/codestar/core/classes/admin-options.class.php:257
+#: includes/codestar/core/classes/admin-options.class.php:246
+#: includes/codestar/core/classes/admin-options.class.php:262
 msgid "Default settings restored."
 msgstr "Se restauraron las opciones por defecto."
 
-#: includes/codestar/core/classes/admin-options.class.php:328
+#: includes/codestar/core/classes/admin-options.class.php:333
 msgid "Settings saved."
 msgstr "Ajustes guardados."
 
-#: includes/codestar/core/classes/admin-options.class.php:509
+#: includes/codestar/core/classes/admin-options.class.php:514
 msgid "You have unsaved changes, save your changes!"
 msgstr "Tiene cambios sin guardar, ¡guárdelos!"
 
-#: includes/codestar/core/classes/admin-options.class.php:511
+#: includes/codestar/core/classes/admin-options.class.php:516
 msgid "show all settings"
 msgstr "mostrar todos los ajustes"
 
-#: includes/codestar/core/classes/admin-options.class.php:513
+#: includes/codestar/core/classes/admin-options.class.php:518
 #: includes/codestar/core/fields/icon/icon.php:57
 #: includes/codestar/core/fields/map/map.php:23
 msgid "Search..."
 msgstr "Buscar..."
 
-#: includes/codestar/core/classes/admin-options.class.php:516
-#: includes/codestar/core/classes/admin-options.class.php:639
+#: includes/codestar/core/classes/admin-options.class.php:521
+#: includes/codestar/core/classes/admin-options.class.php:644
 #: includes/templates/sources_editor.php:81
 msgid "Save"
 msgstr "Guardar"
 
-#: includes/codestar/core/classes/admin-options.class.php:516
-#: includes/codestar/core/classes/admin-options.class.php:639
+#: includes/codestar/core/classes/admin-options.class.php:521
+#: includes/codestar/core/classes/admin-options.class.php:644
 msgid "Saving..."
 msgstr "Guardando…"
 
-#: includes/codestar/core/classes/admin-options.class.php:517
-#: includes/codestar/core/classes/admin-options.class.php:640
+#: includes/codestar/core/classes/admin-options.class.php:522
+#: includes/codestar/core/classes/admin-options.class.php:645
 msgid "Reset Section"
 msgstr "Restablecer sección"
 
-#: includes/codestar/core/classes/admin-options.class.php:517
-#: includes/codestar/core/classes/admin-options.class.php:640
+#: includes/codestar/core/classes/admin-options.class.php:522
+#: includes/codestar/core/classes/admin-options.class.php:645
 msgid "Are you sure to reset this section options?"
 msgstr "¿Está seguro de restablecer estas opciones de sección?"
 
-#: includes/codestar/core/classes/admin-options.class.php:518
-#: includes/codestar/core/classes/admin-options.class.php:641
+#: includes/codestar/core/classes/admin-options.class.php:523
+#: includes/codestar/core/classes/admin-options.class.php:646
 msgid "Reset All"
 msgstr "Restablecer todo"
 
-#: includes/codestar/core/classes/admin-options.class.php:518
-#: includes/codestar/core/classes/admin-options.class.php:641
+#: includes/codestar/core/classes/admin-options.class.php:523
+#: includes/codestar/core/classes/admin-options.class.php:646
 #: includes/codestar/core/classes/comment-options.class.php:201
 #: includes/codestar/core/classes/metabox-options.class.php:278
 #: includes/codestar/core/fields/backup/backup.php:31
 msgid "Reset"
 msgstr "Reiniciar"
 
-#: includes/codestar/core/classes/admin-options.class.php:518
-#: includes/codestar/core/classes/admin-options.class.php:641
+#: includes/codestar/core/classes/admin-options.class.php:523
+#: includes/codestar/core/classes/admin-options.class.php:646
 msgid "Are you sure you want to reset all settings to default values?"
 msgstr ""
 "¿Estás seguro de que quieres restablecer todos los ajustes a los valores por "
 "defecto?"
 
-#: includes/codestar/core/classes/admin-options.class.php:616
+#: includes/codestar/core/classes/admin-options.class.php:621
 #: includes/codestar/core/classes/comment-options.class.php:184
 #: includes/codestar/core/classes/metabox-options.class.php:261
 #: includes/codestar/core/fields/button_set/button_set.php:56
@@ -2125,7 +2138,7 @@ msgid "Please enter a valid URL."
 msgstr "Por favor, introduzca una URL válido."
 
 #: includes/codestar/settings/metabox/advanced.php:5
-#: includes/codestar/settings/options/importer.php:554
+#: includes/codestar/settings/options/importer.php:541
 msgid "Advanced"
 msgstr "Avanzado"
 
@@ -2356,7 +2369,7 @@ msgstr "Imágenes"
 #: includes/codestar/settings/metabox/episodes.php:124
 #: includes/codestar/settings/metabox/movies.php:320
 #: includes/codestar/settings/metabox/tvshows.php:375
-#: includes/codestar/settings/options/importer.php:186
+#: includes/codestar/settings/options/importer.php:172
 msgid "Main Backdrop"
 msgstr "Telón de fondo principal"
 
@@ -2640,7 +2653,7 @@ msgid "IMDb Votes"
 msgstr "Votos de IMDb"
 
 #: includes/codestar/settings/metabox/movies.php:244
-#: includes/codestar/settings/options/importer.php:266
+#: includes/codestar/settings/options/importer.php:252
 msgid "Directors"
 msgstr "Directores"
 
@@ -2688,7 +2701,7 @@ msgstr "Personaje"
 
 #: includes/codestar/settings/metabox/movies.php:307
 #: includes/codestar/settings/metabox/tvshows.php:362
-#: includes/codestar/settings/options/importer.php:187
+#: includes/codestar/settings/options/importer.php:173
 msgid "Main Logo"
 msgstr "Logo principal"
 
@@ -3020,7 +3033,7 @@ msgid "TV-MA"
 msgstr "TV-MA"
 
 #: includes/codestar/settings/metabox/tvshows.php:300
-#: includes/codestar/settings/options/importer.php:277
+#: includes/codestar/settings/options/importer.php:263
 msgid "Creators"
 msgstr "Creadores"
 
@@ -3375,9 +3388,9 @@ msgstr "Mensaje de correo"
 #: includes/codestar/settings/options/email.php:215
 #: includes/codestar/settings/options/email.php:251
 #: includes/codestar/settings/options/email.php:284
-#: includes/codestar/settings/options/importer.php:431
-#: includes/codestar/settings/options/importer.php:448
-#: includes/codestar/settings/options/importer.php:464
+#: includes/codestar/settings/options/importer.php:417
+#: includes/codestar/settings/options/importer.php:434
+#: includes/codestar/settings/options/importer.php:450
 msgid "In this field you can use text and simple formatting in HTML."
 msgstr "En este campo puede utilizar texto y formato simple en HTML."
 
@@ -3562,16 +3575,16 @@ msgid "Customize the confirmation message."
 msgstr "Personaliza el mensaje de confirmación."
 
 #: includes/codestar/settings/options/email.php:401
-#: includes/codestar/settings/options/importer.php:337
-#: includes/codestar/settings/options/importer.php:348
-#: includes/codestar/settings/options/importer.php:359
-#: includes/codestar/settings/options/importer.php:382
+#: includes/codestar/settings/options/importer.php:323
+#: includes/codestar/settings/options/importer.php:334
+#: includes/codestar/settings/options/importer.php:345
+#: includes/codestar/settings/options/importer.php:368
+#: includes/codestar/settings/options/importer.php:383
 #: includes/codestar/settings/options/importer.php:397
-#: includes/codestar/settings/options/importer.php:411
-#: includes/codestar/settings/options/importer.php:436
-#: includes/codestar/settings/options/importer.php:453
-#: includes/codestar/settings/options/importer.php:469
-#: includes/codestar/settings/options/importer.php:580
+#: includes/codestar/settings/options/importer.php:422
+#: includes/codestar/settings/options/importer.php:439
+#: includes/codestar/settings/options/importer.php:455
+#: includes/codestar/settings/options/importer.php:567
 #: includes/codestar/settings/options/sources.php:134
 #: includes/codestar/settings/options/sources.php:171
 #: includes/codestar/settings/options/sources.php:208
@@ -3812,40 +3825,28 @@ msgstr ""
 "API requeridas; estas deben ser precisas para garantizar un acceso fluido a "
 "los datos de este sitio web."
 
-#: includes/codestar/settings/options/importer.php:39
-msgid "Dbmvs.com API Key"
-msgstr "Dbmvs.com API Key"
-
 #: includes/codestar/settings/options/importer.php:40
-msgid "Your API key will give you access to all our services."
-msgstr "Tu clave API te dará acceso a todos nuestros servicios."
-
-#: includes/codestar/settings/options/importer.php:47
-msgid "Click here for a Dbmvs API key"
-msgstr "Haga clic aquí para obtener una clave API de Dbmvs"
-
-#: includes/codestar/settings/options/importer.php:54
 msgid "Themoviedb.org API Key"
 msgstr "Themoviedb.org API Key"
 
-#: includes/codestar/settings/options/importer.php:55
+#: includes/codestar/settings/options/importer.php:41
 msgid "Add your API key to be able to generate data with our importers."
 msgstr ""
 "Agrega tu clave API para poder generar datos con nuestros importadores."
 
-#: includes/codestar/settings/options/importer.php:62
+#: includes/codestar/settings/options/importer.php:48
 msgid "Click here for a TMDb API key"
 msgstr "Haga clic aquí para obtener una clave API de TMDb"
 
-#: includes/codestar/settings/options/importer.php:68
+#: includes/codestar/settings/options/importer.php:54
 msgid "Proxy Server"
 msgstr "Servidor Proxy"
 
-#: includes/codestar/settings/options/importer.php:73
+#: includes/codestar/settings/options/importer.php:59
 msgid "TMDb API Proxy server"
 msgstr "Servidor proxy API TMDb"
 
-#: includes/codestar/settings/options/importer.php:74
+#: includes/codestar/settings/options/importer.php:60
 msgid ""
 "If your server for some reason does not get responses from Themovide API, "
 "enable this function that will give you access to these services from our "
@@ -3855,15 +3856,15 @@ msgstr ""
 "habilite esta función que le dará acceso a estos servicios desde nuestro "
 "servidor proxy."
 
-#: includes/codestar/settings/options/importer.php:75
+#: includes/codestar/settings/options/importer.php:61
 msgid "Enable proxy server for api.themoviedb.org"
 msgstr "Habilite el servidor proxy para api.themoviedb.org"
 
-#: includes/codestar/settings/options/importer.php:82
+#: includes/codestar/settings/options/importer.php:68
 msgid "Is it safe to use a Proxy server for this function?"
 msgstr "¿Es seguro utilizar un servidor Proxy para esta función?"
 
-#: includes/codestar/settings/options/importer.php:83
+#: includes/codestar/settings/options/importer.php:69
 msgid ""
 "It is completely safe, but you should consider using it only if strictly "
 "necessary, as this feature will add extra time to each request made to the "
@@ -3873,56 +3874,56 @@ msgstr ""
 "estrictamente necesario, ya que esta característica agregará tiempo extra a "
 "cada solicitud realizada al servidor de Themoviedb."
 
-#: includes/codestar/settings/options/importer.php:88
+#: includes/codestar/settings/options/importer.php:74
 msgid "Importers Post Status"
 msgstr "Estado de publicación de importadores"
 
-#: includes/codestar/settings/options/importer.php:92
+#: includes/codestar/settings/options/importer.php:78
 msgid "Define Post Status after using the importers."
 msgstr ""
 "Defina el estado de la publicación después de utilizar los importadores."
 
-#: includes/codestar/settings/options/importer.php:98
-#: includes/codestar/settings/options/importer.php:110
-#: includes/codestar/settings/options/importer.php:122
+#: includes/codestar/settings/options/importer.php:84
+#: includes/codestar/settings/options/importer.php:96
+#: includes/codestar/settings/options/importer.php:108
 msgid "Select default post status"
 msgstr "Seleccionar el estado de publicación predeterminado"
 
-#: includes/codestar/settings/options/importer.php:100
-#: includes/codestar/settings/options/importer.php:112
-#: includes/codestar/settings/options/importer.php:124
+#: includes/codestar/settings/options/importer.php:86
+#: includes/codestar/settings/options/importer.php:98
+#: includes/codestar/settings/options/importer.php:110
 msgid "Publish"
 msgstr "Publicar"
 
-#: includes/codestar/settings/options/importer.php:101
-#: includes/codestar/settings/options/importer.php:113
-#: includes/codestar/settings/options/importer.php:125
+#: includes/codestar/settings/options/importer.php:87
+#: includes/codestar/settings/options/importer.php:99
+#: includes/codestar/settings/options/importer.php:111
 #: includes/functions/sources.php:38
 msgid "Pending"
 msgstr "Pendiente"
 
-#: includes/codestar/settings/options/importer.php:102
-#: includes/codestar/settings/options/importer.php:114
-#: includes/codestar/settings/options/importer.php:126
+#: includes/codestar/settings/options/importer.php:88
+#: includes/codestar/settings/options/importer.php:100
+#: includes/codestar/settings/options/importer.php:112
 msgid "Draft"
 msgstr "Borrador"
 
-#: includes/codestar/settings/options/importer.php:109
-#: includes/codestar/settings/options/importer.php:168
-#: includes/codestar/settings/options/importer.php:502
+#: includes/codestar/settings/options/importer.php:95
+#: includes/codestar/settings/options/importer.php:154
+#: includes/codestar/settings/options/importer.php:487
 msgid "TVShows"
 msgstr "TVShows"
 
-#: includes/codestar/settings/options/importer.php:133
+#: includes/codestar/settings/options/importer.php:119
 msgid "Priority settings"
 msgstr "Ajustes prioritarios"
 
-#: includes/codestar/settings/options/importer.php:137
+#: includes/codestar/settings/options/importer.php:123
 msgid "Set the settings of your preference for data import"
 msgstr ""
 "Establezca la configuración de su preferencia para la importación de datos"
 
-#: includes/codestar/settings/options/importer.php:142
+#: includes/codestar/settings/options/importer.php:128
 #: includes/codestar/settings/options/sources.php:142
 #: includes/codestar/settings/options/sources.php:179
 #: includes/codestar/settings/options/sources.php:218
@@ -3932,33 +3933,33 @@ msgstr ""
 msgid "Language"
 msgstr "Idioma"
 
-#: includes/codestar/settings/options/importer.php:143
+#: includes/codestar/settings/options/importer.php:129
 msgid "Set the language to import content"
 msgstr "Establezca el idioma en el que se importara el contenido"
 
-#: includes/codestar/settings/options/importer.php:150
+#: includes/codestar/settings/options/importer.php:136
 msgid "Taxonomies"
 msgstr "Taxonomías"
 
-#: includes/codestar/settings/options/importer.php:151
+#: includes/codestar/settings/options/importer.php:137
 msgid "Check all the taxonomies that need to be imported with our tools."
 msgstr ""
 "Consulta todas las taxonomías que necesitan importarse con esta herramientas."
 
-#: includes/codestar/settings/options/importer.php:153
-#: includes/codestar/settings/options/importer.php:244
+#: includes/codestar/settings/options/importer.php:139
+#: includes/codestar/settings/options/importer.php:230
 msgid "Tags"
 msgstr "Etiquetas"
 
-#: includes/codestar/settings/options/importer.php:155
+#: includes/codestar/settings/options/importer.php:141
 msgid "Release years"
 msgstr "Años de lanzamiento"
 
-#: includes/codestar/settings/options/importer.php:164
+#: includes/codestar/settings/options/importer.php:150
 msgid "Publish with release date"
 msgstr "Publicar con fecha de lanzamiento"
 
-#: includes/codestar/settings/options/importer.php:165
+#: includes/codestar/settings/options/importer.php:151
 msgid ""
 "These settings will have irreversible effects on the import and update of "
 "your content"
@@ -3966,12 +3967,12 @@ msgstr ""
 "Estas configuraciones tendrán efectos irreversibles en la importación y "
 "actualización de su contenido"
 
-#: includes/codestar/settings/options/importer.php:176
-#: includes/codestar/settings/options/importer.php:181
+#: includes/codestar/settings/options/importer.php:162
+#: includes/codestar/settings/options/importer.php:167
 msgid "Upload images"
 msgstr "Subir imágenes"
 
-#: includes/codestar/settings/options/importer.php:182
+#: includes/codestar/settings/options/importer.php:168
 msgid ""
 "Check the images you want to be uploaded to the server, those that are not "
 "checked will only be indexed."
@@ -3979,48 +3980,48 @@ msgstr ""
 "Marca las imágenes que deseas que se suban al servidor, las que no estén "
 "marcadas solo serán indexadas."
 
-#: includes/codestar/settings/options/importer.php:184
+#: includes/codestar/settings/options/importer.php:170
 msgid "Poster in Featured Image"
 msgstr "Póster en imagen destacada"
 
-#: includes/codestar/settings/options/importer.php:185
+#: includes/codestar/settings/options/importer.php:171
 msgid "Profile Image Persons"
 msgstr "Imagen de perfil en personas"
 
-#: includes/codestar/settings/options/importer.php:194
+#: includes/codestar/settings/options/importer.php:180
 msgid "WebP converter"
 msgstr "WebP converter"
 
-#: includes/codestar/settings/options/importer.php:195
+#: includes/codestar/settings/options/importer.php:181
 msgid "Activate this function to enable image conversion to WebP format."
 msgstr ""
 "Active esta función para habilitar la conversión de imágenes al formato WebP."
 
-#: includes/codestar/settings/options/importer.php:197
+#: includes/codestar/settings/options/importer.php:183
 msgid "Yes, convert all imported images to WebP format."
 msgstr "Sí, convertir todas las imágenes importadas al formato WebP."
 
-#: includes/codestar/settings/options/importer.php:198
+#: includes/codestar/settings/options/importer.php:184
 msgid "Not, import images with the original format and quality."
 msgstr "No, importar imágenes con el formato y calidad originales."
 
-#: includes/codestar/settings/options/importer.php:205
+#: includes/codestar/settings/options/importer.php:191
 msgid "WebP Quality"
 msgstr "Calidad WebP"
 
-#: includes/codestar/settings/options/importer.php:206
+#: includes/codestar/settings/options/importer.php:192
 msgid "Set the quality percentage in images converted to WebP."
 msgstr "Establece el porcentaje de calidad en imágenes convertidas a WebP."
 
-#: includes/codestar/settings/options/importer.php:225
+#: includes/codestar/settings/options/importer.php:211
 msgid "Import Limits"
 msgstr "Límites de importación"
 
-#: includes/codestar/settings/options/importer.php:229
+#: includes/codestar/settings/options/importer.php:215
 msgid "Limit taxonomies"
 msgstr "Limitar taxonomías"
 
-#: includes/codestar/settings/options/importer.php:233
+#: includes/codestar/settings/options/importer.php:219
 msgid ""
 "Remember that the greater the number of imported elements, the longer the "
 "import time will take."
@@ -4028,21 +4029,21 @@ msgstr ""
 "Recuerde que cuanto mayor sea la cantidad de elementos importados, mayor "
 "será el tiempo de importación."
 
-#: includes/codestar/settings/options/importer.php:238
+#: includes/codestar/settings/options/importer.php:224
 msgid "Tag Taxonomy"
 msgstr "Taxonomía Etiquetas"
 
-#: includes/codestar/settings/options/importer.php:239
+#: includes/codestar/settings/options/importer.php:225
 msgid "Define the number of keywords that are imported with the content."
 msgstr "Defina la cantidad de palabras clave que se importan con el contenido."
 
-#: includes/codestar/settings/options/importer.php:249
+#: includes/codestar/settings/options/importer.php:235
 msgid "Casting Taxonomy"
 msgstr "Taxonomía Reparto"
 
-#: includes/codestar/settings/options/importer.php:250
-#: includes/codestar/settings/options/importer.php:291
-#: includes/codestar/settings/options/importer.php:302
+#: includes/codestar/settings/options/importer.php:236
+#: includes/codestar/settings/options/importer.php:277
+#: includes/codestar/settings/options/importer.php:288
 msgid ""
 "Defines the maximum number of elements to import, we recommend the default "
 "<b>5</b> elements for this field."
@@ -4050,16 +4051,16 @@ msgstr ""
 "Define el número máximo de elementos a importar, recomendamos los <b>5</b> "
 "elementos predeterminados para este campo."
 
-#: includes/codestar/settings/options/importer.php:255
+#: includes/codestar/settings/options/importer.php:241
 msgid "Cast"
 msgstr "Reparto"
 
-#: includes/codestar/settings/options/importer.php:260
+#: includes/codestar/settings/options/importer.php:246
 msgid "Directors Taxonomy"
 msgstr "Taxonomía Directores"
 
-#: includes/codestar/settings/options/importer.php:261
-#: includes/codestar/settings/options/importer.php:272
+#: includes/codestar/settings/options/importer.php:247
+#: includes/codestar/settings/options/importer.php:258
 msgid ""
 "Defines the maximum number of elements to import, we recommend the default "
 "<b>1</b> elements for this field."
@@ -4067,15 +4068,15 @@ msgstr ""
 "Define el número máximo de elementos a importar, recomendamos los elementos "
 "predeterminados <b>1</b> para este campo."
 
-#: includes/codestar/settings/options/importer.php:271
+#: includes/codestar/settings/options/importer.php:257
 msgid "Creators Taxonomy"
 msgstr "Taxonomía Creadores"
 
-#: includes/codestar/settings/options/importer.php:281
+#: includes/codestar/settings/options/importer.php:267
 msgid "Limit image indexor"
 msgstr "Limitar indexador de imágenes"
 
-#: includes/codestar/settings/options/importer.php:285
+#: includes/codestar/settings/options/importer.php:271
 msgid ""
 "These images will not be uploaded to the server, they will only be indexed "
 "to the content."
@@ -4084,70 +4085,70 @@ msgstr ""
 "indexarán al contenido, asegurando una integración eficiente sin afectar el "
 "almacenamiento del servidor."
 
-#: includes/codestar/settings/options/importer.php:290
-#: includes/codestar/settings/options/importer.php:296
+#: includes/codestar/settings/options/importer.php:276
+#: includes/codestar/settings/options/importer.php:282
 msgid "Backdrops"
 msgstr "Backdrops"
 
-#: includes/codestar/settings/options/importer.php:301
-#: includes/codestar/settings/options/importer.php:307
+#: includes/codestar/settings/options/importer.php:287
+#: includes/codestar/settings/options/importer.php:293
 msgid "Logos"
 msgstr "Logos"
 
-#: includes/codestar/settings/options/importer.php:320
+#: includes/codestar/settings/options/importer.php:306
 msgid "Titles / Content"
 msgstr "Títulos / Contenido"
 
-#: includes/codestar/settings/options/importer.php:325
+#: includes/codestar/settings/options/importer.php:311
 msgid "Customize Titles"
 msgstr "Personalizar Títulos"
 
-#: includes/codestar/settings/options/importer.php:329
+#: includes/codestar/settings/options/importer.php:315
 msgid "Configure the titles that are generated in importers."
 msgstr "Configurar los títulos que se generan en los importadores."
 
-#: includes/codestar/settings/options/importer.php:335
-#: includes/codestar/settings/options/importer.php:346
-#: includes/codestar/settings/options/importer.php:357
+#: includes/codestar/settings/options/importer.php:321
+#: includes/codestar/settings/options/importer.php:332
+#: includes/codestar/settings/options/importer.php:343
 msgid "Use simple text."
 msgstr "Utilice texto simple y sin formato."
 
-#: includes/codestar/settings/options/importer.php:339
+#: includes/codestar/settings/options/importer.php:325
 msgid "Gets the title of the movie in the set import language."
 msgstr ""
 "Obtiene el título de la película en el idioma de importación establecido."
 
-#: includes/codestar/settings/options/importer.php:340
+#: includes/codestar/settings/options/importer.php:326
 msgid "Gets the year of release of the film."
 msgstr "Obtiene el año de estreno de la película."
 
-#: includes/codestar/settings/options/importer.php:350
+#: includes/codestar/settings/options/importer.php:336
 msgid "Gets the title of the series in the set import language."
 msgstr "Obtiene el título de la serie en el idioma de importación establecido."
 
-#: includes/codestar/settings/options/importer.php:351
+#: includes/codestar/settings/options/importer.php:337
 msgid "Gets the year of release of the series."
 msgstr "Obtiene el año de lanzamiento de la serie."
 
-#: includes/codestar/settings/options/importer.php:361
-#: includes/codestar/settings/options/importer.php:413
-#: includes/codestar/settings/options/importer.php:473
+#: includes/codestar/settings/options/importer.php:347
+#: includes/codestar/settings/options/importer.php:399
+#: includes/codestar/settings/options/importer.php:459
 msgid "Gets the series title."
 msgstr "Obtiene el título de la serie."
 
-#: includes/codestar/settings/options/importer.php:362
+#: includes/codestar/settings/options/importer.php:348
 msgid "Gets the season number of the episode."
 msgstr "Obtiene el número de temporada del episodio."
 
-#: includes/codestar/settings/options/importer.php:363
+#: includes/codestar/settings/options/importer.php:349
 msgid "Gets the episode number."
 msgstr "Obtiene el número de episodio."
 
-#: includes/codestar/settings/options/importer.php:368
+#: includes/codestar/settings/options/importer.php:354
 msgid "Customize Permalink"
 msgstr "Personalizar Enlace permanente"
 
-#: includes/codestar/settings/options/importer.php:372
+#: includes/codestar/settings/options/importer.php:358
 msgid ""
 "Custom the structure of the permalinks for the titles that will be imported "
 "into the database."
@@ -4155,9 +4156,9 @@ msgstr ""
 "Personalice la estructura de los enlaces permanentes para los títulos que se "
 "importarán a la base de datos."
 
-#: includes/codestar/settings/options/importer.php:378
+#: includes/codestar/settings/options/importer.php:364
+#: includes/codestar/settings/options/importer.php:380
 #: includes/codestar/settings/options/importer.php:394
-#: includes/codestar/settings/options/importer.php:408
 msgid ""
 "Use simple text without special characters, do not leave spaces or complete "
 "them with simple hyphens \"-\"."
@@ -4165,100 +4166,100 @@ msgstr ""
 "Utilice texto simple y sin caracteres especiales, no deje espacios o "
 "complételos con guiones simples \"-\"."
 
-#: includes/codestar/settings/options/importer.php:384
-#: includes/codestar/settings/options/importer.php:439
+#: includes/codestar/settings/options/importer.php:370
+#: includes/codestar/settings/options/importer.php:425
 msgid "Title of the movie in the set import language."
 msgstr "Título de la película en el idioma de importación establecido."
 
-#: includes/codestar/settings/options/importer.php:385
-#: includes/codestar/settings/options/importer.php:441
+#: includes/codestar/settings/options/importer.php:371
+#: includes/codestar/settings/options/importer.php:427
 msgid "Year of release of the film."
 msgstr "Año de estreno de la película."
 
-#: includes/codestar/settings/options/importer.php:386
-#: includes/codestar/settings/options/importer.php:401
-#: includes/codestar/settings/options/importer.php:416
+#: includes/codestar/settings/options/importer.php:372
+#: includes/codestar/settings/options/importer.php:387
+#: includes/codestar/settings/options/importer.php:402
 msgid "ID of the post in the database."
 msgstr "ID de la publicación en la base de datos."
 
-#: includes/codestar/settings/options/importer.php:387
+#: includes/codestar/settings/options/importer.php:373
 msgid "ID of the content on <i>imdb.com</i>."
 msgstr "ID del contenido en <i>imdb.com</i>."
 
+#: includes/codestar/settings/options/importer.php:374
 #: includes/codestar/settings/options/importer.php:388
-#: includes/codestar/settings/options/importer.php:402
-#: includes/codestar/settings/options/importer.php:417
+#: includes/codestar/settings/options/importer.php:403
 msgid "ID of the content on <i>themoviedb.org</i>."
 msgstr "ID del contenido en <i>themoviedb.org</i>."
 
-#: includes/codestar/settings/options/importer.php:399
-#: includes/codestar/settings/options/importer.php:456
+#: includes/codestar/settings/options/importer.php:385
+#: includes/codestar/settings/options/importer.php:442
 msgid "Title of the series in the set import language."
 msgstr "Título de la serie en el idioma de importación establecido."
 
-#: includes/codestar/settings/options/importer.php:400
-#: includes/codestar/settings/options/importer.php:458
+#: includes/codestar/settings/options/importer.php:386
+#: includes/codestar/settings/options/importer.php:444
 msgid "Year of release of the series."
 msgstr "Año de lanzamiento de la serie."
 
-#: includes/codestar/settings/options/importer.php:414
-#: includes/codestar/settings/options/importer.php:474
+#: includes/codestar/settings/options/importer.php:400
+#: includes/codestar/settings/options/importer.php:460
 msgid "Season number of the episode."
 msgstr "Número de temporada del episodio."
 
-#: includes/codestar/settings/options/importer.php:415
-#: includes/codestar/settings/options/importer.php:475
+#: includes/codestar/settings/options/importer.php:401
+#: includes/codestar/settings/options/importer.php:461
 msgid "Episode number."
 msgstr "Número de episodio."
 
-#: includes/codestar/settings/options/importer.php:421
+#: includes/codestar/settings/options/importer.php:407
 msgid "Customize Content"
 msgstr "Personalizar Contenido"
 
-#: includes/codestar/settings/options/importer.php:425
+#: includes/codestar/settings/options/importer.php:411
 msgid "Customize how content for movies and tvshows will be imported."
 msgstr ""
 "Personalice cómo se importará el contenido de películas y programas de "
 "televisión."
 
-#: includes/codestar/settings/options/importer.php:438
+#: includes/codestar/settings/options/importer.php:424
 msgid "Synopsis of the film."
 msgstr "Sinopsis de la película."
 
-#: includes/codestar/settings/options/importer.php:440
+#: includes/codestar/settings/options/importer.php:426
 msgid "Original title of the film."
 msgstr "Título original de la película."
 
-#: includes/codestar/settings/options/importer.php:455
+#: includes/codestar/settings/options/importer.php:441
 msgid "Synopsis of the series."
 msgstr "Sinopsis de la serie."
 
-#: includes/codestar/settings/options/importer.php:457
+#: includes/codestar/settings/options/importer.php:443
 msgid "Original title of the series."
 msgstr "Título original de la serie."
 
-#: includes/codestar/settings/options/importer.php:471
+#: includes/codestar/settings/options/importer.php:457
 msgid "Extended episode summary."
 msgstr "Resumen del episodio ampliado."
 
-#: includes/codestar/settings/options/importer.php:472
+#: includes/codestar/settings/options/importer.php:458
 msgid "Gets the episode name."
 msgstr "Obtiene el nombre del episodio."
 
-#: includes/codestar/settings/options/importer.php:497
+#: includes/codestar/settings/options/importer.php:483
 msgid "Post Types"
 msgstr "Tipos de publicaciones"
 
-#: includes/codestar/settings/options/importer.php:498
+#: includes/codestar/settings/options/importer.php:484
 msgid "Select the types of content that are allowed to use the meta updater."
 msgstr ""
 "Seleccione los tipos de contenido que pueden usar el meta actualizador."
 
-#: includes/codestar/settings/options/importer.php:509
+#: includes/codestar/settings/options/importer.php:495
 msgid "Structural Capabilities"
 msgstr "Capacidades Estructurales"
 
-#: includes/codestar/settings/options/importer.php:510
+#: includes/codestar/settings/options/importer.php:496
 msgid ""
 "Select the structural capabilities of your content that can be updated with "
 "metadata."
@@ -4266,31 +4267,31 @@ msgstr ""
 "Seleccione las capacidades estructurales de su contenido que se pueden "
 "actualizar con metadatos."
 
-#: includes/codestar/settings/options/importer.php:512
+#: includes/codestar/settings/options/importer.php:498
 msgid "Update Custom Titles"
 msgstr "Actualizar Títulos Personalizados"
 
-#: includes/codestar/settings/options/importer.php:513
+#: includes/codestar/settings/options/importer.php:499
 msgid "Update Custom Permalinks"
 msgstr "Actualizar Enlaces Permanentes Personalizados"
 
-#: includes/codestar/settings/options/importer.php:514
+#: includes/codestar/settings/options/importer.php:500
 msgid "Update Custom Content"
 msgstr "Actualizar Contenido Personalizado"
 
-#: includes/codestar/settings/options/importer.php:520
+#: includes/codestar/settings/options/importer.php:507
 msgid "Automatize"
 msgstr "Automatizar"
 
-#: includes/codestar/settings/options/importer.php:521
+#: includes/codestar/settings/options/importer.php:508
 msgid "Automate process of updating metadata."
 msgstr "Automatizar el proceso de actualización de metadatos."
 
-#: includes/codestar/settings/options/importer.php:522
+#: includes/codestar/settings/options/importer.php:509
 msgid "Enable automatic metadata update."
 msgstr "Habilite la actualización automática de metadatos."
 
-#: includes/codestar/settings/options/importer.php:527
+#: includes/codestar/settings/options/importer.php:514
 msgid ""
 "This function operates autonomously, allowing the metadata of your content "
 "to be kept up to date, this will help improve the metric perspective of your "
@@ -4302,111 +4303,111 @@ msgstr ""
 "tu contenido, brindando mejores resultados en las búsquedas, también son "
 "detalles que el sistema de “tendencias” considerará."
 
-#: includes/codestar/settings/options/importer.php:532
+#: includes/codestar/settings/options/importer.php:519
 msgid "Scheduler"
 msgstr "Programador"
 
-#: includes/codestar/settings/options/importer.php:533
+#: includes/codestar/settings/options/importer.php:520
 msgid ""
 "Select the time period to run this function automatically on each title."
 msgstr ""
 "Seleccione el período de tiempo para ejecutar esta función automáticamente "
 "en cada título."
 
-#: includes/codestar/settings/options/importer.php:537
+#: includes/codestar/settings/options/importer.php:523
 msgid "15 days"
 msgstr "15 días"
 
-#: includes/codestar/settings/options/importer.php:537
+#: includes/codestar/settings/options/importer.php:523
 msgid "(Recommended)"
 msgstr "(Recomendado)"
 
-#: includes/codestar/settings/options/importer.php:538
+#: includes/codestar/settings/options/importer.php:524
 msgid "30 days"
 msgstr "30 días"
 
-#: includes/codestar/settings/options/importer.php:539
+#: includes/codestar/settings/options/importer.php:525
 msgid "60 days"
 msgstr "60 días"
 
-#: includes/codestar/settings/options/importer.php:540
+#: includes/codestar/settings/options/importer.php:526
 msgid "90 days"
 msgstr "90 días"
 
-#: includes/codestar/settings/options/importer.php:558
+#: includes/codestar/settings/options/importer.php:545
 msgid "OpenAI"
 msgstr "OpenAI"
 
-#: includes/codestar/settings/options/importer.php:563
+#: includes/codestar/settings/options/importer.php:550
 msgid "API Key"
 msgstr "Clave API"
 
-#: includes/codestar/settings/options/importer.php:564
+#: includes/codestar/settings/options/importer.php:551
 msgid "Add an OpenAI Secret API Key"
 msgstr ""
 
-#: includes/codestar/settings/options/importer.php:569
+#: includes/codestar/settings/options/importer.php:556
 msgid "Role"
 msgstr ""
 
-#: includes/codestar/settings/options/importer.php:570
+#: includes/codestar/settings/options/importer.php:557
 msgid "Describe the role that this model will assume."
 msgstr ""
 
-#: includes/codestar/settings/options/importer.php:571
+#: includes/codestar/settings/options/importer.php:558
 msgid ""
 "You are an expert in film and TV series who creates attractive and very "
 "creative synopses."
 msgstr ""
 
-#: includes/codestar/settings/options/importer.php:576
+#: includes/codestar/settings/options/importer.php:563
 msgid "Prompt"
 msgstr ""
 
-#: includes/codestar/settings/options/importer.php:577
+#: includes/codestar/settings/options/importer.php:564
 msgid "Custom instructions."
 msgstr ""
 
-#: includes/codestar/settings/options/importer.php:578
+#: includes/codestar/settings/options/importer.php:565
 msgid ""
 "Improve and expand the synopsis of the following \"{type}\" titled "
 "\"{title}\" published in the year \"{year}\", I only need the synopsis, do "
 "not add any headings."
 msgstr ""
 
-#: includes/codestar/settings/options/importer.php:582
+#: includes/codestar/settings/options/importer.php:569
 msgid "Define in the prompt what type of content will be examined."
 msgstr ""
 
-#: includes/codestar/settings/options/importer.php:583
+#: includes/codestar/settings/options/importer.php:570
 #, fuzzy
 #| msgid "Title of the movie in the set import language."
 msgid "Title of the movie or tv show in the set import language."
 msgstr "Título de la película en el idioma de importación establecido."
 
-#: includes/codestar/settings/options/importer.php:584
+#: includes/codestar/settings/options/importer.php:571
 #, fuzzy
 #| msgid "Gets the year of release of the series."
 msgid "Display the year of release to improve content accuracy."
 msgstr "Obtiene el año de lanzamiento de la serie."
 
-#: includes/codestar/settings/options/importer.php:589
+#: includes/codestar/settings/options/importer.php:576
 #, fuzzy
 #| msgid "Get token"
 msgid "Max tokens"
 msgstr "Obtener token"
 
-#: includes/codestar/settings/options/importer.php:590
+#: includes/codestar/settings/options/importer.php:577
 msgid "Limit response length."
 msgstr ""
 
-#: includes/codestar/settings/options/importer.php:597
+#: includes/codestar/settings/options/importer.php:584
 #, fuzzy
 #| msgid "Featured"
 msgid "Temperature"
 msgstr "Destacado"
 
-#: includes/codestar/settings/options/importer.php:598
+#: includes/codestar/settings/options/importer.php:585
 msgid "Adjusting the creativity of the response."
 msgstr ""
 
@@ -5296,86 +5297,86 @@ msgstr "Apple TV+"
 msgid "Pluto TV"
 msgstr "Pluto TV"
 
-#: includes/functions.php:676
+#: includes/functions.php:627
 msgid "year"
 msgstr "año"
 
-#: includes/functions.php:676
+#: includes/functions.php:627
 msgid "years"
 msgstr "años"
 
-#: includes/functions.php:677
+#: includes/functions.php:628
 msgid "month"
 msgstr "mes"
 
-#: includes/functions.php:677
+#: includes/functions.php:628
 msgid "months"
 msgstr "meses"
 
-#: includes/functions.php:678
+#: includes/functions.php:629
 msgid "week"
 msgstr "semana"
 
-#: includes/functions.php:678
+#: includes/functions.php:629
 msgid "weeks"
 msgstr "semanas"
 
-#: includes/functions.php:679
+#: includes/functions.php:630
 msgid "day"
 msgstr "día"
 
-#: includes/functions.php:679
+#: includes/functions.php:630
 msgid "days"
 msgstr "dias"
 
-#: includes/functions.php:680
+#: includes/functions.php:631
 msgid "hour"
 msgstr "hora"
 
-#: includes/functions.php:680
+#: includes/functions.php:631
 msgid "hours"
 msgstr "horas"
 
-#: includes/functions.php:681
+#: includes/functions.php:632
 msgid "minute"
 msgstr "minuto"
 
-#: includes/functions.php:681
+#: includes/functions.php:632
 msgid "minutes"
 msgstr "minutos"
 
-#: includes/functions.php:682
+#: includes/functions.php:633
 msgid "second"
 msgstr "segundo"
 
-#: includes/functions.php:682
+#: includes/functions.php:633
 msgid "seconds"
 msgstr "segundos"
 
-#: includes/functions.php:692
+#: includes/functions.php:643
 #, php-format
 msgid "%d %s"
 msgid_plural "%d %s"
 msgstr[0] "%d %s"
 msgstr[1] "%d %s"
 
-#: includes/functions.php:806
+#: includes/functions.php:757
 msgid "Invalid date format"
 msgstr "Formato inválido"
 
-#: includes/functions.php:885
+#: includes/functions.php:836
 msgid "File path or extension is missing."
 msgstr "Falta la ruta o extensión del archivo."
 
-#: includes/functions.php:902
+#: includes/functions.php:853
 msgid "Unsupported image format."
 msgstr "Formato de imagen no compatible."
 
-#: includes/functions.php:906
+#: includes/functions.php:857
 msgid "Failed to create image resource."
 msgstr "No se pudo crear el recurso de imagen."
 
-#: includes/functions.php:916
+#: includes/functions.php:867
 msgid "Failed to convert image to WebP format."
 msgstr "No se pudo convertir la imagen al formato WebP."
 
@@ -7394,34 +7395,6 @@ msgstr "Podrá acceder a un gran volumen de datos actualizados."
 msgid "Ex. f2931e659a4995c1aa164813e3d7cdc0"
 msgstr "Ejemplo: f2931e659a4995c1aa164813e3d7cdc0"
 
-#: includes/templates/dbmovies_license.php:31
-msgid ""
-"Please avoid sharing your license key as this may compromise the security of "
-"your account and website."
-msgstr ""
-"Evite compartir su clave de licencia, ya que podría poner en peligro la "
-"seguridad de su cuenta y de su sitio web."
-
-#: includes/templates/dbmovies_license.php:41
-#, fuzzy
-#| msgctxt "verb"
-#| msgid "Get credits"
-msgid "Credits"
-msgstr "Obtener creditos"
-
-#: includes/templates/dbmovies_license.php:45
-#, fuzzy
-#| msgctxt "verb"
-#| msgid "Get credits"
-msgid "Used Credits"
-msgstr "Obtener creditos"
-
-#: includes/templates/dbmovies_license.php:53
-#, fuzzy
-#| msgid "Activation"
-msgid "Activations"
-msgstr "Activación"
-
 #: includes/templates/doothemes_license.php:12
 #, php-format
 msgid "Manage %s license"
@@ -7644,6 +7617,66 @@ msgstr "ID Estado"
 #: includes/templates/sources_metabox.php:78
 msgid "Server"
 msgstr "Servidor"
+
+#: includes/updater.php:176
+#, fuzzy
+#| msgid "Error: Invalid security nonce."
+msgid "Invalid security code."
+msgstr "Error: Nonce de seguridad no válido."
+
+#: includes/updater.php:182 includes/updater.php:283
+msgid "Invalid request parameters."
+msgstr ""
+
+#: includes/updater.php:197
+#, fuzzy
+#| msgid "Invalid post section"
+msgid "Invalid action."
+msgstr "Sección de publicación no válida"
+
+#: includes/updater.php:258
+msgid "License disabled, remember to keep a license activated to use Dbmovies."
+msgstr ""
+
+#: includes/updater.php:265
+#, fuzzy
+#| msgid "License status is unknown."
+msgid "License status unknown."
+msgstr "Se desconoce el estado de la licencia."
+
+#: includes/updater.php:301
+#, fuzzy
+#| msgid "License is inactive."
+msgid "License activation failed."
+msgstr "La licencia está inactiva."
+
+#: includes/updater.php:312
+#, fuzzy
+#| msgid "Unknown error, please try again."
+msgid "License status unknown, please try again later."
+msgstr "Error desconocido, inténtalo de nuevo."
+
+#: includes/updater.php:326
+#, fuzzy
+#| msgid "Failed to create image resource."
+msgid "Failed to create or update LICENSE."
+msgstr "No se pudo crear el recurso de imagen."
+
+#: includes/updater.php:332
+#, fuzzy
+#| msgid "The email address does not exist in our database."
+msgid "Invalid license, the key you provided does not exist in our database."
+msgstr "La dirección de correo electrónico no existe en nuestra base de datos."
+
+#: includes/updater.php:338
+msgid "License revoked, contact us to check the status of your license key."
+msgstr ""
+
+#: includes/updater.php:355
+#, fuzzy
+#| msgid "Service has started successfully"
+msgid "License uninstalled successfully."
+msgstr "El servicio ha comenzado exitosamente"
 
 #: includes/vars/countries.php:14
 msgid "&#197;land Islands"
@@ -8020,6 +8053,39 @@ msgstr "Doothemes - Equipo Dbmovies"
 msgid "https://doothemes.com/"
 msgstr "https://doothemes.com/"
 
+#~ msgid "Dbmvs.com API Key"
+#~ msgstr "Dbmvs.com API Key"
+
+#~ msgid "Your API key will give you access to all our services."
+#~ msgstr "Tu clave API te dará acceso a todos nuestros servicios."
+
+#~ msgid "Click here for a Dbmvs API key"
+#~ msgstr "Haga clic aquí para obtener una clave API de Dbmvs"
+
+#~ msgid ""
+#~ "Please avoid sharing your license key as this may compromise the security "
+#~ "of your account and website."
+#~ msgstr ""
+#~ "Evite compartir su clave de licencia, ya que podría poner en peligro la "
+#~ "seguridad de su cuenta y de su sitio web."
+
+#, fuzzy
+#~| msgctxt "verb"
+#~| msgid "Get credits"
+#~ msgid "Credits"
+#~ msgstr "Obtener creditos"
+
+#, fuzzy
+#~| msgctxt "verb"
+#~| msgid "Get credits"
+#~ msgid "Used Credits"
+#~ msgstr "Obtener creditos"
+
+#, fuzzy
+#~| msgid "Activation"
+#~ msgid "Activations"
+#~ msgstr "Activación"
+
 #~ msgid "Auto-Embed compatibility"
 #~ msgstr "Compatibilidad Auto-Embed"
 
@@ -8095,9 +8161,6 @@ msgstr "https://doothemes.com/"
 
 #~ msgid "Movie and TV Shows <strong>framework</strong>."
 #~ msgstr "Movie and TV Shows <strong>framework</strong>."
-
-#~ msgid "Error: Invalid security nonce."
-#~ msgstr "Error: Nonce de seguridad no válido."
 
 #~ msgid "Error: You do not have permission to delete this source."
 #~ msgstr "Error: No tienes permiso para eliminar esta fuente."
