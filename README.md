@@ -2,6 +2,20 @@
 
 Welcome to the official translation repository for **DooThemes** products. Here, you can collaborate on translating our products, keep them updated, and ensure they are accessible to users worldwide.
 
+### Required languages
+
+
+- 95% - 🇵🇪 Spanish es_PE.
+- 95% - 🇲🇽 Spanish es_MX.
+- 64% - 🇪🇸 Spanish es_ES.
+- 99% - 🇺🇸 English en_US.
+- 0% - 🇸🇦 Arabic ar.
+- 0% - 🇷🇺 Russian ru_RU.
+- 0% - 🇧🇷 Portuguese pt_BR.
+- 0% - 🇫🇷 French fr_FR.
+- 0% - 🇰🇷 Korean ko_KR.
+- 0% - 🇯🇵 Japanese ja_JP.
+
 ---
 
 ## 📝 Purpose
