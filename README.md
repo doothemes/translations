@@ -56,7 +56,7 @@ translations/
 
 ## 📚 Useful Resources
 - [Official WordPress Translation Guide](https://developer.wordpress.org/plugins/internationalization/localization/)
-- [Glossary of Technical Terms](https://github.com/DooThemes/translations/blob/main/GLOSSARY.md)
+- [Glossary of Technical Terms](https://github.com/DooThemes/translations/GLOSSARY.md)
 - [Technical Support](mailto:support@doothemes.com)
 
 ---
