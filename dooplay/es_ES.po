@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DooPlay es_ES\n"
-"POT-Creation-Date: 2025-01-21 23:41-0500\n"
-"PO-Revision-Date: 2025-01-23 06:04-0500\n"
+"POT-Creation-Date: 2025-01-25 20:20-0500\n"
+"PO-Revision-Date: 2025-01-25 20:20-0500\n"
 "Last-Translator: Erick Meza <emeza@ews.pe>\n"
 "Language-Team: Brendha Mayuri <brenda@ews.pe>\n"
 "Language: es\n"
@@ -21,194 +21,94 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: 404.php:15
+#: 404.php:19
 msgid "Page not found"
 msgstr "Pagina no se encuentra"
 
-#: 404.php:18
-msgid "ERROR"
-msgstr "ERROR"
+#: 404.php:24
+#, php-format
+msgid "Error %s"
+msgstr "Error %s"
 
-#: 404.php:19 pages/letter.php:7 pages/search.php:61
+#: 404.php:25 pages/letter.php:7 pages/search.php:61
 msgid "Suggestions"
 msgstr "Sugerencias"
 
-#: 404.php:21
+#: 404.php:28
 msgid "Verify that the link is correct."
 msgstr "Compruebe que el vínculo es correcto."
 
-#: 404.php:22
+#: 404.php:29
 msgid "Use the search box on the page."
 msgstr "Utilice el cuadro de búsqueda de la página."
 
-#: 404.php:23
+#: 404.php:30
 msgid "Contact support page."
 msgstr "Pónganse en contacto con el soporte de la pagina."
 
-#: archive-episodes.php:17 includes/core/dbmvs/classes/epsemboxes.php:32
-#: includes/core/dbmvs/classes/postypes.php:154
-#: includes/core/dbmvs/classes/postypes.php:155
-#: includes/core/dbmvs/classes/postypes.php:156
-#: includes/core/dbmvs/classes/postypes.php:157
-#: includes/core/dbmvs/classes/postypes.php:158
-#: includes/core/dbmvs/classes/postypes.php:166
-#: includes/core/dbmvs/tpl/form_setting_titles.php:35
-#: includes/csf/options.module_episodes.php:16 includes/extras/slugs.php:29
-#: includes/parts/single/series.php:83 includes/parts/single/series.php:157
-#: includes/widgets/content_widget.php:79
-msgid "Episodes"
-msgstr "Episodios"
-
-#: archive-episodes.php:18 archive-movies.php:21 archive-seasons.php:18
-#: archive-tvshows.php:21 taxonomy.php:24
-msgid "Recently added"
-msgstr "Añadido recientemente"
-
-#: archive-movies.php:18 archive-requests.php:22 archive.php:17
-#: includes/core/dbmvs/classes/postypes.php:31
-#: includes/core/dbmvs/classes/postypes.php:33
-#: includes/core/dbmvs/classes/postypes.php:34
-#: includes/core/dbmvs/classes/postypes.php:35
-#: includes/core/dbmvs/classes/postypes.php:43
-#: includes/core/dbmvs/tpl/admin_app.php:8
-#: includes/core/dbmvs/tpl/form_setting_titles.php:8
-#: includes/core/dbmvs/tpl/form_setting_updater.php:17
-#: includes/csf/options.customize.php:217
-#: includes/csf/options.module_movies.php:8
-#: includes/csf/options.module_movies.php:16 includes/extras/slugs.php:26
-#: includes/parts/modules/top-imdb-page.php:86
-#: includes/parts/modules/top-imdb-page.php:108
-#: includes/parts/single/peliculas.php:155
-#: includes/widgets/content_widget.php:77
-#: includes/widgets/content_widget_home.php:123 pages/rating.php:27
-#: pages/trending.php:28
-msgid "Movies"
-msgstr "Películas"
-
-#: archive-requests.php:18
-msgid "Requests List"
-msgstr "Lista de solicitudes"
-
-#: archive-requests.php:19
-msgid "+ Add new"
-msgstr "+ Agregar nuevo"
-
-#: archive-requests.php:20 pages/sections/account.php:95
-msgid "Go back"
-msgstr "Regresar"
-
-#: archive-requests.php:23 includes/core/dbmvs/tpl/form_setting_titles.php:17
-#: includes/extras/slugs.php:27 includes/parts/modules/top-imdb-page.php:95
-#: includes/parts/modules/top-imdb-page.php:121
-msgid "TVShows"
-msgstr "Series"
-
-#: archive-requests.php:26 includes/widgets/content_widget_home.php:122
-msgid "All"
-msgstr "Todo"
-
-#: archive-requests.php:33
-msgid "Search a title.."
-msgstr "Buscar un titulo.."
-
-#: archive-requests.php:43
-msgid "Find a title you want to suggest"
-msgstr "Encuentra un título que quieras sugerir"
-
-#: archive-requests.php:56
-msgid "Soon"
-msgstr "Próximamente"
-
-#: archive-seasons.php:17 includes/core/dbmvs/classes/epsemboxes.php:31
-#: includes/core/dbmvs/classes/postypes.php:113
-#: includes/core/dbmvs/classes/postypes.php:114
-#: includes/core/dbmvs/classes/postypes.php:115
-#: includes/core/dbmvs/classes/postypes.php:116
-#: includes/core/dbmvs/classes/postypes.php:117
-#: includes/core/dbmvs/classes/postypes.php:125
-#: includes/core/dbmvs/classes/tables.php:128
-#: includes/core/dbmvs/tpl/form_setting_titles.php:26
-#: includes/csf/options.module_seasons.php:16 includes/extras/slugs.php:28
-#: includes/parts/single/series.php:152
-msgid "Seasons"
-msgstr "Temporadas"
-
-#: archive-tvshows.php:18 includes/core/dbmvs/classes/postypes.php:72
-#: includes/core/dbmvs/classes/postypes.php:73
-#: includes/core/dbmvs/classes/postypes.php:74
-#: includes/core/dbmvs/classes/postypes.php:75
-#: includes/core/dbmvs/classes/postypes.php:76
-#: includes/core/dbmvs/tpl/form_setting_updater.php:18
-#: includes/csf/options.customize.php:219
-#: includes/csf/options.module_tvshows.php:8
-#: includes/csf/options.module_tvshows.php:16
-#: includes/parts/single/series.php:178 includes/widgets/content_widget.php:78
-#: includes/widgets/content_widget_home.php:124
-msgid "TV Shows"
-msgstr "Series de TV"
-
-#: author.php:35 pages/sections/account.php:32
+#: author.php:47 pages/sections/account.php:32
 msgid "You haven't written anything about yourself"
 msgstr "No has escrito nada sobre ti"
 
-#: author.php:40 author.php:60 pages/sections/account.php:37
+#: author.php:56 author.php:84 pages/sections/account.php:37
 #: pages/sections/account.php:57
 msgid "Favorites"
 msgstr "Favoritos"
 
-#: author.php:44 author.php:86 includes/core/dbmvs/classes/tables.php:70
+#: author.php:60 author.php:113 includes/core/dbmvs/classes/tables.php:70
 #: includes/core/dbmvs/classes/tables.php:129
 #: includes/core/dbmvs/classes/tables.php:177
 #: includes/core/dbmvs/classes/tables.php:215 includes/doo_scripts.php:198
-#: includes/extras/metabox.php:37 includes/parts/single/post.php:26
-#: pages/sections/account.php:41
+#: includes/extras/metabox.php:37 pages/sections/account.php:41
+#: parts/single-post.php:26
 msgid "Views"
 msgstr "Vistas"
 
-#: author.php:48 author.php:61 includes/doo_links.php:97
+#: author.php:64 author.php:85 includes/doo_links.php:97
 #: includes/doo_links.php:98 includes/doo_links.php:100
 #: includes/doo_links.php:101 includes/doo_links.php:110
 #: includes/doo_links.php:376 includes/doo_links.php:377
 #: includes/doo_links.php:378 includes/extras/slugs.php:30
-#: includes/parts/single/links.php:4 includes/parts/single/peliculas.php:94
-#: pages/sections/account.php:45 pages/sections/account.php:59
+#: includes/parts/single/links.php:4 pages/sections/account.php:45
+#: pages/sections/account.php:59 parts/single-movies.php:87
 msgid "Links"
 msgstr "Enlaces"
 
-#: author.php:52 includes/csf/options.comments.php:8
+#: author.php:74 includes/csf/options.comments.php:8
 #: includes/csf/options.comments.php:14 pages/sections/account.php:49
 msgid "Comments"
 msgstr "Comentarios"
 
-#: author.php:63
+#: author.php:87
 msgid "Edit Profile"
 msgstr "Editar perfil"
 
-#: author.php:74 author.php:97 includes/core/dbmvs/tpl/dashboard_widget.php:24
+#: author.php:100 author.php:124
+#: includes/core/dbmvs/tpl/dashboard_widget.php:24
 #: includes/core/dbmvs/tpl/dashboard_widget.php:42
 #: pages/sections/account.php:72 pages/sections/account.php:84
 #: pages/sections/account.php:118 pages/sections/account.php:140
 msgid "Load more"
 msgstr "Cargar mas"
 
-#: author.php:83 includes/core/dbmvs/classes/requests.php:118
+#: author.php:110 includes/core/dbmvs/classes/requests.php:118
 #: includes/parts/links_editor.php:44 includes/parts/links_editor_type.php:13
 #: includes/parts/player_editor.php:7 includes/parts/single/links.php:33
 msgid "Type"
 msgstr "Tipo"
 
-#: author.php:84 includes/doo_links.php:747 includes/parts/links_editor.php:45
+#: author.php:111 includes/doo_links.php:747 includes/parts/links_editor.php:45
 #: pages/sections/account.php:103 pages/sections/account.php:127
 msgid "Server"
 msgstr "Servidor"
 
-#: author.php:85 includes/parts/player_editor.php:6
+#: author.php:112 includes/parts/player_editor.php:6
 #: includes/widgets/content_widget_home.php:116 pages/sections/account.php:104
 #: pages/sections/account.php:128
 msgid "Title"
 msgstr "Título"
 
-#: author.php:87 includes/core/dbmvs/classes/taxonomies.php:57
+#: author.php:114 includes/core/dbmvs/classes/taxonomies.php:57
 #: includes/csf/options.links_module.php:68 includes/doo_links.php:599
 #: includes/doo_links.php:749 includes/extras/slugs.php:38
 #: includes/parts/links_editor.php:47 includes/parts/links_editor_type.php:49
@@ -216,25 +116,25 @@ msgstr "Título"
 msgid "Quality"
 msgstr "Calidad"
 
-#: author.php:88 includes/csf/options.links_module.php:69
+#: author.php:115 includes/csf/options.links_module.php:69
 #: includes/doo_links.php:600 includes/doo_links.php:748
 #: includes/parts/links_editor.php:46 includes/parts/links_editor_type.php:39
 #: includes/parts/single/links.php:36 pages/sections/account.php:106
 msgid "Language"
 msgstr "Idioma"
 
-#: author.php:89 includes/csf/options.links_module.php:72
+#: author.php:116 includes/csf/options.links_module.php:72
 #: includes/doo_links.php:603 includes/parts/links_editor.php:51
 #: pages/sections/account.php:108
 msgid "Added"
 msgstr "Añadido"
 
-#: category.php:16
+#: category.php:19
 #, php-format
 msgid "Category Archives: %s"
 msgstr "Archivos de categoría: %s"
 
-#: category.php:38 includes/parts/modules/blog.php:48 pages/blog.php:46
+#: category.php:55 includes/parts/modules/blog.php:48 pages/blog.php:46
 msgid "No posts to show"
 msgstr "No hay entradas para mostrar"
 
@@ -262,47 +162,51 @@ msgstr "Los comentarios están cerrados."
 msgid "%s %s by %s. All Rights Reserved. Powered by %s"
 msgstr "%s %s por %s. Todos los derechos reservados. Potenciado por %s"
 
-#: footer.php:68
+#: footer.php:77
 msgid "&lsaquo;"
 msgstr "&lsaquo;"
 
-#: footer.php:69
+#: footer.php:78
 msgid "&rsaquo;"
 msgstr "&rsaquo;"
 
-#: footer.php:70
+#: footer.php:79
 msgid "&times;"
 msgstr "&times;"
 
-#: header.php:48
-msgid "Generating data.."
+#: header.php:53
+#, fuzzy
+#| msgid "Generating data.."
+msgid "Generating data..."
 msgstr "Generando datos.."
 
-#: header.php:49
-msgid "Please wait, not close this page to complete the upload"
+#: header.php:54
+#, fuzzy
+#| msgid "Please wait, not close this page to complete the upload"
+msgid "Please wait, do not close this page to complete the upload."
 msgstr "Por favor, espere, no cierre esta página para completar la carga"
 
-#: header.php:66 header.php:104
+#: header.php:71 header.php:110
 #: includes/core/codestar/classes/admin-options.class.php:513
 #: includes/core/codestar/fields/icon/icon.php:57
 #: includes/core/codestar/fields/map/map.php:23 pages/search.php:7
-#: searchform.php:2
+#: searchform.php:18
 msgid "Search..."
 msgstr "Buscar..."
 
-#: header.php:78 header.php:120
+#: header.php:85 header.php:126
 msgid "Sign out"
 msgstr "Cerrar sesión"
 
-#: header.php:116
+#: header.php:122
 msgid "My account"
 msgstr "Mi cuenta"
 
-#: header.php:125
+#: header.php:131
 msgid "Login"
 msgstr "Ingresar"
 
-#: header.php:126
+#: header.php:132
 msgid "Sign Up"
 msgstr "Registrarse"
 
@@ -1030,8 +934,7 @@ msgid "Please enter a valid URL."
 msgstr "Por favor, introduzca una URL válido."
 
 #: includes/core/dbmvs/classes/adminpage.php:49
-#: includes/core/dbmvs/classes/importers.php:639
-#: includes/parts/single/temporadas.php:29
+#: includes/core/dbmvs/classes/importers.php:639 parts/single-seasons.php:29
 msgid "{name}: Season {season}"
 msgstr "{name}: Temporada {season}"
 
@@ -1296,6 +1199,34 @@ msgstr "Año"
 msgid "Years"
 msgstr "Años"
 
+#: includes/core/dbmvs/classes/epsemboxes.php:31
+#: includes/core/dbmvs/classes/postypes.php:113
+#: includes/core/dbmvs/classes/postypes.php:114
+#: includes/core/dbmvs/classes/postypes.php:115
+#: includes/core/dbmvs/classes/postypes.php:116
+#: includes/core/dbmvs/classes/postypes.php:117
+#: includes/core/dbmvs/classes/postypes.php:125
+#: includes/core/dbmvs/classes/tables.php:128
+#: includes/core/dbmvs/tpl/form_setting_titles.php:26
+#: includes/csf/options.module_seasons.php:16 includes/extras/slugs.php:28
+#: parts/archive-seasons.php:38 parts/single-tvshows.php:152
+msgid "Seasons"
+msgstr "Temporadas"
+
+#: includes/core/dbmvs/classes/epsemboxes.php:32
+#: includes/core/dbmvs/classes/postypes.php:154
+#: includes/core/dbmvs/classes/postypes.php:155
+#: includes/core/dbmvs/classes/postypes.php:156
+#: includes/core/dbmvs/classes/postypes.php:157
+#: includes/core/dbmvs/classes/postypes.php:158
+#: includes/core/dbmvs/classes/postypes.php:166
+#: includes/core/dbmvs/tpl/form_setting_titles.php:35
+#: includes/csf/options.module_episodes.php:16 includes/extras/slugs.php:29
+#: includes/widgets/content_widget.php:79 parts/archive-episodes.php:15
+#: parts/single-tvshows.php:83 parts/single-tvshows.php:157
+msgid "Episodes"
+msgstr "Episodios"
+
 #: includes/core/dbmvs/classes/epsemboxes.php:52
 msgid "Generate new seasons"
 msgstr "Genere nuevas temporadas"
@@ -1499,11 +1430,11 @@ msgid "Danish"
 msgstr "Danés"
 
 #: includes/core/dbmvs/classes/helpers.php:555
-#: includes/csf/options.comments.php:143 includes/doo_init.php:21
+#: includes/csf/options.comments.php:143 includes/doo_functions.php:21
 msgid "Dutch"
 msgstr "Holandés"
 
-#: includes/core/dbmvs/classes/helpers.php:556 includes/doo_init.php:22
+#: includes/core/dbmvs/classes/helpers.php:556 includes/doo_functions.php:22
 msgid "English"
 msgstr "Inglés"
 
@@ -1512,12 +1443,12 @@ msgstr "Inglés"
 msgid "Finnish"
 msgstr "Finlandés"
 
-#: includes/core/dbmvs/classes/helpers.php:558 includes/doo_init.php:25
+#: includes/core/dbmvs/classes/helpers.php:558 includes/doo_functions.php:25
 msgid "French"
 msgstr "Francés"
 
 #: includes/core/dbmvs/classes/helpers.php:559
-#: includes/csf/options.comments.php:74 includes/doo_init.php:26
+#: includes/csf/options.comments.php:74 includes/doo_functions.php:26
 msgid "German"
 msgstr "Alemán"
 
@@ -1542,17 +1473,17 @@ msgid "Icelandic"
 msgstr "Islandés"
 
 #: includes/core/dbmvs/classes/helpers.php:564
-#: includes/csf/options.comments.php:109 includes/doo_init.php:27
+#: includes/csf/options.comments.php:109 includes/doo_functions.php:27
 msgid "Indonesian"
 msgstr "Indones"
 
 #: includes/core/dbmvs/classes/helpers.php:565
-#: includes/csf/options.comments.php:112 includes/doo_init.php:29
+#: includes/csf/options.comments.php:112 includes/doo_functions.php:29
 msgid "Italian"
 msgstr "Italiano"
 
 #: includes/core/dbmvs/classes/helpers.php:566
-#: includes/csf/options.comments.php:120 includes/doo_init.php:31
+#: includes/csf/options.comments.php:120 includes/doo_functions.php:31
 msgid "Korean"
 msgstr "Korenao"
 
@@ -1575,7 +1506,7 @@ msgid "Persian"
 msgstr "Persa"
 
 #: includes/core/dbmvs/classes/helpers.php:571
-#: includes/csf/options.comments.php:148 includes/doo_init.php:35
+#: includes/csf/options.comments.php:148 includes/doo_functions.php:35
 msgid "Polish"
 msgstr "Polaco"
 
@@ -1588,12 +1519,12 @@ msgid "Brazilian Portuguese"
 msgstr "Portugués brasileño"
 
 #: includes/core/dbmvs/classes/helpers.php:574
-#: includes/csf/options.comments.php:154 includes/doo_init.php:36
+#: includes/csf/options.comments.php:154 includes/doo_functions.php:36
 msgid "Romanian"
 msgstr "Rumano"
 
 #: includes/core/dbmvs/classes/helpers.php:575
-#: includes/csf/options.comments.php:155 includes/doo_init.php:46
+#: includes/csf/options.comments.php:155 includes/doo_functions.php:46
 msgid "Russian"
 msgstr "Ruso"
 
@@ -1621,7 +1552,7 @@ msgid "Thai"
 msgstr "Tailandés"
 
 #: includes/core/dbmvs/classes/helpers.php:581
-#: includes/csf/options.comments.php:178 includes/doo_init.php:45
+#: includes/csf/options.comments.php:178 includes/doo_functions.php:45
 msgid "Turkish"
 msgstr "Turco"
 
@@ -1936,8 +1867,7 @@ msgid "Place each image url below another"
 msgstr "Coloque cada URL de la imagen debajo de otro"
 
 #: includes/core/dbmvs/classes/metaboxes.php:90
-#: includes/core/dbmvs/classes/metaboxes.php:255
-#: includes/parts/single/series.php:111
+#: includes/core/dbmvs/classes/metaboxes.php:255 parts/single-tvshows.php:111
 msgid "Video trailer"
 msgstr "Video trailer"
 
@@ -1977,8 +1907,8 @@ msgstr "Datos de themoviedb.org"
 msgid "ID TMDb"
 msgstr "TMDb ID"
 
-#: includes/core/dbmvs/classes/metaboxes.php:148
-#: includes/parts/single/peliculas.php:111 includes/parts/single/series.php:130
+#: includes/core/dbmvs/classes/metaboxes.php:148 parts/single-movies.php:102
+#: parts/single-tvshows.php:130
 msgid "Original title"
 msgstr "Título original"
 
@@ -2004,17 +1934,17 @@ msgstr "Duración"
 #: includes/core/dbmvs/classes/taxonomies.php:74
 #: includes/core/dbmvs/classes/taxonomies.php:75
 #: includes/core/dbmvs/classes/taxonomies.php:76 includes/extras/slugs.php:35
-#: includes/parts/single/peliculas.php:93
-#: includes/parts/single/peliculas.php:136 includes/parts/single/series.php:85
-#: includes/parts/single/series.php:102
+#: parts/single-movies.php:86 parts/single-movies.php:126
+#: parts/single-tvshows.php:85 parts/single-tvshows.php:102
 msgid "Cast"
 msgstr "Reparto"
 
 #: includes/core/dbmvs/classes/metaboxes.php:188
 #: includes/core/dbmvs/classes/taxonomies.php:103
 #: includes/core/dbmvs/classes/taxonomies.php:104
-#: includes/core/dbmvs/classes/taxonomies.php:105 includes/doo_init.php:715
-#: includes/extras/slugs.php:37 includes/parts/single/peliculas.php:132
+#: includes/core/dbmvs/classes/taxonomies.php:105
+#: includes/doo_functions.php:715 includes/extras/slugs.php:37
+#: parts/single-movies.php:122
 msgid "Director"
 msgstr "Director"
 
@@ -2050,8 +1980,7 @@ msgstr "Nombre original"
 msgid "Firt air date"
 msgstr "Fecha de primera emisión"
 
-#: includes/core/dbmvs/classes/metaboxes.php:278
-#: includes/parts/single/series.php:147
+#: includes/core/dbmvs/classes/metaboxes.php:278 parts/single-tvshows.php:147
 msgid "Last air date"
 msgstr "Última transmisión"
 
@@ -2070,8 +1999,9 @@ msgstr "Duración de episodios"
 #: includes/core/dbmvs/classes/metaboxes.php:311
 #: includes/core/dbmvs/classes/taxonomies.php:132
 #: includes/core/dbmvs/classes/taxonomies.php:133
-#: includes/core/dbmvs/classes/taxonomies.php:134 includes/doo_init.php:765
-#: includes/extras/slugs.php:36 includes/parts/single/series.php:98
+#: includes/core/dbmvs/classes/taxonomies.php:134
+#: includes/doo_functions.php:765 includes/extras/slugs.php:36
+#: parts/single-tvshows.php:98
 msgid "Creator"
 msgstr "Creador"
 
@@ -2113,9 +2043,44 @@ msgstr ""
 msgid "Episode title"
 msgstr "Titulo del episodio"
 
+#: includes/core/dbmvs/classes/postypes.php:31
+#: includes/core/dbmvs/classes/postypes.php:33
+#: includes/core/dbmvs/classes/postypes.php:34
+#: includes/core/dbmvs/classes/postypes.php:35
+#: includes/core/dbmvs/classes/postypes.php:43
+#: includes/core/dbmvs/tpl/admin_app.php:8
+#: includes/core/dbmvs/tpl/form_setting_titles.php:8
+#: includes/core/dbmvs/tpl/form_setting_updater.php:17
+#: includes/csf/options.customize.php:217
+#: includes/csf/options.module_movies.php:8
+#: includes/csf/options.module_movies.php:16 includes/extras/slugs.php:26
+#: includes/parts/modules/top-imdb-page.php:86
+#: includes/parts/modules/top-imdb-page.php:108
+#: includes/widgets/content_widget.php:77
+#: includes/widgets/content_widget_home.php:123 pages/rating.php:27
+#: pages/trending.php:28 parts/archive-movies.php:14 parts/archive-post.php:16
+#: parts/archive-requests.php:24 parts/single-movies.php:140
+msgid "Movies"
+msgstr "Películas"
+
 #: includes/core/dbmvs/classes/postypes.php:44
 msgid "Movies manage"
 msgstr "Administrar peliculas"
+
+#: includes/core/dbmvs/classes/postypes.php:72
+#: includes/core/dbmvs/classes/postypes.php:73
+#: includes/core/dbmvs/classes/postypes.php:74
+#: includes/core/dbmvs/classes/postypes.php:75
+#: includes/core/dbmvs/classes/postypes.php:76
+#: includes/core/dbmvs/tpl/form_setting_updater.php:18
+#: includes/csf/options.customize.php:219
+#: includes/csf/options.module_tvshows.php:8
+#: includes/csf/options.module_tvshows.php:16
+#: includes/widgets/content_widget.php:78
+#: includes/widgets/content_widget_home.php:124 parts/archive-tvshows.php:40
+#: parts/single-tvshows.php:178
+msgid "TV Shows"
+msgstr "Series de TV"
 
 #: includes/core/dbmvs/classes/postypes.php:84
 #: includes/core/dbmvs/classes/requests.php:138
@@ -2385,7 +2350,7 @@ msgid "Finish"
 msgstr "Finalizar"
 
 #: includes/core/dbmvs/tpl/admin_app.php:29
-#: includes/csf/options.links_module.php:121 single-dt_links.php:34
+#: includes/csf/options.links_module.php:121 single-dt_links.php:30
 msgid "Continue"
 msgstr "Continuar"
 
@@ -2873,6 +2838,12 @@ msgstr "Configurar los títulos que se generan en los importadores"
 msgid "Usable tags"
 msgstr "Etiquetas utilizables"
 
+#: includes/core/dbmvs/tpl/form_setting_titles.php:17
+#: includes/extras/slugs.php:27 includes/parts/modules/top-imdb-page.php:95
+#: includes/parts/modules/top-imdb-page.php:121 parts/archive-requests.php:25
+msgid "TVShows"
+msgstr "Series"
+
 #: includes/core/dbmvs/tpl/form_setting_titles.php:45
 msgid "Customize Content"
 msgstr "Personalizar contenido"
@@ -3286,7 +3257,7 @@ msgstr "Sistema de comentarios"
 msgid "WordPress"
 msgstr "WordPress"
 
-#: includes/csf/options.comments.php:23 includes/doo_init.php:901
+#: includes/csf/options.comments.php:23 includes/doo_functions.php:901
 msgid "Facebook"
 msgstr "Facebook"
 
@@ -3490,7 +3461,7 @@ msgstr "Classical Greek"
 msgid "Hausa"
 msgstr "Hausa"
 
-#: includes/csf/options.comments.php:105 includes/doo_init.php:28
+#: includes/csf/options.comments.php:105 includes/doo_functions.php:28
 msgid "Hindi"
 msgstr "Hindi"
 
@@ -3502,7 +3473,7 @@ msgstr "Armenio"
 msgid "Igbo"
 msgstr "Igbo"
 
-#: includes/csf/options.comments.php:113 includes/doo_init.php:30
+#: includes/csf/options.comments.php:113 includes/doo_functions.php:30
 msgid "Japanese"
 msgstr "Japonés"
 
@@ -4411,7 +4382,7 @@ msgstr "Personalizar el botón"
 msgid "Text under button"
 msgstr "Texto bajo el botón"
 
-#: includes/csf/options.links_module.php:128 single-dt_links.php:35
+#: includes/csf/options.links_module.php:128 single-dt_links.php:31
 msgid "Click on the button to continue"
 msgstr "Haga clic en el botón para continuar"
 
@@ -5377,8 +5348,8 @@ msgid "No more content to show."
 msgstr "No hay mas contenido para mostrar."
 
 #: includes/doo_ajax.php:180 includes/doo_ajax.php:220
-#: includes/doo_ajax.php:258 includes/doo_init.php:1197
-#: includes/doo_init.php:1233 includes/doo_init.php:1266
+#: includes/doo_ajax.php:258 includes/doo_functions.php:1197
+#: includes/doo_functions.php:1233 includes/doo_functions.php:1266
 #: includes/parts/modules/widgethome.php:13
 msgid "No content"
 msgstr "Sin contenido"
@@ -5441,23 +5412,23 @@ msgstr ""
 msgid "Registration completed successfully"
 msgstr "Registro completado correctamente"
 
-#: includes/doo_cache.php:145
+#: includes/doo_cache.php:148
 msgid "Dooplay options"
 msgstr "Dooplay options"
 
-#: includes/doo_cache.php:156
+#: includes/doo_cache.php:159
 msgid "Delete cache this Entry"
 msgstr "Eliminar caché esta entrada"
 
-#: includes/doo_cache.php:164 includes/parts/admin/database_tool.php:56
+#: includes/doo_cache.php:167 includes/parts/admin/database_tool.php:56
 msgid "Clear Transient options"
 msgstr "Limpiar opciones transitorias"
 
-#: includes/doo_cache.php:170
+#: includes/doo_cache.php:173
 msgid "Delete cache expired"
 msgstr "Eliminar caché caducada"
 
-#: includes/doo_cache.php:176
+#: includes/doo_cache.php:179
 msgid "Delete all cache"
 msgstr "Eliminar toda la caché"
 
@@ -5526,107 +5497,107 @@ msgstr "Licencia invalida"
 msgid "Just now"
 msgstr "Justo ahora"
 
-#: includes/doo_init.php:19
+#: includes/doo_functions.php:19
 msgid "Chinese"
 msgstr "Chino"
 
-#: includes/doo_init.php:20
+#: includes/doo_functions.php:20
 msgid "Denmark"
 msgstr "Denmark"
 
-#: includes/doo_init.php:23
+#: includes/doo_functions.php:23
 msgid "English British"
 msgstr "Inglés Británico"
 
-#: includes/doo_init.php:24
+#: includes/doo_functions.php:24
 msgid "Egypt"
 msgstr "Egipto"
 
-#: includes/doo_init.php:32
+#: includes/doo_functions.php:32
 msgid "Philippines"
 msgstr "Philippines"
 
-#: includes/doo_init.php:33
+#: includes/doo_functions.php:33
 msgid "Portuguese Portugal"
 msgstr "Portugués Portugal"
 
-#: includes/doo_init.php:34
+#: includes/doo_functions.php:34
 msgid "Portuguese Brazil"
 msgstr "Portugués Brasil"
 
-#: includes/doo_init.php:37
+#: includes/doo_functions.php:37
 msgid "Scotland"
 msgstr "Scotland"
 
-#: includes/doo_init.php:38
+#: includes/doo_functions.php:38
 msgid "Spanish Spain"
 msgstr "Español España"
 
-#: includes/doo_init.php:39
+#: includes/doo_functions.php:39
 msgid "Spanish Mexico"
 msgstr "Español México"
 
-#: includes/doo_init.php:40
+#: includes/doo_functions.php:40
 msgid "Spanish Argentina"
 msgstr "Español Argentina"
 
-#: includes/doo_init.php:41
+#: includes/doo_functions.php:41
 msgid "Spanish Peru"
 msgstr "Español Perú"
 
-#: includes/doo_init.php:42
+#: includes/doo_functions.php:42
 msgid "Spanish Chile"
 msgstr "Español Chile"
 
-#: includes/doo_init.php:43
+#: includes/doo_functions.php:43
 msgid "Spanish Colombia"
 msgstr "Español Colombia"
 
-#: includes/doo_init.php:44
+#: includes/doo_functions.php:44
 msgid "Sweden"
 msgstr "Sweden"
 
-#: includes/doo_init.php:47
+#: includes/doo_functions.php:47
 msgid "Vietnam"
 msgstr "Vietnam"
 
-#: includes/doo_init.php:445
+#: includes/doo_functions.php:445
 #, php-format
 msgid "Page %d of %d"
 msgstr ""
 
-#: includes/doo_init.php:565
+#: includes/doo_functions.php:565
 msgid "Unknown resource"
 msgstr "Desconocido"
 
-#: includes/doo_init.php:567
+#: includes/doo_functions.php:567
 msgid "Google Drive"
 msgstr "Google Drive"
 
-#: includes/doo_init.php:650
+#: includes/doo_functions.php:650
 #, fuzzy, php-format
 #| msgid "Season %s %s"
 msgid "%s is %s"
 msgstr "Temporada %s %s"
 
-#: includes/doo_init.php:898
+#: includes/doo_functions.php:898
 msgid "Shared"
 msgstr "Compartido"
 
-#: includes/doo_init.php:904
+#: includes/doo_functions.php:904
 msgid "X"
 msgstr ""
 
-#: includes/doo_init.php:966
+#: includes/doo_functions.php:966
 #, php-format
 msgid "%1$s"
 msgstr "%1$s"
 
-#: includes/doo_init.php:1162
+#: includes/doo_functions.php:1162
 msgid "No content available on your list."
 msgstr "No hay contenido en tu lista."
 
-#: includes/doo_init.php:1403
+#: includes/doo_functions.php:1403
 msgid "Home"
 msgstr "Inicio"
 
@@ -5648,9 +5619,8 @@ msgstr "Ver en línea"
 #: includes/parts/item_links.php:29 includes/parts/item_links_admin.php:26
 #: includes/parts/item_links_admin.php:27
 #: includes/parts/item_links_profile.php:26
-#: includes/parts/item_links_profile.php:27
-#: includes/parts/single/doo_links.php:45 includes/parts/single/links.php:8
-#: includes/parts/single/links.php:17
+#: includes/parts/item_links_profile.php:27 includes/parts/single/links.php:8
+#: includes/parts/single/links.php:17 parts/single-links.php:60
 msgid "Torrent"
 msgstr "Torrent"
 
@@ -5774,7 +5744,7 @@ msgstr "click aquí"
 msgid "This version requires you to update the links module"
 msgstr "Esta versión requiere que actualice el módulo de enlaces"
 
-#: includes/DOOPLAY_OPTIONS.php:16
+#: includes/doo_options.php:16
 #, php-format
 msgid "%s options"
 msgstr "%s opciones"
@@ -5811,7 +5781,7 @@ msgstr "Ver trailer"
 msgid "Advertisement"
 msgstr "Anuncio"
 
-#: includes/doo_scripts.php:196
+#: includes/doo_scripts.php:196 parts/single-movies.php:79
 msgid "Add to favorites"
 msgstr "Añadir a favoritos"
 
@@ -6380,30 +6350,6 @@ msgstr "Control"
 msgid "Add new row"
 msgstr "Añadir nueva fila"
 
-#: includes/parts/single/doo_links.php:37
-msgid "Please wait until the time runs out"
-msgstr "Por favor, espere hasta que acabe el tiempo"
-
-#: includes/parts/single/doo_links.php:46
-msgid "Get this torrent"
-msgstr "Obtener este torrent"
-
-#: includes/parts/single/doo_links.php:48
-#, php-format
-msgid "Are you going to %s"
-msgstr "Te estamos redireccionando a %s"
-
-#: includes/parts/single/episodios.php:22
-#: includes/parts/single/peliculas.php:23
-#, php-format
-msgid "%s Views"
-msgstr "%s Vistas"
-
-#: includes/parts/single/episodios.php:22
-#: includes/parts/single/peliculas.php:23
-msgid "0 Views"
-msgstr "0 Vistas"
-
 #: includes/parts/single/links.php:34
 msgid "URL"
 msgstr "URL"
@@ -6446,48 +6392,6 @@ msgstr "Especiales"
 msgid "Season %s %s"
 msgstr "Temporada %s %s"
 
-#: includes/parts/single/peliculas.php:69
-msgid "Min."
-msgstr "Min."
-
-#: includes/parts/single/peliculas.php:92 includes/parts/single/series.php:84
-msgid "Info"
-msgstr "Info"
-
-#: includes/parts/single/peliculas.php:103 includes/parts/single/series.php:122
-msgid "Synopsis"
-msgstr "Sinopsis"
-
-#: includes/parts/single/peliculas.php:116
-msgid "IMDb Rating"
-msgstr "IMDb Rating"
-
-#: includes/parts/single/peliculas.php:118
-#: includes/parts/single/peliculas.php:125 includes/parts/single/series.php:137
-#, php-format
-msgid "%s votes"
-msgstr "%s votos"
-
-#: includes/parts/single/peliculas.php:119
-msgid "Update Rating"
-msgstr "Update Rating"
-
-#: includes/parts/single/peliculas.php:124 includes/parts/single/series.php:135
-msgid "TMDb Rating"
-msgstr "TMDb Rating"
-
-#: includes/parts/single/post.php:34
-msgid "Categories"
-msgstr "Categorías"
-
-#: includes/parts/single/post.php:39
-msgid "Tags"
-msgstr "Etiquetas"
-
-#: includes/parts/single/post.php:52
-msgid "Add widgets"
-msgstr "Añadir widget"
-
 #: includes/parts/single/relacionados.php:17
 msgid "Similar titles"
 msgstr "Títulos similares"
@@ -6507,23 +6411,6 @@ msgstr "Correo electrónico"
 #: includes/parts/single/report-video.php:44
 msgid "Send report"
 msgstr "Enviar reporte"
-
-#: includes/parts/single/series.php:86
-msgid "Trailer"
-msgstr "Trailer"
-
-#: includes/parts/single/series.php:142
-msgid "First air date"
-msgstr "Fecha de primera emisión"
-
-#: includes/parts/single/series.php:162
-msgid "Average Duration"
-msgstr "Duración media"
-
-#: includes/parts/single/series.php:163
-#, php-format
-msgid "%s minutes"
-msgstr "%s minutos"
 
 #: includes/widgets/content_related_widget.php:16
 msgid "A widget to show related content in the sidebar"
@@ -6605,6 +6492,10 @@ msgstr "DooPlay - [widgetgenre] Generos"
 #: includes/widgets/content_widget_home.php:92
 msgid "Error: only homepage"
 msgstr "Error: sólo página de inicio"
+
+#: includes/widgets/content_widget_home.php:122 parts/archive-requests.php:28
+msgid "All"
+msgstr "Todo"
 
 #: includes/widgets/content_widget_home.php:140
 msgid "Autoplay Carousel"
@@ -6801,6 +6692,10 @@ msgstr "Marcado como visto"
 msgid "pendings"
 msgstr "pendientes"
 
+#: pages/sections/account.php:95 parts/archive-requests.php:22
+msgid "Go back"
+msgstr "Regresar"
+
 #: pages/sections/account.php:109 pages/sections/account.php:131
 msgid "Status"
 msgstr "Estado"
@@ -6897,15 +6792,150 @@ msgstr "Iniciar sesión aquí"
 msgid "Sign up, it's free.."
 msgstr "Registrese, es gratis.."
 
-#: tag.php:17
+#: parts/archive-episodes.php:18 parts/archive-movies.php:23
+#: parts/archive-seasons.php:39 parts/archive-tvshows.php:59 taxonomy.php:29
+msgid "Recently added"
+msgstr "Añadido recientemente"
+
+#: parts/archive-requests.php:20
+msgid "Requests List"
+msgstr "Lista de solicitudes"
+
+#: parts/archive-requests.php:21
+msgid "+ Add new"
+msgstr "+ Agregar nuevo"
+
+#: parts/archive-requests.php:35
+msgid "Search a title.."
+msgstr "Buscar un titulo.."
+
+#: parts/archive-requests.php:45
+msgid "Find a title you want to suggest"
+msgstr "Encuentra un título que quieras sugerir"
+
+#: parts/archive-requests.php:59
+msgid "Soon"
+msgstr "Próximamente"
+
+#: parts/single-episodes.php:17
+#, fuzzy, php-format
+#| msgid "%s Views"
+msgid " %s Views"
+msgstr "%s Vistas"
+
+#: parts/single-episodes.php:17 parts/single-movies.php:18
+msgid "0 Views"
+msgstr "0 Vistas"
+
+#: parts/single-links.php:45
+msgid "Please wait until the time runs out"
+msgstr "Por favor, espere hasta que acabe el tiempo"
+
+#: parts/single-links.php:61
+msgid "Get this torrent"
+msgstr "Obtener este torrent"
+
+#: parts/single-links.php:63
+#, php-format
+msgid "Are you going to %s"
+msgstr "Te estamos redireccionando a %s"
+
+#: parts/single-movies.php:18
+#, php-format
+msgid "%s Views"
+msgstr "%s Vistas"
+
+#: parts/single-movies.php:63
+msgid "Min."
+msgstr "Min."
+
+#: parts/single-movies.php:80
+#, fuzzy
+#| msgid "Marked as view"
+msgid "Mark as seen"
+msgstr "Marcado como visto"
+
+#: parts/single-movies.php:85 parts/single-tvshows.php:84
+msgid "Info"
+msgstr "Info"
+
+#: parts/single-movies.php:94 parts/single-tvshows.php:122
+msgid "Synopsis"
+msgstr "Sinopsis"
+
+#: parts/single-movies.php:107
+msgid "IMDb Rating"
+msgstr "IMDb Rating"
+
+#: parts/single-movies.php:109 parts/single-movies.php:116
+#: parts/single-tvshows.php:137
+#, php-format
+msgid "%s votes"
+msgstr "%s votos"
+
+#: parts/single-movies.php:110
+msgid "Update Rating"
+msgstr "Update Rating"
+
+#: parts/single-movies.php:115 parts/single-tvshows.php:135
+msgid "TMDb Rating"
+msgstr "TMDb Rating"
+
+#: parts/single-post.php:34
+msgid "Categories"
+msgstr "Categorías"
+
+#: parts/single-post.php:39
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: parts/single-post.php:52
+msgid "Add widgets"
+msgstr "Añadir widget"
+
+#: parts/single-tvshows.php:86
+msgid "Trailer"
+msgstr "Trailer"
+
+#: parts/single-tvshows.php:142
+msgid "First air date"
+msgstr "Fecha de primera emisión"
+
+#: parts/single-tvshows.php:162
+msgid "Average Duration"
+msgstr "Duración media"
+
+#: parts/single-tvshows.php:163
+#, php-format
+msgid "%s minutes"
+msgstr "%s minutos"
+
+#: searchform.php:12
+#, fuzzy
+#| msgid "Search"
+msgid "Search Form"
+msgstr "Buscar"
+
+#: searchform.php:21
+#, fuzzy
+#| msgid "Search"
+msgid "Search query"
+msgstr "Buscar"
+
+#: searchform.php:24
+#, fuzzy
+#| msgid "Search"
+msgid "Submit search"
+msgstr "Buscar"
+
+#: tag.php:20 taxonomy.php:21
 #, php-format
 msgid "Tag Archives: %s"
 msgstr "Archivos de etiqueta: %s"
 
-#: taxonomy.php:19
-#, php-format
-msgid "%s"
-msgstr "%s"
+#: taxonomy.php:44
+msgid "No posts found in this taxonomy."
+msgstr ""
 
 #. Theme Name of the plugin/theme
 msgid "DooPlay"
@@ -6917,11 +6947,9 @@ msgstr "https://doothemes.com/items/dooplay/"
 
 #. Description of the plugin/theme
 msgid ""
-"Dooplay is undoubtedly the best and most powerful framework, with access to "
-"a large volume of content with a single click, completely optimized."
+"Dooplay is the most powerful and optimized framework for accessing a vast "
+"library of content with ease. Fully customizable and feature-rich."
 msgstr ""
-"Dooplay es, sin duda, el mejor y más potente framework, con acceso a un gran "
-"volumen de contenido con un solo clic, completamente optimizado."
 
 #. Author of the plugin/theme
 msgid "Doothemes"
@@ -6930,6 +6958,20 @@ msgstr "Doothemes"
 #. Author URI of the plugin/theme
 msgid "https://doothemes.com/"
 msgstr "https://doothemes.com/"
+
+#, php-format
+#~ msgid "%s"
+#~ msgstr "%s"
+
+#~ msgid ""
+#~ "Dooplay is undoubtedly the best and most powerful framework, with access "
+#~ "to a large volume of content with a single click, completely optimized."
+#~ msgstr ""
+#~ "Dooplay es, sin duda, el mejor y más potente framework, con acceso a un "
+#~ "gran volumen de contenido con un solo clic, completamente optimizado."
+
+#~ msgid "ERROR"
+#~ msgstr "ERROR"
 
 #~ msgid "Site offline"
 #~ msgstr "Sitio en línea"
