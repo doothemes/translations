@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DooPlay\n"
-"POT-Creation-Date: 2025-02-05 08:00-0500\n"
+"POT-Creation-Date: 2025-03-05 21:12-0500\n"
 "PO-Revision-Date: 2018-07-28 13:49-0500\n"
 "Last-Translator: Brendha Mayuri <info@doothemes.com>\n"
 "Language-Team: Erick Meza <emeza@ews.pe>\n"
@@ -21,28 +21,28 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: 404.php:19
+#: 404.php:21
 msgid "Page not found"
 msgstr ""
 
-#: 404.php:24
+#: 404.php:26
 #, php-format
 msgid "Error %s"
 msgstr ""
 
-#: 404.php:25 pages/letter.php:7 pages/search.php:61
+#: 404.php:27 pages/letter.php:7 pages/search.php:61 search.php:39
 msgid "Suggestions"
 msgstr ""
 
-#: 404.php:28
+#: 404.php:30
 msgid "Verify that the link is correct."
 msgstr ""
 
-#: 404.php:29
+#: 404.php:31
 msgid "Use the search box on the page."
 msgstr ""
 
-#: 404.php:30
+#: 404.php:32
 msgid "Contact support page."
 msgstr ""
 
@@ -56,9 +56,9 @@ msgid "Favorites"
 msgstr ""
 
 #: author.php:60 author.php:113 includes/core/dbmvs/classes/tables.php:271
-#: includes/core/dbmvs/classes/tables.php:309 includes/doo_scripts.php:198
+#: includes/core/dbmvs/classes/tables.php:309 includes/doo_scripts.php:204
 #: includes/extras/metabox.php:61 pages/sections/account.php:41
-#: parts/single-post.php:26
+#: parts/single/tpl-post.php:26
 msgid "Views"
 msgstr ""
 
@@ -68,12 +68,12 @@ msgstr ""
 #: includes/doo_links.php:376 includes/doo_links.php:377
 #: includes/doo_links.php:378 includes/extras/slugs.php:58
 #: includes/parts/single/links.php:4 pages/sections/account.php:45
-#: pages/sections/account.php:59 parts/single-movies.php:87
+#: pages/sections/account.php:59 parts/single/tpl-movies.php:87
 msgid "Links"
 msgstr ""
 
-#: author.php:74 includes/csf/options.comments.php:12
-#: includes/csf/options.comments.php:18 pages/sections/account.php:49
+#: author.php:74 includes/csf/options/options.comments.php:12
+#: includes/csf/options/options.comments.php:18 pages/sections/account.php:49
 msgid "Comments"
 msgstr ""
 
@@ -100,28 +100,31 @@ msgstr ""
 msgid "Server"
 msgstr ""
 
-#: author.php:112 includes/parts/player_editor.php:6
-#: includes/widgets/content_widget_home.php:116 pages/sections/account.php:104
-#: pages/sections/account.php:128
+#: author.php:112 includes/csf/custom/sitemod.genres.php:35
+#: includes/parts/player_editor.php:6
+#: includes/widgets/content_widget_genres_list.php:81
+#: includes/widgets/content_widget_genres_module.php:136
+#: includes/widgets/content_widget_release_years.php:67
+#: pages/sections/account.php:104 pages/sections/account.php:128
 msgid "Title"
 msgstr ""
 
 #: author.php:114 includes/core/dbmvs/classes/taxonomies.php:57
-#: includes/csf/options.links_module.php:72 includes/doo_links.php:599
+#: includes/csf/options/options.links_module.php:72 includes/doo_links.php:599
 #: includes/doo_links.php:749 includes/extras/slugs.php:66
 #: includes/parts/links_editor.php:47 includes/parts/links_editor_type.php:49
 #: includes/parts/single/links.php:35 pages/sections/account.php:107
 msgid "Quality"
 msgstr ""
 
-#: author.php:115 includes/csf/options.links_module.php:73
+#: author.php:115 includes/csf/options/options.links_module.php:73
 #: includes/doo_links.php:600 includes/doo_links.php:748
 #: includes/parts/links_editor.php:46 includes/parts/links_editor_type.php:39
 #: includes/parts/single/links.php:36 pages/sections/account.php:106
 msgid "Language"
 msgstr ""
 
-#: author.php:116 includes/csf/options.links_module.php:76
+#: author.php:116 includes/csf/options/options.links_module.php:76
 #: includes/doo_links.php:603 includes/parts/links_editor.php:51
 #: pages/sections/account.php:108
 msgid "Added"
@@ -132,7 +135,7 @@ msgstr ""
 msgid "Category Archives: %s"
 msgstr ""
 
-#: category.php:55 includes/parts/modules/blog.php:48 pages/blog.php:46
+#: category.php:55 includes/parts/modules/blog.php:49 pages/blog.php:53
 msgid "No posts to show"
 msgstr ""
 
@@ -170,6 +173,18 @@ msgstr ""
 
 #: footer.php:79
 msgid "&times;"
+msgstr ""
+
+#: header-new.php:18
+msgid "Search content"
+msgstr ""
+
+#: header-new.php:25
+msgid "View all result"
+msgstr ""
+
+#: header-new.php:49 includes/core/dbmvs/tpl/admin_app.php:83
+msgid "Search.."
 msgstr ""
 
 #: header.php:53
@@ -609,7 +624,7 @@ msgstr ""
 #: includes/core/codestar/fields/border/border.php:59
 #: includes/core/codestar/fields/typography/typography.php:199
 #: includes/core/codestar/fields/typography/typography.php:213
-#: includes/csf/options.comments.php:29
+#: includes/csf/options/options.comments.php:29
 msgid "None"
 msgstr ""
 
@@ -715,8 +730,8 @@ msgstr ""
 #: includes/core/codestar/fields/upload/upload.php:25
 #: includes/core/dbmvs/classes/enqueues.php:82
 #: includes/core/dbmvs/classes/tables.php:87
-#: includes/core/dbmvs/classes/tables.php:162 includes/doo_scripts.php:199
-#: includes/doo_scripts.php:254 includes/parts/player_editor.php:35
+#: includes/core/dbmvs/classes/tables.php:161 includes/doo_scripts.php:205
+#: includes/doo_scripts.php:260 includes/parts/player_editor.php:35
 #: includes/parts/player_editor.php:58 includes/parts/player_editor.php:79
 #: includes/parts/simple_item_favorites.php:6
 #: includes/parts/simple_item_views.php:6
@@ -784,9 +799,12 @@ msgid "Inherit"
 msgstr ""
 
 #: includes/core/codestar/fields/typography/typography.php:171
-#: includes/csf/options.customize.php:177
-#: includes/csf/options.customize.php:187
-#: includes/csf/options.customize.php:197
+#: includes/csf/custom/general.layout.php:24
+#: includes/csf/custom/general.layout.php:35
+#: includes/csf/custom/general.layout.php:46
+#: includes/csf/options/options.customize.php:177
+#: includes/csf/options/options.customize.php:187
+#: includes/csf/options/options.customize.php:197
 msgid "Left"
 msgstr ""
 
@@ -795,9 +813,12 @@ msgid "Center"
 msgstr ""
 
 #: includes/core/codestar/fields/typography/typography.php:173
-#: includes/csf/options.customize.php:176
-#: includes/csf/options.customize.php:186
-#: includes/csf/options.customize.php:196
+#: includes/csf/custom/general.layout.php:25
+#: includes/csf/custom/general.layout.php:36
+#: includes/csf/custom/general.layout.php:47
+#: includes/csf/options/options.customize.php:176
+#: includes/csf/options/options.customize.php:186
+#: includes/csf/options/options.customize.php:196
 msgid "Right"
 msgstr ""
 
@@ -936,8 +957,8 @@ msgid "Dbmovies - Settings"
 msgstr ""
 
 #: includes/core/dbmvs/classes/adminpage.php:141
-#: includes/csf/options.main_settings.php:15 includes/extras/rating/init.php:63
-#: pages/sections/account.php:60
+#: includes/csf/options/options.main_settings.php:15
+#: includes/extras/rating/init.php:63 pages/sections/account.php:60
 msgid "Settings"
 msgstr ""
 
@@ -972,8 +993,49 @@ msgstr ""
 
 #: includes/core/dbmvs/classes/ajax.php:265
 #: includes/core/dbmvs/classes/importers/ajax-manager.php:64
-#: includes/core/dbmvs/classes/importers/ajax-manager.php:106
+#: includes/core/dbmvs/classes/importers/ajax-manager.php:107
 msgid "Unknown post type"
+msgstr ""
+
+#: includes/core/dbmvs/classes/apirestsearch.php:48
+msgid "A keyword is required to start the search."
+msgstr ""
+
+#: includes/core/dbmvs/classes/apirestsearch.php:54
+msgid "The term you are trying to search for is too short."
+msgstr ""
+
+#: includes/core/dbmvs/classes/apirestsearch.php:79
+#: includes/core/dbmvs/classes/requests.php:234 includes/doo_api.php:137
+#: includes/doo_api.php:192
+msgid "No results"
+msgstr ""
+
+#: includes/core/dbmvs/classes/apirestseasons.php:34
+#: includes/core/dbmvs/classes/importers/get-episodes.php:96
+#: includes/core/dbmvs/classes/importers/get-episodes.php:184
+#: includes/core/dbmvs/classes/postypes.php:154
+#: includes/core/dbmvs/classes/postypes.php:155
+#: includes/core/dbmvs/classes/postypes.php:156
+#: includes/core/dbmvs/classes/postypes.php:157
+#: includes/core/dbmvs/classes/postypes.php:158
+#: includes/core/dbmvs/classes/postypes.php:166
+#: includes/core/dbmvs/tpl/form_setting_permalinks.php:63
+#: includes/core/dbmvs/tpl/form_setting_titles.php:35
+#: includes/csf/custom/sitemod.episodes.php:4
+#: includes/csf/custom/sitemod.episodes.php:10
+#: includes/csf/custom/sitemod.main.php:26
+#: includes/csf/options/options.module_episodes.php:20
+#: includes/extras/slugs.php:57 includes/widgets/content_widget.php:118
+#: parts/archive/tpl-episodes.php:16 parts/single/tpl-tvshows.php:83
+#: parts/single/tpl-tvshows.php:165
+msgid "Episodes"
+msgstr ""
+
+#: includes/core/dbmvs/classes/apirestseasons.php:36
+#: includes/core/dbmvs/classes/apirestseasons.php:40
+#, php-format
+msgid "Season %s"
 msgstr ""
 
 #: includes/core/dbmvs/classes/dashboard.php:45
@@ -1074,14 +1136,8 @@ msgid "You have not added an API key for Dbmovies"
 msgstr ""
 
 #: includes/core/dbmvs/classes/enqueues.php:62
-#: includes/core/dbmvs/tpl/import_seaepis.php:17 includes/doo_scripts.php:195
-#: includes/doo_scripts.php:226 includes/parts/modules/episodes.php:45
-#: includes/parts/modules/featured-post-movies.php:44
-#: includes/parts/modules/featured-post-tvshows.php:44
-#: includes/parts/modules/featured-post.php:45
-#: includes/parts/modules/movies.php:46 includes/parts/modules/seasons.php:45
-#: includes/parts/modules/tvshows.php:46
-#: includes/widgets/content_widget_home.php:52
+#: includes/core/dbmvs/tpl/import_seaepis.php:17 includes/doo_scripts.php:201
+#: includes/doo_scripts.php:232
 msgid "Loading.."
 msgstr ""
 
@@ -1135,7 +1191,7 @@ msgstr ""
 #: includes/core/dbmvs/classes/importers.php:563
 #: includes/core/dbmvs/classes/importers/get-episodes.php:97
 #: includes/core/dbmvs/classes/importers/get-movies.php:111
-#: includes/core/dbmvs/classes/importers/get-seasons.php:94
+#: includes/core/dbmvs/classes/importers/get-seasons.php:99
 #: includes/core/dbmvs/classes/importers/get-tvshows.php:105
 msgid "Imported"
 msgstr ""
@@ -1143,7 +1199,7 @@ msgstr ""
 #: includes/core/dbmvs/classes/enqueues.php:76
 #: includes/core/dbmvs/classes/importers/get-episodes.php:185
 #: includes/core/dbmvs/classes/importers/get-movies.php:191
-#: includes/core/dbmvs/classes/importers/get-seasons.php:177
+#: includes/core/dbmvs/classes/importers/get-seasons.php:188
 #: includes/core/dbmvs/classes/importers/get-tvshows.php:187
 #: includes/core/dbmvs/classes/updater.php:117
 #: includes/core/dbmvs/classes/updater.php:260
@@ -1166,7 +1222,7 @@ msgstr ""
 
 #: includes/core/dbmvs/classes/enqueues.php:81
 #: includes/core/dbmvs/classes/tables.php:87
-#: includes/core/dbmvs/classes/tables.php:162 includes/doo_scripts.php:255
+#: includes/core/dbmvs/classes/tables.php:161 includes/doo_scripts.php:261
 msgid "Add"
 msgstr ""
 
@@ -1294,39 +1350,6 @@ msgstr ""
 msgid "The link or text string you are trying to use is not allowed."
 msgstr ""
 
-#: includes/core/dbmvs/classes/epsemboxes.php:31
-#: includes/core/dbmvs/classes/importers/get-seasons.php:93
-#: includes/core/dbmvs/classes/importers/get-seasons.php:176
-#: includes/core/dbmvs/classes/postypes.php:113
-#: includes/core/dbmvs/classes/postypes.php:114
-#: includes/core/dbmvs/classes/postypes.php:115
-#: includes/core/dbmvs/classes/postypes.php:116
-#: includes/core/dbmvs/classes/postypes.php:117
-#: includes/core/dbmvs/classes/postypes.php:125
-#: includes/core/dbmvs/tpl/form_setting_permalinks.php:45
-#: includes/core/dbmvs/tpl/form_setting_titles.php:26
-#: includes/csf/options.module_seasons.php:20 includes/extras/slugs.php:56
-#: parts/archive-seasons.php:38 parts/single-tvshows.php:152
-msgid "Seasons"
-msgstr ""
-
-#: includes/core/dbmvs/classes/epsemboxes.php:32
-#: includes/core/dbmvs/classes/importers/get-episodes.php:96
-#: includes/core/dbmvs/classes/importers/get-episodes.php:184
-#: includes/core/dbmvs/classes/postypes.php:154
-#: includes/core/dbmvs/classes/postypes.php:155
-#: includes/core/dbmvs/classes/postypes.php:156
-#: includes/core/dbmvs/classes/postypes.php:157
-#: includes/core/dbmvs/classes/postypes.php:158
-#: includes/core/dbmvs/classes/postypes.php:166
-#: includes/core/dbmvs/tpl/form_setting_permalinks.php:63
-#: includes/core/dbmvs/tpl/form_setting_titles.php:35
-#: includes/csf/options.module_episodes.php:20 includes/extras/slugs.php:57
-#: includes/widgets/content_widget.php:79 parts/archive-episodes.php:15
-#: parts/single-tvshows.php:83 parts/single-tvshows.php:157
-msgid "Episodes"
-msgstr ""
-
 #: includes/core/dbmvs/classes/epsemboxes.php:52
 msgid "Generate new seasons"
 msgstr ""
@@ -1368,7 +1391,7 @@ msgstr ""
 #: includes/core/dbmvs/classes/epsemboxes.php:162
 #: includes/core/dbmvs/classes/epsemboxes.php:196 includes/doo_links.php:270
 #: includes/doo_links.php:624 includes/doo_links.php:681
-#: includes/doo_links.php:722 includes/doo_scripts.php:209
+#: includes/doo_links.php:722 includes/doo_scripts.php:215
 #: includes/parts/item_links.php:49 includes/parts/item_links_admin.php:45
 msgid "Delete"
 msgstr ""
@@ -1388,32 +1411,32 @@ msgstr ""
 msgid "No date"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:22
+#: includes/core/dbmvs/classes/helpers.php:31
 #: includes/parts/single/report-video.php:13
 msgid "Labeling problem"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:23
+#: includes/core/dbmvs/classes/helpers.php:32
 #: includes/parts/single/report-video.php:14
 msgid "Wrong title or summary, or episode out of order"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:29
+#: includes/core/dbmvs/classes/helpers.php:35
 #: includes/parts/single/report-video.php:18
 msgid "Video Problem"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:30
+#: includes/core/dbmvs/classes/helpers.php:36
 #: includes/parts/single/report-video.php:19
 msgid "Blurry, cuts out, or looks strange in some way"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:36
+#: includes/core/dbmvs/classes/helpers.php:39
 #: includes/parts/single/report-video.php:23
 msgid "Sound Problem"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:37
+#: includes/core/dbmvs/classes/helpers.php:40
 #: includes/parts/single/report-video.php:24
 msgid "Hard to hear, not matched with video, or missing in some parts"
 msgstr ""
@@ -1430,373 +1453,387 @@ msgid ""
 "translations"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:50
+#: includes/core/dbmvs/classes/helpers.php:47
 #: includes/parts/single/report-video.php:33
 msgid "Buffering or connection problem"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:51
+#: includes/core/dbmvs/classes/helpers.php:48
 #: includes/parts/single/report-video.php:34
 msgid "Frequent rebuffering, playback won't start, or other problem"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:57
+#: includes/core/dbmvs/classes/helpers.php:53
 msgid "Unknown problem"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:58
+#: includes/core/dbmvs/classes/helpers.php:54
 msgid "Problem not specified"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:509
+#: includes/core/dbmvs/classes/helpers.php:808
 msgid "Admin-Ajax"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:520
+#: includes/core/dbmvs/classes/helpers.php:825
 msgid "Weekly"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:521
+#: includes/core/dbmvs/classes/helpers.php:826
 msgid "Monthly"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:522
+#: includes/core/dbmvs/classes/helpers.php:827
 msgid "Quarterly"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:523
+#: includes/core/dbmvs/classes/helpers.php:828
 msgid "Never"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:533
-#: includes/csf/options.featured_titles.php:71
-#: includes/csf/options.main_slider.php:67
-#: includes/csf/options.module_episodes.php:64
-#: includes/csf/options.module_movies.php:64
-#: includes/csf/options.module_seasons.php:64
-#: includes/csf/options.module_tvshows.php:64
+#: includes/core/dbmvs/classes/helpers.php:844
+#: includes/csf/custom/sitemod.episodes.php:54
+#: includes/csf/custom/sitemod.featured.php:62
+#: includes/csf/custom/sitemod.genres.php:78
+#: includes/csf/custom/sitemod.mainslider.php:41
+#: includes/csf/custom/sitemod.movies.php:62
+#: includes/csf/custom/sitemod.seasons.php:54
+#: includes/csf/custom/sitemod.tvshows.php:62
+#: includes/csf/options/options.featured_titles.php:71
+#: includes/csf/options/options.main_slider.php:67
+#: includes/csf/options/options.module_episodes.php:64
+#: includes/csf/options/options.module_movies.php:64
+#: includes/csf/options/options.module_seasons.php:64
+#: includes/csf/options/options.module_tvshows.php:64
 #: includes/widgets/content_related_widget.php:117
-#: includes/widgets/content_widget.php:91
+#: includes/widgets/content_widget.php:130
 msgid "Ascending"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:534
-#: includes/csf/options.featured_titles.php:70
-#: includes/csf/options.main_slider.php:66
-#: includes/csf/options.module_episodes.php:63
-#: includes/csf/options.module_movies.php:63
-#: includes/csf/options.module_seasons.php:63
-#: includes/csf/options.module_tvshows.php:63
+#: includes/core/dbmvs/classes/helpers.php:845
+#: includes/csf/custom/sitemod.episodes.php:53
+#: includes/csf/custom/sitemod.featured.php:61
+#: includes/csf/custom/sitemod.genres.php:77
+#: includes/csf/custom/sitemod.mainslider.php:40
+#: includes/csf/custom/sitemod.movies.php:61
+#: includes/csf/custom/sitemod.seasons.php:53
+#: includes/csf/custom/sitemod.tvshows.php:61
+#: includes/csf/options/options.featured_titles.php:70
+#: includes/csf/options/options.main_slider.php:66
+#: includes/csf/options/options.module_episodes.php:63
+#: includes/csf/options/options.module_movies.php:63
+#: includes/csf/options/options.module_seasons.php:63
+#: includes/csf/options/options.module_tvshows.php:63
 #: includes/widgets/content_related_widget.php:116
-#: includes/widgets/content_widget.php:90
+#: includes/widgets/content_widget.php:129
 msgid "Descending"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:544
+#: includes/core/dbmvs/classes/helpers.php:861
 msgid "Publish"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:545
+#: includes/core/dbmvs/classes/helpers.php:862
 msgid "Pending"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:546
+#: includes/core/dbmvs/classes/helpers.php:863
 msgid "Draft"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:556
-#: includes/csf/options.comments.php:61
+#: includes/core/dbmvs/classes/helpers.php:880
+#: includes/csf/options/options.comments.php:61
 msgid "Arabic"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:557
-#: includes/csf/options.comments.php:69
+#: includes/core/dbmvs/classes/helpers.php:881
+#: includes/csf/options/options.comments.php:69
 msgid "Bosnian"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:558
-#: includes/csf/options.comments.php:66
+#: includes/core/dbmvs/classes/helpers.php:882
+#: includes/csf/options/options.comments.php:66
 msgid "Bulgarian"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:559
-#: includes/csf/options.comments.php:110
+#: includes/core/dbmvs/classes/helpers.php:883
+#: includes/csf/options/options.comments.php:110
 msgid "Croatian"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:560
-#: includes/csf/options.comments.php:74
+#: includes/core/dbmvs/classes/helpers.php:884
+#: includes/csf/options/options.comments.php:74
 msgid "Czech"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:561
-#: includes/csf/options.comments.php:77
+#: includes/core/dbmvs/classes/helpers.php:885
+#: includes/csf/options/options.comments.php:77
 msgid "Danish"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:562
-#: includes/csf/options.comments.php:147 includes/doo_functions.php:21
+#: includes/core/dbmvs/classes/helpers.php:886
+#: includes/csf/options/options.comments.php:147 includes/doo_functions.php:21
 msgid "Dutch"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:563 includes/doo_functions.php:22
+#: includes/core/dbmvs/classes/helpers.php:887 includes/doo_functions.php:22
 msgid "English"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:564
-#: includes/csf/options.comments.php:97
+#: includes/core/dbmvs/classes/helpers.php:888
+#: includes/csf/options/options.comments.php:97
 msgid "Finnish"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:565 includes/doo_functions.php:25
+#: includes/core/dbmvs/classes/helpers.php:889 includes/doo_functions.php:25
 msgid "French"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:566
-#: includes/csf/options.comments.php:78 includes/doo_functions.php:26
+#: includes/core/dbmvs/classes/helpers.php:890
+#: includes/csf/options/options.comments.php:78 includes/doo_functions.php:26
 msgid "German"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:567
-#: includes/csf/options.comments.php:79
+#: includes/core/dbmvs/classes/helpers.php:891
+#: includes/csf/options/options.comments.php:79
 msgid "Greek"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:568
-#: includes/csf/options.comments.php:108
+#: includes/core/dbmvs/classes/helpers.php:892
+#: includes/csf/options/options.comments.php:108
 msgid "Hebrew"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:569
-#: includes/csf/options.comments.php:111
+#: includes/core/dbmvs/classes/helpers.php:893
+#: includes/csf/options/options.comments.php:111
 msgid "Hungarian"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:570
-#: includes/csf/options.comments.php:115
+#: includes/core/dbmvs/classes/helpers.php:894
+#: includes/csf/options/options.comments.php:115
 msgid "Icelandic"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:571
-#: includes/csf/options.comments.php:113 includes/doo_functions.php:27
+#: includes/core/dbmvs/classes/helpers.php:895
+#: includes/csf/options/options.comments.php:113 includes/doo_functions.php:27
 msgid "Indonesian"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:572
-#: includes/csf/options.comments.php:116 includes/doo_functions.php:29
+#: includes/core/dbmvs/classes/helpers.php:896
+#: includes/csf/options/options.comments.php:116 includes/doo_functions.php:29
 msgid "Italian"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:573
-#: includes/csf/options.comments.php:124 includes/doo_functions.php:31
+#: includes/core/dbmvs/classes/helpers.php:897
+#: includes/csf/options/options.comments.php:124 includes/doo_functions.php:31
 msgid "Korean"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:574
+#: includes/core/dbmvs/classes/helpers.php:898
 msgid "Letzeburgesch"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:575
-#: includes/csf/options.comments.php:132
+#: includes/core/dbmvs/classes/helpers.php:899
+#: includes/csf/options/options.comments.php:132
 msgid "Lithuanian"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:576
+#: includes/core/dbmvs/classes/helpers.php:900
 msgid "Mandarin"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:577
-#: includes/csf/options.comments.php:94
+#: includes/core/dbmvs/classes/helpers.php:901
+#: includes/csf/options/options.comments.php:94
 msgid "Persian"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:578
-#: includes/csf/options.comments.php:152 includes/doo_functions.php:35
+#: includes/core/dbmvs/classes/helpers.php:902
+#: includes/csf/options/options.comments.php:152 includes/doo_functions.php:35
 msgid "Polish"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:579
+#: includes/core/dbmvs/classes/helpers.php:903
 msgid "Portuguese"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:580
+#: includes/core/dbmvs/classes/helpers.php:904
 msgid "Brazilian Portuguese"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:581
-#: includes/csf/options.comments.php:158 includes/doo_functions.php:36
+#: includes/core/dbmvs/classes/helpers.php:905
+#: includes/csf/options/options.comments.php:158 includes/doo_functions.php:36
 msgid "Romanian"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:582
-#: includes/csf/options.comments.php:159 includes/doo_functions.php:46
+#: includes/core/dbmvs/classes/helpers.php:906
+#: includes/csf/options/options.comments.php:159 includes/doo_functions.php:46
 msgid "Russian"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:583
-#: includes/csf/options.comments.php:165
+#: includes/core/dbmvs/classes/helpers.php:907
+#: includes/csf/options/options.comments.php:165
 msgid "Slovak"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:584
+#: includes/core/dbmvs/classes/helpers.php:908
 msgid "Spanish"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:585
+#: includes/core/dbmvs/classes/helpers.php:909
 msgid "Spanish LA"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:586
-#: includes/csf/options.comments.php:171
+#: includes/core/dbmvs/classes/helpers.php:910
+#: includes/csf/options/options.comments.php:171
 msgid "Swedish"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:587
-#: includes/csf/options.comments.php:178
+#: includes/core/dbmvs/classes/helpers.php:911
+#: includes/csf/options/options.comments.php:178
 msgid "Thai"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:588
-#: includes/csf/options.comments.php:182 includes/doo_functions.php:45
+#: includes/core/dbmvs/classes/helpers.php:912
+#: includes/csf/options/options.comments.php:182 includes/doo_functions.php:45
 msgid "Turkish"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:589
+#: includes/core/dbmvs/classes/helpers.php:913
 msgid "Twi"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:590
-#: includes/csf/options.comments.php:185
+#: includes/core/dbmvs/classes/helpers.php:914
+#: includes/csf/options/options.comments.php:185
 msgid "Ukrainian"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:591
-#: includes/csf/options.comments.php:188
+#: includes/core/dbmvs/classes/helpers.php:915
+#: includes/csf/options/options.comments.php:188
 msgid "Vietnamese"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:602
-#: includes/core/dbmvs/classes/helpers.php:636
+#: includes/core/dbmvs/classes/helpers.php:932
+#: includes/core/dbmvs/classes/helpers.php:974
 msgid "All genres"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:603
+#: includes/core/dbmvs/classes/helpers.php:933
 msgid "Action"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:604
+#: includes/core/dbmvs/classes/helpers.php:934
 msgid "Adventure"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:605
-#: includes/core/dbmvs/classes/helpers.php:638
+#: includes/core/dbmvs/classes/helpers.php:935
+#: includes/core/dbmvs/classes/helpers.php:976
 msgid "Animation"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:606
-#: includes/core/dbmvs/classes/helpers.php:639
+#: includes/core/dbmvs/classes/helpers.php:936
+#: includes/core/dbmvs/classes/helpers.php:977
 msgid "Comedy"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:607
-#: includes/core/dbmvs/classes/helpers.php:640
+#: includes/core/dbmvs/classes/helpers.php:937
+#: includes/core/dbmvs/classes/helpers.php:978
 msgid "Crime"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:608
-#: includes/core/dbmvs/classes/helpers.php:641
+#: includes/core/dbmvs/classes/helpers.php:938
+#: includes/core/dbmvs/classes/helpers.php:979
 msgid "Documentary"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:609
-#: includes/core/dbmvs/classes/helpers.php:642
+#: includes/core/dbmvs/classes/helpers.php:939
+#: includes/core/dbmvs/classes/helpers.php:980
 msgid "Drama"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:610
-#: includes/core/dbmvs/classes/helpers.php:643
+#: includes/core/dbmvs/classes/helpers.php:940
+#: includes/core/dbmvs/classes/helpers.php:981
 msgid "Family"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:611
+#: includes/core/dbmvs/classes/helpers.php:941
 msgid "Fantasy"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:612
+#: includes/core/dbmvs/classes/helpers.php:942
 msgid "History"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:613
+#: includes/core/dbmvs/classes/helpers.php:943
 msgid "Horror"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:614
+#: includes/core/dbmvs/classes/helpers.php:944
 msgid "Music"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:615
-#: includes/core/dbmvs/classes/helpers.php:645
+#: includes/core/dbmvs/classes/helpers.php:945
+#: includes/core/dbmvs/classes/helpers.php:983
 msgid "Mystery"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:616
+#: includes/core/dbmvs/classes/helpers.php:946
 msgid "Romance"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:617
+#: includes/core/dbmvs/classes/helpers.php:947
 msgid "Science Fiction"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:618
+#: includes/core/dbmvs/classes/helpers.php:948
 msgid "TV Movie"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:619
+#: includes/core/dbmvs/classes/helpers.php:949
 msgid "Thriller"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:620
+#: includes/core/dbmvs/classes/helpers.php:950
 msgid "War"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:621
-#: includes/core/dbmvs/classes/helpers.php:652
+#: includes/core/dbmvs/classes/helpers.php:951
+#: includes/core/dbmvs/classes/helpers.php:990
 msgid "Western"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:637
+#: includes/core/dbmvs/classes/helpers.php:975
 msgid "Action & Adventure"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:644
+#: includes/core/dbmvs/classes/helpers.php:982
 msgid "Kids"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:646
+#: includes/core/dbmvs/classes/helpers.php:984
 msgid "News"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:647
+#: includes/core/dbmvs/classes/helpers.php:985
 msgid "Reality"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:648
+#: includes/core/dbmvs/classes/helpers.php:986
 msgid "Sci-Fi & Fantasy"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:649
+#: includes/core/dbmvs/classes/helpers.php:987
 msgid "Soap"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:650
+#: includes/core/dbmvs/classes/helpers.php:988
 msgid "Talk"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:651
+#: includes/core/dbmvs/classes/helpers.php:989
 msgid "War & Politics"
 msgstr ""
 
-#: includes/core/dbmvs/classes/helpers.php:909
+#: includes/core/dbmvs/classes/helpers.php:1295
 msgid "Pending process"
 msgstr ""
 
@@ -1810,7 +1847,8 @@ msgstr ""
 #: includes/core/dbmvs/classes/importers/get-movies.php:190
 #: includes/core/dbmvs/classes/postypes.php:32
 #: includes/core/dbmvs/classes/requests.php:137
-#: includes/core/dbmvs/classes/requests.php:301 includes/parts/item_b.php:13
+#: includes/core/dbmvs/classes/requests.php:301 includes/doo_functions.php:1668
+#: includes/doo_scripts.php:196 includes/parts/item_b.php:13
 #: pages/search.php:30
 msgid "Movie"
 msgstr ""
@@ -1844,7 +1882,8 @@ msgstr ""
 msgid "TMDb ID is not defined"
 msgstr ""
 
-#: includes/core/dbmvs/classes/importers.php:639 parts/single-seasons.php:29
+#: includes/core/dbmvs/classes/importers.php:639
+#: parts/single/tpl-seasons.php:29
 msgid "{name}: Season {season}"
 msgstr ""
 
@@ -1858,9 +1897,9 @@ msgstr ""
 
 #: includes/core/dbmvs/classes/importers/ajax-manager.php:43
 #: includes/core/dbmvs/classes/importers/ajax-manager.php:82
-#: includes/core/dbmvs/classes/importers/ajax-manager.php:131
-#: includes/core/dbmvs/classes/importers/ajax-manager.php:198
-#: includes/core/dbmvs/classes/importers/ajax-manager.php:242
+#: includes/core/dbmvs/classes/importers/ajax-manager.php:132
+#: includes/core/dbmvs/classes/importers/ajax-manager.php:200
+#: includes/core/dbmvs/classes/importers/ajax-manager.php:244
 msgid "Invalid security key nonce."
 msgstr ""
 
@@ -1869,11 +1908,11 @@ msgstr ""
 msgid "Missing required parameters."
 msgstr ""
 
-#: includes/core/dbmvs/classes/importers/ajax-manager.php:148
+#: includes/core/dbmvs/classes/importers/ajax-manager.php:149
 msgid "No response from API"
 msgstr ""
 
-#: includes/core/dbmvs/classes/importers/ajax-manager.php:166
+#: includes/core/dbmvs/classes/importers/ajax-manager.php:168
 #: includes/core/dbmvs/classes/tables.php:176
 #, php-format
 msgid "%s episode"
@@ -1881,13 +1920,13 @@ msgid_plural "%s episodes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/core/dbmvs/classes/importers/ajax-manager.php:172
+#: includes/core/dbmvs/classes/importers/ajax-manager.php:174
 #, php-format
 msgid "Process completed in %s seconds"
 msgstr ""
 
-#: includes/core/dbmvs/classes/importers/ajax-manager.php:204
-#: includes/core/dbmvs/classes/importers/ajax-manager.php:248
+#: includes/core/dbmvs/classes/importers/ajax-manager.php:206
+#: includes/core/dbmvs/classes/importers/ajax-manager.php:250
 msgid "Cannot add season, important data is missing."
 msgstr ""
 
@@ -1903,7 +1942,7 @@ msgstr ""
 #: includes/core/dbmvs/classes/importers/get-movies.php:64
 #: includes/core/dbmvs/classes/importers/get-movies.php:142
 #: includes/core/dbmvs/classes/importers/get-seasons.php:48
-#: includes/core/dbmvs/classes/importers/get-seasons.php:129
+#: includes/core/dbmvs/classes/importers/get-seasons.php:134
 #: includes/core/dbmvs/classes/importers/get-tvshows.php:58
 #: includes/core/dbmvs/classes/importers/get-tvshows.php:134
 msgid "The content you are trying to import is not available."
@@ -1918,21 +1957,21 @@ msgstr ""
 
 #: includes/core/dbmvs/classes/importers/get-episodes.php:86
 #: includes/core/dbmvs/classes/importers/get-movies.php:98
-#: includes/core/dbmvs/classes/importers/get-seasons.php:83
+#: includes/core/dbmvs/classes/importers/get-seasons.php:88
 #: includes/core/dbmvs/classes/importers/get-tvshows.php:92
 msgid "WordPress error: The publication has not been completed correctly."
 msgstr ""
 
 #: includes/core/dbmvs/classes/importers/get-episodes.php:125
 #: includes/core/dbmvs/classes/importers/get-movies.php:135
-#: includes/core/dbmvs/classes/importers/get-seasons.php:119
+#: includes/core/dbmvs/classes/importers/get-seasons.php:124
 #: includes/core/dbmvs/classes/importers/get-tvshows.php:127
 msgid "You do not have permission to update this content."
 msgstr ""
 
 #: includes/core/dbmvs/classes/importers/get-episodes.php:178
 #: includes/core/dbmvs/classes/importers/get-movies.php:184
-#: includes/core/dbmvs/classes/importers/get-seasons.php:170
+#: includes/core/dbmvs/classes/importers/get-seasons.php:181
 #: includes/core/dbmvs/classes/importers/get-tvshows.php:177
 msgid "Error WordPress."
 msgstr ""
@@ -1942,12 +1981,31 @@ msgstr ""
 msgid "Database existing content"
 msgstr ""
 
-#: includes/core/dbmvs/classes/importers/get-seasons.php:234
+#: includes/core/dbmvs/classes/importers/get-seasons.php:98
+#: includes/core/dbmvs/classes/importers/get-seasons.php:187
+#: includes/core/dbmvs/classes/postypes.php:113
+#: includes/core/dbmvs/classes/postypes.php:114
+#: includes/core/dbmvs/classes/postypes.php:115
+#: includes/core/dbmvs/classes/postypes.php:116
+#: includes/core/dbmvs/classes/postypes.php:117
+#: includes/core/dbmvs/classes/postypes.php:125
+#: includes/core/dbmvs/tpl/form_setting_permalinks.php:45
+#: includes/core/dbmvs/tpl/form_setting_titles.php:26
+#: includes/csf/custom/sitemod.main.php:25
+#: includes/csf/custom/sitemod.seasons.php:4
+#: includes/csf/custom/sitemod.seasons.php:10
+#: includes/csf/options/options.module_seasons.php:20
+#: includes/extras/slugs.php:56 parts/single/tpl-tvshows.php:160
+msgid "Seasons"
+msgstr ""
+
+#: includes/core/dbmvs/classes/importers/get-seasons.php:245
 #, php-format
 msgid "Episode %s"
 msgstr ""
 
 #: includes/core/dbmvs/classes/importers/get-tvshows.php:104
+#: includes/core/dbmvs/classes/requests.php:138
 #: includes/core/dbmvs/classes/requests.php:302
 msgid "TVShow"
 msgstr ""
@@ -1955,29 +2013,16 @@ msgstr ""
 #: includes/core/dbmvs/classes/importers/get-tvshows.php:186
 #: includes/core/dbmvs/tpl/form_setting_permalinks.php:27
 #: includes/core/dbmvs/tpl/form_setting_titles.php:17
-#: includes/extras/slugs.php:55 includes/parts/modules/top-imdb-page.php:95
-#: includes/parts/modules/top-imdb-page.php:121 parts/archive-requests.php:25
+#: includes/csf/custom/sitemod.main.php:24
+#: includes/csf/custom/sitemod.tvshows.php:12 includes/extras/slugs.php:55
+#: includes/parts/modules/top-imdb-page.php:95
+#: includes/parts/modules/top-imdb-page.php:121
+#: parts/archive/tpl-requests.php:24
 msgid "TVShows"
 msgstr ""
 
-#: includes/core/dbmvs/classes/importers/helpers.php:470
+#: includes/core/dbmvs/classes/importers/helpers.php:468
 msgid "Publication not found"
-msgstr ""
-
-#: includes/core/dbmvs/classes/importers/helpers.php:635
-msgid "File path or extension is missing."
-msgstr ""
-
-#: includes/core/dbmvs/classes/importers/helpers.php:652
-msgid "Unsupported image format."
-msgstr ""
-
-#: includes/core/dbmvs/classes/importers/helpers.php:656
-msgid "Failed to create image resource."
-msgstr ""
-
-#: includes/core/dbmvs/classes/importers/helpers.php:667
-msgid "Failed to convert image to WebP format."
 msgstr ""
 
 #: includes/core/dbmvs/classes/inboxes.php:130
@@ -2042,8 +2087,8 @@ msgstr ""
 msgid "Original title of the cinematographic work."
 msgstr ""
 
-#: includes/core/dbmvs/classes/metaboxes.php:45 parts/single-movies.php:102
-#: parts/single-tvshows.php:130
+#: includes/core/dbmvs/classes/metaboxes.php:45 parts/single/tpl-movies.php:102
+#: parts/single/tpl-tvshows.php:138
 msgid "Original title"
 msgstr ""
 
@@ -2209,8 +2254,8 @@ msgstr ""
 #: includes/core/dbmvs/classes/taxonomies.php:74
 #: includes/core/dbmvs/classes/taxonomies.php:75
 #: includes/core/dbmvs/classes/taxonomies.php:76 includes/extras/slugs.php:63
-#: parts/single-movies.php:86 parts/single-movies.php:126
-#: parts/single-tvshows.php:85 parts/single-tvshows.php:102
+#: parts/single/tpl-movies.php:86 parts/single/tpl-movies.php:126
+#: parts/single/tpl-tvshows.php:85 parts/single/tpl-tvshows.php:110
 msgid "Cast"
 msgstr ""
 
@@ -2222,8 +2267,8 @@ msgstr ""
 #: includes/core/dbmvs/classes/taxonomies.php:103
 #: includes/core/dbmvs/classes/taxonomies.php:104
 #: includes/core/dbmvs/classes/taxonomies.php:105
-#: includes/doo_functions.php:694 includes/extras/slugs.php:65
-#: parts/single-movies.php:122
+#: includes/doo_functions.php:675 includes/extras/slugs.php:65
+#: parts/single/tpl-movies.php:122
 msgid "Director"
 msgstr ""
 
@@ -2291,7 +2336,8 @@ msgstr ""
 msgid "Firt air date"
 msgstr ""
 
-#: includes/core/dbmvs/classes/metaboxes.php:240 parts/single-tvshows.php:147
+#: includes/core/dbmvs/classes/metaboxes.php:240
+#: parts/single/tpl-tvshows.php:155
 msgid "Last air date"
 msgstr ""
 
@@ -2332,8 +2378,8 @@ msgstr ""
 #: includes/core/dbmvs/classes/taxonomies.php:132
 #: includes/core/dbmvs/classes/taxonomies.php:133
 #: includes/core/dbmvs/classes/taxonomies.php:134
-#: includes/doo_functions.php:744 includes/extras/slugs.php:64
-#: parts/single-tvshows.php:98
+#: includes/doo_functions.php:725 includes/extras/slugs.php:64
+#: parts/single/tpl-tvshows.php:106
 msgid "Creator"
 msgstr ""
 
@@ -2402,15 +2448,19 @@ msgstr ""
 #: includes/core/dbmvs/tpl/form_setting_permalinks.php:8
 #: includes/core/dbmvs/tpl/form_setting_titles.php:8
 #: includes/core/dbmvs/tpl/form_setting_updater.php:18
-#: includes/csf/options.customize.php:222
-#: includes/csf/options.module_movies.php:12
-#: includes/csf/options.module_movies.php:20 includes/extras/slugs.php:54
-#: includes/parts/modules/top-imdb-page.php:86
+#: includes/csf/custom/sitemod.genres.php:44
+#: includes/csf/custom/sitemod.main.php:23
+#: includes/csf/custom/sitemod.movies.php:12
+#: includes/csf/custom/sitemod.movies.php:18
+#: includes/csf/options/options.customize.php:222
+#: includes/csf/options/options.module_movies.php:12
+#: includes/csf/options/options.module_movies.php:20
+#: includes/extras/slugs.php:54 includes/parts/modules/top-imdb-page.php:86
 #: includes/parts/modules/top-imdb-page.php:108
-#: includes/widgets/content_widget.php:77
-#: includes/widgets/content_widget_home.php:123 pages/rating.php:27
-#: pages/trending.php:28 parts/archive-movies.php:14 parts/archive-post.php:16
-#: parts/archive-requests.php:24 parts/single-movies.php:140
+#: includes/widgets/content_widget.php:116
+#: includes/widgets/content_widget_genres_module.php:143 pages/rating.php:35
+#: pages/trending.php:34 parts/archive/tpl-post.php:14
+#: parts/archive/tpl-requests.php:23 parts/single/tpl-movies.php:140
 msgid "Movies"
 msgstr ""
 
@@ -2424,19 +2474,20 @@ msgstr ""
 #: includes/core/dbmvs/classes/postypes.php:75
 #: includes/core/dbmvs/classes/postypes.php:76
 #: includes/core/dbmvs/tpl/form_setting_updater.php:19
-#: includes/csf/options.customize.php:224
-#: includes/csf/options.module_tvshows.php:12
-#: includes/csf/options.module_tvshows.php:20
-#: includes/widgets/content_widget.php:78
-#: includes/widgets/content_widget_home.php:124 parts/archive-tvshows.php:40
-#: parts/single-tvshows.php:178
+#: includes/csf/custom/sitemod.genres.php:45
+#: includes/csf/custom/sitemod.tvshows.php:18
+#: includes/csf/options/options.customize.php:224
+#: includes/csf/options/options.module_tvshows.php:12
+#: includes/csf/options/options.module_tvshows.php:20
+#: includes/widgets/content_widget.php:117
+#: includes/widgets/content_widget_genres_module.php:144
+#: parts/single/tpl-tvshows.php:189
 msgid "TV Shows"
 msgstr ""
 
 #: includes/core/dbmvs/classes/postypes.php:84
-#: includes/core/dbmvs/classes/requests.php:138
-#: includes/core/dbmvs/classes/tables.php:270 pages/rating.php:28
-#: pages/trending.php:29
+#: includes/core/dbmvs/classes/tables.php:270 includes/doo_scripts.php:197
+#: pages/rating.php:36 pages/trending.php:35
 msgid "TV Show"
 msgstr ""
 
@@ -2514,25 +2565,9 @@ msgstr ""
 msgid "D"
 msgstr ""
 
-#: includes/core/dbmvs/classes/requests.php:234 includes/doo_api.php:137
-#: includes/doo_api.php:192
-msgid "No results"
-msgstr ""
-
 #: includes/core/dbmvs/classes/requests.php:237
-msgid "results"
-msgstr ""
-
-#: includes/core/dbmvs/classes/requests.php:237
-msgid "in"
-msgstr ""
-
-#: includes/core/dbmvs/classes/requests.php:237
-#: includes/widgets/content_widget_home.php:146
-#: includes/widgets/content_widget_home.php:147
-#: includes/widgets/content_widget_home.php:148
-#: includes/widgets/content_widget_home.php:149
-msgid "seconds"
+#, php-format
+msgid "%s results in %s seconds"
 msgstr ""
 
 #: includes/core/dbmvs/classes/requests.php:260
@@ -2585,19 +2620,22 @@ msgstr[1] ""
 
 #: includes/core/dbmvs/classes/tables.php:127
 #: includes/core/dbmvs/classes/tables.php:210
-#: includes/csf/options.main_settings.php:198 includes/doo_database.php:102
-#: pages/rating.php:24
+#: includes/csf/options/options.main_settings.php:198
+#: includes/doo_database.php:102 pages/rating.php:32
 msgid "Ratings"
 msgstr ""
 
 #: includes/core/dbmvs/classes/tables.php:128
 #: includes/core/dbmvs/classes/tables.php:211
-#: includes/csf/options.main_settings.php:138
+#: includes/csf/options/options.main_settings.php:138
 msgid "View count"
 msgstr ""
 
 #: includes/core/dbmvs/classes/tables.php:129
 #: includes/core/dbmvs/classes/tables.php:212
+#: includes/csf/custom/sitemod.main.php:22
+#: includes/csf/custom/sitemod.main.php:55
+#: includes/csf/custom/sitemod.main.php:80
 msgid "Featured Content"
 msgstr ""
 
@@ -2612,14 +2650,17 @@ msgstr ""
 msgid "Manage seasons"
 msgstr ""
 
-#: includes/core/dbmvs/classes/tables.php:307
+#: includes/core/dbmvs/classes/tables.php:307 includes/doo_scripts.php:200
 #: includes/parts/single/listas/seasons.php:25
 #: includes/parts/single/listas/seasons_episodes.php:49 pages/search.php:33
 msgid "Episode"
 msgstr ""
 
 #: includes/core/dbmvs/classes/taxonomies.php:40
-#: includes/widgets/content_widget_meta_genres.php:45
+#: includes/csf/custom/sitemod.genres.php:12
+#: includes/csf/custom/sitemod.main.php:29
+#: includes/widgets/content_widget_genres_list.php:29
+#: includes/widgets/content_widget_genres_list.php:77
 msgid "Genres"
 msgstr ""
 
@@ -2684,7 +2725,7 @@ msgid "Finish"
 msgstr ""
 
 #: includes/core/dbmvs/tpl/admin_app.php:29
-#: includes/csf/options.links_module.php:125 single-dt_links.php:28
+#: includes/csf/options/options.links_module.php:125 single-dt_links.php:28
 msgid "Continue"
 msgstr ""
 
@@ -2714,10 +2755,6 @@ msgstr ""
 
 #: includes/core/dbmvs/tpl/admin_app.php:77
 msgid "Bulk import"
-msgstr ""
-
-#: includes/core/dbmvs/tpl/admin_app.php:83
-msgid "Search.."
 msgstr ""
 
 #: includes/core/dbmvs/tpl/admin_app.php:86
@@ -2755,7 +2792,8 @@ msgid "Sites actives"
 msgstr ""
 
 #: includes/core/dbmvs/tpl/admin_settings.php:4
-#: includes/csf/options.main_settings.php:123 pages/sections/account.php:150
+#: includes/csf/options/options.main_settings.php:123
+#: pages/sections/account.php:150
 msgid "General"
 msgstr ""
 
@@ -2795,18 +2833,23 @@ msgstr ""
 
 #: includes/core/dbmvs/tpl/dashboard_widget.php:3
 #: includes/core/dbmvs/tpl/dashboard_widget.php:51
-#: includes/csf/options.report_contact.php:48
+#: includes/csf/options/options.report_contact.php:48
 msgid "Reports"
 msgstr ""
 
 #: includes/core/dbmvs/tpl/dashboard_widget.php:4
 #: includes/core/dbmvs/tpl/dashboard_widget.php:53
-#: includes/csf/options.main_settings.php:205
-#: includes/csf/options.report_contact.php:55 includes/doo_database.php:112
+#: includes/csf/options/options.main_settings.php:205
+#: includes/csf/options/options.report_contact.php:55
+#: includes/doo_database.php:112
 msgid "Contact"
 msgstr ""
 
 #: includes/core/dbmvs/tpl/dashboard_widget.php:5
+#: includes/widgets/content_widget_genres_module.php:67
+#: parts/modules/module-content-genres.php:73
+#: parts/modules/module-episodes.php:36 parts/modules/module-movies.php:67
+#: parts/modules/module-seasons.php:36 parts/modules/module-tvshows.php:68
 msgid "More"
 msgstr ""
 
@@ -3072,7 +3115,7 @@ msgstr ""
 
 #: includes/core/dbmvs/tpl/form_setting_general.php:48
 #, php-format
-msgid "Enable proxy server for %s"
+msgid "Enable proxy server from %s to %s"
 msgstr ""
 
 #: includes/core/dbmvs/tpl/form_setting_general.php:53
@@ -3248,8 +3291,8 @@ msgid "User Requests"
 msgstr ""
 
 #: includes/core/dbmvs/tpl/form_setting_requests.php:8
-#: includes/csf/options.report_contact.php:37 includes/doo_comments.php:138
-#: pages/contact.php:20 pages/contact.php:29
+#: includes/csf/options/options.report_contact.php:37
+#: includes/doo_comments.php:138 pages/contact.php:28 pages/contact.php:37
 msgid "Email"
 msgstr ""
 
@@ -3271,32 +3314,32 @@ msgid "Auto publish"
 msgstr ""
 
 #: includes/core/dbmvs/tpl/form_setting_requests.php:27
-#: includes/csf/options.links_module.php:44
-#: includes/csf/options.links_module.php:58
+#: includes/csf/options/options.links_module.php:44
+#: includes/csf/options/options.links_module.php:58
 msgid "Administrator"
 msgstr ""
 
 #: includes/core/dbmvs/tpl/form_setting_requests.php:28
-#: includes/csf/options.links_module.php:45
-#: includes/csf/options.links_module.php:59
+#: includes/csf/options/options.links_module.php:45
+#: includes/csf/options/options.links_module.php:59
 msgid "Editor"
 msgstr ""
 
 #: includes/core/dbmvs/tpl/form_setting_requests.php:29
-#: includes/csf/options.links_module.php:46
-#: includes/csf/options.links_module.php:60
+#: includes/csf/options/options.links_module.php:46
+#: includes/csf/options/options.links_module.php:60
 msgid "Author"
 msgstr ""
 
 #: includes/core/dbmvs/tpl/form_setting_requests.php:30
-#: includes/csf/options.links_module.php:47
-#: includes/csf/options.links_module.php:61
+#: includes/csf/options/options.links_module.php:47
+#: includes/csf/options/options.links_module.php:61
 msgid "Contributor"
 msgstr ""
 
 #: includes/core/dbmvs/tpl/form_setting_requests.php:31
-#: includes/csf/options.links_module.php:48
-#: includes/csf/options.links_module.php:62
+#: includes/csf/options/options.links_module.php:48
+#: includes/csf/options/options.links_module.php:62
 msgid "Subscriber"
 msgstr ""
 
@@ -3397,7 +3440,7 @@ msgid "Method"
 msgstr ""
 
 #: includes/core/dbmvs/tpl/form_setting_updater.php:14
-#: includes/csf/options.main_slider.php:25
+#: includes/csf/options/options.main_slider.php:25
 msgid "Post Types"
 msgstr ""
 
@@ -3406,12 +3449,12 @@ msgid "Select the types of content that are allowed to use the meta updater."
 msgstr ""
 
 #: includes/core/dbmvs/tpl/form_setting_updater.php:20
-#: includes/csf/options.module_seasons.php:12
+#: includes/csf/options/options.module_seasons.php:12
 msgid "TV Shows > Seasons"
 msgstr ""
 
 #: includes/core/dbmvs/tpl/form_setting_updater.php:21
-#: includes/csf/options.module_episodes.php:12
+#: includes/csf/options/options.module_episodes.php:12
 msgid "TV Shows > Episodes"
 msgstr ""
 
@@ -3524,8 +3567,8 @@ msgid "Enter your theme license key."
 msgstr ""
 
 #: includes/core/doothemes/init.php:42
-#: includes/csf/options.video_player.php:145
-#: includes/csf/options.video_player.php:153
+#: includes/csf/options/options.video_player.php:145
+#: includes/csf/options/options.video_player.php:153
 msgid "License Key"
 msgstr ""
 
@@ -3606,2158 +3649,2467 @@ msgid ""
 "a>."
 msgstr ""
 
-#: includes/csf/options.auto_embed.php:12
+#: includes/csf/custom/general.layout.php:4
+msgid "Layout settings"
+msgstr ""
+
+#: includes/csf/custom/general.layout.php:9
+msgid "Enable Sidebar"
+msgstr ""
+
+#: includes/csf/custom/general.layout.php:10
+msgid "Enable the sidebar to choose your position"
+msgstr ""
+
+#: includes/csf/custom/general.layout.php:15
+msgid "Sidebar positions"
+msgstr ""
+
+#: includes/csf/custom/general.layout.php:21
+#: includes/csf/custom/sitemod.main.php:8 includes/widgets/widgets.php:86
+msgid "Home Page"
+msgstr ""
+
+#: includes/csf/custom/general.layout.php:32
+#: includes/csf/options/options.customize.php:183
+#: includes/widgets/widgets.php:90
+msgid "Archives"
+msgstr ""
+
+#: includes/csf/custom/general.layout.php:43
+msgid "Single Article"
+msgstr ""
+
+#: includes/csf/custom/general.main.php:4
+#: includes/csf/options/options.main_settings.php:20
+#: includes/csf/options/options.main_settings.php:26
+msgid "Main settings"
+msgstr ""
+
+#: includes/csf/custom/general.main.php:9
+#: includes/csf/options/options.customize.php:71
+msgid "Font family"
+msgstr ""
+
+#: includes/csf/custom/general.main.php:10
+#: includes/csf/options/options.customize.php:72
+msgid "Select font-family by Google Fonts"
+msgstr ""
+
+#: includes/csf/custom/general.main.php:67
+#: includes/csf/options/options.customize.php:52
+msgid "Max width"
+msgstr ""
+
+#: includes/csf/custom/general.main.php:68
+#: includes/csf/options/options.customize.php:53
+msgid "Set max width of the page"
+msgstr ""
+
+#: includes/csf/custom/general.main.php:78
+msgid "Rounded figure"
+msgstr ""
+
+#: includes/csf/custom/general.main.php:79
+msgid "Add rounded edges to images"
+msgstr ""
+
+#: includes/csf/custom/general.style.php:4
+msgid "Style settings"
+msgstr ""
+
+#: includes/csf/custom/sitemod.episodes.php:9
+#: includes/csf/custom/sitemod.featured.php:17
+#: includes/csf/custom/sitemod.movies.php:17
+#: includes/csf/custom/sitemod.seasons.php:9
+#: includes/csf/custom/sitemod.tvshows.php:17
+#: includes/csf/options/options.blog_entries.php:19
+#: includes/csf/options/options.featured_titles.php:26
+#: includes/csf/options/options.module_episodes.php:19
+#: includes/csf/options/options.module_movies.php:19
+#: includes/csf/options/options.module_seasons.php:19
+#: includes/csf/options/options.module_tvshows.php:19
+#: includes/csf/options/options.top_imdb.php:19
+msgid "Module Title"
+msgstr ""
+
+#: includes/csf/custom/sitemod.episodes.php:11
+#: includes/csf/custom/sitemod.featured.php:19
+#: includes/csf/custom/sitemod.movies.php:19
+#: includes/csf/custom/sitemod.seasons.php:11
+#: includes/csf/custom/sitemod.tvshows.php:19
+#: includes/csf/options/options.blog_entries.php:21
+#: includes/csf/options/options.featured_titles.php:28
+#: includes/csf/options/options.module_episodes.php:21
+#: includes/csf/options/options.module_movies.php:21
+#: includes/csf/options/options.module_seasons.php:21
+#: includes/csf/options/options.module_tvshows.php:21
+#: includes/csf/options/options.top_imdb.php:21
+msgid "Add title to show"
+msgstr ""
+
+#: includes/csf/custom/sitemod.episodes.php:16
+#: includes/csf/custom/sitemod.featured.php:24
+#: includes/csf/custom/sitemod.mainslider.php:49
+#: includes/csf/custom/sitemod.movies.php:24
+#: includes/csf/custom/sitemod.seasons.php:16
+#: includes/csf/custom/sitemod.tvshows.php:24
+#: includes/csf/options/options.blog_entries.php:26
+#: includes/csf/options/options.featured_titles.php:33
+#: includes/csf/options/options.main_slider.php:38
+#: includes/csf/options/options.module_episodes.php:26
+#: includes/csf/options/options.module_movies.php:26
+#: includes/csf/options/options.module_seasons.php:26
+#: includes/csf/options/options.module_tvshows.php:26
+#: includes/csf/options/options.top_imdb.php:60
+#: includes/widgets/content_related_widget.php:110
+#: includes/widgets/content_widget.php:123
+#: includes/widgets/content_widget_genres_module.php:171
+#: includes/widgets/content_widget_views.php:83
+msgid "Items number"
+msgstr ""
+
+#: includes/csf/custom/sitemod.episodes.php:17
+#: includes/csf/custom/sitemod.featured.php:25
+#: includes/csf/custom/sitemod.mainslider.php:50
+#: includes/csf/custom/sitemod.movies.php:25
+#: includes/csf/custom/sitemod.seasons.php:17
+#: includes/csf/custom/sitemod.tvshows.php:25
+#: includes/csf/options/options.blog_entries.php:27
+#: includes/csf/options/options.featured_titles.php:34
+#: includes/csf/options/options.main_slider.php:39
+#: includes/csf/options/options.module_episodes.php:27
+#: includes/csf/options/options.module_movies.php:27
+#: includes/csf/options/options.module_seasons.php:27
+#: includes/csf/options/options.module_tvshows.php:27
+#: includes/csf/options/options.top_imdb.php:61
+msgid "Number of items to show"
+msgstr ""
+
+#: includes/csf/custom/sitemod.episodes.php:27
+#: includes/csf/custom/sitemod.movies.php:35
+#: includes/csf/custom/sitemod.seasons.php:27
+#: includes/csf/custom/sitemod.tvshows.php:35
+#: includes/csf/options/options.module_episodes.php:37
+#: includes/csf/options/options.module_movies.php:37
+#: includes/csf/options/options.module_seasons.php:37
+#: includes/csf/options/options.module_tvshows.php:37
+msgid "Slider control"
+msgstr ""
+
+#: includes/csf/custom/sitemod.episodes.php:28
+#: includes/csf/custom/sitemod.featured.php:36
+#: includes/csf/custom/sitemod.movies.php:36
+#: includes/csf/custom/sitemod.seasons.php:28
+#: includes/csf/custom/sitemod.tvshows.php:36
+#: includes/csf/options/options.featured_titles.php:45
+#: includes/csf/options/options.module_episodes.php:38
+#: includes/csf/options/options.module_movies.php:38
+#: includes/csf/options/options.module_seasons.php:38
+#: includes/csf/options/options.module_tvshows.php:38
+msgid "Check to enable option."
+msgstr ""
+
+#: includes/csf/custom/sitemod.episodes.php:30
+#: includes/csf/custom/sitemod.featured.php:38
+#: includes/csf/custom/sitemod.movies.php:38
+#: includes/csf/custom/sitemod.seasons.php:30
+#: includes/csf/custom/sitemod.tvshows.php:38
+#: includes/csf/options/options.featured_titles.php:47
+#: includes/csf/options/options.module_episodes.php:40
+#: includes/csf/options/options.module_movies.php:40
+#: includes/csf/options/options.module_seasons.php:40
+#: includes/csf/options/options.module_tvshows.php:40
+msgid "Activate Slider"
+msgstr ""
+
+#: includes/csf/custom/sitemod.episodes.php:31
+#: includes/csf/custom/sitemod.featured.php:39
+#: includes/csf/custom/sitemod.movies.php:39
+#: includes/csf/custom/sitemod.seasons.php:31
+#: includes/csf/custom/sitemod.tvshows.php:39
+#: includes/csf/options/options.featured_titles.php:48
+#: includes/csf/options/options.module_episodes.php:41
+#: includes/csf/options/options.module_movies.php:41
+#: includes/csf/options/options.module_seasons.php:41
+#: includes/csf/options/options.module_tvshows.php:41
+msgid "Auto play Slider"
+msgstr ""
+
+#: includes/csf/custom/sitemod.episodes.php:38
+#: includes/csf/custom/sitemod.featured.php:46
+#: includes/csf/custom/sitemod.genres.php:62
+#: includes/csf/custom/sitemod.mainslider.php:25
+#: includes/csf/custom/sitemod.movies.php:46
+#: includes/csf/custom/sitemod.seasons.php:38
+#: includes/csf/custom/sitemod.tvshows.php:46
+#: includes/csf/options/options.featured_titles.php:55
+#: includes/csf/options/options.main_slider.php:50
+#: includes/csf/options/options.module_episodes.php:48
+#: includes/csf/options/options.module_movies.php:48
+#: includes/csf/options/options.module_seasons.php:48
+#: includes/csf/options/options.module_tvshows.php:48
+msgid "Order by"
+msgstr ""
+
+#: includes/csf/custom/sitemod.episodes.php:39
+#: includes/csf/custom/sitemod.featured.php:47
+#: includes/csf/custom/sitemod.mainslider.php:26
+#: includes/csf/custom/sitemod.movies.php:47
+#: includes/csf/custom/sitemod.seasons.php:39
+#: includes/csf/custom/sitemod.tvshows.php:47
+#: includes/csf/options/options.featured_titles.php:56
+#: includes/csf/options/options.main_slider.php:51
+#: includes/csf/options/options.module_episodes.php:49
+#: includes/csf/options/options.module_movies.php:49
+#: includes/csf/options/options.module_seasons.php:49
+#: includes/csf/options/options.module_tvshows.php:49
+msgid "Order items for this module"
+msgstr ""
+
+#: includes/csf/custom/sitemod.episodes.php:42
+#: includes/csf/custom/sitemod.featured.php:50
+#: includes/csf/custom/sitemod.genres.php:65
+#: includes/csf/custom/sitemod.mainslider.php:29
+#: includes/csf/custom/sitemod.movies.php:50
+#: includes/csf/custom/sitemod.seasons.php:42
+#: includes/csf/custom/sitemod.tvshows.php:50
+#: includes/csf/options/options.featured_titles.php:59
+#: includes/csf/options/options.main_slider.php:54
+#: includes/csf/options/options.module_episodes.php:52
+#: includes/csf/options/options.module_movies.php:52
+#: includes/csf/options/options.module_seasons.php:52
+#: includes/csf/options/options.module_tvshows.php:52
+msgid "Post date"
+msgstr ""
+
+#: includes/csf/custom/sitemod.episodes.php:43
+#: includes/csf/custom/sitemod.featured.php:51
+#: includes/csf/custom/sitemod.genres.php:66
+#: includes/csf/custom/sitemod.mainslider.php:30
+#: includes/csf/custom/sitemod.movies.php:51
+#: includes/csf/custom/sitemod.seasons.php:43
+#: includes/csf/custom/sitemod.tvshows.php:51
+#: includes/csf/options/options.featured_titles.php:60
+#: includes/csf/options/options.main_slider.php:55
+#: includes/csf/options/options.module_episodes.php:53
+#: includes/csf/options/options.module_movies.php:53
+#: includes/csf/options/options.module_seasons.php:53
+#: includes/csf/options/options.module_tvshows.php:53
+msgid "Post title"
+msgstr ""
+
+#: includes/csf/custom/sitemod.episodes.php:44
+#: includes/csf/custom/sitemod.featured.php:52
+#: includes/csf/custom/sitemod.genres.php:67
+#: includes/csf/custom/sitemod.mainslider.php:31
+#: includes/csf/custom/sitemod.movies.php:52
+#: includes/csf/custom/sitemod.seasons.php:44
+#: includes/csf/custom/sitemod.tvshows.php:52
+#: includes/csf/options/options.featured_titles.php:61
+#: includes/csf/options/options.main_slider.php:56
+#: includes/csf/options/options.module_episodes.php:54
+#: includes/csf/options/options.module_movies.php:54
+#: includes/csf/options/options.module_seasons.php:54
+#: includes/csf/options/options.module_tvshows.php:54
+msgid "Last modified"
+msgstr ""
+
+#: includes/csf/custom/sitemod.episodes.php:45
+#: includes/csf/custom/sitemod.featured.php:53
+#: includes/csf/custom/sitemod.genres.php:68
+#: includes/csf/custom/sitemod.mainslider.php:32
+#: includes/csf/custom/sitemod.movies.php:53
+#: includes/csf/custom/sitemod.seasons.php:45
+#: includes/csf/custom/sitemod.tvshows.php:53
+#: includes/csf/options/options.featured_titles.php:62
+#: includes/csf/options/options.main_slider.php:57
+#: includes/csf/options/options.module_episodes.php:55
+#: includes/csf/options/options.module_movies.php:55
+#: includes/csf/options/options.module_seasons.php:55
+#: includes/csf/options/options.module_tvshows.php:55
+msgid "Random entry"
+msgstr ""
+
+#: includes/csf/custom/sitemod.episodes.php:51
+#: includes/csf/custom/sitemod.featured.php:59
+#: includes/csf/custom/sitemod.genres.php:74
+#: includes/csf/custom/sitemod.mainslider.php:38
+#: includes/csf/custom/sitemod.movies.php:59
+#: includes/csf/custom/sitemod.seasons.php:51
+#: includes/csf/custom/sitemod.tvshows.php:59
+#: includes/csf/options/options.featured_titles.php:68
+#: includes/csf/options/options.main_slider.php:64
+#: includes/csf/options/options.module_episodes.php:61
+#: includes/csf/options/options.module_movies.php:61
+#: includes/csf/options/options.module_seasons.php:61
+#: includes/csf/options/options.module_tvshows.php:61
+msgid "Order"
+msgstr ""
+
+#: includes/csf/custom/sitemod.featured.php:12 includes/doo_scripts.php:199
+#: parts/modules/module-featured-content.php:42
+#: parts/modules/module-featured-movies.php:42
+#: parts/modules/module-featured-tvshows.php:42
+msgid "Featured"
+msgstr ""
+
+#: includes/csf/custom/sitemod.featured.php:18
+#: includes/csf/options/options.customize.php:221
+#: includes/csf/options/options.featured_titles.php:19
+#: includes/csf/options/options.featured_titles.php:27
+msgid "Featured titles"
+msgstr ""
+
+#: includes/csf/custom/sitemod.featured.php:35
+#: includes/csf/options/options.featured_titles.php:44
+msgid "Module control"
+msgstr ""
+
+#: includes/csf/custom/sitemod.genres.php:16
+msgid "Genres Module"
+msgstr ""
+
+#: includes/csf/custom/sitemod.genres.php:20
+msgid "This module shows a list of genres."
+msgstr ""
+
+#: includes/csf/custom/sitemod.genres.php:25
+msgid "Add genre"
+msgstr ""
+
+#: includes/csf/custom/sitemod.genres.php:29
+msgid "Genre setting"
+msgstr ""
+
+#: includes/csf/custom/sitemod.genres.php:34
+#: parts/modules/module-content-genres.php:14
+msgid "New module"
+msgstr ""
+
+#: includes/csf/custom/sitemod.genres.php:40
+msgid "Post type"
+msgstr ""
+
+#: includes/csf/custom/sitemod.genres.php:43
+#: includes/widgets/content_widget.php:119
+msgid "Movies and Shows"
+msgstr ""
+
+#: includes/csf/custom/sitemod.genres.php:51 includes/extras/slugs.php:59
+#: includes/widgets/content_widget_genres_module.php:148
+msgid "Genre"
+msgstr ""
+
+#: includes/csf/custom/sitemod.genres.php:84
+#: includes/widgets/content_widget_genres_module.php:155
+msgid "Carousel settings"
+msgstr ""
+
+#: includes/csf/custom/sitemod.genres.php:89
+msgid "Items"
+msgstr ""
+
+#: includes/csf/custom/sitemod.genres.php:100
+msgid "Auto-slider"
+msgstr ""
+
+#: includes/csf/custom/sitemod.genres.php:101
+msgid "Enable auto-slider"
+msgstr ""
+
+#: includes/csf/custom/sitemod.main.php:4
+msgid "Organize Modules"
+msgstr ""
+
+#: includes/csf/custom/sitemod.main.php:12
+msgid "Drag and drop enabled modules to organize your home page."
+msgstr ""
+
+#: includes/csf/custom/sitemod.main.php:17
+#: includes/csf/custom/sitemod.main.php:47
+#: includes/csf/custom/sitemod.main.php:72
+msgid "Enabled modules"
+msgstr ""
+
+#: includes/csf/custom/sitemod.main.php:18
+#: includes/csf/custom/sitemod.main.php:48
+#: includes/csf/custom/sitemod.main.php:73
+msgid "Disabled modules"
+msgstr ""
+
+#: includes/csf/custom/sitemod.main.php:21
+#: includes/csf/custom/sitemod.main.php:54
+#: includes/csf/custom/sitemod.main.php:79
+msgid "Main slider"
+msgstr ""
+
+#: includes/csf/custom/sitemod.main.php:27
+#: includes/csf/custom/sitemod.main.php:56
+#: includes/csf/custom/sitemod.main.php:81
+#: includes/csf/custom/sitemod.topmovies.php:4
+#: includes/parts/modules/top-imdb.php:87
+#: includes/parts/modules/top-imdb.php:109
+msgid "TOP Movies"
+msgstr ""
+
+#: includes/csf/custom/sitemod.main.php:28
+#: includes/csf/custom/sitemod.toptvshows.php:4
+#: includes/parts/modules/top-imdb.php:96
+#: includes/parts/modules/top-imdb.php:122
+msgid "TOP TVShows"
+msgstr ""
+
+#: includes/csf/custom/sitemod.main.php:32
+#: includes/csf/custom/sitemod.main.php:57 includes/doo_player.php:304
+msgid "Advertisement"
+msgstr ""
+
+#: includes/csf/custom/sitemod.main.php:38
+#: includes/csf/custom/sitemod.main.php:51
+msgid "Archive Movies"
+msgstr ""
+
+#: includes/csf/custom/sitemod.main.php:42
+msgid "Drag and drop enabled modules to organize your movie archive page."
+msgstr ""
+
+#: includes/csf/custom/sitemod.main.php:63
+#: includes/csf/custom/sitemod.main.php:76
+msgid "Archive TVShows"
+msgstr ""
+
+#: includes/csf/custom/sitemod.main.php:67
+msgid "Drag and drop enabled modules to organize your TVShows archive page."
+msgstr ""
+
+#: includes/csf/custom/sitemod.mainslider.php:12
+#: includes/csf/custom/sitemod.mainslider.php:16
+#: includes/csf/options/options.main_slider.php:12
+msgid "Main Slider"
+msgstr ""
+
+#: includes/csf/custom/sitemod.mainslider.php:20
+msgid ""
+"This module displays sliding content of movies and series, showcasing "
+"background stills as images."
+msgstr ""
+
+#: includes/csf/custom/sitemod.mainslider.php:60
+msgid "Auto-Slide"
+msgstr ""
+
+#: includes/csf/custom/sitemod.mainslider.php:62
+msgid "Enable auto-slide on Home page."
+msgstr ""
+
+#: includes/csf/custom/sitemod.mainslider.php:63
+msgid "Enable auto-slide on Movies page."
+msgstr ""
+
+#: includes/csf/custom/sitemod.mainslider.php:64
+msgid "Enable auto-slide on TVShows page."
+msgstr ""
+
+#: includes/csf/custom/sitemod.mainslider.php:70
+msgid "Slide-Speed"
+msgstr ""
+
+#: includes/csf/custom/sitemod.mainslider.php:71
+msgid "Set the speed of the slide."
+msgstr ""
+
+#: includes/csf/options/options.auto_embed.php:12
 msgid "Auto Embed"
 msgstr ""
 
-#: includes/csf/options.auto_embed.php:18
+#: includes/csf/options/options.auto_embed.php:18
 msgid "Auto embed"
 msgstr ""
 
-#: includes/csf/options.auto_embed.php:23
+#: includes/csf/options/options.auto_embed.php:23
 msgid "Enable resources"
 msgstr ""
 
-#: includes/csf/options.auto_embed.php:25
+#: includes/csf/options/options.auto_embed.php:25
 msgid "Allow posting of playback videos with auto-embed feature for Dbmovies."
 msgstr ""
 
-#: includes/csf/options.auto_embed.php:30
+#: includes/csf/options/options.auto_embed.php:30
 msgid ""
 "This option interacts with dbmovies importers, it must be configured in the "
 "correct way, manually add your video resources here."
 msgstr ""
 
-#: includes/csf/options.auto_embed.php:35
+#: includes/csf/options/options.auto_embed.php:35
 msgid ""
 "We do not provide video sources, only you should provide these resources and "
 "be responsible for them."
 msgstr ""
 
-#: includes/csf/options.auto_embed.php:41
+#: includes/csf/options/options.auto_embed.php:41
 msgid "Default language flag"
 msgstr ""
 
-#: includes/csf/options.auto_embed.php:48
+#: includes/csf/options/options.auto_embed.php:48
 msgid "List Movies players"
 msgstr ""
 
-#: includes/csf/options.auto_embed.php:54
-#: includes/csf/options.auto_embed.php:94
+#: includes/csf/options/options.auto_embed.php:54
+#: includes/csf/options/options.auto_embed.php:94
 msgid "Add dynamic video source"
 msgstr ""
 
-#: includes/csf/options.auto_embed.php:55
-#: includes/csf/options.auto_embed.php:95
+#: includes/csf/options/options.auto_embed.php:55
+#: includes/csf/options/options.auto_embed.php:95
 msgid "URL Embed Parameters:"
 msgstr ""
 
-#: includes/csf/options.auto_embed.php:56
-#: includes/csf/options.auto_embed.php:96
+#: includes/csf/options/options.auto_embed.php:56
+#: includes/csf/options/options.auto_embed.php:96
 msgid "URL Embed example"
 msgstr ""
 
-#: includes/csf/options.auto_embed.php:61
-#: includes/csf/options.auto_embed.php:102
+#: includes/csf/options/options.auto_embed.php:61
+#: includes/csf/options/options.auto_embed.php:102
 msgid "Option name"
 msgstr ""
 
-#: includes/csf/options.auto_embed.php:62
-#: includes/csf/options.auto_embed.php:71
-#: includes/csf/options.auto_embed.php:103
-#: includes/csf/options.auto_embed.php:112 includes/doo_comments.php:108
+#: includes/csf/options/options.auto_embed.php:62
+#: includes/csf/options/options.auto_embed.php:71
+#: includes/csf/options/options.auto_embed.php:103
+#: includes/csf/options/options.auto_embed.php:112
+#: includes/doo_comments.php:108
 msgid "Required"
 msgstr ""
 
-#: includes/csf/options.auto_embed.php:64
-#: includes/csf/options.auto_embed.php:105
+#: includes/csf/options/options.auto_embed.php:64
+#: includes/csf/options/options.auto_embed.php:105
 msgid "Server #"
 msgstr ""
 
-#: includes/csf/options.auto_embed.php:70
-#: includes/csf/options.auto_embed.php:111
+#: includes/csf/options/options.auto_embed.php:70
+#: includes/csf/options/options.auto_embed.php:111
 msgid "URL embed"
 msgstr ""
 
-#: includes/csf/options.auto_embed.php:79
-#: includes/csf/options.auto_embed.php:120
+#: includes/csf/options/options.auto_embed.php:79
+#: includes/csf/options/options.auto_embed.php:120
 msgid "Language flag"
 msgstr ""
 
-#: includes/csf/options.auto_embed.php:80
-#: includes/csf/options.auto_embed.php:121
+#: includes/csf/options/options.auto_embed.php:80
+#: includes/csf/options/options.auto_embed.php:121
 msgid "Optional"
 msgstr ""
 
-#: includes/csf/options.auto_embed.php:88
+#: includes/csf/options/options.auto_embed.php:88
 msgid "List Episodes players"
 msgstr ""
 
-#: includes/csf/options.blog_entries.php:12
-#: includes/csf/options.customize.php:228
-#: includes/csf/options.main_settings.php:219
+#: includes/csf/options/options.blog_entries.php:12
+#: includes/csf/options/options.customize.php:228
+#: includes/csf/options/options.main_settings.php:219
 msgid "Blog entries"
 msgstr ""
 
-#: includes/csf/options.blog_entries.php:19
-#: includes/csf/options.featured_titles.php:26
-#: includes/csf/options.module_episodes.php:19
-#: includes/csf/options.module_movies.php:19
-#: includes/csf/options.module_seasons.php:19
-#: includes/csf/options.module_tvshows.php:19
-#: includes/csf/options.top_imdb.php:19
-msgid "Module Title"
-msgstr ""
-
-#: includes/csf/options.blog_entries.php:20
+#: includes/csf/options/options.blog_entries.php:20
 msgid "Last entries"
 msgstr ""
 
-#: includes/csf/options.blog_entries.php:21
-#: includes/csf/options.featured_titles.php:28
-#: includes/csf/options.module_episodes.php:21
-#: includes/csf/options.module_movies.php:21
-#: includes/csf/options.module_seasons.php:21
-#: includes/csf/options.module_tvshows.php:21
-#: includes/csf/options.top_imdb.php:21
-msgid "Add title to show"
-msgstr ""
-
-#: includes/csf/options.blog_entries.php:26
-#: includes/csf/options.featured_titles.php:33
-#: includes/csf/options.main_slider.php:38
-#: includes/csf/options.module_episodes.php:26
-#: includes/csf/options.module_movies.php:26
-#: includes/csf/options.module_seasons.php:26
-#: includes/csf/options.module_tvshows.php:26
-#: includes/csf/options.top_imdb.php:60
-#: includes/widgets/content_related_widget.php:110
-#: includes/widgets/content_widget.php:84
-#: includes/widgets/content_widget_home.php:153
-#: includes/widgets/content_widget_views.php:83
-msgid "Items number"
-msgstr ""
-
-#: includes/csf/options.blog_entries.php:27
-#: includes/csf/options.featured_titles.php:34
-#: includes/csf/options.main_slider.php:39
-#: includes/csf/options.module_episodes.php:27
-#: includes/csf/options.module_movies.php:27
-#: includes/csf/options.module_seasons.php:27
-#: includes/csf/options.module_tvshows.php:27
-#: includes/csf/options.top_imdb.php:61
-msgid "Number of items to show"
-msgstr ""
-
-#: includes/csf/options.blog_entries.php:37
+#: includes/csf/options/options.blog_entries.php:37
 msgid "Number of words"
 msgstr ""
 
-#: includes/csf/options.blog_entries.php:38
+#: includes/csf/options/options.blog_entries.php:38
 msgid "Number of words for describing the entry"
 msgstr ""
 
-#: includes/csf/options.comments.php:23
+#: includes/csf/options/options.comments.php:23
 msgid "Comments system"
 msgstr ""
 
-#: includes/csf/options.comments.php:26
+#: includes/csf/options/options.comments.php:26
 msgid "WordPress"
 msgstr ""
 
-#: includes/csf/options.comments.php:27 includes/doo_functions.php:880
+#: includes/csf/options/options.comments.php:27 includes/doo_functions.php:861
 msgid "Facebook"
 msgstr ""
 
-#: includes/csf/options.comments.php:28
+#: includes/csf/options/options.comments.php:28
 msgid "Disqus"
 msgstr ""
 
-#: includes/csf/options.comments.php:35
+#: includes/csf/options/options.comments.php:35
 msgid "Comments on pages"
 msgstr ""
 
-#: includes/csf/options.comments.php:36
+#: includes/csf/options/options.comments.php:36
 msgid "Allow comments on all pages?"
 msgstr ""
 
-#: includes/csf/options.comments.php:41
+#: includes/csf/options/options.comments.php:41
 msgid "Facebook comments"
 msgstr ""
 
-#: includes/csf/options.comments.php:47
+#: includes/csf/options/options.comments.php:47
 msgid "App ID"
 msgstr ""
 
-#: includes/csf/options.comments.php:48
+#: includes/csf/options/options.comments.php:48
 msgid "Insert you Facebook app ID"
 msgstr ""
 
-#: includes/csf/options.comments.php:49
+#: includes/csf/options/options.comments.php:49
 msgid "Facebook developers"
 msgstr ""
 
-#: includes/csf/options.comments.php:55
+#: includes/csf/options/options.comments.php:55
 msgid "APP language"
 msgstr ""
 
-#: includes/csf/options.comments.php:56
+#: includes/csf/options/options.comments.php:56
 msgid "Select language for the app of facebook"
 msgstr ""
 
-#: includes/csf/options.comments.php:58
+#: includes/csf/options/options.comments.php:58
 msgid "Afrikaans"
 msgstr ""
 
-#: includes/csf/options.comments.php:59
+#: includes/csf/options/options.comments.php:59
 msgid "Akan"
 msgstr ""
 
-#: includes/csf/options.comments.php:60
+#: includes/csf/options/options.comments.php:60
 msgid "Amharic"
 msgstr ""
 
-#: includes/csf/options.comments.php:62
+#: includes/csf/options/options.comments.php:62
 msgid "Assamese"
 msgstr ""
 
-#: includes/csf/options.comments.php:63
+#: includes/csf/options/options.comments.php:63
 msgid "Aymara"
 msgstr ""
 
-#: includes/csf/options.comments.php:64
+#: includes/csf/options/options.comments.php:64
 msgid "Azerbaijani"
 msgstr ""
 
-#: includes/csf/options.comments.php:65
+#: includes/csf/options/options.comments.php:65
 msgid "Belarusian"
 msgstr ""
 
-#: includes/csf/options.comments.php:67
+#: includes/csf/options/options.comments.php:67
 msgid "Bengali"
 msgstr ""
 
-#: includes/csf/options.comments.php:68
+#: includes/csf/options/options.comments.php:68
 msgid "Breton"
 msgstr ""
 
-#: includes/csf/options.comments.php:70
+#: includes/csf/options/options.comments.php:70
 msgid "Catalan"
 msgstr ""
 
-#: includes/csf/options.comments.php:71
+#: includes/csf/options/options.comments.php:71
 msgid "Sorani Kurdish"
 msgstr ""
 
-#: includes/csf/options.comments.php:72
+#: includes/csf/options/options.comments.php:72
 msgid "Cherokee"
 msgstr ""
 
-#: includes/csf/options.comments.php:73
+#: includes/csf/options/options.comments.php:73
 msgid "Corsican"
 msgstr ""
 
-#: includes/csf/options.comments.php:75
+#: includes/csf/options/options.comments.php:75
 msgid "Cebuano"
 msgstr ""
 
-#: includes/csf/options.comments.php:76
+#: includes/csf/options/options.comments.php:76
 msgid "Welsh"
 msgstr ""
 
-#: includes/csf/options.comments.php:80
+#: includes/csf/options/options.comments.php:80
 msgid "English (UK)"
 msgstr ""
 
-#: includes/csf/options.comments.php:81
+#: includes/csf/options/options.comments.php:81
 msgid "English (India)"
 msgstr ""
 
-#: includes/csf/options.comments.php:82
+#: includes/csf/options/options.comments.php:82
 msgid "English (Pirate)"
 msgstr ""
 
-#: includes/csf/options.comments.php:83
+#: includes/csf/options/options.comments.php:83
 msgid "English (Upside Down)"
 msgstr ""
 
-#: includes/csf/options.comments.php:84
+#: includes/csf/options/options.comments.php:84
 msgid "English (US)"
 msgstr ""
 
-#: includes/csf/options.comments.php:85
+#: includes/csf/options/options.comments.php:85
 msgid "Esperanto"
 msgstr ""
 
-#: includes/csf/options.comments.php:86
+#: includes/csf/options/options.comments.php:86
 msgid "Spanish (Chile)"
 msgstr ""
 
-#: includes/csf/options.comments.php:87
+#: includes/csf/options/options.comments.php:87
 msgid "Spanish (Colombia)"
 msgstr ""
 
-#: includes/csf/options.comments.php:88
+#: includes/csf/options/options.comments.php:88
 msgid "Spanish (Spain)"
 msgstr ""
 
-#: includes/csf/options.comments.php:89
+#: includes/csf/options/options.comments.php:89
 msgid "Spanish (Latin America)"
 msgstr ""
 
-#: includes/csf/options.comments.php:90
+#: includes/csf/options/options.comments.php:90
 msgid "Spanish (Mexico)"
 msgstr ""
 
-#: includes/csf/options.comments.php:91
+#: includes/csf/options/options.comments.php:91
 msgid "Spanish (Venezuela)"
 msgstr ""
 
-#: includes/csf/options.comments.php:92
+#: includes/csf/options/options.comments.php:92
 msgid "Estonian"
 msgstr ""
 
-#: includes/csf/options.comments.php:93
+#: includes/csf/options/options.comments.php:93
 msgid "Basque"
 msgstr ""
 
-#: includes/csf/options.comments.php:95
+#: includes/csf/options/options.comments.php:95
 msgid "Leet Speak"
 msgstr ""
 
-#: includes/csf/options.comments.php:96
+#: includes/csf/options/options.comments.php:96
 msgid "Fulah"
 msgstr ""
 
-#: includes/csf/options.comments.php:98
+#: includes/csf/options/options.comments.php:98
 msgid "Faroese"
 msgstr ""
 
-#: includes/csf/options.comments.php:99
+#: includes/csf/options/options.comments.php:99
 msgid "French (Canada)"
 msgstr ""
 
-#: includes/csf/options.comments.php:100
+#: includes/csf/options/options.comments.php:100
 msgid "French (France)"
 msgstr ""
 
-#: includes/csf/options.comments.php:101
+#: includes/csf/options/options.comments.php:101
 msgid "Frisian"
 msgstr ""
 
-#: includes/csf/options.comments.php:102
+#: includes/csf/options/options.comments.php:102
 msgid "Irish"
 msgstr ""
 
-#: includes/csf/options.comments.php:103
+#: includes/csf/options/options.comments.php:103
 msgid "Galician"
 msgstr ""
 
-#: includes/csf/options.comments.php:104
+#: includes/csf/options/options.comments.php:104
 msgid "Guarani"
 msgstr ""
 
-#: includes/csf/options.comments.php:105
+#: includes/csf/options/options.comments.php:105
 msgid "Gujarati"
 msgstr ""
 
-#: includes/csf/options.comments.php:106
+#: includes/csf/options/options.comments.php:106
 msgid "Classical Greek"
 msgstr ""
 
-#: includes/csf/options.comments.php:107
+#: includes/csf/options/options.comments.php:107
 msgid "Hausa"
 msgstr ""
 
-#: includes/csf/options.comments.php:109 includes/doo_functions.php:28
+#: includes/csf/options/options.comments.php:109 includes/doo_functions.php:28
 msgid "Hindi"
 msgstr ""
 
-#: includes/csf/options.comments.php:112
+#: includes/csf/options/options.comments.php:112
 msgid "Armenian"
 msgstr ""
 
-#: includes/csf/options.comments.php:114
+#: includes/csf/options/options.comments.php:114
 msgid "Igbo"
 msgstr ""
 
-#: includes/csf/options.comments.php:117 includes/doo_functions.php:30
+#: includes/csf/options/options.comments.php:117 includes/doo_functions.php:30
 msgid "Japanese"
 msgstr ""
 
-#: includes/csf/options.comments.php:118
+#: includes/csf/options/options.comments.php:118
 msgid "Japanese (Kansai)"
 msgstr ""
 
-#: includes/csf/options.comments.php:119
+#: includes/csf/options/options.comments.php:119
 msgid "Javanese"
 msgstr ""
 
-#: includes/csf/options.comments.php:120
+#: includes/csf/options/options.comments.php:120
 msgid "Georgian"
 msgstr ""
 
-#: includes/csf/options.comments.php:121
+#: includes/csf/options/options.comments.php:121
 msgid "Kazakh"
 msgstr ""
 
-#: includes/csf/options.comments.php:122
+#: includes/csf/options/options.comments.php:122
 msgid "Khmer"
 msgstr ""
 
-#: includes/csf/options.comments.php:123
+#: includes/csf/options/options.comments.php:123
 msgid "Kannada"
 msgstr ""
 
-#: includes/csf/options.comments.php:125
+#: includes/csf/options/options.comments.php:125
 msgid "Kurdish (Kurmanji)"
 msgstr ""
 
-#: includes/csf/options.comments.php:126
+#: includes/csf/options/options.comments.php:126
 msgid "Kyrgyz"
 msgstr ""
 
-#: includes/csf/options.comments.php:127
+#: includes/csf/options/options.comments.php:127
 msgid "Latin"
 msgstr ""
 
-#: includes/csf/options.comments.php:128
+#: includes/csf/options/options.comments.php:128
 msgid "Ganda"
 msgstr ""
 
-#: includes/csf/options.comments.php:129
+#: includes/csf/options/options.comments.php:129
 msgid "Limburgish"
 msgstr ""
 
-#: includes/csf/options.comments.php:130
+#: includes/csf/options/options.comments.php:130
 msgid "Lingala"
 msgstr ""
 
-#: includes/csf/options.comments.php:131
+#: includes/csf/options/options.comments.php:131
 msgid "Lao"
 msgstr ""
 
-#: includes/csf/options.comments.php:133
+#: includes/csf/options/options.comments.php:133
 msgid "Latvian"
 msgstr ""
 
-#: includes/csf/options.comments.php:134
+#: includes/csf/options/options.comments.php:134
 msgid "Malagasy"
 msgstr ""
 
-#: includes/csf/options.comments.php:135
+#: includes/csf/options/options.comments.php:135
 msgid "Maori"
 msgstr ""
 
-#: includes/csf/options.comments.php:136
+#: includes/csf/options/options.comments.php:136
 msgid "Macedonian"
 msgstr ""
 
-#: includes/csf/options.comments.php:137
+#: includes/csf/options/options.comments.php:137
 msgid "Malayalam"
 msgstr ""
 
-#: includes/csf/options.comments.php:138
+#: includes/csf/options/options.comments.php:138
 msgid "Mongolian"
 msgstr ""
 
-#: includes/csf/options.comments.php:139
+#: includes/csf/options/options.comments.php:139
 msgid "Marathi"
 msgstr ""
 
-#: includes/csf/options.comments.php:140
+#: includes/csf/options/options.comments.php:140
 msgid "Malay"
 msgstr ""
 
-#: includes/csf/options.comments.php:141
+#: includes/csf/options/options.comments.php:141
 msgid "Maltese"
 msgstr ""
 
-#: includes/csf/options.comments.php:142
+#: includes/csf/options/options.comments.php:142
 msgid "Burmese"
 msgstr ""
 
-#: includes/csf/options.comments.php:143
+#: includes/csf/options/options.comments.php:143
 msgid "Norwegian (bokmal)"
 msgstr ""
 
-#: includes/csf/options.comments.php:144
+#: includes/csf/options/options.comments.php:144
 msgid "Ndebele"
 msgstr ""
 
-#: includes/csf/options.comments.php:145
+#: includes/csf/options/options.comments.php:145
 msgid "Nepali"
 msgstr ""
 
-#: includes/csf/options.comments.php:146
+#: includes/csf/options/options.comments.php:146
 msgid "Dutch (Belgie)"
 msgstr ""
 
-#: includes/csf/options.comments.php:148
+#: includes/csf/options/options.comments.php:148
 msgid "Norwegian (nynorsk)"
 msgstr ""
 
-#: includes/csf/options.comments.php:149
+#: includes/csf/options/options.comments.php:149
 msgid "Chewa"
 msgstr ""
 
-#: includes/csf/options.comments.php:150
+#: includes/csf/options/options.comments.php:150
 msgid "Oriya"
 msgstr ""
 
-#: includes/csf/options.comments.php:151
+#: includes/csf/options/options.comments.php:151
 msgid "Punjabi"
 msgstr ""
 
-#: includes/csf/options.comments.php:153
+#: includes/csf/options/options.comments.php:153
 msgid "Pashto"
 msgstr ""
 
-#: includes/csf/options.comments.php:154
+#: includes/csf/options/options.comments.php:154
 msgid "Portuguese (Brazil)"
 msgstr ""
 
-#: includes/csf/options.comments.php:155
+#: includes/csf/options/options.comments.php:155
 msgid "Portuguese (Portugal)"
 msgstr ""
 
-#: includes/csf/options.comments.php:156
+#: includes/csf/options/options.comments.php:156
 msgid "Quechua"
 msgstr ""
 
-#: includes/csf/options.comments.php:157
+#: includes/csf/options/options.comments.php:157
 msgid "Romansh"
 msgstr ""
 
-#: includes/csf/options.comments.php:160
+#: includes/csf/options/options.comments.php:160
 msgid "Kinyarwanda"
 msgstr ""
 
-#: includes/csf/options.comments.php:161
+#: includes/csf/options/options.comments.php:161
 msgid "Sanskrit"
 msgstr ""
 
-#: includes/csf/options.comments.php:162
+#: includes/csf/options/options.comments.php:162
 msgid "Sardinian"
 msgstr ""
 
-#: includes/csf/options.comments.php:163
+#: includes/csf/options/options.comments.php:163
 msgid "Northern Sami"
 msgstr ""
 
-#: includes/csf/options.comments.php:164
+#: includes/csf/options/options.comments.php:164
 msgid "Sinhala"
 msgstr ""
 
-#: includes/csf/options.comments.php:166
+#: includes/csf/options/options.comments.php:166
 msgid "Slovenian"
 msgstr ""
 
-#: includes/csf/options.comments.php:167
+#: includes/csf/options/options.comments.php:167
 msgid "Shona"
 msgstr ""
 
-#: includes/csf/options.comments.php:168
+#: includes/csf/options/options.comments.php:168
 msgid "Somali"
 msgstr ""
 
-#: includes/csf/options.comments.php:169
+#: includes/csf/options/options.comments.php:169
 msgid "Albanian"
 msgstr ""
 
-#: includes/csf/options.comments.php:170
+#: includes/csf/options/options.comments.php:170
 msgid "Serbian"
 msgstr ""
 
-#: includes/csf/options.comments.php:172
+#: includes/csf/options/options.comments.php:172
 msgid "Swahili"
 msgstr ""
 
-#: includes/csf/options.comments.php:173
+#: includes/csf/options/options.comments.php:173
 msgid "Syriac"
 msgstr ""
 
-#: includes/csf/options.comments.php:174
+#: includes/csf/options/options.comments.php:174
 msgid "Silesian"
 msgstr ""
 
-#: includes/csf/options.comments.php:175
+#: includes/csf/options/options.comments.php:175
 msgid "Tamil"
 msgstr ""
 
-#: includes/csf/options.comments.php:176
+#: includes/csf/options/options.comments.php:176
 msgid "Telugu"
 msgstr ""
 
-#: includes/csf/options.comments.php:177
+#: includes/csf/options/options.comments.php:177
 msgid "Tajik"
 msgstr ""
 
-#: includes/csf/options.comments.php:179
+#: includes/csf/options/options.comments.php:179
 msgid "Turkmen"
 msgstr ""
 
-#: includes/csf/options.comments.php:180
+#: includes/csf/options/options.comments.php:180
 msgid "Filipino"
 msgstr ""
 
-#: includes/csf/options.comments.php:181
+#: includes/csf/options/options.comments.php:181
 msgid "Klingon"
 msgstr ""
 
-#: includes/csf/options.comments.php:183
+#: includes/csf/options/options.comments.php:183
 msgid "Tatar"
 msgstr ""
 
-#: includes/csf/options.comments.php:184
+#: includes/csf/options/options.comments.php:184
 msgid "Tamazight"
 msgstr ""
 
-#: includes/csf/options.comments.php:186
+#: includes/csf/options/options.comments.php:186
 msgid "Urdu"
 msgstr ""
 
-#: includes/csf/options.comments.php:187
+#: includes/csf/options/options.comments.php:187
 msgid "Uzbek"
 msgstr ""
 
-#: includes/csf/options.comments.php:189
+#: includes/csf/options/options.comments.php:189
 msgid "Wolof"
 msgstr ""
 
-#: includes/csf/options.comments.php:190
+#: includes/csf/options/options.comments.php:190
 msgid "Xhosa"
 msgstr ""
 
-#: includes/csf/options.comments.php:191
+#: includes/csf/options/options.comments.php:191
 msgid "Yiddish"
 msgstr ""
 
-#: includes/csf/options.comments.php:192
+#: includes/csf/options/options.comments.php:192
 msgid "Yoruba"
 msgstr ""
 
-#: includes/csf/options.comments.php:193
+#: includes/csf/options/options.comments.php:193
 msgid "Simplified Chinese (China)"
 msgstr ""
 
-#: includes/csf/options.comments.php:194
+#: includes/csf/options/options.comments.php:194
 msgid "Traditional Chinese (Hong Kong)"
 msgstr ""
 
-#: includes/csf/options.comments.php:195
+#: includes/csf/options/options.comments.php:195
 msgid "Traditional Chinese (Taiwan)"
 msgstr ""
 
-#: includes/csf/options.comments.php:196
+#: includes/csf/options/options.comments.php:196
 msgid "Zulu"
 msgstr ""
 
-#: includes/csf/options.comments.php:197
+#: includes/csf/options/options.comments.php:197
 msgid "Zazaki"
 msgstr ""
 
-#: includes/csf/options.comments.php:205
+#: includes/csf/options/options.comments.php:205
 msgid "Admin user"
 msgstr ""
 
-#: includes/csf/options.comments.php:206
+#: includes/csf/options/options.comments.php:206
 msgid "Add user or user ID to manage comment"
 msgstr ""
 
-#: includes/csf/options.comments.php:212 includes/csf/options.customize.php:40
+#: includes/csf/options/options.comments.php:212
+#: includes/csf/options/options.customize.php:40
 msgid "Color Scheme"
 msgstr ""
 
-#: includes/csf/options.comments.php:215
+#: includes/csf/options/options.comments.php:215
 msgid "Light color"
 msgstr ""
 
-#: includes/csf/options.comments.php:216
+#: includes/csf/options/options.comments.php:216
 msgid "Dark color"
 msgstr ""
 
-#: includes/csf/options.comments.php:223
+#: includes/csf/options/options.comments.php:223
 msgid "Number of Posts"
 msgstr ""
 
-#: includes/csf/options.comments.php:233
+#: includes/csf/options/options.comments.php:233
 msgid "Disqus comments"
 msgstr ""
 
-#: includes/csf/options.comments.php:239
+#: includes/csf/options/options.comments.php:239
 msgid "Shortname"
 msgstr ""
 
-#: includes/csf/options.comments.php:240
+#: includes/csf/options/options.comments.php:240
 msgid ""
 "This is used to uniquely identify your website on Disqus. It cannot be "
 "changed"
 msgstr ""
 
-#: includes/csf/options.comments.php:241 includes/parts/comments.php:32
+#: includes/csf/options/options.comments.php:241 includes/parts/comments.php:32
 msgid "more info"
 msgstr ""
 
-#: includes/csf/options.comments.php:246
+#: includes/csf/options/options.comments.php:246
 msgid "Discussion Settings"
 msgstr ""
 
-#: includes/csf/options.cookies.php:12
+#: includes/csf/options/options.cookies.php:12
 msgid "Cookies Law"
 msgstr ""
 
-#: includes/csf/options.cookies.php:20
+#: includes/csf/options/options.cookies.php:20
 msgid "Cookie Key"
 msgstr ""
 
-#: includes/csf/options.cookies.php:25
+#: includes/csf/options/options.cookies.php:25
 msgid "This Website uses cookies to make its website easier to use."
 msgstr ""
 
-#: includes/csf/options.cookies.php:26
+#: includes/csf/options/options.cookies.php:26
 msgid "Text notice"
 msgstr ""
 
-#: includes/csf/options.cookies.php:31
+#: includes/csf/options/options.cookies.php:31
 msgid "Learn more about cookies."
 msgstr ""
 
-#: includes/csf/options.cookies.php:32
+#: includes/csf/options/options.cookies.php:32
 msgid "Text Read more"
 msgstr ""
 
-#: includes/csf/options.cookies.php:37
+#: includes/csf/options/options.cookies.php:37
 msgid "Details page type"
 msgstr ""
 
-#: includes/csf/options.cookies.php:40
+#: includes/csf/options/options.cookies.php:40
 msgid "Page link"
 msgstr ""
 
-#: includes/csf/options.cookies.php:41 includes/csf/options.cookies.php:54
+#: includes/csf/options/options.cookies.php:41
+#: includes/csf/options/options.cookies.php:54
 msgid "Custom Link"
 msgstr ""
 
-#: includes/csf/options.cookies.php:47 includes/csf/options.cookies.php:62
+#: includes/csf/options/options.cookies.php:47
+#: includes/csf/options/options.cookies.php:62
 msgid "Page Link"
 msgstr ""
 
-#: includes/csf/options.cookies.php:69
+#: includes/csf/options/options.cookies.php:69
 msgid "none"
 msgstr ""
 
-#: includes/csf/options.cookies.php:74
+#: includes/csf/options/options.cookies.php:74
 msgid "Opens the linked document in a new window or tab."
 msgstr ""
 
-#: includes/csf/options.cookies.php:79
+#: includes/csf/options/options.cookies.php:79
 msgid ""
 "Opens the linked document in the same frame as it was clicked (this is "
 "default)."
 msgstr ""
 
-#: includes/csf/options.cookies.php:84
+#: includes/csf/options/options.cookies.php:84
 msgid "Opens the linked document in the parent frame."
 msgstr ""
 
-#: includes/csf/options.cookies.php:89
+#: includes/csf/options/options.cookies.php:89
 msgid "Opens the linked document in the full body of the window."
 msgstr ""
 
-#: includes/csf/options.cookies.php:95
+#: includes/csf/options/options.cookies.php:95
 msgid "Cookie expiry"
 msgstr ""
 
-#: includes/csf/options.cookies.php:98
+#: includes/csf/options/options.cookies.php:98
 msgid "1 week"
 msgstr ""
 
-#: includes/csf/options.cookies.php:99
+#: includes/csf/options/options.cookies.php:99
 msgid "1 month"
 msgstr ""
 
-#: includes/csf/options.cookies.php:100
+#: includes/csf/options/options.cookies.php:100
 msgid "3 months"
 msgstr ""
 
-#: includes/csf/options.cookies.php:101
+#: includes/csf/options/options.cookies.php:101
 msgid "6 months"
 msgstr ""
 
-#: includes/csf/options.cookies.php:102
+#: includes/csf/options/options.cookies.php:102
 msgid "1 year"
 msgstr ""
 
-#: includes/csf/options.cookies.php:103
+#: includes/csf/options/options.cookies.php:103
 msgid "infinity"
 msgstr ""
 
-#: includes/csf/options.cookies.php:108
+#: includes/csf/options/options.cookies.php:108
 msgid "Customize Notice"
 msgstr ""
 
-#: includes/csf/options.cookies.php:113
+#: includes/csf/options/options.cookies.php:113
 msgid "Background color"
 msgstr ""
 
-#: includes/csf/options.cookies.php:119
+#: includes/csf/options/options.cookies.php:119
 msgid "Text color"
 msgstr ""
 
-#: includes/csf/options.cookies.php:125
+#: includes/csf/options/options.cookies.php:125
 msgid "Link color"
 msgstr ""
 
-#: includes/csf/options.cookies.php:131
+#: includes/csf/options/options.cookies.php:131
 msgid "Link hover color"
 msgstr ""
 
-#: includes/csf/options.customize.php:29 includes/csf/options.customize.php:35
+#: includes/csf/options/options.customize.php:29
+#: includes/csf/options/options.customize.php:35
 msgid "Customize"
 msgstr ""
 
-#: includes/csf/options.customize.php:41
+#: includes/csf/options/options.customize.php:41
 msgid "Select the default color scheme"
 msgstr ""
 
-#: includes/csf/options.customize.php:52
-msgid "Max width"
-msgstr ""
-
-#: includes/csf/options.customize.php:53
-msgid "Set max width of the page"
-msgstr ""
-
-#: includes/csf/options.customize.php:63
+#: includes/csf/options/options.customize.php:63
 msgid "Single background"
 msgstr ""
 
-#: includes/csf/options.customize.php:64
-#: includes/csf/options.main_settings.php:124
+#: includes/csf/options/options.customize.php:64
+#: includes/csf/options/options.main_settings.php:124
 msgid "Check whether to activate or deactivate"
 msgstr ""
 
-#: includes/csf/options.customize.php:65
+#: includes/csf/options/options.customize.php:65
 msgid "Enable dynamic background"
 msgstr ""
 
-#: includes/csf/options.customize.php:71
-msgid "Font family"
-msgstr ""
-
-#: includes/csf/options.customize.php:72
-msgid "Select font-family by Google Fonts"
-msgstr ""
-
-#: includes/csf/options.customize.php:103
+#: includes/csf/options/options.customize.php:103
 msgid "Primary color"
 msgstr ""
 
-#: includes/csf/options.customize.php:104
-#: includes/csf/options.customize.php:111
-#: includes/csf/options.customize.php:118
-#: includes/csf/options.customize.php:130
-#: includes/csf/options.customize.php:138
-#: includes/csf/options.customize.php:146
-#: includes/csf/options.video_player.php:139
+#: includes/csf/options/options.customize.php:104
+#: includes/csf/options/options.customize.php:111
+#: includes/csf/options/options.customize.php:118
+#: includes/csf/options/options.customize.php:130
+#: includes/csf/options/options.customize.php:138
+#: includes/csf/options/options.customize.php:146
+#: includes/csf/options/options.video_player.php:139
 msgid "Choose a color"
 msgstr ""
 
-#: includes/csf/options.customize.php:110
+#: includes/csf/options/options.customize.php:110
 msgid "Background container"
 msgstr ""
 
-#: includes/csf/options.customize.php:117
+#: includes/csf/options/options.customize.php:117
 msgid "Featured marker"
 msgstr ""
 
-#: includes/csf/options.customize.php:123
+#: includes/csf/options/options.customize.php:123
 msgid "Fusion alternative colors"
 msgstr ""
 
-#: includes/csf/options.customize.php:129
+#: includes/csf/options/options.customize.php:129
 msgid "Background header bar"
 msgstr ""
 
-#: includes/csf/options.customize.php:137
+#: includes/csf/options/options.customize.php:137
 msgid "Header link color"
 msgstr ""
 
-#: includes/csf/options.customize.php:145
+#: includes/csf/options/options.customize.php:145
 msgid "Header link hover color"
 msgstr ""
 
-#: includes/csf/options.customize.php:152
+#: includes/csf/options/options.customize.php:152
 msgid "Poster Play icon"
 msgstr ""
 
-#: includes/csf/options.customize.php:157
+#: includes/csf/options/options.customize.php:157
 msgid "Hover Play Icon"
 msgstr ""
 
-#: includes/csf/options.customize.php:168
+#: includes/csf/options/options.customize.php:168
 msgid "Sidebar position"
 msgstr ""
 
-#: includes/csf/options.customize.php:173
+#: includes/csf/options/options.customize.php:173
 msgid "Home page"
 msgstr ""
 
-#: includes/csf/options.customize.php:183
-msgid "Archives"
-msgstr ""
-
-#: includes/csf/options.customize.php:193 includes/parts/admin/ads_tool.php:10
+#: includes/csf/options/options.customize.php:193
+#: includes/parts/admin/ads_tool.php:10
 msgid "Single Post"
 msgstr ""
 
-#: includes/csf/options.customize.php:202 includes/parts/admin/ads_tool.php:9
+#: includes/csf/options/options.customize.php:202
+#: includes/parts/admin/ads_tool.php:9
 msgid "Homepage"
 msgstr ""
 
-#: includes/csf/options.customize.php:207
+#: includes/csf/options/options.customize.php:207
 msgid "Full width"
 msgstr ""
 
-#: includes/csf/options.customize.php:208
+#: includes/csf/options/options.customize.php:208
 msgid "Enable full width only in homepage"
 msgstr ""
 
-#: includes/csf/options.customize.php:213
+#: includes/csf/options/options.customize.php:213
 msgid ""
 "<strong>NOTE:</strong> Drag and drop the modules in the order you want them"
 msgstr ""
 
-#: includes/csf/options.customize.php:220
+#: includes/csf/options/options.customize.php:220
 msgid "Slider"
 msgstr ""
 
-#: includes/csf/options.customize.php:221
-#: includes/csf/options.featured_titles.php:19
-#: includes/csf/options.featured_titles.php:27
-msgid "Featured titles"
-msgstr ""
-
-#: includes/csf/options.customize.php:223 includes/csf/options.more.php:77
+#: includes/csf/options/options.customize.php:223
+#: includes/csf/options/options.more.php:77
 msgid "Advertising"
 msgstr ""
 
-#: includes/csf/options.customize.php:225
+#: includes/csf/options/options.customize.php:225
 msgid "TV Show > Season"
 msgstr ""
 
-#: includes/csf/options.customize.php:226
+#: includes/csf/options/options.customize.php:226
 msgid "TV Show > Episode"
 msgstr ""
 
-#: includes/csf/options.customize.php:227 includes/csf/options.top_imdb.php:12
-#: includes/csf/options.top_imdb.php:20 includes/doo_database.php:122
+#: includes/csf/options/options.customize.php:227
+#: includes/csf/options/options.top_imdb.php:12
+#: includes/csf/options/options.top_imdb.php:20 includes/doo_database.php:122
 msgid "TOP IMDb"
 msgstr ""
 
-#: includes/csf/options.customize.php:231
+#: includes/csf/options/options.customize.php:231
 msgid "Genres Widget"
 msgstr ""
 
-#: includes/csf/options.customize.php:232
+#: includes/csf/options/options.customize.php:232
 msgid "Slider Movies"
 msgstr ""
 
-#: includes/csf/options.customize.php:233
+#: includes/csf/options/options.customize.php:233
 msgid "Slider TV Shows"
 msgstr ""
 
-#: includes/csf/options.customize.php:236
+#: includes/csf/options/options.customize.php:236
 msgid "Modules enabled"
 msgstr ""
 
-#: includes/csf/options.customize.php:237
+#: includes/csf/options/options.customize.php:237
 msgid "Modules disabled"
 msgstr ""
 
-#: includes/csf/options.customize.php:241
+#: includes/csf/options/options.customize.php:241
 msgid "Customize logos"
 msgstr ""
 
-#: includes/csf/options.customize.php:246
+#: includes/csf/options/options.customize.php:246
 msgid "Logo header"
 msgstr ""
 
-#: includes/csf/options.customize.php:247
-#: includes/csf/options.customize.php:265
+#: includes/csf/options/options.customize.php:247
+#: includes/csf/options/options.customize.php:265
 msgid "Upload your logo using the Upload Button"
 msgstr ""
 
-#: includes/csf/options.customize.php:252
+#: includes/csf/options/options.customize.php:252
 msgid "Favicon"
 msgstr ""
 
-#: includes/csf/options.customize.php:253
+#: includes/csf/options/options.customize.php:253
 msgid "Upload a 16 x 16 px image that will represent your website's favicon"
 msgstr ""
 
-#: includes/csf/options.customize.php:258
+#: includes/csf/options/options.customize.php:258
 msgid "Touch icon APP"
 msgstr ""
 
-#: includes/csf/options.customize.php:259
+#: includes/csf/options/options.customize.php:259
 msgid "Upload a 152 x 152 px image that will represent your Web APP"
 msgstr ""
 
-#: includes/csf/options.customize.php:264
+#: includes/csf/options/options.customize.php:264
 msgid "Login / Register / WP-Admin"
 msgstr ""
 
-#: includes/csf/options.customize.php:269
+#: includes/csf/options/options.customize.php:269
 msgid "Footer settings"
 msgstr ""
 
-#: includes/csf/options.customize.php:274
+#: includes/csf/options/options.customize.php:274
 msgid "Footer"
 msgstr ""
 
-#: includes/csf/options.customize.php:277
+#: includes/csf/options/options.customize.php:277
 msgid "Simple"
 msgstr ""
 
-#: includes/csf/options.customize.php:278
+#: includes/csf/options/options.customize.php:278
 msgid "Complete"
 msgstr ""
 
-#: includes/csf/options.customize.php:284
+#: includes/csf/options/options.customize.php:284
 msgid "Footer copyright"
 msgstr ""
 
-#: includes/csf/options.customize.php:285
+#: includes/csf/options/options.customize.php:285
 msgid "Modify or remove copyright text"
 msgstr ""
 
-#: includes/csf/options.customize.php:290
+#: includes/csf/options/options.customize.php:290
 msgid "Logo footer"
 msgstr ""
 
-#: includes/csf/options.customize.php:296
+#: includes/csf/options/options.customize.php:296
 msgid "Footer text"
 msgstr ""
 
-#: includes/csf/options.customize.php:297
+#: includes/csf/options/options.customize.php:297
 msgid "Text under footer logo"
 msgstr ""
 
-#: includes/csf/options.customize.php:303
+#: includes/csf/options/options.customize.php:303
 msgid "Title column 1"
 msgstr ""
 
-#: includes/csf/options.customize.php:304
-#: includes/csf/options.customize.php:311
-#: includes/csf/options.customize.php:318
+#: includes/csf/options/options.customize.php:304
+#: includes/csf/options/options.customize.php:311
+#: includes/csf/options/options.customize.php:318
 msgid "Footer menu"
 msgstr ""
 
-#: includes/csf/options.customize.php:310
+#: includes/csf/options/options.customize.php:310
 msgid "Title column 2"
 msgstr ""
 
-#: includes/csf/options.customize.php:317
+#: includes/csf/options/options.customize.php:317
 msgid "Title column 3"
 msgstr ""
 
-#: includes/csf/options.customize.php:323
+#: includes/csf/options/options.customize.php:323
 msgid "Custom CSS"
 msgstr ""
 
-#: includes/csf/options.customize.php:332
+#: includes/csf/options/options.customize.php:332
 msgid "Add only CSS code"
 msgstr ""
 
-#: includes/csf/options.featured_titles.php:15
+#: includes/csf/options/options.featured_titles.php:15
 msgid "Homepage Modules"
 msgstr ""
 
-#: includes/csf/options.featured_titles.php:44
-msgid "Module control"
-msgstr ""
-
-#: includes/csf/options.featured_titles.php:45
-#: includes/csf/options.module_episodes.php:38
-#: includes/csf/options.module_movies.php:38
-#: includes/csf/options.module_seasons.php:38
-#: includes/csf/options.module_tvshows.php:38
-msgid "Check to enable option."
-msgstr ""
-
-#: includes/csf/options.featured_titles.php:47
-#: includes/csf/options.module_episodes.php:40
-#: includes/csf/options.module_movies.php:40
-#: includes/csf/options.module_seasons.php:40
-#: includes/csf/options.module_tvshows.php:40
-msgid "Activate Slider"
-msgstr ""
-
-#: includes/csf/options.featured_titles.php:48
-#: includes/csf/options.module_episodes.php:41
-#: includes/csf/options.module_movies.php:41
-#: includes/csf/options.module_seasons.php:41
-#: includes/csf/options.module_tvshows.php:41
-msgid "Auto play Slider"
-msgstr ""
-
-#: includes/csf/options.featured_titles.php:55
-#: includes/csf/options.main_slider.php:50
-#: includes/csf/options.module_episodes.php:48
-#: includes/csf/options.module_movies.php:48
-#: includes/csf/options.module_seasons.php:48
-#: includes/csf/options.module_tvshows.php:48
-msgid "Order by"
-msgstr ""
-
-#: includes/csf/options.featured_titles.php:56
-#: includes/csf/options.main_slider.php:51
-#: includes/csf/options.module_episodes.php:49
-#: includes/csf/options.module_movies.php:49
-#: includes/csf/options.module_seasons.php:49
-#: includes/csf/options.module_tvshows.php:49
-msgid "Order items for this module"
-msgstr ""
-
-#: includes/csf/options.featured_titles.php:59
-#: includes/csf/options.main_slider.php:54
-#: includes/csf/options.module_episodes.php:52
-#: includes/csf/options.module_movies.php:52
-#: includes/csf/options.module_seasons.php:52
-#: includes/csf/options.module_tvshows.php:52
-msgid "Post date"
-msgstr ""
-
-#: includes/csf/options.featured_titles.php:60
-#: includes/csf/options.main_slider.php:55
-#: includes/csf/options.module_episodes.php:53
-#: includes/csf/options.module_movies.php:53
-#: includes/csf/options.module_seasons.php:53
-#: includes/csf/options.module_tvshows.php:53
-msgid "Post title"
-msgstr ""
-
-#: includes/csf/options.featured_titles.php:61
-#: includes/csf/options.main_slider.php:56
-#: includes/csf/options.module_episodes.php:54
-#: includes/csf/options.module_movies.php:54
-#: includes/csf/options.module_seasons.php:54
-#: includes/csf/options.module_tvshows.php:54
-msgid "Last modified"
-msgstr ""
-
-#: includes/csf/options.featured_titles.php:62
-#: includes/csf/options.main_slider.php:57
-#: includes/csf/options.module_episodes.php:55
-#: includes/csf/options.module_movies.php:55
-#: includes/csf/options.module_seasons.php:55
-#: includes/csf/options.module_tvshows.php:55
-msgid "Random entry"
-msgstr ""
-
-#: includes/csf/options.featured_titles.php:68
-#: includes/csf/options.main_slider.php:64
-#: includes/csf/options.module_episodes.php:61
-#: includes/csf/options.module_movies.php:61
-#: includes/csf/options.module_seasons.php:61
-#: includes/csf/options.module_tvshows.php:61
-msgid "Order"
-msgstr ""
-
-#: includes/csf/options.links_module.php:12
-#: includes/csf/options.links_module.php:18
+#: includes/csf/options/options.links_module.php:12
+#: includes/csf/options/options.links_module.php:18
 msgid "Links Module"
 msgstr ""
 
-#: includes/csf/options.links_module.php:23
+#: includes/csf/options/options.links_module.php:23
 msgid "Set languages"
 msgstr ""
 
-#: includes/csf/options.links_module.php:24
-#: includes/csf/options.links_module.php:33
+#: includes/csf/options/options.links_module.php:24
+#: includes/csf/options/options.links_module.php:33
 msgid "Add comma separated values"
 msgstr ""
 
-#: includes/csf/options.links_module.php:32
+#: includes/csf/options/options.links_module.php:32
 msgid "Set resolutions quality"
 msgstr ""
 
-#: includes/csf/options.links_module.php:41
+#: includes/csf/options/options.links_module.php:41
 msgid "Front-End Links publishers"
 msgstr ""
 
-#: includes/csf/options.links_module.php:42
+#: includes/csf/options/options.links_module.php:42
 msgid "Check the user roles that can be published from Front-end"
 msgstr ""
 
-#: includes/csf/options.links_module.php:55
+#: includes/csf/options/options.links_module.php:55
 msgid "Auto Publish"
 msgstr ""
 
-#: includes/csf/options.links_module.php:56
+#: includes/csf/options/options.links_module.php:56
 msgid "Mark the roles of users who can post links without being moderated"
 msgstr ""
 
-#: includes/csf/options.links_module.php:69
+#: includes/csf/options/options.links_module.php:69
 msgid "Show in list"
 msgstr ""
 
-#: includes/csf/options.links_module.php:70
+#: includes/csf/options/options.links_module.php:70
 msgid "Select the items that you want to show in the links table"
 msgstr ""
 
-#: includes/csf/options.links_module.php:74 includes/doo_links.php:601
+#: includes/csf/options/options.links_module.php:74 includes/doo_links.php:601
 #: includes/parts/links_editor.php:48
 msgid "Size"
 msgstr ""
 
-#: includes/csf/options.links_module.php:75 includes/doo_links.php:602
+#: includes/csf/options/options.links_module.php:75 includes/doo_links.php:602
 #: includes/doo_links.php:750 includes/parts/links_editor.php:49
 #: pages/sections/account.php:105 pages/sections/account.php:130
 msgid "Clicks"
 msgstr ""
 
-#: includes/csf/options.links_module.php:77 includes/doo_links.php:604
+#: includes/csf/options/options.links_module.php:77 includes/doo_links.php:604
 #: includes/parts/links_editor.php:50 pages/sections/account.php:129
 msgid "User"
 msgstr ""
 
-#: includes/csf/options.links_module.php:84
+#: includes/csf/options/options.links_module.php:84
 msgid "Links Editor"
 msgstr ""
 
-#: includes/csf/options.links_module.php:85
+#: includes/csf/options/options.links_module.php:85
 msgid "Show link editor, if the main entry has not yet been published"
 msgstr ""
 
-#: includes/csf/options.links_module.php:90
+#: includes/csf/options/options.links_module.php:90
 msgid ""
 "This is not a secure method of adding links, there is a very high "
 "probability of data loss."
 msgstr ""
 
-#: includes/csf/options.links_module.php:95
+#: includes/csf/options/options.links_module.php:95
 msgid "Redirection page"
 msgstr ""
 
-#: includes/csf/options.links_module.php:100
-#: includes/csf/options.video_player.php:67
+#: includes/csf/options/options.links_module.php:100
+#: includes/csf/options/options.video_player.php:67
 msgid "Timeout"
 msgstr ""
 
-#: includes/csf/options.links_module.php:101
+#: includes/csf/options/options.links_module.php:101
 msgid "Timeout in seconds before redirecting the page automatically"
 msgstr ""
 
-#: includes/csf/options.links_module.php:111
+#: includes/csf/options/options.links_module.php:111
 msgid "Type Output"
 msgstr ""
 
-#: includes/csf/options.links_module.php:112
+#: includes/csf/options/options.links_module.php:112
 msgid "Select an output type upon completion of the wait time"
 msgstr ""
 
-#: includes/csf/options.links_module.php:114
+#: includes/csf/options/options.links_module.php:114
 msgid "Clicking on a button"
 msgstr ""
 
-#: includes/csf/options.links_module.php:115
+#: includes/csf/options/options.links_module.php:115
 msgid "Redirecting the page automatically"
 msgstr ""
 
-#: includes/csf/options.links_module.php:123
+#: includes/csf/options/options.links_module.php:123
 msgid "Button text"
 msgstr ""
 
-#: includes/csf/options.links_module.php:124
+#: includes/csf/options/options.links_module.php:124
 msgid "Customize the button"
 msgstr ""
 
-#: includes/csf/options.links_module.php:131
+#: includes/csf/options/options.links_module.php:131
 msgid "Text under button"
 msgstr ""
 
-#: includes/csf/options.links_module.php:132 single-dt_links.php:29
+#: includes/csf/options/options.links_module.php:132 single-dt_links.php:29
 msgid "Click on the button to continue"
 msgstr ""
 
-#: includes/csf/options.links_module.php:138
-#: includes/csf/options.video_player.php:138
+#: includes/csf/options/options.links_module.php:138
+#: includes/csf/options/options.video_player.php:138
 msgid "Main color"
 msgstr ""
 
-#: includes/csf/options.links_module.php:139
+#: includes/csf/options/options.links_module.php:139
 msgid "Select a color for customize redirection page"
 msgstr ""
 
-#: includes/csf/options.links_module.php:145
+#: includes/csf/options/options.links_module.php:145
 msgid "Shorteners"
 msgstr ""
 
-#: includes/csf/options.links_module.php:150
+#: includes/csf/options/options.links_module.php:150
 msgid "To obtain the link, use the <code>{{url}}</code> tag"
 msgstr ""
 
-#: includes/csf/options.links_module.php:151
+#: includes/csf/options/options.links_module.php:151
 msgid "To invalidate this function do not add any shortener"
 msgstr ""
 
-#: includes/csf/options.links_module.php:157
-#: includes/csf/options.links_module.php:158
+#: includes/csf/options/options.links_module.php:157
+#: includes/csf/options/options.links_module.php:158
 msgid "Add new shortener"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:20
-#: includes/csf/options.main_settings.php:26
-msgid "Main settings"
-msgstr ""
-
-#: includes/csf/options.main_settings.php:31
+#: includes/csf/options/options.main_settings.php:31
 msgid "Site Online"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:32
+#: includes/csf/options/options.main_settings.php:32
 msgid "Keep this field activated"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:38
+#: includes/csf/options/options.main_settings.php:38
 msgid "Currently your website is in <strong>offline mode</strong>"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:44
+#: includes/csf/options/options.main_settings.php:44
 msgid "Offline Message"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:45
+#: includes/csf/options/options.main_settings.php:45
 msgid "We are in maintenance, please try it later"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:47
+#: includes/csf/options/options.main_settings.php:47
 msgid "Offline mode message here"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:55
+#: includes/csf/options/options.main_settings.php:55
 msgid "Classic Editor"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:56
+#: includes/csf/options/options.main_settings.php:56
 msgid "Enable classic editor in content editors"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:61
+#: includes/csf/options/options.main_settings.php:61
 msgid "WordPress Gutenberg editor has been disabled"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:67
+#: includes/csf/options/options.main_settings.php:67
 msgid "Google Analytics"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:68
+#: includes/csf/options/options.main_settings.php:68
 msgid "Insert tracking code to use this function"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:77
+#: includes/csf/options/options.main_settings.php:77
 msgid "Items per page"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:78
-#: includes/csf/options.main_settings.php:89
+#: includes/csf/options/options.main_settings.php:78
+#: includes/csf/options/options.main_settings.php:89
 msgid "Archive pages show at most"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:88
+#: includes/csf/options/options.main_settings.php:88
 msgid "Post per page in blog"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:99
+#: includes/csf/options/options.main_settings.php:99
 msgid "TOP IMDb items"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:100
+#: includes/csf/options/options.main_settings.php:100
 msgid "Select the number of items to the page TOP IMDb"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:110
+#: includes/csf/options/options.main_settings.php:110
 msgid "Pagination Range"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:111
+#: includes/csf/options/options.main_settings.php:111
 msgid "Set a range of items to display in the paginator"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:126
+#: includes/csf/options/options.main_settings.php:126
 msgid "User register enable"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:127
+#: includes/csf/options/options.main_settings.php:127
 msgid "Live search enable"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:128
+#: includes/csf/options/options.main_settings.php:128
 msgid "Show similar titles enable"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:129
+#: includes/csf/options/options.main_settings.php:129
 msgid "Emoji disable"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:130
+#: includes/csf/options/options.main_settings.php:130
 msgid "Minify HTML"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:131
+#: includes/csf/options/options.main_settings.php:131
 msgid "Show Letters glossary"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:139
+#: includes/csf/options/options.main_settings.php:139
 msgid "Methods for counting views in content"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:142
+#: includes/csf/options/options.main_settings.php:142
 msgid "Regular"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:143
+#: includes/csf/options/options.main_settings.php:143
 msgid "Ajax"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:144
+#: includes/csf/options/options.main_settings.php:144
 msgid "Disable view counting"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:150
+#: includes/csf/options/options.main_settings.php:150
 msgid ""
 "Regular view count may consume resources from your server in a moderate way, "
 "consider disabling it if your server has limited processes."
 msgstr ""
 
-#: includes/csf/options.main_settings.php:156
+#: includes/csf/options/options.main_settings.php:156
 msgid ""
 "View count by Ajax consumes resources from your server on each user visit, "
 "if your server has limited processes we recommend disabling this function."
 msgstr ""
 
-#: includes/csf/options.main_settings.php:161
+#: includes/csf/options/options.main_settings.php:161
 msgid "Google reCAPTCHA v3"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:166
+#: includes/csf/options/options.main_settings.php:166
 msgid "Site key"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:171
+#: includes/csf/options/options.main_settings.php:171
 msgid "Secret key"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:175
+#: includes/csf/options/options.main_settings.php:175
 msgid "Get Google reCAPTCHA"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:179
+#: includes/csf/options/options.main_settings.php:179
 msgid "Pages for DooPlay"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:184 includes/doo_database.php:107
+#: includes/csf/options/options.main_settings.php:184
+#: includes/doo_database.php:107
 msgid "Account"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:185
+#: includes/csf/options/options.main_settings.php:185
 msgid "Set User Account page"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:191 includes/doo_database.php:97
-#: pages/trending.php:25
+#: includes/csf/options/options.main_settings.php:191
+#: includes/doo_database.php:97 pages/trending.php:31
 msgid "Trending"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:192
+#: includes/csf/options/options.main_settings.php:192
 msgid "Set page to show trend content"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:199
+#: includes/csf/options/options.main_settings.php:199
 msgid "Set page to show content rated by users"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:206
+#: includes/csf/options/options.main_settings.php:206
 msgid "Set page to display the contact form"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:212
+#: includes/csf/options/options.main_settings.php:212
 msgid "Top IMDb"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:213
+#: includes/csf/options/options.main_settings.php:213
 msgid "Set page to show the best qualified content in IMDb"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:220
+#: includes/csf/options/options.main_settings.php:220
 msgid "Set page to show the entries in blog"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:225
+#: includes/csf/options/options.main_settings.php:225
 msgid "Database cache"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:230
+#: includes/csf/options/options.main_settings.php:230
 msgid "Scheduler"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:231
+#: includes/csf/options/options.main_settings.php:231
 msgid "Cache cleaning"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:232
+#: includes/csf/options/options.main_settings.php:232
 msgid "It is important to clean expired cache at least once a day"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:235
+#: includes/csf/options/options.main_settings.php:235
 msgid "Daily"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:236
+#: includes/csf/options/options.main_settings.php:236
 msgid "Twice daily"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:237
+#: includes/csf/options/options.main_settings.php:237
 msgid "Hourly"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:243
+#: includes/csf/options/options.main_settings.php:243
 msgid "Storing cache as long as possible can be a very good idea"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:249
+#: includes/csf/options/options.main_settings.php:249
 msgid "Cache Timeout"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:250
+#: includes/csf/options/options.main_settings.php:250
 msgid "Set the time in seconds"
 msgstr ""
 
-#: includes/csf/options.main_settings.php:252
+#: includes/csf/options/options.main_settings.php:252
 msgid "We recommend storing this cache for at least 86400 seconds"
 msgstr ""
 
-#: includes/csf/options.main_slider.php:12
-msgid "Main Slider"
-msgstr ""
-
-#: includes/csf/options.main_slider.php:19
+#: includes/csf/options/options.main_slider.php:19
 msgid "Get content automatically"
 msgstr ""
 
-#: includes/csf/options.main_slider.php:26
+#: includes/csf/options/options.main_slider.php:26
 msgid "Select the type of content you want to display"
 msgstr ""
 
-#: includes/csf/options.main_slider.php:29 includes/csf/options.top_imdb.php:29
+#: includes/csf/options/options.main_slider.php:29
+#: includes/csf/options/options.top_imdb.php:29
 msgid "Movies and TV Shows"
 msgstr ""
 
-#: includes/csf/options.main_slider.php:30 includes/csf/options.top_imdb.php:30
+#: includes/csf/options/options.main_slider.php:30
+#: includes/csf/options/options.top_imdb.php:30
 msgid "Only Movies"
 msgstr ""
 
-#: includes/csf/options.main_slider.php:31 includes/csf/options.top_imdb.php:31
+#: includes/csf/options/options.main_slider.php:31
+#: includes/csf/options/options.top_imdb.php:31
 msgid "Only TV Shows"
 msgstr ""
 
-#: includes/csf/options.main_slider.php:75
+#: includes/csf/options/options.main_slider.php:75
 msgid ""
 "To show content in the Slider you must add manually using only the ID "
 "numbers of each publication you want to show."
 msgstr ""
 
-#: includes/csf/options.main_slider.php:81
+#: includes/csf/options/options.main_slider.php:81
 msgid "Posts ID"
 msgstr ""
 
-#: includes/csf/options.main_slider.php:82
+#: includes/csf/options/options.main_slider.php:82
 msgid "Use the numeric IDs of the posts."
 msgstr ""
 
-#: includes/csf/options.main_slider.php:87
+#: includes/csf/options/options.main_slider.php:87
 msgid ""
 "Numeric IDs must be separated by a comma, use only numeric IDs of content "
 "that are established as Movies or TV Shows."
 msgstr ""
 
-#: includes/csf/options.main_slider.php:93
+#: includes/csf/options/options.main_slider.php:93
 msgid "Autoplay slider control"
 msgstr ""
 
-#: includes/csf/options.main_slider.php:94
+#: includes/csf/options/options.main_slider.php:94
 msgid "Check to enable auto-play slider."
 msgstr ""
 
-#: includes/csf/options.main_slider.php:96
+#: includes/csf/options/options.main_slider.php:96
 msgid "Autoplay Slider"
 msgstr ""
 
-#: includes/csf/options.main_slider.php:97
+#: includes/csf/options/options.main_slider.php:97
 msgid "Autoplay Slider Movies"
 msgstr ""
 
-#: includes/csf/options.main_slider.php:98
+#: includes/csf/options/options.main_slider.php:98
 msgid "Autoplay Slider TV Shows"
 msgstr ""
 
-#: includes/csf/options.main_slider.php:104
+#: includes/csf/options/options.main_slider.php:104
 msgid "Speed Slider"
 msgstr ""
 
-#: includes/csf/options.main_slider.php:105
+#: includes/csf/options/options.main_slider.php:105
 msgid "Select speed slider in secons"
 msgstr ""
 
-#: includes/csf/options.main_slider.php:107
+#: includes/csf/options/options.main_slider.php:107
 msgid "4 seconds"
 msgstr ""
 
-#: includes/csf/options.main_slider.php:108
+#: includes/csf/options/options.main_slider.php:108
 msgid "3.5 seconds"
 msgstr ""
 
-#: includes/csf/options.main_slider.php:109
+#: includes/csf/options/options.main_slider.php:109
 msgid "3 seconds"
 msgstr ""
 
-#: includes/csf/options.main_slider.php:110
+#: includes/csf/options/options.main_slider.php:110
 msgid "2.5 seconds"
 msgstr ""
 
-#: includes/csf/options.main_slider.php:111
+#: includes/csf/options/options.main_slider.php:111
 msgid "2 seconds"
 msgstr ""
 
-#: includes/csf/options.main_slider.php:112
+#: includes/csf/options/options.main_slider.php:112
 msgid "1.5 seconds"
 msgstr ""
 
-#: includes/csf/options.main_slider.php:113
+#: includes/csf/options/options.main_slider.php:113
 msgid "1 second"
 msgstr ""
 
-#: includes/csf/options.main_slider.php:114
+#: includes/csf/options/options.main_slider.php:114
 msgid "0.5 seconds"
 msgstr ""
 
-#: includes/csf/options.module_episodes.php:37
-#: includes/csf/options.module_movies.php:37
-#: includes/csf/options.module_seasons.php:37
-#: includes/csf/options.module_tvshows.php:37
-msgid "Slider control"
-msgstr ""
-
-#: includes/csf/options.more.php:12
+#: includes/csf/options/options.more.php:12
 msgid "SEO"
 msgstr ""
 
-#: includes/csf/options.more.php:19
+#: includes/csf/options/options.more.php:19
 msgid "SEO Features"
 msgstr ""
 
-#: includes/csf/options.more.php:20
+#: includes/csf/options/options.more.php:20
 msgid "Basic SEO"
 msgstr ""
 
-#: includes/csf/options.more.php:25
+#: includes/csf/options/options.more.php:25
 msgid ""
 "Uncheck this to disable SEO features in the theme, highly recommended if you "
 "use any other SEO plugin, that way the themes SEO features won't conflict "
 "with the plugin"
 msgstr ""
 
-#: includes/csf/options.more.php:31
+#: includes/csf/options/options.more.php:31
 msgid "Alternative name"
 msgstr ""
 
-#: includes/csf/options.more.php:37
+#: includes/csf/options/options.more.php:37
 msgid "Main keywords"
 msgstr ""
 
-#: includes/csf/options.more.php:38
+#: includes/csf/options/options.more.php:38
 msgid "add main keywords for site info"
 msgstr ""
 
-#: includes/csf/options.more.php:44
+#: includes/csf/options/options.more.php:44
 msgid "Meta description"
 msgstr ""
 
-#: includes/csf/options.more.php:49
+#: includes/csf/options/options.more.php:49
 msgid "Site verification"
 msgstr ""
 
-#: includes/csf/options.more.php:55
+#: includes/csf/options/options.more.php:55
 msgid "Google Search Console"
 msgstr ""
 
-#: includes/csf/options.more.php:56 includes/csf/options.more.php:63
-#: includes/csf/options.more.php:70
+#: includes/csf/options/options.more.php:56
+#: includes/csf/options/options.more.php:63
+#: includes/csf/options/options.more.php:70
 msgid "Settings here"
 msgstr ""
 
-#: includes/csf/options.more.php:62
+#: includes/csf/options/options.more.php:62
 msgid "Bing Webmaster Tools"
 msgstr ""
 
-#: includes/csf/options.more.php:69
+#: includes/csf/options/options.more.php:69
 msgid "Yandex Webmaster Tools"
 msgstr ""
 
-#: includes/csf/options.more.php:83
+#: includes/csf/options/options.more.php:83
 msgid "Manage integration codes and ads"
 msgstr ""
 
-#: includes/csf/options.more.php:89
+#: includes/csf/options/options.more.php:89
 msgid "Backup"
 msgstr ""
 
-#: includes/csf/options.report_contact.php:12
-#: includes/csf/options.report_contact.php:18
+#: includes/csf/options/options.report_contact.php:12
+#: includes/csf/options/options.report_contact.php:18
 msgid "Report and contact"
 msgstr ""
 
-#: includes/csf/options.report_contact.php:23
+#: includes/csf/options/options.report_contact.php:23
 msgid "Reports Form"
 msgstr ""
 
-#: includes/csf/options.report_contact.php:24
+#: includes/csf/options/options.report_contact.php:24
 msgid "Enable report form"
 msgstr ""
 
-#: includes/csf/options.report_contact.php:30 pages/contact.php:8
+#: includes/csf/options/options.report_contact.php:30 includes/doo_setup.php:63
+#: pages/contact.php:16
 msgid "Contact Form"
 msgstr ""
 
-#: includes/csf/options.report_contact.php:31
+#: includes/csf/options/options.report_contact.php:31
 msgid "Enable contact form"
 msgstr ""
 
-#: includes/csf/options.report_contact.php:38
+#: includes/csf/options/options.report_contact.php:38
 msgid "Assign an email address if you want to be notified"
 msgstr ""
 
-#: includes/csf/options.report_contact.php:43
+#: includes/csf/options/options.report_contact.php:43
 msgid "Email notifications"
 msgstr ""
 
-#: includes/csf/options.report_contact.php:49
+#: includes/csf/options/options.report_contact.php:49
 msgid "Notify new reports by email"
 msgstr ""
 
-#: includes/csf/options.report_contact.php:56
+#: includes/csf/options/options.report_contact.php:56
 msgid "Notify new contact messages by email"
 msgstr ""
 
-#: includes/csf/options.report_contact.php:61
+#: includes/csf/options/options.report_contact.php:61
 msgid "Firewall"
 msgstr ""
 
-#: includes/csf/options.report_contact.php:66
+#: includes/csf/options/options.report_contact.php:66
 msgid ""
 "We recommend not enabling more than 10 unread records per IP address, "
 "consider that this function could be used maliciously and could compromise "
 "the good status of your website."
 msgstr ""
 
-#: includes/csf/options.report_contact.php:71
+#: includes/csf/options/options.report_contact.php:71
 msgid "Report limit"
 msgstr ""
 
-#: includes/csf/options.report_contact.php:72
+#: includes/csf/options/options.report_contact.php:72
 msgid "Set limit of unread reports by IP address"
 msgstr ""
 
-#: includes/csf/options.report_contact.php:82
-#: includes/csf/options.report_contact.php:99
+#: includes/csf/options/options.report_contact.php:82
+#: includes/csf/options/options.report_contact.php:99
 msgid "Caution, you have enabled more than 50 unread records per IP address."
 msgstr ""
 
-#: includes/csf/options.report_contact.php:88
+#: includes/csf/options/options.report_contact.php:88
 msgid "Contact messages limit"
 msgstr ""
 
-#: includes/csf/options.report_contact.php:89
+#: includes/csf/options/options.report_contact.php:89
 msgid "Set limit of unread contact messages by IP address"
 msgstr ""
 
-#: includes/csf/options.report_contact.php:105
+#: includes/csf/options/options.report_contact.php:105
 msgid "Whitelist"
 msgstr ""
 
-#: includes/csf/options.report_contact.php:106
+#: includes/csf/options/options.report_contact.php:106
 msgid "Create a safe list of IP addresses that can send reports without limits"
 msgstr ""
 
-#: includes/csf/options.report_contact.php:111
-#: includes/csf/options.report_contact.php:124
+#: includes/csf/options/options.report_contact.php:111
+#: includes/csf/options/options.report_contact.php:124
 msgid "IP adress"
 msgstr ""
 
-#: includes/csf/options.report_contact.php:118
+#: includes/csf/options/options.report_contact.php:118
 msgid "Blacklist"
 msgstr ""
 
-#: includes/csf/options.report_contact.php:119
+#: includes/csf/options/options.report_contact.php:119
 msgid "Block the sending of reports and contact messages"
 msgstr ""
 
-#: includes/csf/options.top_imdb.php:26
+#: includes/csf/options/options.top_imdb.php:26
 msgid "Select Layout"
 msgstr ""
 
-#: includes/csf/options.top_imdb.php:27
+#: includes/csf/options/options.top_imdb.php:27
 msgid "Select the type of module to display"
 msgstr ""
 
-#: includes/csf/options.top_imdb.php:38
+#: includes/csf/options/options.top_imdb.php:38
 msgid "Last months"
 msgstr ""
 
-#: includes/csf/options.top_imdb.php:39
+#: includes/csf/options/options.top_imdb.php:39
 msgid "Verify content in the following time range in months"
 msgstr ""
 
-#: includes/csf/options.top_imdb.php:49
+#: includes/csf/options/options.top_imdb.php:49
 msgid "Minimum votes"
 msgstr ""
 
-#: includes/csf/options.top_imdb.php:50
+#: includes/csf/options/options.top_imdb.php:50
 msgid "Set the minimum number of votes so that the content appears in the list"
 msgstr ""
 
-#: includes/csf/options.video_player.php:12
-#: includes/csf/options.video_player.php:18
-#: includes/csf/options.video_player.php:115 includes/doo_player.php:72
-#: includes/doo_player.php:73 includes/parts/admin/ads_tool.php:11
+#: includes/csf/options/options.video_player.php:12
+#: includes/csf/options/options.video_player.php:18
+#: includes/csf/options/options.video_player.php:115 includes/doo_player.php:72
+#: includes/doo_player.php:73 includes/doo_setup.php:64
+#: includes/parts/admin/ads_tool.php:11
 msgid "Video Player"
 msgstr ""
 
-#: includes/csf/options.video_player.php:23
+#: includes/csf/options/options.video_player.php:23
 msgid "Ajax Mode"
 msgstr ""
 
-#: includes/csf/options.video_player.php:25
+#: includes/csf/options/options.video_player.php:25
 msgid "This function delivers data safely and agile with WP-JSON"
 msgstr ""
 
-#: includes/csf/options.video_player.php:30
+#: includes/csf/options/options.video_player.php:30
 msgid "Delivery method"
 msgstr ""
 
-#: includes/csf/options.video_player.php:31
+#: includes/csf/options/options.video_player.php:31
 msgid "Select the most convenient delivery method for your website."
 msgstr ""
 
-#: includes/csf/options.video_player.php:34
+#: includes/csf/options/options.video_player.php:34
 msgid "This method is safe but not very agile"
 msgstr ""
 
-#: includes/csf/options.video_player.php:35
+#: includes/csf/options/options.video_player.php:35
 msgid "This method is simplified and very agile."
 msgstr ""
 
-#: includes/csf/options.video_player.php:42
+#: includes/csf/options/options.video_player.php:42
 msgid ""
 "If you have important traffic it would be advisable not to activate this "
 "function, if it is activated we recommend deactivating the Auto Load"
 msgstr ""
 
-#: includes/csf/options.video_player.php:48
+#: includes/csf/options/options.video_player.php:48
 msgid ""
 "The selected delivery method is unsafe but very agile, if you have "
 "significant traffic we recommend disabling automatic loading"
 msgstr ""
 
-#: includes/csf/options.video_player.php:54
+#: includes/csf/options/options.video_player.php:54
 msgid "Auto Load"
 msgstr ""
 
-#: includes/csf/options.video_player.php:55
+#: includes/csf/options/options.video_player.php:55
 msgid "Load the first element of video player with the page"
 msgstr ""
 
-#: includes/csf/options.video_player.php:61
+#: includes/csf/options/options.video_player.php:61
 msgid ""
 "The first element of the player will be loaded between 0 and 4 seconds after "
 "completing the total load of the page"
 msgstr ""
 
-#: includes/csf/options.video_player.php:68
+#: includes/csf/options/options.video_player.php:68
 msgid "Time to wait in seconds before displaying Video Player"
 msgstr ""
 
-#: includes/csf/options.video_player.php:79
+#: includes/csf/options/options.video_player.php:79
 msgid "Auto Play"
 msgstr ""
 
-#: includes/csf/options.video_player.php:80
+#: includes/csf/options/options.video_player.php:80
 msgid "Check if you want the videos to play automatically"
 msgstr ""
 
-#: includes/csf/options.video_player.php:82
+#: includes/csf/options/options.video_player.php:82
 msgid "Auto-play YouTube videos"
 msgstr ""
 
-#: includes/csf/options.video_player.php:83
+#: includes/csf/options/options.video_player.php:83
 msgid "Auto-play JWPlayer videos"
 msgstr ""
 
-#: includes/csf/options.video_player.php:89
+#: includes/csf/options/options.video_player.php:89
 msgid "Player size"
 msgstr ""
 
-#: includes/csf/options.video_player.php:90
+#: includes/csf/options/options.video_player.php:90
 msgid "Select a specific size for video player"
 msgstr ""
 
-#: includes/csf/options.video_player.php:92
+#: includes/csf/options/options.video_player.php:92
 msgid "Regular size"
 msgstr ""
 
-#: includes/csf/options.video_player.php:93
+#: includes/csf/options/options.video_player.php:93
 msgid "Bigger size"
 msgstr ""
 
-#: includes/csf/options.video_player.php:100 includes/doo_player.php:236
+#: includes/csf/options/options.video_player.php:100
+#: includes/doo_player.php:236
 msgid "Video Sources"
 msgstr ""
 
-#: includes/csf/options.video_player.php:101
+#: includes/csf/options/options.video_player.php:101
 msgid "Uncheck to hide the source"
 msgstr ""
 
-#: includes/csf/options.video_player.php:102
+#: includes/csf/options/options.video_player.php:102
 msgid "Show the domain or source of the video"
 msgstr ""
 
-#: includes/csf/options.video_player.php:108
+#: includes/csf/options/options.video_player.php:108
 msgid "Video Sources Scrolling"
 msgstr ""
 
-#: includes/csf/options.video_player.php:109
+#: includes/csf/options/options.video_player.php:109
 msgid "Scrolling by default is disabled from mobile devices"
 msgstr ""
 
-#: includes/csf/options.video_player.php:110
+#: includes/csf/options/options.video_player.php:110
 msgid "Enable scrolling of video sources"
 msgstr ""
 
-#: includes/csf/options.video_player.php:120
+#: includes/csf/options/options.video_player.php:120
 msgid "Page jwplayer"
 msgstr ""
 
-#: includes/csf/options.video_player.php:121
+#: includes/csf/options/options.video_player.php:121
 msgid "Select page to display player"
 msgstr ""
 
-#: includes/csf/options.video_player.php:127
+#: includes/csf/options/options.video_player.php:127
 msgid "Player"
 msgstr ""
 
-#: includes/csf/options.video_player.php:129
+#: includes/csf/options/options.video_player.php:129
 msgid "JW Player 8"
 msgstr ""
 
-#: includes/csf/options.video_player.php:130
+#: includes/csf/options/options.video_player.php:130
 msgid "JW Player 7"
 msgstr ""
 
-#: includes/csf/options.video_player.php:131
+#: includes/csf/options/options.video_player.php:131
 msgid "Plyr.io"
 msgstr ""
 
-#: includes/csf/options.video_player.php:146
+#: includes/csf/options/options.video_player.php:146
 msgid "JW Player 7 (Self-Hosted)"
 msgstr ""
 
-#: includes/csf/options.video_player.php:154
+#: includes/csf/options/options.video_player.php:154
 msgid "JW Player 8 (Self-Hosted)"
 msgstr ""
 
-#: includes/csf/options.video_player.php:161
+#: includes/csf/options/options.video_player.php:161
 msgid "About text"
 msgstr ""
 
-#: includes/csf/options.video_player.php:162
+#: includes/csf/options/options.video_player.php:162
 msgid "JW Player About text in right click"
 msgstr ""
 
-#: includes/csf/options.video_player.php:169
+#: includes/csf/options/options.video_player.php:169
 msgid "Logo player"
 msgstr ""
 
-#: includes/csf/options.video_player.php:170
+#: includes/csf/options/options.video_player.php:170
 msgid "Upload your logo using the Upload Button or insert image URL"
 msgstr ""
 
-#: includes/csf/options.video_player.php:176
+#: includes/csf/options/options.video_player.php:176
 msgid "Logo position"
 msgstr ""
 
-#: includes/csf/options.video_player.php:177
+#: includes/csf/options/options.video_player.php:177
 msgid "Select a postion for logo player"
 msgstr ""
 
-#: includes/csf/options.video_player.php:179
+#: includes/csf/options/options.video_player.php:179
 msgid "Top left"
 msgstr ""
 
-#: includes/csf/options.video_player.php:180
+#: includes/csf/options/options.video_player.php:180
 msgid "Top right"
 msgstr ""
 
-#: includes/csf/options.video_player.php:181
+#: includes/csf/options/options.video_player.php:181
 msgid "Bottom left"
 msgstr ""
 
-#: includes/csf/options.video_player.php:182
+#: includes/csf/options/options.video_player.php:182
 msgid "Bottom right"
 msgstr ""
 
-#: includes/csf/options.video_player.php:188
+#: includes/csf/options/options.video_player.php:188
 msgid "Fake Player"
 msgstr ""
 
-#: includes/csf/options.video_player.php:193
+#: includes/csf/options/options.video_player.php:193
 msgid "This module does not work if Auto-Load is activated"
 msgstr ""
 
-#: includes/csf/options.video_player.php:199 includes/doo_scripts.php:207
-#: includes/parts/item_links.php:47 includes/parts/item_links_admin.php:43
+#: includes/csf/options/options.video_player.php:199
+#: includes/doo_scripts.php:213 includes/parts/item_links.php:47
+#: includes/parts/item_links_admin.php:43
 msgid "Enable"
 msgstr ""
 
-#: includes/csf/options.video_player.php:200
+#: includes/csf/options/options.video_player.php:200
 msgid "Enable Fake Player"
 msgstr ""
 
-#: includes/csf/options.video_player.php:205
+#: includes/csf/options/options.video_player.php:205
 msgid "Backdrop URL"
 msgstr ""
 
-#: includes/csf/options.video_player.php:206
+#: includes/csf/options/options.video_player.php:206
 msgid ""
 "Show background image by default if the system did not find an image in the "
 "content"
 msgstr ""
 
-#: includes/csf/options.video_player.php:215
+#: includes/csf/options/options.video_player.php:215
 msgid "Show in Fake Player"
 msgstr ""
 
-#: includes/csf/options.video_player.php:217
+#: includes/csf/options/options.video_player.php:217
 msgid "Play button"
 msgstr ""
 
-#: includes/csf/options.video_player.php:218
+#: includes/csf/options/options.video_player.php:218
 msgid "Notify what is an ad"
 msgstr ""
 
-#: includes/csf/options.video_player.php:219
+#: includes/csf/options/options.video_player.php:219
 msgid "HD Quality"
 msgstr ""
 
-#: includes/csf/options.video_player.php:226
+#: includes/csf/options/options.video_player.php:226
 msgid "Advertising links for fake player"
 msgstr ""
 
-#: includes/csf/options.video_player.php:231
+#: includes/csf/options/options.video_player.php:231
 msgid ""
 "Add as many ad links as you wish, these are displayed randomly in the Fake "
 "Player"
 msgstr ""
 
-#: includes/csf/options.video_player.php:237
+#: includes/csf/options/options.video_player.php:237
 msgid "Add link"
 msgstr ""
 
-#: includes/csf/options.video_player.php:238
+#: includes/csf/options/options.video_player.php:238
 msgid "Add new link"
 msgstr ""
 
-#: includes/csf/options.wp_mail.php:12
+#: includes/csf/options/options.wp_mail.php:12
 msgid "WP Mail"
 msgstr ""
 
-#: includes/csf/options.wp_mail.php:18
+#: includes/csf/options/options.wp_mail.php:18
 msgid "Welcome message"
 msgstr ""
 
-#: includes/csf/options.wp_mail.php:23 pages/contact.php:34
+#: includes/csf/options/options.wp_mail.php:23 pages/contact.php:42
 msgid "Subject"
 msgstr ""
 
-#: includes/csf/options.wp_mail.php:24
+#: includes/csf/options/options.wp_mail.php:24
 msgid "Welcome to {sitename}"
 msgstr ""
 
-#: includes/csf/options.wp_mail.php:29
+#: includes/csf/options/options.wp_mail.php:29
 msgid "Message"
 msgstr ""
 
-#: includes/csf/options.wp_mail.php:30
+#: includes/csf/options/options.wp_mail.php:30
 msgid "Hello {username}, Thank you for registering at {sitename}"
 msgstr ""
 
-#: includes/csf/options.wp_mail.php:35
+#: includes/csf/options/options.wp_mail.php:35
 msgid "SMTP Settings"
 msgstr ""
 
-#: includes/csf/options.wp_mail.php:40
+#: includes/csf/options/options.wp_mail.php:40
 msgid "Enable SMTP"
 msgstr ""
 
-#: includes/csf/options.wp_mail.php:41
+#: includes/csf/options/options.wp_mail.php:41
 msgid "Configure an SMTP server for WordPress to send verified emails"
 msgstr ""
 
-#: includes/csf/options.wp_mail.php:47
+#: includes/csf/options/options.wp_mail.php:47
 msgid "SMTP Server"
 msgstr ""
 
-#: includes/csf/options.wp_mail.php:54
+#: includes/csf/options/options.wp_mail.php:54
 msgid "SMTP Port"
 msgstr ""
 
-#: includes/csf/options.wp_mail.php:64
+#: includes/csf/options/options.wp_mail.php:64
 msgid "Type of Encryption"
 msgstr ""
 
-#: includes/csf/options.wp_mail.php:66
+#: includes/csf/options/options.wp_mail.php:66
 msgid "Plain text"
 msgstr ""
 
-#: includes/csf/options.wp_mail.php:67
+#: includes/csf/options/options.wp_mail.php:67
 msgid "SSL"
 msgstr ""
 
-#: includes/csf/options.wp_mail.php:68
+#: includes/csf/options/options.wp_mail.php:68
 msgid "TSL"
 msgstr ""
 
-#: includes/csf/options.wp_mail.php:76
+#: includes/csf/options/options.wp_mail.php:76
 msgid "From Name"
 msgstr ""
 
-#: includes/csf/options.wp_mail.php:82
+#: includes/csf/options/options.wp_mail.php:82
 msgid "From Email Address"
 msgstr ""
 
-#: includes/csf/options.wp_mail.php:87
+#: includes/csf/options/options.wp_mail.php:87
 msgid "SMTP Authentication"
 msgstr ""
 
-#: includes/csf/options.wp_mail.php:93 includes/extras/slugs.php:53
+#: includes/csf/options/options.wp_mail.php:93 includes/extras/slugs.php:53
 #: includes/parts/login_form.php:6 pages/sections/login-form.php:3
 #: pages/sections/register-form.php:3
 msgid "Username"
 msgstr ""
 
-#: includes/csf/options.wp_mail.php:99 includes/parts/login_form.php:7
+#: includes/csf/options/options.wp_mail.php:99 includes/parts/login_form.php:7
 #: pages/sections/account.php:152 pages/sections/login-form.php:7
 #: pages/sections/register-form.php:11
 msgid "Password"
@@ -5788,9 +6140,8 @@ msgid "No more content to show."
 msgstr ""
 
 #: includes/doo_ajax.php:179 includes/doo_ajax.php:219
-#: includes/doo_ajax.php:257 includes/doo_functions.php:1176
-#: includes/doo_functions.php:1212 includes/doo_functions.php:1245
-#: includes/parts/modules/widgethome.php:13
+#: includes/doo_ajax.php:257 includes/doo_functions.php:1157
+#: includes/doo_functions.php:1193 includes/doo_functions.php:1226
 msgid "No content"
 msgstr ""
 
@@ -5910,7 +6261,7 @@ msgstr ""
 msgid "Your comment.."
 msgstr ""
 
-#: includes/doo_comments.php:128 pages/contact.php:16 pages/contact.php:25
+#: includes/doo_comments.php:128 pages/contact.php:24 pages/contact.php:33
 #: pages/sections/register-form.php:16
 msgid "Name"
 msgstr ""
@@ -6007,46 +6358,79 @@ msgstr ""
 msgid "Vietnam"
 msgstr ""
 
-#: includes/doo_functions.php:424
-#, php-format
-msgid "Page %d of %d"
-msgstr ""
-
-#: includes/doo_functions.php:544
+#: includes/doo_functions.php:525
 msgid "Unknown resource"
 msgstr ""
 
-#: includes/doo_functions.php:546
+#: includes/doo_functions.php:527
 msgid "Google Drive"
 msgstr ""
 
-#: includes/doo_functions.php:629
+#: includes/doo_functions.php:610
 #, php-format
 msgid "%s is %s"
 msgstr ""
 
-#: includes/doo_functions.php:877
+#: includes/doo_functions.php:858
 msgid "Shared"
 msgstr ""
 
-#: includes/doo_functions.php:883
+#: includes/doo_functions.php:864
 msgid "X"
 msgstr ""
 
-#: includes/doo_functions.php:945
+#: includes/doo_functions.php:926
 #, php-format
 msgid "%1$s"
 msgstr ""
 
-#: includes/doo_functions.php:1141
+#: includes/doo_functions.php:1122
 msgid "No content available on your list."
 msgstr ""
 
-#: includes/doo_functions.php:1382
+#: includes/doo_functions.php:1363
 msgid "Home"
 msgstr ""
 
-#: includes/doo_links.php:67 includes/doo_scripts.php:205
+#: includes/doo_functions.php:1669
+msgid "Show"
+msgstr ""
+
+#: includes/doo_functions.php:1676
+msgid "Unknown"
+msgstr ""
+
+#: includes/doo_functions.php:1681
+msgid "No tagline."
+msgstr ""
+
+#: includes/doo_functions.php:1712 includes/parts/item.php:25
+#: parts/modules/module-featured-content.php:41
+#: parts/modules/module-featured-movies.php:41
+#: parts/modules/module-featured-tvshows.php:41
+#: parts/modules/module-top-movies.php:34
+#: parts/modules/module-top-tvshows.php:34
+#, php-format
+msgid "%s min"
+msgstr ""
+
+#: includes/doo_functions.php:1750
+msgid "My Account"
+msgstr ""
+
+#: includes/doo_functions.php:1751
+msgid "Logout"
+msgstr ""
+
+#: includes/doo_functions.php:1753 pages/sections/register-form.php:25
+msgid "Sign up"
+msgstr ""
+
+#: includes/doo_functions.php:1754
+msgid "Sign in"
+msgstr ""
+
+#: includes/doo_links.php:67 includes/doo_scripts.php:211
 #: includes/parts/single/links.php:7 includes/parts/single/links.php:16
 msgid "Download"
 msgstr ""
@@ -6065,7 +6449,7 @@ msgstr ""
 #: includes/parts/item_links_admin.php:27
 #: includes/parts/item_links_profile.php:26
 #: includes/parts/item_links_profile.php:27 includes/parts/single/links.php:8
-#: includes/parts/single/links.php:17 parts/single-links.php:60
+#: includes/parts/single/links.php:17 parts/single/tpl-links.php:60
 msgid "Torrent"
 msgstr ""
 
@@ -6192,6 +6576,18 @@ msgstr ""
 msgid "%s options"
 msgstr ""
 
+#: includes/doo_options.php:53
+msgid "Dooplay - Initial settings"
+msgstr ""
+
+#: includes/doo_options.php:54
+msgid "Dooplay - Site Modules"
+msgstr ""
+
+#: includes/doo_options.php:55
+msgid "Dooplay - Single Modules"
+msgstr ""
+
 #: includes/doo_player.php:44
 msgid "URL Embed"
 msgstr ""
@@ -6220,158 +6616,182 @@ msgstr ""
 msgid "Watch trailer"
 msgstr ""
 
-#: includes/doo_player.php:304
-msgid "Advertisement"
+#: includes/doo_scripts.php:195
+msgid "Listening.."
 msgstr ""
 
-#: includes/doo_scripts.php:196 parts/single-movies.php:79
+#: includes/doo_scripts.php:198 pages/search.php:34
+msgid "Season"
+msgstr ""
+
+#: includes/doo_scripts.php:202 parts/single/tpl-movies.php:79
 msgid "Add to favorites"
 msgstr ""
 
-#: includes/doo_scripts.php:197
+#: includes/doo_scripts.php:203
 msgid "Remove of favorites"
 msgstr ""
 
-#: includes/doo_scripts.php:200
+#: includes/doo_scripts.php:206
 msgid "I saw it"
 msgstr ""
 
-#: includes/doo_scripts.php:201
+#: includes/doo_scripts.php:207
 msgid "Data send.."
 msgstr ""
 
-#: includes/doo_scripts.php:202
+#: includes/doo_scripts.php:208
 msgid "Updating data.."
 msgstr ""
 
-#: includes/doo_scripts.php:203
+#: includes/doo_scripts.php:209
 msgid "Error"
 msgstr ""
 
-#: includes/doo_scripts.php:204
+#: includes/doo_scripts.php:210
 msgid "Pending review"
 msgstr ""
 
-#: includes/doo_scripts.php:206
+#: includes/doo_scripts.php:212
 msgid "Sending data"
 msgstr ""
 
-#: includes/doo_scripts.php:208 includes/parts/item_links.php:45
+#: includes/doo_scripts.php:214 includes/parts/item_links.php:45
 #: includes/parts/item_links_admin.php:41
 msgid "Disable"
 msgstr ""
 
-#: includes/doo_scripts.php:210 pages/sections/account.php:92
+#: includes/doo_scripts.php:216 pages/sections/account.php:92
 msgid "Links Shared"
 msgstr ""
 
-#: includes/doo_scripts.php:211
+#: includes/doo_scripts.php:217
 msgid "Manage pending links"
 msgstr ""
 
-#: includes/doo_scripts.php:212
+#: includes/doo_scripts.php:218
 msgid "Please wait, sending data.."
 msgstr ""
 
-#: includes/doo_scripts.php:213
+#: includes/doo_scripts.php:219
 msgid "Ready"
 msgstr ""
 
-#: includes/doo_scripts.php:214
+#: includes/doo_scripts.php:220
 msgid "Do you really want to delete this link?"
 msgstr ""
 
-#: includes/doo_scripts.php:222
+#: includes/doo_scripts.php:228
 msgid "View all results"
 msgstr ""
 
-#: includes/doo_scripts.php:224
+#: includes/doo_scripts.php:230
 msgid "Really you want to restart all data?"
 msgstr ""
 
-#: includes/doo_scripts.php:225
+#: includes/doo_scripts.php:231
 msgid "They sure have added content manually?"
 msgstr ""
 
-#: includes/doo_scripts.php:227
+#: includes/doo_scripts.php:233
 msgid "Loading player.."
 msgstr ""
 
-#: includes/doo_scripts.php:228
+#: includes/doo_scripts.php:234
 msgid "Select a video player"
 msgstr ""
 
-#: includes/doo_scripts.php:256 pages/sections/dt_foot.php:7
+#: includes/doo_scripts.php:262 pages/sections/dt_foot.php:7
 msgid "Loading..."
 msgstr ""
 
-#: includes/doo_scripts.php:257
+#: includes/doo_scripts.php:263
 msgid "Reloading.."
 msgstr ""
 
-#: includes/doo_scripts.php:258
+#: includes/doo_scripts.php:264
 msgid "Domain has already been registered"
 msgstr ""
 
-#: includes/doo_scripts.php:259
+#: includes/doo_scripts.php:265
 msgid "Updating database.."
 msgstr ""
 
-#: includes/doo_scripts.php:260
+#: includes/doo_scripts.php:266
 msgid "Action completed"
 msgstr ""
 
-#: includes/doo_scripts.php:261
+#: includes/doo_scripts.php:267
 msgid "The links field is empty"
 msgstr ""
 
-#: includes/doo_scripts.php:262
+#: includes/doo_scripts.php:268
 msgid "Do you really want to delete this item?"
 msgstr ""
 
-#: includes/doo_scripts.php:263
+#: includes/doo_scripts.php:269
 msgid ""
 "Do you really want to delete this register, once completed this action will "
 "not recover the data again?"
 msgstr ""
 
-#: includes/doo_scripts.php:264
+#: includes/doo_scripts.php:270
 msgid "Do you want to publish the links before continuing?"
 msgstr ""
 
-#: includes/doo_setup.php:98
+#: includes/doo_setup.php:61
+msgid "Account Page"
+msgstr ""
+
+#: includes/doo_setup.php:62
+msgid "Blog Page"
+msgstr ""
+
+#: includes/doo_setup.php:65
+msgid "Recently Rated Content"
+msgstr ""
+
+#: includes/doo_setup.php:66
+msgid "Top Rated Content by IMDb"
+msgstr ""
+
+#: includes/doo_setup.php:67
+msgid "Trending Content"
+msgstr ""
+
+#: includes/doo_setup.php:151
 msgid "Menu main header"
 msgstr ""
 
-#: includes/doo_setup.php:99
+#: includes/doo_setup.php:152
 msgid "Menu footer"
 msgstr ""
 
-#: includes/doo_setup.php:100
+#: includes/doo_setup.php:153
 msgid "Footer - column 1"
 msgstr ""
 
-#: includes/doo_setup.php:101
+#: includes/doo_setup.php:154
 msgid "Footer - column 2"
 msgstr ""
 
-#: includes/doo_setup.php:102
+#: includes/doo_setup.php:155
 msgid "Footer - column 3"
 msgstr ""
 
-#: includes/doo_setup.php:213
+#: includes/doo_setup.php:266
 msgid "X Profile URL"
 msgstr ""
 
-#: includes/doo_setup.php:214
+#: includes/doo_setup.php:267
 msgid "Facebook URL"
 msgstr ""
 
-#: includes/doo_setup.php:215
+#: includes/doo_setup.php:268
 msgid "Instagram URL"
 msgstr ""
 
-#: includes/doo_setup.php:216
+#: includes/doo_setup.php:269
 msgid "TikTok URL"
 msgstr ""
 
@@ -6432,10 +6852,6 @@ msgstr ""
 
 #: includes/extras/rating/init.php:589
 msgid "Rating:"
-msgstr ""
-
-#: includes/extras/slugs.php:59 includes/widgets/content_widget_home.php:128
-msgid "Genre"
 msgstr ""
 
 #: includes/extras/slugs.php:60
@@ -6657,29 +7073,27 @@ msgstr ""
 msgid "<strong>Disqus:</strong> add shortname your comunity %s"
 msgstr ""
 
-#: includes/parts/item.php:65
-msgid "min"
-msgstr ""
-
-#: includes/parts/item.php:66
-msgid "views"
+#: includes/parts/item.php:18 includes/parts/item_ep.php:21
+#: includes/parts/item_se.php:17
+msgid "Undated"
 msgstr ""
 
 #: includes/parts/item_b.php:13 pages/search.php:31
 msgid "TV"
 msgstr ""
 
-#: includes/parts/item_ep.php:28
+#: includes/parts/item_ep.php:33
 #, php-format
-msgid "S%s E%s"
+msgid "S%s - E%s"
 msgstr ""
 
-#: includes/parts/item_se.php:22
+#: includes/parts/item_se.php:24
 msgid "season"
 msgstr ""
 
-#: includes/parts/item_se.php:29 pages/search.php:34
-msgid "Season"
+#: includes/parts/item_se.php:35
+#, php-format
+msgid "%s, season %s"
 msgstr ""
 
 #: includes/parts/links_editor.php:30
@@ -6727,40 +7141,12 @@ msgstr ""
 msgid "Lost your password?"
 msgstr ""
 
-#: includes/parts/modules/blog.php:30 includes/parts/modules/episodes.php:43
-#: includes/parts/modules/movies.php:44 includes/parts/modules/seasons.php:43
-#: includes/parts/modules/top-imdb.php:86
-#: includes/parts/modules/top-imdb.php:95
-#: includes/parts/modules/top-imdb.php:108
-#: includes/parts/modules/top-imdb.php:121
-#: includes/parts/modules/tvshows.php:44
-#: includes/widgets/content_widget_home.php:49 pages/rating.php:26
-#: pages/trending.php:27
+#: includes/parts/modules/blog.php:31 includes/parts/modules/top-imdb.php:87
+#: includes/parts/modules/top-imdb.php:96
+#: includes/parts/modules/top-imdb.php:109
+#: includes/parts/modules/top-imdb.php:122 pages/rating.php:34
+#: pages/trending.php:33
 msgid "See all"
-msgstr ""
-
-#: includes/parts/modules/featured-post-movies.php:36
-msgid "Featured Movies"
-msgstr ""
-
-#: includes/parts/modules/featured-post-movies.php:58
-#: includes/parts/modules/featured-post-tvshows.php:58
-#: includes/parts/modules/featured-post.php:59
-msgid "Featured"
-msgstr ""
-
-#: includes/parts/modules/featured-post-tvshows.php:36
-msgid "Featured TV Shows"
-msgstr ""
-
-#: includes/parts/modules/top-imdb.php:86
-#: includes/parts/modules/top-imdb.php:108
-msgid "TOP Movies"
-msgstr ""
-
-#: includes/parts/modules/top-imdb.php:95
-#: includes/parts/modules/top-imdb.php:121
-msgid "TOP TVShows"
 msgstr ""
 
 #: includes/parts/player_editor.php:8
@@ -6850,117 +7236,121 @@ msgid "DooPlay - Sidebar related content"
 msgstr ""
 
 #: includes/widgets/content_related_widget.php:98
-#: includes/widgets/content_widget.php:63
-#: includes/widgets/content_widget_meta_genres.php:48
-#: includes/widgets/content_widget_meta_releases.php:49
+#: includes/widgets/content_widget.php:102
 #: includes/widgets/content_widget_social.php:91
 #: includes/widgets/content_widget_views.php:61
 msgid "Title:"
 msgstr ""
 
 #: includes/widgets/content_related_widget.php:102
-#: includes/widgets/content_widget.php:67
+#: includes/widgets/content_widget.php:106
 #: includes/widgets/content_widget_views.php:75
 msgid "Layout style"
 msgstr ""
 
 #: includes/widgets/content_related_widget.php:104
-#: includes/widgets/content_widget.php:69
+#: includes/widgets/content_widget.php:108
 #: includes/widgets/content_widget_views.php:77
 msgid "Style 1 - image Backdrop"
 msgstr ""
 
 #: includes/widgets/content_related_widget.php:105
-#: includes/widgets/content_widget.php:70
+#: includes/widgets/content_widget.php:109
 #: includes/widgets/content_widget_views.php:78
 msgid "Style 2 - image Poster"
 msgstr ""
 
 #: includes/widgets/content_related_widget.php:106
-#: includes/widgets/content_widget.php:71
+#: includes/widgets/content_widget.php:110
 #: includes/widgets/content_widget_views.php:79
 msgid "Style 3 - no image"
 msgstr ""
 
 #: includes/widgets/content_related_widget.php:114
-#: includes/widgets/content_widget.php:88
+#: includes/widgets/content_widget.php:127
 msgid "Content order"
 msgstr ""
 
 #: includes/widgets/content_related_widget.php:122
-#: includes/widgets/content_widget.php:96
-#: includes/widgets/content_widget_home.php:158
+#: includes/widgets/content_widget.php:135
+#: includes/widgets/content_widget_genres_module.php:176
 msgid "Activate random order"
 msgstr ""
 
-#: includes/widgets/content_widget.php:16
+#: includes/widgets/content_widget.php:18
 msgid "A widget to show content in the sidebar"
 msgstr ""
 
-#: includes/widgets/content_widget.php:18
+#: includes/widgets/content_widget.php:25
 msgid "DooPlay - Sidebar content"
 msgstr ""
 
-#: includes/widgets/content_widget.php:75
-#: includes/widgets/content_widget_home.php:120
+#: includes/widgets/content_widget.php:93
+msgid "Post content"
+msgstr ""
+
+#: includes/widgets/content_widget.php:114
+#: includes/widgets/content_widget_genres_module.php:140
 msgid "Content type"
 msgstr ""
 
-#: includes/widgets/content_widget.php:80
-msgid "Movies and Shows"
-msgstr ""
-
-#: includes/widgets/content_widget_home.php:16
-msgid "Sort content by genres"
-msgstr ""
-
-#: includes/widgets/content_widget_home.php:18
-msgid "DooPlay - [widgetgenre] Genres"
-msgstr ""
-
-#: includes/widgets/content_widget_home.php:92
-msgid "Error: only homepage"
-msgstr ""
-
-#: includes/widgets/content_widget_home.php:122 parts/archive-requests.php:28
-msgid "All"
-msgstr ""
-
-#: includes/widgets/content_widget_home.php:140
-msgid "Autoplay Carousel"
-msgstr ""
-
-#: includes/widgets/content_widget_home.php:143
-msgid "Speed Carousel"
-msgstr ""
-
-#: includes/widgets/content_widget_home.php:145
-msgid "second"
-msgstr ""
-
-#: includes/widgets/content_widget_meta_genres.php:15
+#: includes/widgets/content_widget_genres_list.php:17
 msgid "Full list of genres"
 msgstr ""
 
-#: includes/widgets/content_widget_meta_genres.php:17
+#: includes/widgets/content_widget_genres_list.php:24
 msgid "DooPlay - Genres list"
 msgstr ""
 
-#: includes/widgets/content_widget_meta_genres.php:53
-#: includes/widgets/content_widget_meta_releases.php:54
+#: includes/widgets/content_widget_genres_list.php:86
+#: includes/widgets/content_widget_release_years.php:72
 msgid "Enable scrolling"
 msgstr ""
 
-#: includes/widgets/content_widget_meta_releases.php:16
+#: includes/widgets/content_widget_genres_module.php:27
+msgid "Sort content by genres"
+msgstr ""
+
+#: includes/widgets/content_widget_genres_module.php:34
+msgid "DooPlay - [widgetgenre] Genres"
+msgstr ""
+
+#: includes/widgets/content_widget_genres_module.php:142
+#: parts/archive/tpl-requests.php:27
+msgid "All"
+msgstr ""
+
+#: includes/widgets/content_widget_genres_module.php:158
+msgid "Autoplay Carousel"
+msgstr ""
+
+#: includes/widgets/content_widget_genres_module.php:161
+msgid "Speed Carousel"
+msgstr ""
+
+#: includes/widgets/content_widget_genres_module.php:163
+#, php-format
+msgid "%d second"
+msgstr ""
+
+#: includes/widgets/content_widget_genres_module.php:164
+#: includes/widgets/content_widget_genres_module.php:165
+#: includes/widgets/content_widget_genres_module.php:166
+#: includes/widgets/content_widget_genres_module.php:167
+#, php-format
+msgid "%d seconds"
+msgstr ""
+
+#: includes/widgets/content_widget_release_years.php:18
 msgid "Full list release year"
 msgstr ""
 
-#: includes/widgets/content_widget_meta_releases.php:18
-msgid "DooPlay - Release year list"
+#: includes/widgets/content_widget_release_years.php:25
+msgid "DooPlay - Release Years"
 msgstr ""
 
-#: includes/widgets/content_widget_meta_releases.php:46
-msgid "Release year"
+#: includes/widgets/content_widget_release_years.php:64
+msgid "Release years"
 msgstr ""
 
 #: includes/widgets/content_widget_social.php:80
@@ -7007,75 +7397,61 @@ msgstr ""
 msgid "TMDb rating"
 msgstr ""
 
-#: includes/widgets/widgets.php:18
-msgid "Sidebar home page"
+#: includes/widgets/widgets.php:94
+msgid "Movies Single"
 msgstr ""
 
-#: includes/widgets/widgets.php:20 includes/widgets/widgets.php:35
-#: includes/widgets/widgets.php:49 includes/widgets/widgets.php:63
-#: includes/widgets/widgets.php:78
+#: includes/widgets/widgets.php:98
+msgid "TVShows Single"
+msgstr ""
+
+#: includes/widgets/widgets.php:102
+msgid "Posts Single"
+msgstr ""
+
+#: includes/widgets/widgets.php:106
+msgid "Genres on Home Page"
+msgstr ""
+
+#: includes/widgets/widgets.php:112
 msgid "Add widgets here to appear in your sidebar."
 msgstr ""
 
-#: includes/widgets/widgets.php:33
-msgid "Sidebar Movies single"
-msgstr ""
-
-#: includes/widgets/widgets.php:47
-msgid "Sidebar TVShows single"
-msgstr ""
-
-#: includes/widgets/widgets.php:61
-msgid "Sidebar Seasons single"
-msgstr ""
-
-#: includes/widgets/widgets.php:76
-msgid "Sidebar Posts single"
-msgstr ""
-
-#: includes/widgets/widgets.php:92
-msgid "[widgetgenre] Genres"
-msgstr ""
-
-#: includes/widgets/widgets.php:94
-msgid "Only widgets for the genres in home modules."
-msgstr ""
-
-#: pages/account.php:23
+#: pages/account.php:29
 msgid "You do not have permission to access this page"
 msgstr ""
 
-#: pages/account.php:23
+#: pages/account.php:29
 msgid "Module disabled"
 msgstr ""
 
-#: pages/contact.php:9
+#: pages/contact.php:17
 msgid ""
 "Have something to notify our support team, please do not hesitate to use "
 "this form."
 msgstr ""
 
-#: pages/contact.php:35
+#: pages/contact.php:43
 msgid "How can we help?"
 msgstr ""
 
-#: pages/contact.php:39
+#: pages/contact.php:47
 msgid "Your message"
 msgstr ""
 
-#: pages/contact.php:40
+#: pages/contact.php:48
 msgid "The more descriptive you can be the better we can help."
 msgstr ""
 
-#: pages/contact.php:44
+#: pages/contact.php:52
 msgid "Link Reference (optional)"
 msgstr ""
 
-#: pages/contact.php:49
+#: pages/contact.php:57
 msgid "Send message"
 msgstr ""
 
-#: pages/contact.php:57
+#: pages/contact.php:65
 msgid "Contact form disabled"
 msgstr ""
 
@@ -7083,15 +7459,15 @@ msgstr ""
 msgid "No results to show with"
 msgstr ""
 
-#: pages/letter.php:9 pages/search.php:63
+#: pages/letter.php:9 pages/search.php:63 search.php:42
 msgid "Make sure all words are spelled correctly."
 msgstr ""
 
-#: pages/letter.php:10 pages/search.php:64
+#: pages/letter.php:10 pages/search.php:64 search.php:43
 msgid "Try different keywords."
 msgstr ""
 
-#: pages/letter.php:11 pages/search.php:65
+#: pages/letter.php:11 pages/search.php:65 search.php:44
 msgid "Try more general keywords."
 msgstr ""
 
@@ -7119,7 +7495,7 @@ msgstr ""
 msgid "pendings"
 msgstr ""
 
-#: pages/sections/account.php:95 parts/archive-requests.php:22
+#: pages/sections/account.php:95 parts/archive/tpl-requests.php:21
 msgid "Go back"
 msgstr ""
 
@@ -7203,10 +7579,6 @@ msgstr ""
 msgid "E-mail address"
 msgstr ""
 
-#: pages/sections/register-form.php:25
-msgid "Sign up"
-msgstr ""
-
 #: pages/sections/register-form.php:26
 msgid "Do you already have an account?"
 msgstr ""
@@ -7219,123 +7591,150 @@ msgstr ""
 msgid "Sign up, it's free.."
 msgstr ""
 
-#: parts/archive-episodes.php:18 parts/archive-movies.php:23
-#: parts/archive-seasons.php:39 parts/archive-tvshows.php:59 taxonomy.php:29
-msgid "Recently added"
+#: parts/archive/tpl-episodes.php:19
+msgid "TV Shows Episodes"
 msgstr ""
 
-#: parts/archive-requests.php:20
+#: parts/archive/tpl-requests.php:19
 msgid "Requests List"
 msgstr ""
 
-#: parts/archive-requests.php:21
+#: parts/archive/tpl-requests.php:20
 msgid "+ Add new"
 msgstr ""
 
-#: parts/archive-requests.php:35
+#: parts/archive/tpl-requests.php:34
 msgid "Search a title.."
 msgstr ""
 
-#: parts/archive-requests.php:45
+#: parts/archive/tpl-requests.php:44
 msgid "Find a title you want to suggest"
 msgstr ""
 
-#: parts/archive-requests.php:59
+#: parts/archive/tpl-requests.php:58
 msgid "Soon"
 msgstr ""
 
-#: parts/single-episodes.php:17
+#: parts/archive/tpl-seasons.php:15
+msgid "TV Shows Seasons"
+msgstr ""
+
+#: parts/archive/tpl-seasons.php:18 parts/modules/module-content.php:4
+#: taxonomy.php:29
+msgid "Recently added"
+msgstr ""
+
+#: parts/modules/module-content.php:8
+#, php-format
+msgid "%s published entries"
+msgstr ""
+
+#: parts/single/tpl-episodes.php:17
 #, php-format
 msgid " %s Views"
 msgstr ""
 
-#: parts/single-episodes.php:17 parts/single-movies.php:18
+#: parts/single/tpl-episodes.php:17 parts/single/tpl-movies.php:18
 msgid "0 Views"
 msgstr ""
 
-#: parts/single-links.php:45
+#: parts/single/tpl-links.php:45
 msgid "Please wait until the time runs out"
 msgstr ""
 
-#: parts/single-links.php:61
+#: parts/single/tpl-links.php:61
 msgid "Get this torrent"
 msgstr ""
 
-#: parts/single-links.php:63
+#: parts/single/tpl-links.php:63
 #, php-format
 msgid "Are you going to %s"
 msgstr ""
 
-#: parts/single-movies.php:18
+#: parts/single/tpl-movies.php:18
 #, php-format
 msgid "%s Views"
 msgstr ""
 
-#: parts/single-movies.php:63
+#: parts/single/tpl-movies.php:63
 msgid "Min."
 msgstr ""
 
-#: parts/single-movies.php:80
+#: parts/single/tpl-movies.php:80
 msgid "Mark as seen"
 msgstr ""
 
-#: parts/single-movies.php:85 parts/single-tvshows.php:84
+#: parts/single/tpl-movies.php:85 parts/single/tpl-tvshows.php:84
 msgid "Info"
 msgstr ""
 
-#: parts/single-movies.php:94 parts/single-tvshows.php:122
+#: parts/single/tpl-movies.php:94 parts/single/tpl-tvshows.php:130
 msgid "Synopsis"
 msgstr ""
 
-#: parts/single-movies.php:107
+#: parts/single/tpl-movies.php:107
 msgid "IMDb Rating"
 msgstr ""
 
-#: parts/single-movies.php:109 parts/single-movies.php:116
-#: parts/single-tvshows.php:137
+#: parts/single/tpl-movies.php:109 parts/single/tpl-movies.php:116
+#: parts/single/tpl-tvshows.php:145
 #, php-format
 msgid "%s votes"
 msgstr ""
 
-#: parts/single-movies.php:110
+#: parts/single/tpl-movies.php:110
 msgid "Update Rating"
 msgstr ""
 
-#: parts/single-movies.php:115 parts/single-tvshows.php:135
+#: parts/single/tpl-movies.php:115 parts/single/tpl-tvshows.php:143
 msgid "TMDb Rating"
 msgstr ""
 
-#: parts/single-post.php:34
+#: parts/single/tpl-post.php:34
 msgid "Categories"
 msgstr ""
 
-#: parts/single-post.php:39
+#: parts/single/tpl-post.php:39
 msgid "Tags"
 msgstr ""
 
-#: parts/single-post.php:52
+#: parts/single/tpl-post.php:52
 msgid "Add widgets"
 msgstr ""
 
-#: parts/single-tvshows.php:86
+#: parts/single/tpl-tvshows.php:86
 msgid "Trailer"
 msgstr ""
 
-#: parts/single-tvshows.php:111
+#: parts/single/tpl-tvshows.php:119
 msgid "Video trailer"
 msgstr ""
 
-#: parts/single-tvshows.php:142
+#: parts/single/tpl-tvshows.php:150
 msgid "First air date"
 msgstr ""
 
-#: parts/single-tvshows.php:162
+#: parts/single/tpl-tvshows.php:170
 msgid "Average Duration"
 msgstr ""
 
-#: parts/single-tvshows.php:163
+#: parts/single/tpl-tvshows.php:171
 #, php-format
 msgid "%s minutes"
+msgstr ""
+
+#: search.php:24
+#, php-format
+msgid "Results found: %s"
+msgstr ""
+
+#: search.php:27
+msgid "Start a new search"
+msgstr ""
+
+#: search.php:37
+#, php-format
+msgid "No results to show with %s"
 msgstr ""
 
 #: searchform.php:12
